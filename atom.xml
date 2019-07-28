@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-21T14:04:32.072Z</updated>
+  <updated>2019-07-28T15:17:05.531Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo error log</title>
+    <link href="http://yoursite.com/2019/07/28/hexo-error-log/"/>
+    <id>http://yoursite.com/2019/07/28/hexo-error-log/</id>
+    <published>2019-07-28T15:14:52.000Z</published>
+    <updated>2019-07-28T15:17:05.531Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;搭建 hexo，在执行 hexo deploy 后,出现 error deployer not found:github 的错误&lt;/p&gt;
+&lt;p&gt;hexo 更新到3.0之后，deploy的type 的github需要改成git&lt;br&gt;npm install
+        
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+      <category term="error log" scheme="http://yoursite.com/categories/hexo/error-log/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="error" scheme="http://yoursite.com/tags/error/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 教程</title>
+    <link href="http://yoursite.com/2019/07/28/Markdown-%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2019/07/28/Markdown-教程/</id>
+    <published>2019-07-28T14:31:49.000Z</published>
+    <updated>2019-07-28T15:11:17.714Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;概览&quot;&gt;&lt;a href=&quot;#概览&quot; class=&quot;headerlink&quot; title=&quot;概览&quot;&gt;&lt;/a&gt;概览&lt;/h2&gt;&lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。&lt;br&gt;Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。&lt;br&gt;Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。&lt;br&gt;Markdown 编写的文档后缀为 .md, .markdown。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="markdown" scheme="http://yoursite.com/categories/markdown/"/>
+    
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -35,30 +86,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Love</title>
-    <link href="http://yoursite.com/2019/06/06/Love/"/>
-    <id>http://yoursite.com/2019/06/06/Love/</id>
-    <published>2019-06-06T04:00:00.000Z</published>
-    <updated>2019-07-27T15:59:30.296Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="http://yoursite.com/categories/python/"/>
-    
-      <category term="web" scheme="http://yoursite.com/categories/python/web/"/>
-    
-    
-      <category term="ps" scheme="http://yoursite.com/tags/ps/"/>
-    
-      <category term="games" scheme="http://yoursite.com/tags/games/"/>
     
   </entry>
   
