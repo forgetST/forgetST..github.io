@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-28T15:17:05.531Z</updated>
+  <updated>2019-07-30T15:52:07.293Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Typora简单教程</title>
+    <link href="http://yoursite.com/2019/07/29/Typora%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2019/07/29/Typora简单教程/</id>
+    <published>2019-07-28T16:00:00.000Z</published>
+    <updated>2019-07-30T15:52:07.293Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot; class=&quot;headerlink&quot; title=&quot;序言&quot;&gt;&lt;/a&gt;序言&lt;/h3&gt;&lt;p&gt;Typora是一款轻便简洁的Markdown编辑器，支持即时渲染技术，这也是与其他Markdown编辑器最显著的区别。即时渲染使得你写Markdown就想是写Word文档一样流畅自如，不像其他编辑器的有编辑栏和显示栏。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Typora" scheme="http://yoursite.com/categories/Typora/"/>
+    
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+      <category term="Typora" scheme="http://yoursite.com/tags/Typora/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo error log</title>
