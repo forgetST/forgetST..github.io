@@ -103,11 +103,12 @@
     <link href="http://yoursite.com/2019/07/28/Markdown-%E6%95%99%E7%A8%8B/"/>
     <id>http://yoursite.com/2019/07/28/Markdown-教程/</id>
     <published>2019-07-28T14:31:49.000Z</published>
-    <updated>2019-07-31T05:56:21.664Z</updated>
+    <updated>2019-08-01T23:56:24.321Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;概览&quot;&gt;&lt;a href=&quot;#概览&quot; class=&quot;headerlink&quot; title=&quot;概览&quot;&gt;&lt;/a&gt;概览&lt;/h2&gt;&lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。&lt;br&gt;Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。&lt;br&gt;Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。&lt;br&gt;Markdown 编写的文档后缀为 .md, .markdown。&lt;/p&gt;
+      &lt;h2 id=&quot;概览&quot;&gt;&lt;a href=&quot;#概览&quot; class=&quot;headerlink&quot; title=&quot;概览&quot;&gt;&lt;/a&gt;概览&lt;/h2&gt;&lt;p&gt;Markdown 是一种标记语言（轻量级的、可用纯文本编写）;&lt;/p&gt;
+&lt;p&gt;Markdown 诞生于2004年，由约翰·格鲁伯（John Gruber）创建；&lt;br&gt;Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。&lt;br&gt;Markdown 编写的文档后缀为 .md, .markdown。&lt;/p&gt;
     
     </summary>
     
@@ -115,28 +116,6 @@
     
     
       <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/07/27/hello-world/"/>
-    <id>http://yoursite.com/2019/07/27/hello-world/</id>
-    <published>2019-07-27T14:13:09.822Z</published>
-    <updated>2019-07-21T14:04:32.072Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
     
   </entry>
   

@@ -42,17 +42,12 @@
   <entry>
     <title><![CDATA[Markdown 教程]]></title>
     <url>%2F2019%2F07%2F28%2FMarkdown-%E6%95%99%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[概览Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。Markdown 编写的文档后缀为 .md, .markdown。 宗旨Markdown 的目标是实现「易读易写」。 可读性，无论如何，都是最重要的。一份使用 Markdown 格式撰写的文件应该可以直接以纯文本发布，并且看起来不会像是由许多标签或是格式指令所构成。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 Setext、atx、Textile、reStructuredText、Grutatext 和 EtText，而最大灵感来源其实是纯文本电子邮件的格式。 兼容 HTMLMarkdown 语法的目标是：成为一种适用于网络的书写语言。 Markdown 不是想要取代 HTML，甚至也没有要和它相近，它的语法种类很少，只对应 HTML 标记的一小部分。Markdown 的构想不是要使得 HTML 文档更容易书写。在我看来， HTML 已经很容易写了。Markdown 的理念是，能让文档更容易读、写和随意改。HTML 是一种发布的格式，Markdown 是一种书写的格式。就这样，Markdown 的格式语法只涵盖纯文本可以涵盖的范围。 不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。不需要额外标注这是 HTML 或是 Markdown；只要直接加标签就可以了。 要制约的只有一些 HTML 区块元素――比如 、、、 等标签，必须在前后加上空行与其它内容区隔开，还要求它们的开始标签与结尾标签不能用制表符或空格来缩进。Markdown 的生成器有足够智能，不会在 HTML 区块标签外加上不必要的 标签。 特殊字符自动转换在 HTML 文件中，有两个字符需要特殊处理： < 和 & 。 < 符号用于起始标签，& 符号则用于标记 HTML 实体，如果你只是想要显示这些字符的原型，你必须要使用实体的形式，像是 &lt; 和 &amp;。 & 字符尤其让网络文档编写者受折磨，如果你要打「AT&T」 ，你必须要写成「AT&amp;T」。而网址中的 & 字符也要转换。比如你要链接到： http://images.google.com/images?num=30&amp;q=larry+bird 你必须要把网址转换写为： http://images.google.com/images?num=30&amp;q=larry+bird 才能放到链接标签的 href 属性里。不用说也知道这很容易忽略，这也可能是 HTML 标准检验所检查到的错误中，数量最多的。 Markdown 让你可以自然地书写字符，需要转换的由它来处理好了。如果你使用的 & 字符是 HTML 字符实体的一部分，它会保留原状，否则它会被转换成 &amp;。 区块元素段落和换行标题区块引用Blockquotes列表代码区块分隔线区段元素链接强调代码图片其它反斜杠自动链接]]></content>
+    <content type="text"><![CDATA[概览Markdown 是一种标记语言（轻量级的、可用纯文本编写）; Markdown 诞生于2004年，由约翰·格鲁伯（John Gruber）创建；Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。Markdown 编写的文档后缀为 .md, .markdown。 宗旨Markdown 的目标是实现「易读易写」。 应用Markdown 能被使用来撰写电子书，如：Gitbook。 当前许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge等。 编辑器Markdown编辑器目前颇多，参考以下链接： [传送门] https://blog.csdn.net/qq_36759224/article/details/82229243 标题使用 = 和 - 标记一级和二级标题 语法 12345我展示的是一级标题=================我展示的是二级标题----------------- 使用 # 号标记 1-6 级标题 语法 123456# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题 段落Markdown 段落没有特殊的格式，直接编写文字就好，段落的换行是使用两个以上空格加上回车。]]></content>
       <categories>
         <category>markdown</category>
       </categories>
       <tags>
         <tag>markdown</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F07%2F27%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>
