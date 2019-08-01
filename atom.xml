@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-31T05:33:23.935Z</updated>
+  <updated>2019-08-01T00:06:14.088Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux 安装ssh以及ssh用法与免密登录</title>
+    <link href="http://yoursite.com/2019/07/31/linux-%E5%AE%89%E8%A3%85ssh%E4%BB%A5%E5%8F%8Assh%E7%94%A8%E6%B3%95%E4%B8%8E%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/"/>
+    <id>http://yoursite.com/2019/07/31/linux-安装ssh以及ssh用法与免密登录/</id>
+    <published>2019-07-30T16:00:00.000Z</published>
+    <updated>2019-08-01T00:06:14.088Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;ssh-简述&quot;&gt;&lt;a href=&quot;#ssh-简述&quot; class=&quot;headerlink&quot; title=&quot;ssh 简述&quot;&gt;&lt;/a&gt;ssh 简述&lt;/h3&gt;&lt;p&gt;SSH ( Secure Shell) 由 IETF 的网络工作小组（Network Working Group）所制定；&lt;/p&gt;
+&lt;p&gt;SSH 是目前较可靠，专为远程登录会话和其他网络服务提供安全性的协议。其是建立在应用层和传输层基础上的安全协议。利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。&lt;/p&gt;
+&lt;p&gt;SSH最初是UNIX系统上的一个程序，后来又迅速扩展到其他操作平台。SSH在正确使用时可弥补网络中的漏洞。&lt;/p&gt;
+&lt;p&gt;SSH客户端适用于多种平台。几乎所有UNIX平台—包括HP-UX、Linux、AIX、Solaris、Digital UNIX、Irix，以及其他平台，都可运行SSH。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="ssh" scheme="http://yoursite.com/categories/Linux/ssh/"/>
+    
+    
+      <category term="ssh" scheme="http://yoursite.com/tags/ssh/"/>
+    
+      <category term="command" scheme="http://yoursite.com/tags/command/"/>
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Typora简单教程</title>
@@ -74,7 +103,7 @@
     <link href="http://yoursite.com/2019/07/28/Markdown-%E6%95%99%E7%A8%8B/"/>
     <id>http://yoursite.com/2019/07/28/Markdown-教程/</id>
     <published>2019-07-28T14:31:49.000Z</published>
-    <updated>2019-07-28T15:11:17.714Z</updated>
+    <updated>2019-07-31T05:56:21.664Z</updated>
     
     <summary type="html">
     
