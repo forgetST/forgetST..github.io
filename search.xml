@@ -42,7 +42,7 @@
   <entry>
     <title><![CDATA[Markdown 教程]]></title>
     <url>%2F2019%2F07%2F28%2FMarkdown-%E6%95%99%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[概览Markdown 是一种标记语言（轻量级的、可用纯文本编写）; Markdown 诞生于2004年，由约翰·格鲁伯（John Gruber）创建；Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。Markdown 编写的文档后缀为 .md, .markdown。 宗旨Markdown 的目标是实现「易读易写」。 应用Markdown 能被使用来撰写电子书，如：Gitbook。 当前许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge等。 编辑器Markdown编辑器目前颇多，参考以下链接： [传送门] https://blog.csdn.net/qq_36759224/article/details/82229243 标题使用 = 和 - 标记一级和二级标题 语法 12345我展示的是一级标题=================我展示的是二级标题----------------- 使用 # 号标记 1-6 级标题 语法 123456# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题 段落Markdown 段落没有特殊的格式，直接编写文字就好，段落的换行是使用两个以上空格加上回车。]]></content>
+    <content type="text"><![CDATA[概览Markdown 是一种标记语言（轻量级的、可用纯文本编写）;Markdown 诞生于2004年，由约翰·格鲁伯（John Gruber）创建；Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式。Markdown 编写的文档后缀为 .md, .markdown。 宗旨Markdown 的目标是实现「易读易写」。 应用Markdown 能被使用来撰写电子书，如：Gitbook。 当前许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge等。 编辑器Markdown编辑器目前颇多，可参考以下链接进行选择。 [传送门] https://blog.csdn.net/qq_36759224/article/details/82229243 区块元素段落和换行Markdown段落由一个或多个连续的文本行组成。Markdown换行由两个及已上的空格加回车实现。 标题Markdown 支持两种标题的语法，类Setext 和 Atx形式。 使用 = 和 - 标记一级和二级标题（类Setext） 语法 12345我展示的是一级标题=================我展示的是二级标题----------------- 注：任何数量的 = 和 - 都可以有效果。 使用 # 号标记 1-6 级标题（类Atx） 语法 123456# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题]]></content>
       <categories>
         <category>markdown</category>
       </categories>
