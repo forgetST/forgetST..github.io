@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-31T16:00:00.000Z</updated>
+  <updated>2019-08-01T16:00:00.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>python datetime module</title>
-    <link href="http://yoursite.com/2019/08/01/python-datetime-module/"/>
-    <id>http://yoursite.com/2019/08/01/python-datetime-module/</id>
+    <link href="http://yoursite.com/2019/08/01/python-python-datetime-module/"/>
+    <id>http://yoursite.com/2019/08/01/python-python-datetime-module/</id>
     <published>2019-07-31T16:00:00.000Z</published>
-    <updated>2019-07-31T16:00:00.000Z</updated>
+    <updated>2019-08-01T16:00:00.000Z</updated>
     
     <summary type="html">
     
@@ -37,6 +37,10 @@
     
       <category term="python" scheme="http://yoursite.com/categories/python/"/>
     
+      <category term="module" scheme="http://yoursite.com/categories/python/module/"/>
+    
+      <category term="datetime" scheme="http://yoursite.com/categories/python/module/datetime/"/>
+    
     
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
@@ -51,7 +55,7 @@
     <link href="http://yoursite.com/2019/07/31/linux-%E5%AE%89%E8%A3%85ssh%E4%BB%A5%E5%8F%8Assh%E7%94%A8%E6%B3%95%E4%B8%8E%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/"/>
     <id>http://yoursite.com/2019/07/31/linux-安装ssh以及ssh用法与免密登录/</id>
     <published>2019-07-30T16:00:00.000Z</published>
-    <updated>2019-08-01T00:06:14.088Z</updated>
+    <updated>2019-08-03T14:40:35.519Z</updated>
     
     <summary type="html">
     

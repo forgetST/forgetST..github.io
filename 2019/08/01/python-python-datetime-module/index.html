@@ -93,16 +93,18 @@
   };
 </script>
 
-  <meta name="description" content="行动了才会有故事，说出来才会有结果。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="往事如烟">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="Introductiondatetime Basic date and time types Source code: Lib/datetime.py The datetime module supplies classes for manipulating dates and times in both simple and complex ways. While date and time a">
+<meta name="keywords" content="python,datetime,module">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python datetime module">
+<meta property="og:url" content="http://yoursite.com/2019/08/01/python-python-datetime-module/index.html">
 <meta property="og:site_name" content="往事如烟">
-<meta property="og:description" content="行动了才会有故事，说出来才会有结果。">
+<meta property="og:description" content="Introductiondatetime Basic date and time types Source code: Lib/datetime.py The datetime module supplies classes for manipulating dates and times in both simple and complex ways. While date and time a">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-08-01T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="往事如烟">
-<meta name="twitter:description" content="行动了才会有故事，说出来才会有结果。">
+<meta name="twitter:title" content="python datetime module">
+<meta name="twitter:description" content="Introductiondatetime Basic date and time types Source code: Lib/datetime.py The datetime module supplies classes for manipulating dates and times in both simple and complex ways. While date and time a">
 
 
 
@@ -112,7 +114,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/08/01/python-python-datetime-module/">
 
 
 
@@ -123,7 +125,7 @@
 </script>
 
   
-  <title>往事如烟</title>
+  <title>python datetime module | 往事如烟</title>
   
 
 
@@ -171,8 +173,7 @@
     
   
 
-  <div class="container sidebar-position-right 
-  page-home">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -210,7 +211,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -343,9 +344,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -377,10 +378,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/08/01/python-python-datetime-module/" class="post-title-link" itemprop="url">python datetime module</a>
+          <h1 class="post-title" itemprop="name headline">python datetime module
+
               
             
           </h1>
@@ -488,9 +487,7 @@
       
 
       
-        
-          
-            <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>datetime Basic date and time types</p>
+        <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>datetime Basic date and time types</p>
 <p><strong>Source code:</strong> <a href="https://github.com/python/cpython/tree/3.7/Lib/datetime.py" target="_blank" rel="noopener">Lib/datetime.py</a></p>
 <p>The datetime module supplies classes for manipulating dates and times in both simple and complex ways. While date and time arithmetic is supported, the focus of the implementation is on efficient attribute extraction for output formatting and manipulation. For related functionality, see also the <a href="https://docs.python.org/3/library/time.html#module-time" target="_blank" rel="noopener"><code>time</code></a> and <a href="https://docs.python.org/3/library/calendar.html#module-calendar" target="_blank" rel="noopener"><code>calendar</code></a> modules.</p>
 <p>datetime include constants and available types</p>
@@ -718,13 +715,13 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; from datetime import time, tzinfo, timedelta</span><br><span class="line">&gt;&gt;&gt; class TZ1(tzinfo):</span><br><span class="line">...     def utcoffset(self, dt):</span><br><span class="line">...         return timedelta(hours=1)</span><br><span class="line">...     def dst(self, dt):</span><br><span class="line">...         return timedelta(0)</span><br><span class="line">...     def tzname(self,dt):</span><br><span class="line">...         return &quot;+01:00&quot;</span><br><span class="line">...     def  __repr__(self):</span><br><span class="line">...         return f&quot;&#123;self.__class__.__name__&#125;()&quot;</span><br><span class="line">...</span><br><span class="line">&gt;&gt;&gt; t = time(12, 10, 30, tzinfo=TZ1())</span><br><span class="line">&gt;&gt;&gt; t</span><br><span class="line">datetime.time(12, 10, 30, tzinfo=TZ1())</span><br><span class="line">&gt;&gt;&gt; t.isoformat()</span><br><span class="line">&apos;12:10:30+01:00&apos;</span><br><span class="line">&gt;&gt;&gt; t.dst()</span><br><span class="line">datetime.timedelta(0)</span><br><span class="line">&gt;&gt;&gt; t.tzname()</span><br><span class="line">&apos;+01:00&apos;</span><br><span class="line">&gt;&gt;&gt; t.strftime(&quot;%H:%M:%S %Z&quot;)</span><br><span class="line">&apos;12:10:30 +01:00&apos;</span><br><span class="line">&gt;&gt;&gt; &apos;The &#123;&#125; is &#123;:%H:%M&#125;.&apos;.format(&quot;time&quot;, t)</span><br><span class="line">&apos;The time is 12:10.&apos;</span><br></pre></td></tr></table></figure>
 
 <h2 id="datetime-Objects"><a href="#datetime-Objects" class="headerlink" title="datetime Objects"></a>datetime Objects</h2><h3 id="Class-attributes-3"><a href="#Class-attributes-3" class="headerlink" title="Class attributes"></a>Class attributes</h3><h3 id="Instance-attributes-1"><a href="#Instance-attributes-1" class="headerlink" title="Instance attributes"></a>Instance attributes</h3><h3 id="Class-methods-2"><a href="#Class-methods-2" class="headerlink" title="Class methods"></a>Class methods</h3><h3 id="Instance-methods-3"><a href="#Instance-methods-3" class="headerlink" title="Instance methods"></a>Instance methods</h3><h2 id="tzinfo-Objects"><a href="#tzinfo-Objects" class="headerlink" title="tzinfo Objects"></a>tzinfo Objects</h2><h3 id="Class-attributes-4"><a href="#Class-attributes-4" class="headerlink" title="Class attributes"></a>Class attributes</h3><h3 id="Instance-attributes-2"><a href="#Instance-attributes-2" class="headerlink" title="Instance attributes"></a>Instance attributes</h3><h3 id="Class-methods-3"><a href="#Class-methods-3" class="headerlink" title="Class methods"></a>Class methods</h3><h3 id="Instance-methods-4"><a href="#Instance-methods-4" class="headerlink" title="Instance methods"></a>Instance methods</h3><h2 id="timezone-Objects"><a href="#timezone-Objects" class="headerlink" title="timezone Objects"></a>timezone Objects</h2><h3 id="Class-attributes-5"><a href="#Class-attributes-5" class="headerlink" title="Class attributes"></a>Class attributes</h3><h3 id="Instance-attributes-3"><a href="#Instance-attributes-3" class="headerlink" title="Instance attributes"></a>Instance attributes</h3><h3 id="Class-methods-4"><a href="#Class-methods-4" class="headerlink" title="Class methods"></a>Class methods</h3><h3 id="Instance-methods-5"><a href="#Instance-methods-5" class="headerlink" title="Instance methods"></a>Instance methods</h3>
-          
-        
       
     </div>
 
     
 
+    
+      
     
 
     
@@ -742,384 +739,54 @@
 
     <div>
       
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+
+      
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/31/linux-安装ssh以及ssh用法与免密登录/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="往事如烟">
-    </span>
-
-    
-      <header class="post-header">
-
         
+          
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/07/31/linux-安装ssh以及ssh用法与免密登录/" class="post-title-link" itemprop="url">linux 安装ssh以及ssh用法与免密登录</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
+        <div class="post-tags">
           
+            <a href="/tags/python/" rel="tag"># python</a>
           
+            <a href="/tags/datetime/" rel="tag"># datetime</a>
           
-
+            <a href="/tags/module/" rel="tag"># module</a>
           
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-07-31 00:00" itemprop="dateCreated datePublished" datetime="2019-07-31T00:00:00+08:00">2019-07-31</time>
-            </span>
-          
-
-          
-            
-
-            
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-08-03 22:40" itemprop="dateModified" datetime="2019-08-03T22:40:35+08:00">2019-08-03</time>
-              </span>
-            
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/ssh/" itemprop="url" rel="index"><span itemprop="name">ssh</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
+      
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+      
       
       
 
       
-        
-          <h3 id="ssh-简述"><a href="#ssh-简述" class="headerlink" title="ssh 简述"></a>ssh 简述</h3><p>SSH ( Secure Shell) 由 IETF 的网络工作小组（Network Working Group）所制定；</p>
-<p>SSH 是目前较可靠，专为远程登录会话和其他网络服务提供安全性的协议。其是建立在应用层和传输层基础上的安全协议。利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。</p>
-<p>SSH最初是UNIX系统上的一个程序，后来又迅速扩展到其他操作平台。SSH在正确使用时可弥补网络中的漏洞。</p>
-<p>SSH客户端适用于多种平台。几乎所有UNIX平台—包括HP-UX、Linux、AIX、Solaris、Digital UNIX、Irix，以及其他平台，都可运行SSH。</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/07/31/linux-安装ssh以及ssh用法与免密登录/#more" rel="contents">
-                阅读全文 &raquo;
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/07/31/linux-安装ssh以及ssh用法与免密登录/" rel="next" title="linux 安装ssh以及ssh用法与免密登录">
+                <i class="fa fa-chevron-left"></i> linux 安装ssh以及ssh用法与免密登录
               </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/29/Typora简单教程/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="往事如烟">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/07/29/Typora简单教程/" class="post-title-link" itemprop="url">Typora简单教程</a>
-              
             
-          </h1>
-        
+          </div>
 
-        <div class="post-meta">
+          <span class="post-nav-divider"></span>
 
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-07-29 00:00" itemprop="dateCreated datePublished" datetime="2019-07-29T00:00:00+08:00">2019-07-29</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Typora/" itemprop="url" rel="index"><span itemprop="name">Typora</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
+          <div class="post-nav-prev post-nav-item">
             
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          <h3 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h3><p>Typora是一款轻便简洁的Markdown编辑器，支持即时渲染技术，这也是与其他Markdown编辑器最显著的区别。即时渲染使得你写Markdown就想是写Word文档一样流畅自如，不像其他编辑器的有编辑栏和显示栏。</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/07/29/Typora简单教程/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -1129,199 +796,15 @@
   </article>
 
 
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/28/Markdown-教程/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="往事如烟">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/07/28/Markdown-教程/" class="post-title-link" itemprop="url">Markdown 教程</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-07-28 22:31" itemprop="dateCreated datePublished" datetime="2019-07-28T22:31:49+08:00">2019-07-28</time>
-            </span>
-          
-
-          
-            
-
-            
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-07-29 00:00" itemprop="dateModified" datetime="2019-07-29T00:00:00+08:00">2019-07-29</time>
-              </span>
-            
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/markdown/" itemprop="url" rel="index"><span itemprop="name">markdown</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h2><p>Markdown 是一种标记语言（轻量级的、可用纯文本编写）;<br>Markdown 诞生于2004年，由约翰·格鲁伯（John Gruber）创建；<br>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式。<br>Markdown 编写的文档后缀为 .md, .markdown。</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/07/28/Markdown-教程/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -1341,8 +824,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1506,6 +998,23 @@
       </div>
 
       
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#The-datetime-module-constants"><span class="nav-number">2.</span> <span class="nav-text">The datetime module constants</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#datetime-MINYEAR"><span class="nav-number">2.1.</span> <span class="nav-text">datetime.MINYEAR</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#datatime-MAXYEAR"><span class="nav-number">2.2.</span> <span class="nav-text">datatime.MAXYEAR</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#The-datetime-module-available-types"><span class="nav-number">3.</span> <span class="nav-text">The datetime module available types</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#class-datetime-timedelta"><span class="nav-number">3.1.</span> <span class="nav-text">class datetime.timedelta</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#class-datetime-date"><span class="nav-number">3.2.</span> <span class="nav-text">class datetime.date</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#class-datetime-time"><span class="nav-number">3.3.</span> <span class="nav-text">class datetime.time</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#class-datetime-datetime"><span class="nav-number">3.4.</span> <span class="nav-text">class datetime.datetime</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#class-datetime-tzinfo"><span class="nav-number">3.5.</span> <span class="nav-text">class datetime.tzinfo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#class-datetime-timezone"><span class="nav-number">3.6.</span> <span class="nav-text">class datetime.timezone</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#timedelta-Objects"><span class="nav-number">4.</span> <span class="nav-text">timedelta Objects</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-attributes"><span class="nav-number">4.1.</span> <span class="nav-text">Class attributes</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#timedelta-min"><span class="nav-number">4.1.1.</span> <span class="nav-text">timedelta.min</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#timedelta-max"><span class="nav-number">4.1.2.</span> <span class="nav-text">timedelta.max</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#timedelta-resolution"><span class="nav-number">4.1.3.</span> <span class="nav-text">timedelta.resolution</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-attributes-read-only"><span class="nav-number">4.2.</span> <span class="nav-text">Instance attributes (read-only)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#timedelta-days"><span class="nav-number">4.2.1.</span> <span class="nav-text">timedelta.days</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#timedelta-seconds"><span class="nav-number">4.2.2.</span> <span class="nav-text">timedelta.seconds</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#timedelta-microseconds"><span class="nav-number">4.2.3.</span> <span class="nav-text">timedelta.microseconds</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-methods"><span class="nav-number">4.3.</span> <span class="nav-text">Instance methods</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#timedelta-total-seconds"><span class="nav-number">4.3.1.</span> <span class="nav-text">timedelta.total_seconds()</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Supported-operations"><span class="nav-number">4.4.</span> <span class="nav-text">Supported operations</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#date-Objects"><span class="nav-number">5.</span> <span class="nav-text">date Objects</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-attributes-1"><span class="nav-number">5.1.</span> <span class="nav-text">Class attributes</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#date-min"><span class="nav-number">5.1.1.</span> <span class="nav-text">date.min</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-max"><span class="nav-number">5.1.2.</span> <span class="nav-text">date.max</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-resolution"><span class="nav-number">5.1.3.</span> <span class="nav-text">date.resolution</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-attributes-read-only-1"><span class="nav-number">5.2.</span> <span class="nav-text">Instance attributes  (read-only)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#date-year"><span class="nav-number">5.2.1.</span> <span class="nav-text">date.year</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-month"><span class="nav-number">5.2.2.</span> <span class="nav-text">date.month</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-day"><span class="nav-number">5.2.3.</span> <span class="nav-text">date.day</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-methods"><span class="nav-number">5.3.</span> <span class="nav-text">Class methods</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#date-today"><span class="nav-number">5.3.1.</span> <span class="nav-text">date.today()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-fromtimestamp-timestamp"><span class="nav-number">5.3.2.</span> <span class="nav-text">date.fromtimestamp(timestamp)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-fromordinal-ordinal"><span class="nav-number">5.3.3.</span> <span class="nav-text">date.fromordinal(ordinal)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-fromisoformat-date-string"><span class="nav-number">5.3.4.</span> <span class="nav-text">date.fromisoformat(date_string)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-methods-1"><span class="nav-number">5.4.</span> <span class="nav-text">Instance methods</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#date-replace-year-self-year-month-self-month-day-self-day"><span class="nav-number">5.4.1.</span> <span class="nav-text">date.replace(year=self.year, month=self.month, day=self.day)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-timetuple"><span class="nav-number">5.4.2.</span> <span class="nav-text">date.timetuple()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-toordinal"><span class="nav-number">5.4.3.</span> <span class="nav-text">date.toordinal()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-weekday"><span class="nav-number">5.4.4.</span> <span class="nav-text">date.weekday()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-isoweekday"><span class="nav-number">5.4.5.</span> <span class="nav-text">date.isoweekday()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-isocalendar"><span class="nav-number">5.4.6.</span> <span class="nav-text">date.isocalendar()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-isoformat"><span class="nav-number">5.4.7.</span> <span class="nav-text">date.isoformat()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-str"><span class="nav-number">5.4.8.</span> <span class="nav-text">date.__str__()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-ctime"><span class="nav-number">5.4.9.</span> <span class="nav-text">date.ctime()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-strftime-format"><span class="nav-number">5.4.10.</span> <span class="nav-text">date.strftime(format)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#date-format-format"><span class="nav-number">5.4.11.</span> <span class="nav-text">date.__format__(format)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Supported-operations-1"><span class="nav-number">5.5.</span> <span class="nav-text">Supported operations</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#time-Objects"><span class="nav-number">6.</span> <span class="nav-text">time Objects</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-attributes-2"><span class="nav-number">6.1.</span> <span class="nav-text">Class attributes</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#time-min"><span class="nav-number">6.1.1.</span> <span class="nav-text">time.min</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-max"><span class="nav-number">6.1.2.</span> <span class="nav-text">time.max</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-resolution"><span class="nav-number">6.1.3.</span> <span class="nav-text">time.resolution</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-attributes"><span class="nav-number">6.2.</span> <span class="nav-text">Instance attributes</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#time-hour"><span class="nav-number">6.2.1.</span> <span class="nav-text">time.hour</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-minute"><span class="nav-number">6.2.2.</span> <span class="nav-text">time.minute</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-second"><span class="nav-number">6.2.3.</span> <span class="nav-text">time.second</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-microsecond"><span class="nav-number">6.2.4.</span> <span class="nav-text">time.microsecond</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-tzinfo"><span class="nav-number">6.2.5.</span> <span class="nav-text">time.tzinfo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-fole"><span class="nav-number">6.2.6.</span> <span class="nav-text">time.fole</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-methods-1"><span class="nav-number">6.3.</span> <span class="nav-text">Class methods</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#time-fromisoformat-time-sting"><span class="nav-number">6.3.1.</span> <span class="nav-text">time.fromisoformat(time_sting)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-methods-2"><span class="nav-number">6.4.</span> <span class="nav-text">Instance methods</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#time-replace-hour-self-hour-minute-self-minute-second-self-second-microsecond-self-microsecond-tzinfo-self-tzinfo-fold-0"><span class="nav-number">6.4.1.</span> <span class="nav-text">time.replace(hour=self.hour, minute=self.minute, second=self.second, microsecond=self.microsecond, tzinfo=self.tzinfo, * fold=0)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-isoformat-timespec-’auto’"><span class="nav-number">6.4.2.</span> <span class="nav-text">time.isoformat(timespec=’auto’)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-str"><span class="nav-number">6.4.3.</span> <span class="nav-text">time.str()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-strftime-format"><span class="nav-number">6.4.4.</span> <span class="nav-text">time.strftime(format)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-format-format"><span class="nav-number">6.4.5.</span> <span class="nav-text">time.__format__(format)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-utcoffset"><span class="nav-number">6.4.6.</span> <span class="nav-text">time.utcoffset()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-dst"><span class="nav-number">6.4.7.</span> <span class="nav-text">time.dst()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#time-tzname"><span class="nav-number">6.4.8.</span> <span class="nav-text">time.tzname()</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#datetime-Objects"><span class="nav-number">7.</span> <span class="nav-text">datetime Objects</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-attributes-3"><span class="nav-number">7.1.</span> <span class="nav-text">Class attributes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-attributes-1"><span class="nav-number">7.2.</span> <span class="nav-text">Instance attributes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-methods-2"><span class="nav-number">7.3.</span> <span class="nav-text">Class methods</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-methods-3"><span class="nav-number">7.4.</span> <span class="nav-text">Instance methods</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tzinfo-Objects"><span class="nav-number">8.</span> <span class="nav-text">tzinfo Objects</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-attributes-4"><span class="nav-number">8.1.</span> <span class="nav-text">Class attributes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-attributes-2"><span class="nav-number">8.2.</span> <span class="nav-text">Instance attributes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-methods-3"><span class="nav-number">8.3.</span> <span class="nav-text">Class methods</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-methods-4"><span class="nav-number">8.4.</span> <span class="nav-text">Instance methods</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#timezone-Objects"><span class="nav-number">9.</span> <span class="nav-text">timezone Objects</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-attributes-5"><span class="nav-number">9.1.</span> <span class="nav-text">Class attributes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-attributes-3"><span class="nav-number">9.2.</span> <span class="nav-text">Instance attributes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Class-methods-4"><span class="nav-number">9.3.</span> <span class="nav-text">Class methods</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Instance-methods-5"><span class="nav-number">9.4.</span> <span class="nav-text">Instance methods</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
 
       
 
@@ -1636,6 +1145,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.2.0"></script>
+<script src="/js/post-details.js?v=7.2.0"></script>
+
+
 
   <script src="/js/next-boot.js?v=7.2.0"></script>
 
@@ -1649,6 +1162,8 @@
 
   
 
+
+  
 
 
   
