@@ -25,13 +25,9 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;&lt;p&gt;datetime Basic date and time
-        
-      
+      &lt;h2 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;&lt;p&gt;datetime Basic date and time types&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source code:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/datetime.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/datetime.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The datetime module supplies classes for manipulating dates and times in both simple and complex ways. While date and time arithmetic is supported, the focus of the implementation is on efficient attribute extraction for output formatting and manipulation. For related functionality, see also the &lt;a href=&quot;https://docs.python.org/3/library/time.html#module-time&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;code&gt;time&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://docs.python.org/3/library/calendar.html#module-calendar&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;code&gt;calendar&lt;/code&gt;&lt;/a&gt; modules.&lt;/p&gt;
     
     </summary>
     
