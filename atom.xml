@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-01T16:00:00.000Z</updated>
+  <updated>2019-08-04T23:55:45.930Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The Python Tutorial</title>
+    <link href="http://yoursite.com/2019/08/02/python-python3-%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2019/08/02/python-python3-简单教程/</id>
+    <published>2019-08-01T16:00:00.000Z</published>
+    <updated>2019-08-04T23:55:45.930Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;起源&lt;br&gt;Python 荷兰人 GuidovanRossum
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+    
+      <category term="Tutorial" scheme="http://yoursite.com/categories/python/Tutorial/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="Tutorial" scheme="http://yoursite.com/tags/Tutorial/"/>
+    
+  </entry>
   
   <entry>
     <title>python datetime module</title>
