@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-04T23:55:45.930Z</updated>
+  <updated>2019-08-05T15:42:32.750Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python glob module</title>
+    <link href="http://yoursite.com/2019/08/05/python-module-glob/"/>
+    <id>http://yoursite.com/2019/08/05/python-module-glob/</id>
+    <published>2019-08-04T16:00:00.000Z</published>
+    <updated>2019-08-05T15:42:32.750Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;glob&lt;/strong&gt; —查找符合特定规则的文件路径名&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+    
+      <category term="module" scheme="http://yoursite.com/categories/python/module/"/>
+    
+      <category term="datetime" scheme="http://yoursite.com/categories/python/module/datetime/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="module" scheme="http://yoursite.com/tags/module/"/>
+    
+  </entry>
   
   <entry>
     <title>The Python Tutorial</title>
@@ -49,8 +82,8 @@
   
   <entry>
     <title>python datetime module</title>
-    <link href="http://yoursite.com/2019/08/01/python-python-datetime-module/"/>
-    <id>http://yoursite.com/2019/08/01/python-python-datetime-module/</id>
+    <link href="http://yoursite.com/2019/08/01/python-module-python-datetime-module/"/>
+    <id>http://yoursite.com/2019/08/01/python-module-python-datetime-module/</id>
     <published>2019-07-31T16:00:00.000Z</published>
     <updated>2019-08-01T16:00:00.000Z</updated>
     
@@ -71,9 +104,9 @@
     
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
-      <category term="datetime" scheme="http://yoursite.com/tags/datetime/"/>
-    
       <category term="module" scheme="http://yoursite.com/tags/module/"/>
+    
+      <category term="datetime" scheme="http://yoursite.com/tags/datetime/"/>
     
   </entry>
   
