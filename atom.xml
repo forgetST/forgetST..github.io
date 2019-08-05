@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-05T15:42:32.750Z</updated>
+  <updated>2019-08-05T23:57:37.398Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>python glob module</title>
-    <link href="http://yoursite.com/2019/08/05/python-module-glob/"/>
-    <id>http://yoursite.com/2019/08/05/python-module-glob/</id>
-    <published>2019-08-04T16:00:00.000Z</published>
-    <updated>2019-08-05T15:42:32.750Z</updated>
+    <title>Linux netstat command</title>
+    <link href="http://yoursite.com/2019/08/05/Linux-command-netstat/"/>
+    <id>http://yoursite.com/2019/08/05/Linux-command-netstat/</id>
+    <published>2019-08-05T15:55:56.589Z</published>
+    <updated>2019-08-05T23:57:37.398Z</updated>
     
     <summary type="html">
     
@@ -29,10 +29,42 @@
       
         
         
-          &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;glob&lt;/strong&gt; —查找符合特定规则的文件路径名&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source
+          &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;在Internet &lt;a href=&quot;https://baike.baidu.com/item/RFC/2798645&quot;
         
       
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
+    
+      <category term="netstat" scheme="http://yoursite.com/categories/Linux/command/netstat/"/>
+    
+    
+      <category term="command" scheme="http://yoursite.com/tags/command/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python glob module</title>
+    <link href="http://yoursite.com/2019/08/05/python-module-glob/"/>
+    <id>http://yoursite.com/2019/08/05/python-module-glob/</id>
+    <published>2019-08-04T16:00:00.000Z</published>
+    <updated>2019-08-04T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;glob&lt;/strong&gt; —查找符合特定规则的文件路径名&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Source code:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/glob.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/glob.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;匹配符：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;*  匹配0个或多个字符&lt;/li&gt;
+&lt;li&gt;?  匹配单个字符&lt;/li&gt;
+&lt;li&gt;[] 匹配指定范围内的字符，如：[0-9]匹配数字&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -40,7 +72,7 @@
     
       <category term="module" scheme="http://yoursite.com/categories/python/module/"/>
     
-      <category term="datetime" scheme="http://yoursite.com/categories/python/module/datetime/"/>
+      <category term="glob" scheme="http://yoursite.com/categories/python/module/glob/"/>
     
     
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
@@ -112,10 +144,10 @@
   
   <entry>
     <title>linux 安装ssh以及ssh用法与免密登录</title>
-    <link href="http://yoursite.com/2019/07/31/linux-%E5%AE%89%E8%A3%85ssh%E4%BB%A5%E5%8F%8Assh%E7%94%A8%E6%B3%95%E4%B8%8E%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/"/>
-    <id>http://yoursite.com/2019/07/31/linux-安装ssh以及ssh用法与免密登录/</id>
+    <link href="http://yoursite.com/2019/07/31/Linux-linux-%E5%AE%89%E8%A3%85ssh%E4%BB%A5%E5%8F%8Assh%E7%94%A8%E6%B3%95%E4%B8%8E%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/"/>
+    <id>http://yoursite.com/2019/07/31/Linux-linux-安装ssh以及ssh用法与免密登录/</id>
     <published>2019-07-30T16:00:00.000Z</published>
-    <updated>2019-08-03T14:40:35.519Z</updated>
+    <updated>2019-08-05T15:55:17.001Z</updated>
     
     <summary type="html">
     
