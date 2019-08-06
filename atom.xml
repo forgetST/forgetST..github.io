@@ -17,6 +17,64 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux kill command</title>
+    <link href="http://yoursite.com/2019/08/06/Linux-command-kill/"/>
+    <id>http://yoursite.com/2019/08/06/Linux-command-kill/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。&lt;/p&gt;
+&lt;p&gt;kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。&lt;/p&gt;
+&lt;p&gt;进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
+    
+      <category term="kill" scheme="http://yoursite.com/categories/Linux/command/kill/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux killall command</title>
+    <link href="http://yoursite.com/2019/08/06/Linux-command-killall/"/>
+    <id>http://yoursite.com/2019/08/06/Linux-command-killall/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;killall - kill processes by name&lt;/p&gt;
+&lt;p&gt;killall  sends  a  signal  to all processes running any of the specified commands.  If no signal name is specified, SIGTERM is sent. Signals can be specified either by name (e.g.  -HUP or -SIGHUP) or by number (e.g.  -1) or by option -s.&lt;/p&gt;
+&lt;p&gt;If the command name is not regular expression (option -r) and contains a slash (/), processes executing that  particular  file will be selected for killing, independent of their name.&lt;/p&gt;
+&lt;p&gt;killall returns a zero return code if at least one process has been killed for each listed command, or no commands were listed and at least one process matched the -u and -Z search criteria.  killall returns non-zero otherwise.&lt;/p&gt;
+&lt;p&gt;A killall process never kills itself (but may kill other killall processes)&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
+    
+      <category term="killall" scheme="http://yoursite.com/categories/Linux/command/killall/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python __future__ module</title>
     <link href="http://yoursite.com/2019/08/06/python-module-py-future-d/"/>
     <id>http://yoursite.com/2019/08/06/python-module-py-future-d/</id>
@@ -66,9 +124,9 @@
       <category term="netstat" scheme="http://yoursite.com/categories/Linux/command/netstat/"/>
     
     
-      <category term="command" scheme="http://yoursite.com/tags/command/"/>
-    
       <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/tags/command/"/>
     
   </entry>
   
@@ -180,9 +238,9 @@
       <category term="ssh" scheme="http://yoursite.com/categories/Linux/ssh/"/>
     
     
-      <category term="ssh" scheme="http://yoursite.com/tags/ssh/"/>
-    
       <category term="command" scheme="http://yoursite.com/tags/command/"/>
+    
+      <category term="ssh" scheme="http://yoursite.com/tags/ssh/"/>
     
       <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
     
