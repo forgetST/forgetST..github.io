@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-06T00:25:15.437Z</updated>
+  <updated>2019-08-05T16:00:00.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>python __future__ module</title>
+    <link href="http://yoursite.com/2019/08/06/python-module-py-future-d/"/>
+    <id>http://yoursite.com/2019/08/06/python-module-py-future-d/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+    
+      <category term="module" scheme="http://yoursite.com/categories/python/module/"/>
+    
+      <category term="__future__" scheme="http://yoursite.com/categories/python/module/future/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="module" scheme="http://yoursite.com/tags/module/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux netstat command</title>
     <link href="http://yoursite.com/2019/08/05/Linux-command-netstat/"/>
     <id>http://yoursite.com/2019/08/05/Linux-command-netstat/</id>
     <published>2019-08-05T15:55:56.589Z</published>
-    <updated>2019-08-06T00:25:15.437Z</updated>
+    <updated>2019-08-06T00:27:25.903Z</updated>
     
     <summary type="html">
     
@@ -82,18 +110,11 @@
     <link href="http://yoursite.com/2019/08/02/python-python3-%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/"/>
     <id>http://yoursite.com/2019/08/02/python-python3-简单教程/</id>
     <published>2019-08-01T16:00:00.000Z</published>
-    <updated>2019-08-04T23:55:45.930Z</updated>
+    <updated>2019-08-06T15:34:17.665Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;起源&lt;br&gt;Python 荷兰人 GuidovanRossum
-        
-      
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;Python 荷兰人 GuidovanRossum 于1989年发明，第一个公开发行版发行于1991年。&lt;br&gt;Python 是纯粹的自由软件，源代码和解释器CPython遵循GPL（GNUGeneralPublicLicense）协议。&lt;br&gt;Python 是跨平台的，可以运行在Windows、Mac和各种Linux/Unix系统上。&lt;br&gt;Python 语法简洁清晰，特色之一是强制用空白符（whitespace）作为语句缩进。&lt;br&gt;Python 提供了非常完善的基础代码库，同时也有大量的第三方库支持。&lt;br&gt;Python 被称为胶水语言，能够把用其他语言制作的各种模块（尤其是C/C++）很轻松地联结在一起。  &lt;/p&gt;
     
     </summary>
     
