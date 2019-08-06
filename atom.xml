@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-05T23:57:37.398Z</updated>
+  <updated>2019-08-06T00:25:15.437Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,13 @@
     <link href="http://yoursite.com/2019/08/05/Linux-command-netstat/"/>
     <id>http://yoursite.com/2019/08/05/Linux-command-netstat/</id>
     <published>2019-08-05T15:55:56.589Z</published>
-    <updated>2019-08-05T23:57:37.398Z</updated>
+    <updated>2019-08-06T00:25:15.437Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;在Internet &lt;a href=&quot;https://baike.baidu.com/item/RFC/2798645&quot;
-        
-      
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;在Internet &lt;a href=&quot;https://baike.baidu.com/item/RFC/2798645&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;RFC&lt;/a&gt;&lt;a href=&quot;https://baike.baidu.com/item/标准&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;标准&lt;/a&gt;中， Netstat是在内核中访问网络连接状态及其相关信息的程序，它能提供TCP连接，TCP和UDP监听，进程内存管理的相关报告。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Netstat 是控制台命令&lt;/strong&gt;，是一个监控TCP/IP网络的非常有用的工具，它可以&lt;strong&gt;显示路由表、实际的网络连接以及每一个网络接口设备的状态信息&lt;/strong&gt;。  &lt;/p&gt;
+&lt;p&gt;Netstat 用于&lt;strong&gt;显示与IP、&lt;a href=&quot;https://baike.baidu.com/item/TCP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TCP&lt;/a&gt;、&lt;a href=&quot;https://baike.baidu.com/item/UDP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UDP&lt;/a&gt;和&lt;a href=&quot;https://baike.baidu.com/item/ICMP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ICMP&lt;/a&gt;协议相关的统计数据&lt;/strong&gt;，一般用于检验本机各端口的网络连接情况。&lt;/p&gt;
     
     </summary>
     
