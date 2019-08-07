@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-05T16:00:00.000Z</updated>
+  <updated>2019-08-06T16:00:00.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,17 +17,15 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Linux kill command</title>
-    <link href="http://yoursite.com/2019/08/06/Linux-command-kill/"/>
-    <id>http://yoursite.com/2019/08/06/Linux-command-kill/</id>
-    <published>2019-08-05T16:00:00.000Z</published>
-    <updated>2019-08-05T16:00:00.000Z</updated>
+    <title>Linux pkill command</title>
+    <link href="http://yoursite.com/2019/08/07/Linux-command-pkill/"/>
+    <id>http://yoursite.com/2019/08/07/Linux-command-pkill/</id>
+    <published>2019-08-06T16:00:00.000Z</published>
+    <updated>2019-08-06T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。&lt;/p&gt;
-&lt;p&gt;kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。&lt;/p&gt;
-&lt;p&gt;进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。&lt;/p&gt;
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;pkill 用做管理进程时，pkill 命令和 killall 命令的用法相同，都是通过进程名杀死一类进程&lt;br&gt;pkill 另一重要的功能就是按照终端用户来剔出用户登录&lt;/p&gt;
     
     </summary>
     
@@ -35,7 +33,7 @@
     
       <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
     
-      <category term="kill" scheme="http://yoursite.com/categories/Linux/command/kill/"/>
+      <category term="pkill" scheme="http://yoursite.com/categories/Linux/command/pkill/"/>
     
     
       <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
@@ -66,6 +64,34 @@
       <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
     
       <category term="killall" scheme="http://yoursite.com/categories/Linux/command/killall/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux kill command</title>
+    <link href="http://yoursite.com/2019/08/06/Linux-command-kill/"/>
+    <id>http://yoursite.com/2019/08/06/Linux-command-kill/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。&lt;/p&gt;
+&lt;p&gt;kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。&lt;/p&gt;
+&lt;p&gt;进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
+    
+      <category term="kill" scheme="http://yoursite.com/categories/Linux/command/kill/"/>
     
     
       <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
@@ -189,8 +215,8 @@
   
   <entry>
     <title>python datetime module</title>
-    <link href="http://yoursite.com/2019/08/01/python-module-python-datetime-module/"/>
-    <id>http://yoursite.com/2019/08/01/python-module-python-datetime-module/</id>
+    <link href="http://yoursite.com/2019/08/01/python-module-datetime/"/>
+    <id>http://yoursite.com/2019/08/01/python-module-datetime/</id>
     <published>2019-07-31T16:00:00.000Z</published>
     <updated>2019-08-01T16:00:00.000Z</updated>
     
@@ -213,8 +239,6 @@
     
       <category term="module" scheme="http://yoursite.com/tags/module/"/>
     
-      <category term="datetime" scheme="http://yoursite.com/tags/datetime/"/>
-    
   </entry>
   
   <entry>
@@ -222,7 +246,7 @@
     <link href="http://yoursite.com/2019/07/31/Linux-linux-%E5%AE%89%E8%A3%85ssh%E4%BB%A5%E5%8F%8Assh%E7%94%A8%E6%B3%95%E4%B8%8E%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/"/>
     <id>http://yoursite.com/2019/07/31/Linux-linux-安装ssh以及ssh用法与免密登录/</id>
     <published>2019-07-30T16:00:00.000Z</published>
-    <updated>2019-08-05T15:55:17.001Z</updated>
+    <updated>2019-08-07T15:01:21.460Z</updated>
     
     <summary type="html">
     
@@ -238,11 +262,11 @@
       <category term="ssh" scheme="http://yoursite.com/categories/Linux/ssh/"/>
     
     
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
       <category term="command" scheme="http://yoursite.com/tags/command/"/>
     
       <category term="ssh" scheme="http://yoursite.com/tags/ssh/"/>
-    
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
     
   </entry>
   
