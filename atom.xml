@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>往事如烟</title>
+  <title>风雨楼&amp;江湖路</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-06T16:00:00.000Z</updated>
+  <updated>2019-08-09T14:25:42.101Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,7 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>git 不同仓库间进行代码迁移</title>
+    <title>hexo 增加浏览次数与访客数量统计功能</title>
+    <link href="http://yoursite.com/2019/08/09/hexo-%E8%AE%BE%E7%BD%AE%E8%AE%BF%E9%97%AE%E9%87%8F/"/>
+    <id>http://yoursite.com/2019/08/09/hexo-设置访问量/</id>
+    <published>2019-08-09T13:00:00.000Z</published>
+    <updated>2019-08-09T14:25:42.101Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;以NexT主题（其他主题类似）为例&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+      <category term="config" scheme="http://yoursite.com/categories/hexo/config/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git 不同仓库间进行项目迁移</title>
     <link href="http://yoursite.com/2019/08/07/git-%E4%BB%8E%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93/"/>
     <id>http://yoursite.com/2019/08/07/git-从一个git仓库提交代码到另一个git仓库/</id>
     <published>2019-08-06T16:00:00.000Z</published>
@@ -94,34 +116,6 @@
   </entry>
   
   <entry>
-    <title>Linux kill command</title>
-    <link href="http://yoursite.com/2019/08/06/Linux-command-kill/"/>
-    <id>http://yoursite.com/2019/08/06/Linux-command-kill/</id>
-    <published>2019-08-05T16:00:00.000Z</published>
-    <updated>2019-08-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。&lt;/p&gt;
-&lt;p&gt;kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。&lt;/p&gt;
-&lt;p&gt;进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
-    
-      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
-    
-      <category term="kill" scheme="http://yoursite.com/categories/Linux/command/kill/"/>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
-    
-      <category term="command" scheme="http://yoursite.com/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
     <title>python __future__ module</title>
     <link href="http://yoursite.com/2019/08/06/python-module-py-future-d/"/>
     <id>http://yoursite.com/2019/08/06/python-module-py-future-d/</id>
@@ -146,6 +140,34 @@
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
       <category term="module" scheme="http://yoursite.com/tags/module/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux kill command</title>
+    <link href="http://yoursite.com/2019/08/06/Linux-command-kill/"/>
+    <id>http://yoursite.com/2019/08/06/Linux-command-kill/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。&lt;/p&gt;
+&lt;p&gt;kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。&lt;/p&gt;
+&lt;p&gt;进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
+    
+      <category term="kill" scheme="http://yoursite.com/categories/Linux/command/kill/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/tags/command/"/>
     
   </entry>
   
@@ -310,6 +332,37 @@
       <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
     
       <category term="Typora" scheme="http://yoursite.com/tags/Typora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo error log</title>
+    <link href="http://yoursite.com/2019/07/28/hexo-2019-7-28-hexo-error-log/"/>
+    <id>http://yoursite.com/2019/07/28/hexo-2019-7-28-hexo-error-log/</id>
+    <published>2019-07-28T15:14:52.000Z</published>
+    <updated>2019-08-09T13:48:40.385Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;搭建 hexo，在执行 hexo deploy 后,出现 error deployer not found:github 的错误&lt;/p&gt;
+&lt;p&gt;hexo 更新到3.0之后，deploy的type 的github需要改成git&lt;br&gt;npm install
+        
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+      <category term="error log" scheme="http://yoursite.com/categories/hexo/error-log/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="error" scheme="http://yoursite.com/tags/error/"/>
     
   </entry>
   
