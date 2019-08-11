@@ -146,30 +146,30 @@
   </entry>
   
   <entry>
-    <title>python __future__ module</title>
-    <link href="http://yoursite.com/2019/08/06/python-module-py-future-d/"/>
-    <id>http://yoursite.com/2019/08/06/python-module-py-future-d/</id>
+    <title>Linux ps command</title>
+    <link href="http://yoursite.com/2019/08/06/Linux-command-ps/"/>
+    <id>http://yoursite.com/2019/08/06/Linux-command-ps/</id>
     <published>2019-08-05T16:00:00.000Z</published>
     <updated>2019-08-05T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;ps 命令是Process Status的缩写，用于进程的监测和控制。&lt;/p&gt;
+&lt;p&gt;ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。&lt;/p&gt;
+&lt;p&gt;ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用&lt;strong&gt;top&lt;/strong&gt;命令。   &lt;/p&gt;
     
     </summary>
     
-      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
-      <category term="module" scheme="http://yoursite.com/categories/python/module/"/>
+      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
     
-      <category term="__future__" scheme="http://yoursite.com/categories/python/module/future/"/>
+      <category term="ps" scheme="http://yoursite.com/categories/Linux/command/ps/"/>
     
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
-      <category term="module" scheme="http://yoursite.com/tags/module/"/>
+      <category term="command" scheme="http://yoursite.com/tags/command/"/>
     
   </entry>
   
@@ -204,30 +204,30 @@
   </entry>
   
   <entry>
-    <title>Linux ps command</title>
-    <link href="http://yoursite.com/2019/08/06/Linux-command-ps/"/>
-    <id>http://yoursite.com/2019/08/06/Linux-command-ps/</id>
+    <title>python __future__ module</title>
+    <link href="http://yoursite.com/2019/08/06/python-module-py-future-d/"/>
+    <id>http://yoursite.com/2019/08/06/python-module-py-future-d/</id>
     <published>2019-08-05T16:00:00.000Z</published>
     <updated>2019-08-05T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;ps 命令是Process Status的缩写，用于进程的监测和控制。&lt;/p&gt;
-&lt;p&gt;ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。&lt;/p&gt;
-&lt;p&gt;ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用&lt;strong&gt;top&lt;/strong&gt;命令。   &lt;/p&gt;
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+      <category term="python" scheme="http://yoursite.com/categories/python/"/>
     
-      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
+      <category term="module" scheme="http://yoursite.com/categories/python/module/"/>
     
-      <category term="ps" scheme="http://yoursite.com/categories/Linux/command/ps/"/>
+      <category term="__future__" scheme="http://yoursite.com/categories/python/module/future/"/>
     
     
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
-      <category term="command" scheme="http://yoursite.com/tags/command/"/>
+      <category term="module" scheme="http://yoursite.com/tags/module/"/>
     
   </entry>
   
