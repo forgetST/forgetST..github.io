@@ -146,36 +146,6 @@
   </entry>
   
   <entry>
-    <title>Linux killall command</title>
-    <link href="http://yoursite.com/2019/08/06/Linux-command-killall/"/>
-    <id>http://yoursite.com/2019/08/06/Linux-command-killall/</id>
-    <published>2019-08-05T16:00:00.000Z</published>
-    <updated>2019-08-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;killall - kill processes by name&lt;/p&gt;
-&lt;p&gt;killall  sends  a  signal  to all processes running any of the specified commands.  If no signal name is specified, SIGTERM is sent. Signals can be specified either by name (e.g.  -HUP or -SIGHUP) or by number (e.g.  -1) or by option -s.&lt;/p&gt;
-&lt;p&gt;If the command name is not regular expression (option -r) and contains a slash (/), processes executing that  particular  file will be selected for killing, independent of their name.&lt;/p&gt;
-&lt;p&gt;killall returns a zero return code if at least one process has been killed for each listed command, or no commands were listed and at least one process matched the -u and -Z search criteria.  killall returns non-zero otherwise.&lt;/p&gt;
-&lt;p&gt;A killall process never kills itself (but may kill other killall processes)&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
-    
-      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
-    
-      <category term="killall" scheme="http://yoursite.com/categories/Linux/command/killall/"/>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
-    
-      <category term="command" scheme="http://yoursite.com/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux kill command</title>
     <link href="http://yoursite.com/2019/08/06/Linux-command-kill/"/>
     <id>http://yoursite.com/2019/08/06/Linux-command-kill/</id>
@@ -223,6 +193,36 @@
       <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
     
       <category term="ps" scheme="http://yoursite.com/categories/Linux/command/ps/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux killall command</title>
+    <link href="http://yoursite.com/2019/08/06/Linux-command-killall/"/>
+    <id>http://yoursite.com/2019/08/06/Linux-command-killall/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;killall - kill processes by name&lt;/p&gt;
+&lt;p&gt;killall  sends  a  signal  to all processes running any of the specified commands.  If no signal name is specified, SIGTERM is sent. Signals can be specified either by name (e.g.  -HUP or -SIGHUP) or by number (e.g.  -1) or by option -s.&lt;/p&gt;
+&lt;p&gt;If the command name is not regular expression (option -r) and contains a slash (/), processes executing that  particular  file will be selected for killing, independent of their name.&lt;/p&gt;
+&lt;p&gt;killall returns a zero return code if at least one process has been killed for each listed command, or no commands were listed and at least one process matched the -u and -Z search criteria.  killall returns non-zero otherwise.&lt;/p&gt;
+&lt;p&gt;A killall process never kills itself (but may kill other killall processes)&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
+    
+      <category term="killall" scheme="http://yoursite.com/categories/Linux/command/killall/"/>
     
     
       <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
