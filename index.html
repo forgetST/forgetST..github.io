@@ -360,7 +360,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/09/Linux-Linux-进程相关操作/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/13/Linux-软连接与硬连接/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -380,7 +380,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/08/09/Linux-Linux-进程相关操作/" class="post-title-link" itemprop="url">Linux 终止进程的方法总结</a>
+                <a href="/2019/08/13/Linux-软连接与硬连接/" class="post-title-link" itemprop="url">软连接与硬连接</a>
               
             
           </h1>
@@ -405,13 +405,23 @@
                 
               
 
-              <time title="创建时间：2019-08-09 21:10 / 修改时间：23:17" itemprop="dateCreated datePublished" datetime="2019-08-09T21:10:00+08:00">2019-08-09</time>
+              <time title="创建时间：2019-08-13 00:00" itemprop="dateCreated datePublished" datetime="2019-08-13T00:00:00+08:00">2019-08-13</time>
             </span>
           
 
           
             
 
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-14 07:21" itemprop="dateModified" datetime="2019-08-14T07:21:38+08:00">2019-08-14</time>
+              </span>
             
           
 
@@ -425,13 +435,6 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/" itemprop="url" rel="index"><span itemprop="name">command</span></a></span>
 
                 
                 
@@ -472,11 +475,18 @@
 
       
         
+          <p>链接是一种文件共享的方式，是 <strong>POSIX</strong> 中的概念，主流文件系统都支持链接文件。</p>
+<p>链接无非是把文件名和计算机文件系统使用的节点号链接起来。因此我们可以用多个文件名与同一个文件进行链接，这些文件名可以在同一目录或不同目录。 </p>
+<p>对链接进行编辑，实际上是对原始文件进行编辑。</p>
+          <!--noindex-->
           
-            <p><strong>示例</strong></p>
-<p>以python进程为例：</p>
-
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/08/13/Linux-软连接与硬连接/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
           
+          <!--/noindex-->
         
       
     </div>
@@ -719,191 +729,6 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/07/Linux-command-pkill/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="风雨楼&江湖路">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/08/07/Linux-command-pkill/" class="post-title-link" itemprop="url">Linux pkill command</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-08-07 00:00" itemprop="dateCreated datePublished" datetime="2019-08-07T00:00:00+08:00">2019-08-07</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/" itemprop="url" rel="index"><span itemprop="name">command</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/pkill/" itemprop="url" rel="index"><span itemprop="name">pkill</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p>pkill 用做管理进程时，pkill 命令和 killall 命令的用法相同，都是通过进程名杀死一类进程<br>pkill 另一重要的功能就是按照终端用户来剔出用户登录</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/08/07/Linux-command-pkill/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/07/git-从一个git仓库提交代码到另一个git仓库/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1076,7 +901,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/06/python-module-py-future-d/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/07/Linux-command-pkill/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1096,7 +921,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/08/06/python-module-py-future-d/" class="post-title-link" itemprop="url">python __future__ module</a>
+                <a href="/2019/08/07/Linux-command-pkill/" class="post-title-link" itemprop="url">Linux pkill command</a>
               
             
           </h1>
@@ -1121,7 +946,7 @@
                 
               
 
-              <time title="创建时间：2019-08-06 00:00" itemprop="dateCreated datePublished" datetime="2019-08-06T00:00:00+08:00">2019-08-06</time>
+              <time title="创建时间：2019-08-07 00:00" itemprop="dateCreated datePublished" datetime="2019-08-07T00:00:00+08:00">2019-08-07</time>
             </span>
           
 
@@ -1136,21 +961,21 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
 
                 
                 
                   ，
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/" itemprop="url" rel="index"><span itemprop="name">module</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/" itemprop="url" rel="index"><span itemprop="name">command</span></a></span>
 
                 
                 
                   ，
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/future/" itemprop="url" rel="index"><span itemprop="name">__future__</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/pkill/" itemprop="url" rel="index"><span itemprop="name">pkill</span></a></span>
 
                 
                 
@@ -1191,13 +1016,11 @@
 
       
         
-          <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。</p>
-<p><strong>py2.7-源代码:</strong> <a href="https://github.com/python/cpython/tree/2.7/Lib/__future__.py" target="_blank" rel="noopener">Lib/__future__.py</a></p>
-<p><strong>py3.7-源代码：</strong><a href="https://github.com/python/cpython/tree/3.7/Lib/__future__.py" target="_blank" rel="noopener">Lib/__future__.py</a></p>
+          <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p>pkill 用做管理进程时，pkill 命令和 killall 命令的用法相同，都是通过进程名杀死一类进程<br>pkill 另一重要的功能就是按照终端用户来剔出用户登录</p>
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/2019/08/06/python-module-py-future-d/#more" rel="contents">
+              <a class="btn" href="/2019/08/07/Linux-command-pkill/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1450,193 +1273,6 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/06/Linux-command-ps/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="风雨楼&江湖路">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/08/06/Linux-command-ps/" class="post-title-link" itemprop="url">Linux ps command</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-08-06 00:00" itemprop="dateCreated datePublished" datetime="2019-08-06T00:00:00+08:00">2019-08-06</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/" itemprop="url" rel="index"><span itemprop="name">command</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/ps/" itemprop="url" rel="index"><span itemprop="name">ps</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p>ps 命令是Process Status的缩写，用于进程的监测和控制。</p>
-<p>ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。</p>
-<p>ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用<strong>top</strong>命令。   </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/08/06/Linux-command-ps/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/06/Linux-command-killall/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1766,6 +1402,462 @@
             </div>
           
           <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/06/python-module-py-future-d/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="风雨楼&江湖路">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/08/06/python-module-py-future-d/" class="post-title-link" itemprop="url">python __future__ module</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-06 00:00" itemprop="dateCreated datePublished" datetime="2019-08-06T00:00:00+08:00">2019-08-06</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/" itemprop="url" rel="index"><span itemprop="name">module</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/future/" itemprop="url" rel="index"><span itemprop="name">__future__</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。</p>
+<p><strong>py2.7-源代码:</strong> <a href="https://github.com/python/cpython/tree/2.7/Lib/__future__.py" target="_blank" rel="noopener">Lib/__future__.py</a></p>
+<p><strong>py3.7-源代码：</strong><a href="https://github.com/python/cpython/tree/3.7/Lib/__future__.py" target="_blank" rel="noopener">Lib/__future__.py</a></p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/08/06/python-module-py-future-d/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/06/Linux-command-ps/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="风雨楼&江湖路">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/08/06/Linux-command-ps/" class="post-title-link" itemprop="url">Linux ps command</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-06 00:00" itemprop="dateCreated datePublished" datetime="2019-08-06T00:00:00+08:00">2019-08-06</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/" itemprop="url" rel="index"><span itemprop="name">command</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/ps/" itemprop="url" rel="index"><span itemprop="name">ps</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p>ps 命令是Process Status的缩写，用于进程的监测和控制。</p>
+<p>ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。</p>
+<p>ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用<strong>top</strong>命令。   </p>
+<h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><h3 id="命令格式"><a href="#命令格式" class="headerlink" title="命令格式"></a>命令格式</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps [options] [--help]</span><br></pre></td></tr></table></figure>
+
+<h3 id="命令参数"><a href="#命令参数" class="headerlink" title="命令参数"></a>命令参数</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-centos-01 ~]# ps --help simple</span><br><span class="line"></span><br><span class="line">Usage:</span><br><span class="line"> ps [options]</span><br><span class="line"></span><br><span class="line">Basic options:</span><br><span class="line"> -A, -e               all processes</span><br><span class="line"> -a                   all with tty, except session leaders</span><br><span class="line">  a                   all with tty, including other users</span><br><span class="line"> -d                   all except session leaders</span><br><span class="line"> -N, --deselect       negate selection</span><br><span class="line">  r                   only running processes</span><br><span class="line">  T                   all processes on this terminal</span><br><span class="line">  x                   processes without controlling tty</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-centos-01 ~]# ps --help list</span><br><span class="line"></span><br><span class="line">Usage:</span><br><span class="line"> ps [options]</span><br><span class="line"></span><br><span class="line">Selection by list:</span><br><span class="line"> -C &lt;command&gt;         command name</span><br><span class="line"> -G, --Group &lt;GID&gt;    real group id or name</span><br><span class="line"> -g, --group &lt;group&gt;  session or effective group name</span><br><span class="line"> -p, p, --pid &lt;PID&gt;   process id</span><br><span class="line">        --ppid &lt;PID&gt;  parent process id</span><br><span class="line"> -q, q, --quick-pid &lt;PID&gt;</span><br><span class="line">                      process id (quick mode)</span><br><span class="line"> -s, --sid &lt;session&gt;  session id</span><br><span class="line"> -t, t, --tty &lt;tty&gt;   terminal</span><br><span class="line"> -u, U, --user &lt;UID&gt;  effective user id or name</span><br><span class="line"> -U, --User &lt;UID&gt;     real user id or name</span><br><span class="line"></span><br><span class="line">  The selection options take as their argument either:</span><br><span class="line">    a comma-separated list e.g. &apos;-u root,nobody&apos; or</span><br><span class="line">    a blank-separated list e.g. &apos;-p 123 4567&apos;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-centos-01 ~]# ps --help output</span><br><span class="line"></span><br><span class="line">Usage:</span><br><span class="line"> ps [options]</span><br><span class="line"></span><br><span class="line">Output formats:</span><br><span class="line"> -F                   extra full</span><br><span class="line"> -f                   full-format, including command lines</span><br><span class="line">  f, --forest         ascii art process tree</span><br><span class="line"> -H                   show process hierarchy</span><br><span class="line"> -j                   jobs format</span><br><span class="line">  j                   BSD job control format</span><br><span class="line"> -l                   long format</span><br><span class="line">  l                   BSD long format</span><br><span class="line"> -M, Z                add security data (for SELinux)</span><br><span class="line"> -O &lt;format&gt;          preloaded with default columns</span><br><span class="line">  O &lt;format&gt;          as -O, with BSD personality</span><br><span class="line"> -o, o, --format &lt;format&gt;</span><br><span class="line">                      user-defined format</span><br><span class="line">  s                   signal format</span><br><span class="line">  u                   user-oriented format</span><br><span class="line">  v                   virtual memory format</span><br><span class="line">  X                   register format</span><br><span class="line"> -y                   do not show flags, show rss vs. addr (used with -l)</span><br><span class="line">     --context        display security context (for SELinux)</span><br><span class="line">     --headers        repeat header lines, one per page</span><br><span class="line">     --no-headers     do not print header at all</span><br><span class="line">     --cols, --columns, --width &lt;num&gt;</span><br><span class="line">                      set screen width</span><br><span class="line">     --rows, --lines &lt;num&gt;</span><br><span class="line">                      set screen height</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-centos-01 ~]# ps --help threads</span><br><span class="line"></span><br><span class="line">Usage:</span><br><span class="line"> ps [options]</span><br><span class="line"></span><br><span class="line">Show threads:</span><br><span class="line">  H                   as if they were processes</span><br><span class="line"> -L                   possibly with LWP and NLWP columns</span><br><span class="line"> -m, m                after processes</span><br><span class="line"> -T                   possibly with SPID column</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-centos-01 ~]# ps --help misc</span><br><span class="line"></span><br><span class="line">Usage:</span><br><span class="line"> ps [options]</span><br><span class="line"></span><br><span class="line">Miscellaneous options:</span><br><span class="line"> -c                   show scheduling class with -l option</span><br><span class="line">  c                   show true command name</span><br><span class="line">  e                   show the environment after command</span><br><span class="line">  k,    --sort        specify sort order as: [+|-]key[,[+|-]key[,...]]</span><br><span class="line">  L                   show format specifiers</span><br><span class="line">  n                   display numeric uid and wchan</span><br><span class="line">  S,    --cumulative  include some dead child process data</span><br><span class="line"> -y                   do not show flags, show rss (only with -l)</span><br><span class="line"> -V, V, --version     display version information and exit</span><br><span class="line"> -w, w                unlimited output width</span><br><span class="line"></span><br><span class="line">        --help &lt;simple|list|output|threads|misc|all&gt;</span><br><span class="line">                      display help and exit</span><br></pre></td></tr></table></figure>
+
+<h3 id="用法示例"><a href="#用法示例" class="headerlink" title="用法示例"></a>用法示例</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">To see every process on the system using standard syntax:</span><br><span class="line">    ps -e</span><br><span class="line">    ps -ef</span><br><span class="line">    ps -eF</span><br><span class="line">    ps -ely</span><br><span class="line"></span><br><span class="line">To see every process on the system using BSD syntax:</span><br><span class="line">    ps ax</span><br><span class="line">    ps axu</span><br><span class="line"></span><br><span class="line">To print a process tree:</span><br><span class="line">    ps -ejH</span><br><span class="line">    ps axjf</span><br><span class="line"></span><br><span class="line">To get info about threads:</span><br><span class="line">    ps -eLf</span><br><span class="line">    ps axms</span><br><span class="line"></span><br><span class="line">To get security info:</span><br><span class="line">    ps -eo euser,ruser,suser,fuser,f,comm,label</span><br><span class="line">    ps axZ</span><br><span class="line">    ps -eM</span><br><span class="line"></span><br><span class="line">To see every process running as root (real &amp; effective ID) in user format:</span><br><span class="line">    ps -U root -u root u</span><br><span class="line"></span><br><span class="line">To see every process with a user-defined format:</span><br><span class="line">    ps -eo pid,tid,class,rtprio,ni,pri,psr,pcpu,stat,wchan:14,comm</span><br><span class="line">    ps axo stat,euid,ruid,tty,tpgid,sess,pgrp,ppid,pid,pcpu,comm</span><br><span class="line">    ps -Ao pid,tt,user,fname,tmout,f,wchan</span><br><span class="line"></span><br><span class="line">Print only the process IDs of syslogd:</span><br><span class="line">    ps -C syslogd -o pid=</span><br><span class="line"></span><br><span class="line">Print only the name of PID 42:</span><br><span class="line">    ps -q 42 -o comm=</span><br></pre></td></tr></table></figure>
+
+<h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><p><strong>Linux上进程有5种状态</strong></p>
+<ol>
+<li><p>运行 – 正在运行或在运行队列中等待</p>
+</li>
+<li><p>中断 – 休眠中, 受阻, 在等待某个条件的形成或接受到信号</p>
+</li>
+<li><p>不可中断 – 收到信号不唤醒和不可运行, 进程必须等待直到有中断发生</p>
+</li>
+<li><p>僵死 – 进程已终止, 但进程描述符存在, 直到父进程调用wait4()系统调用后释放</p>
+</li>
+<li><p>停止 – 进程收到SIGSTOP, SIGSTP, SIGTIN, SIGTOU信号后停止运行运行</p>
+</li>
+</ol>
+<p><strong>ps工具标识进程的5种状态码</strong></p>
+<ol>
+<li>R 运行 runnable (on run queue)</li>
+<li>S 中断 sleeping</li>
+<li>D 不可中断 uninterruptible sleep (usually IO)</li>
+<li>Z 僵死 a defunct (”zombie”) process</li>
+<li>T 停止 traced or stopped</li>
+</ol>
+<p><strong>ps命令输出信息含义</strong></p>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>USER</td>
+<td>该进程是由哪个用户产生的。</td>
+</tr>
+<tr>
+<td>PID</td>
+<td>进程的 ID。</td>
+</tr>
+<tr>
+<td>%CPU</td>
+<td>该进程占用 CPU 资源的百分比，占用的百分比越高，进程越耗费资源。</td>
+</tr>
+<tr>
+<td>%MEM</td>
+<td>该进程占用物理内存的百分比，占用的百分比越高，进程越耗费资源。</td>
+</tr>
+<tr>
+<td>VSZ</td>
+<td>该进程占用虚拟内存的大小，单位为 KB。</td>
+</tr>
+<tr>
+<td>RSS</td>
+<td>该进程占用实际物理内存的大小，单位为 KB。</td>
+</tr>
+<tr>
+<td>TTY</td>
+<td>该进程是在哪个终端运行的。其中，tty1 ~ tty7 代表本地控制台终端（可以通过 Alt+F1 ~ F7 快捷键切换不同的终端），tty1~tty6 是本地的字符界面终端，tty7 是图形终端。pts/0 ~ 255 代表虚拟终端，一般是远程连接的终端，第一个远程连接占用 pts/0，第二个远程连接占用 pts/1，依次増长。</td>
+</tr>
+<tr>
+<td>STAT</td>
+<td>进程状态。常见的状态有以下几种：-D：不可被唤醒的睡眠状态，通常用于 I/O 情况。-R：该进程正在运行。-S：该进程处于睡眠状态，可被唤醒。-T：停止状态，可能是在后台暂停或进程处于除错状态。-W：内存交互状态（从 2.6 内核开始无效）。-X：死掉的进程（应该不会出现）。-Z：僵尸进程。进程已经中止，但是部分程序还在内存当中。-&lt;：高优先级（以下状态在 BSD 格式中出现）。-N：低优先级。-L：被锁入内存。-s：包含子进程。-l：多线程（小写 L）。-+：位于后台。</td>
+</tr>
+<tr>
+<td>START</td>
+<td>该进程的启动时间。</td>
+</tr>
+<tr>
+<td>TIME</td>
+<td>该进程占用 CPU 的运算时间，注意不是系统时间。</td>
+</tr>
+<tr>
+<td>COMMAND</td>
+<td>产生此进程的命令名。</td>
+</tr>
+</tbody></table>
+
+          
         
       
     </div>
@@ -2312,6 +2404,8 @@
         
           
         
+          
+        
         <span class="site-state-item-count">20</span>
         <span class="site-state-item-name">分类</span>
         </a>
@@ -2328,6 +2422,8 @@
           
         
         
+        
+          
         
           
         
@@ -2512,14 +2608,6 @@
 
 
 
-
-  
-    
-    
-      
-    
-  
-  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="//cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1/canvas-nest.min.js"></script>
 
 
 
