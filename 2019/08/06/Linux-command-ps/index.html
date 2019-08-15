@@ -93,18 +93,18 @@
   };
 </script>
 
-  <meta name="description" content="作用ps 命令是Process Status的缩写，用于进程的监测和控制。 ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。 ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用top命令。    用法命令格式1ps [options] [--help]  命令参数1234567">
+  <meta name="description" content="作用ps 命令是Process Status的缩写，用于进程的监测和控制。 ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。 ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用top命令。">
 <meta name="keywords" content="Linux,command">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux ps command">
 <meta property="og:url" content="http://yoursite.com/2019/08/06/Linux-command-ps/index.html">
 <meta property="og:site_name" content="风雨楼&amp;江湖路">
-<meta property="og:description" content="作用ps 命令是Process Status的缩写，用于进程的监测和控制。 ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。 ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用top命令。    用法命令格式1ps [options] [--help]  命令参数1234567">
+<meta property="og:description" content="作用ps 命令是Process Status的缩写，用于进程的监测和控制。 ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。 ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用top命令。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2019-08-05T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux ps command">
-<meta name="twitter:description" content="作用ps 命令是Process Status的缩写，用于进程的监测和控制。 ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。 ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用top命令。    用法命令格式1ps [options] [--help]  命令参数1234567">
+<meta name="twitter:description" content="作用ps 命令是Process Status的缩写，用于进程的监测和控制。 ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。 ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用top命令。">
 
 
 
@@ -476,6 +476,8 @@
         <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p>ps 命令是Process Status的缩写，用于进程的监测和控制。</p>
 <p>ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。</p>
 <p>ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用<strong>top</strong>命令。   </p>
+<a id="more"></a>
+
 <h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><h3 id="命令格式"><a href="#命令格式" class="headerlink" title="命令格式"></a>命令格式</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps [options] [--help]</span><br></pre></td></tr></table></figure>
 
 <h3 id="命令参数"><a href="#命令参数" class="headerlink" title="命令参数"></a>命令参数</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-centos-01 ~]# ps --help simple</span><br><span class="line"></span><br><span class="line">Usage:</span><br><span class="line"> ps [options]</span><br><span class="line"></span><br><span class="line">Basic options:</span><br><span class="line"> -A, -e               all processes</span><br><span class="line"> -a                   all with tty, except session leaders</span><br><span class="line">  a                   all with tty, including other users</span><br><span class="line"> -d                   all except session leaders</span><br><span class="line"> -N, --deselect       negate selection</span><br><span class="line">  r                   only running processes</span><br><span class="line">  T                   all processes on this terminal</span><br><span class="line">  x                   processes without controlling tty</span><br></pre></td></tr></table></figure>
@@ -620,8 +622,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/08/06/Linux-command-kill/" rel="next" title="Linux kill command">
-                <i class="fa fa-chevron-left"></i> Linux kill command
+              <a href="/2019/08/06/Linux-command-killall/" rel="next" title="Linux killall command">
+                <i class="fa fa-chevron-left"></i> Linux killall command
               </a>
             
           </div>
@@ -630,8 +632,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/08/06/python-module-py-future-d/" rel="prev" title="python __future__ module">
-                python __future__ module <i class="fa fa-chevron-right"></i>
+              <a href="/2019/08/06/Linux-command-kill/" rel="prev" title="Linux kill command">
+                Linux kill command <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>

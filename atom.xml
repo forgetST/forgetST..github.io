@@ -156,39 +156,6 @@
   </entry>
   
   <entry>
-    <title>Linux ps command</title>
-    <link href="http://yoursite.com/2019/08/06/Linux-command-ps/"/>
-    <id>http://yoursite.com/2019/08/06/Linux-command-ps/</id>
-    <published>2019-08-05T16:00:00.000Z</published>
-    <updated>2019-08-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;ps 命令是Process Status的缩写，用于进程的监测和控制。&lt;/p&gt;
-&lt;p&gt;ps
-        
-      
-    
-    </summary>
-    
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
-    
-      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
-    
-      <category term="ps" scheme="http://yoursite.com/categories/Linux/command/ps/"/>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
-    
-      <category term="command" scheme="http://yoursite.com/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux kill command</title>
     <link href="http://yoursite.com/2019/08/06/Linux-command-kill/"/>
     <id>http://yoursite.com/2019/08/06/Linux-command-kill/</id>
@@ -208,6 +175,34 @@
       <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
     
       <category term="kill" scheme="http://yoursite.com/categories/Linux/command/kill/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux ps command</title>
+    <link href="http://yoursite.com/2019/08/06/Linux-command-ps/"/>
+    <id>http://yoursite.com/2019/08/06/Linux-command-ps/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;ps 命令是Process Status的缩写，用于进程的监测和控制。&lt;/p&gt;
+&lt;p&gt;ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。&lt;/p&gt;
+&lt;p&gt;ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用&lt;strong&gt;top&lt;/strong&gt;命令。   &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+      <category term="command" scheme="http://yoursite.com/categories/Linux/command/"/>
+    
+      <category term="ps" scheme="http://yoursite.com/categories/Linux/command/ps/"/>
     
     
       <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
