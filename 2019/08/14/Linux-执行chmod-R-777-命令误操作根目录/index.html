@@ -101,7 +101,7 @@
 <meta property="og:site_name" content="风雨楼&amp;江湖路">
 <meta property="og:description" content="使用 chmod -R 777 ./* 命令在更改某个目录下文件的权限时，由于操作失误，误用为 chmod -R 777 /*，在零点几秒的反应过后，果断 ctrl + c，奈何电脑反应更快，一切为时已晚（切记不要关闭该终端）。若何？">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-14T15:30:41.086Z">
+<meta property="og:updated_time" content="2019-08-15T22:24:50.298Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="执行chmod -R 777 命令误操作根目录补救的方法">
 <meta name="twitter:description" content="使用 chmod -R 777 ./* 命令在更改某个目录下文件的权限时，由于操作失误，误用为 chmod -R 777 /*，在零点几秒的反应过后，果断 ctrl + c，奈何电脑反应更快，一切为时已晚（切记不要关闭该终端）。若何？">
@@ -404,13 +404,23 @@
                 
               
 
-              <time title="创建时间：2019-08-14 00:00 / 修改时间：23:30" itemprop="dateCreated datePublished" datetime="2019-08-14T00:00:00+08:00">2019-08-14</time>
+              <time title="创建时间：2019-08-14 00:00" itemprop="dateCreated datePublished" datetime="2019-08-14T00:00:00+08:00">2019-08-14</time>
             </span>
           
 
           
             
 
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-16 06:24" itemprop="dateModified" datetime="2019-08-16T06:24:50+08:00">2019-08-16</time>
+              </span>
             
           
 
@@ -469,7 +479,7 @@
 <p>查看当前根目录权限，如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-centos-03` /]# ll</span><br><span class="line">total 24</span><br><span class="line">lrwxrwxrwx.   1 root root    7 Apr 28 07:32 bin -&gt; usr/bin</span><br><span class="line">drwxrwxrwx.   5 root root 4096 Apr 28 07:58 boot</span><br><span class="line">drwxrwxrwx.  20 root root 3320 Aug 14 21:58 dev</span><br><span class="line">drwxrwxrwx. 138 root root 8192 May 12 21:05 etc</span><br><span class="line">drwxrwxrwx.   3 root root   20 Apr 28 08:18 home</span><br><span class="line">lrwxrwxrwx.   1 root root    7 Apr 28 07:32 lib -&gt; usr/lib</span><br><span class="line">lrwxrwxrwx.   1 root root    9 Apr 28 07:32 lib64 -&gt; usr/lib64</span><br><span class="line">drwxrwxrwx.   2 root root    6 Apr 11  2018 media</span><br><span class="line">drwxrwxrwx.   2 root root    6 Apr 11  2018 mnt</span><br><span class="line">drwxrwxrwx.   6 root root   77 Aug 14 22:10 opt</span><br><span class="line">drwxrwxrwx. 189 root root    0 Aug 14 21:57 proc</span><br><span class="line">drwxrwxrwx.  19 root root 4096 Aug 14 22:09 root</span><br><span class="line">drwxr-xr-x.  39 root root 1220 Aug 14 21:58 run</span><br><span class="line">lrwxrwxrwx.   1 root root    8 Apr 28 07:32 sbin -&gt; usr/sbin</span><br><span class="line">drwxr-xr-x.   2 root root    6 Apr 11  2018 srv</span><br><span class="line">dr-xr-xr-x.  13 root root    0 Aug 14 21:58 sys</span><br><span class="line">drwxrwxrwt.  22 root root 4096 Aug 14 22:12 tmp</span><br><span class="line">drwxr-xr-x.  13 root root  155 Apr 28 07:32 usr</span><br><span class="line">drwxr-xr-x.  20 root root  282 Apr 28 08:00 var</span><br></pre></td></tr></table></figure>
 
-<p>由于 <code>/etc</code> 目录应经本更改，显示如下：</p>
+<p>由于 <code>/etc</code> 目录已经被更改，显示如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-centos-03` etc]# ll | head</span><br><span class="line">total 1384</span><br><span class="line">drwxrwxrwx.  3 root root      101 Apr 28 07:36 abrt</span><br><span class="line">-rwxrwxrwx.  1 root root       16 Apr 28 07:57 adjtime</span><br><span class="line">-rwxrwxrwx.  1 root root     1518 Jun  7  2013 aliases</span><br><span class="line">-rwxrwxrwx.  1 root root    12288 Apr 28 08:00 aliases.db</span><br><span class="line">drwxrwxrwx.  3 root root       65 Apr 28 07:45 alsa</span><br><span class="line">drwxrwxrwx.  2 root root     4096 May  6 07:03 alternatives</span><br><span class="line">-rwxrwxrwx.  1 root root      541 Apr 11  2018 anacrontab</span><br><span class="line">-rwxrwxrwx.  1 root root       55 Oct 30  2018 asound.conf</span><br><span class="line">-rwxrwxrwx.  1 root root        1 Oct 31  2018 at.deny</span><br><span class="line">[root@hadoop-centos-03` etc]# ll | tail</span><br><span class="line">-rwxrwxrwx.  1 root root     4479 Oct 31  2018 wgetrc</span><br><span class="line">drwxrwxrwx.  2 root root       33 Apr 28 07:36 wpa_supplicant</span><br><span class="line">-rwxrwxrwx.  1 root root        0 Jun 10  2014 wvdial.conf</span><br><span class="line">drwxrwxrwx.  6 root root      103 Apr 28 07:35 X11</span><br><span class="line">drwxrwxrwx.  6 root root      116 Apr 28 07:39 xdg</span><br><span class="line">drwxrwxrwx.  2 root root        6 Apr 11  2018 xinetd.d</span><br><span class="line">drwxrwxrwx.  2 root root       21 Apr 28 07:33 xml</span><br><span class="line">drwxrwxrwx.  6 root root      100 Apr 28 07:35 yum</span><br><span class="line">-rwxrwxrwx.  1 root root      970 Nov  5  2018 yum.conf</span><br><span class="line">drwxrwxrwx.  2 root root      187 Nov  5  2018 yum.repos.d</span><br></pre></td></tr></table></figure>
 
 <p>故已无法通过ssh连接该节点，提示如下：</p>
@@ -564,6 +574,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2019/08/16/正则简述/" rel="prev" title="正则表达式简述">
+                正则表达式简述 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -625,7 +639,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-count">18</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -686,7 +700,11 @@
         
           
         
-        <span class="site-state-item-count">20</span>
+          
+        
+          
+        
+        <span class="site-state-item-count">21</span>
         <span class="site-state-item-name">分类</span>
         </a>
       </div>
@@ -729,7 +747,9 @@
         
           
         
-        <span class="site-state-item-count">10</span>
+          
+        
+        <span class="site-state-item-count">11</span>
         <span class="site-state-item-name">标签</span>
         </a>
       </div>
