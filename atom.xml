@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://forgetst.github.io/"/>
-  <updated>2019-08-19T12:42:16.742Z</updated>
+  <updated>2019-08-18T16:00:00.000Z</updated>
   <id>http://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux 设置静态IP</title>
+    <link href="http://forgetst.github.io/2019/08/19/Linux-%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81IP/"/>
+    <id>http://forgetst.github.io/2019/08/19/Linux-设置静态IP/</id>
+    <published>2019-08-18T16:00:00.000Z</published>
+    <updated>2019-08-18T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;第一步：激活网卡&quot;&gt;&lt;a href=&quot;#第一步：激活网卡&quot; class=&quot;headerlink&quot; title=&quot;第一步：激活网卡&quot;&gt;&lt;/a&gt;第一步：激活网卡&lt;/h2&gt;&lt;p&gt;通过ip add或者ifconfig 查看网卡名称。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>正则表达式简述</title>
@@ -151,34 +171,6 @@
   </entry>
   
   <entry>
-    <title>python __future__ module</title>
-    <link href="http://forgetst.github.io/2019/08/06/python-module-py-future-d/"/>
-    <id>http://forgetst.github.io/2019/08/06/python-module-py-future-d/</id>
-    <published>2019-08-05T16:00:00.000Z</published>
-    <updated>2019-08-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="http://forgetst.github.io/categories/python/"/>
-    
-      <category term="module" scheme="http://forgetst.github.io/categories/python/module/"/>
-    
-      <category term="__future__" scheme="http://forgetst.github.io/categories/python/module/future/"/>
-    
-    
-      <category term="python" scheme="http://forgetst.github.io/tags/python/"/>
-    
-      <category term="module" scheme="http://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux ps command</title>
     <link href="http://forgetst.github.io/2019/08/06/Linux-command-ps/"/>
     <id>http://forgetst.github.io/2019/08/06/Linux-command-ps/</id>
@@ -261,6 +253,34 @@
       <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
     
       <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python __future__ module</title>
+    <link href="http://forgetst.github.io/2019/08/06/python-module-py-future-d/"/>
+    <id>http://forgetst.github.io/2019/08/06/python-module-py-future-d/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="http://forgetst.github.io/categories/python/"/>
+    
+      <category term="module" scheme="http://forgetst.github.io/categories/python/module/"/>
+    
+      <category term="__future__" scheme="http://forgetst.github.io/categories/python/module/future/"/>
+    
+    
+      <category term="python" scheme="http://forgetst.github.io/tags/python/"/>
+    
+      <category term="module" scheme="http://forgetst.github.io/tags/module/"/>
     
   </entry>
   
