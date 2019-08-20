@@ -102,6 +102,38 @@
   </entry>
   
   <entry>
+    <title>Linux grep command</title>
+    <link href="http://forgetst.github.io/2019/08/10/Linux-command-grep/"/>
+    <id>http://forgetst.github.io/2019/08/10/Linux-command-grep/</id>
+    <published>2019-08-09T16:00:00.000Z</published>
+    <updated>2019-08-09T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;grep&lt;/strong&gt;（global search regular expression(RE) and print
+        
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+    
+      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
+    
+      <category term="grep" scheme="http://forgetst.github.io/categories/Linux/command/grep/"/>
+    
+    
+      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+    
+      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo 增加浏览次数与访客数量统计功能</title>
     <link href="http://forgetst.github.io/2019/08/09/hexo-%E8%AE%BE%E7%BD%AE%E8%AE%BF%E9%97%AE%E9%87%8F/"/>
     <id>http://forgetst.github.io/2019/08/09/hexo-设置访问量/</id>
@@ -120,6 +152,27 @@
     
     
       <category term="hexo" scheme="http://forgetst.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git 不同仓库间进行项目迁移</title>
+    <link href="http://forgetst.github.io/2019/08/07/git-%E4%BB%8E%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93/"/>
+    <id>http://forgetst.github.io/2019/08/07/git-从一个git仓库提交代码到另一个git仓库/</id>
+    <published>2019-08-06T16:00:00.000Z</published>
+    <updated>2019-08-06T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;需求&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;将仓库A的某个branch的代码独立成为一个新的仓库B。并且提交的代码为当前分支最新的，且保留整个提交历史。这种需求对于git来说小菜一碟，可通过git remote命令来实现。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="git" scheme="http://forgetst.github.io/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://forgetst.github.io/tags/git/"/>
     
   </entry>
   
@@ -150,38 +203,45 @@
   </entry>
   
   <entry>
-    <title>git 不同仓库间进行项目迁移</title>
-    <link href="http://forgetst.github.io/2019/08/07/git-%E4%BB%8E%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93/"/>
-    <id>http://forgetst.github.io/2019/08/07/git-从一个git仓库提交代码到另一个git仓库/</id>
-    <published>2019-08-06T16:00:00.000Z</published>
-    <updated>2019-08-06T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;需求&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;将仓库A的某个branch的代码独立成为一个新的仓库B。并且提交的代码为当前分支最新的，且保留整个提交历史。这种需求对于git来说小菜一碟，可通过git remote命令来实现。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="git" scheme="http://forgetst.github.io/categories/git/"/>
-    
-    
-      <category term="git" scheme="http://forgetst.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux ps command</title>
-    <link href="http://forgetst.github.io/2019/08/06/Linux-command-ps/"/>
-    <id>http://forgetst.github.io/2019/08/06/Linux-command-ps/</id>
+    <title>python __future__ module</title>
+    <link href="http://forgetst.github.io/2019/08/06/python-module-py-future-d/"/>
+    <id>http://forgetst.github.io/2019/08/06/python-module-py-future-d/</id>
     <published>2019-08-05T16:00:00.000Z</published>
     <updated>2019-08-05T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;ps 命令是Process Status的缩写，用于进程的监测和控制。&lt;/p&gt;
-&lt;p&gt;ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。&lt;/p&gt;
-&lt;p&gt;ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用&lt;strong&gt;top&lt;/strong&gt;命令。   &lt;/p&gt;
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="http://forgetst.github.io/categories/python/"/>
+    
+      <category term="module" scheme="http://forgetst.github.io/categories/python/module/"/>
+    
+      <category term="__future__" scheme="http://forgetst.github.io/categories/python/module/future/"/>
+    
+    
+      <category term="python" scheme="http://forgetst.github.io/tags/python/"/>
+    
+      <category term="module" scheme="http://forgetst.github.io/tags/module/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux kill command</title>
+    <link href="http://forgetst.github.io/2019/08/06/Linux-command-kill/"/>
+    <id>http://forgetst.github.io/2019/08/06/Linux-command-kill/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。&lt;/p&gt;
+&lt;p&gt;kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。&lt;/p&gt;
+&lt;p&gt;进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。&lt;/p&gt;
     
     </summary>
     
@@ -189,7 +249,7 @@
     
       <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="ps" scheme="http://forgetst.github.io/categories/Linux/command/ps/"/>
+      <category term="kill" scheme="http://forgetst.github.io/categories/Linux/command/kill/"/>
     
     
       <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
@@ -229,17 +289,17 @@
   </entry>
   
   <entry>
-    <title>Linux kill command</title>
-    <link href="http://forgetst.github.io/2019/08/06/Linux-command-kill/"/>
-    <id>http://forgetst.github.io/2019/08/06/Linux-command-kill/</id>
+    <title>Linux ps command</title>
+    <link href="http://forgetst.github.io/2019/08/06/Linux-command-ps/"/>
+    <id>http://forgetst.github.io/2019/08/06/Linux-command-ps/</id>
     <published>2019-08-05T16:00:00.000Z</published>
     <updated>2019-08-05T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。&lt;/p&gt;
-&lt;p&gt;kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。&lt;/p&gt;
-&lt;p&gt;进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。&lt;/p&gt;
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;ps 命令是Process Status的缩写，用于进程的监测和控制。&lt;/p&gt;
+&lt;p&gt;ps 命令是最基本进程查看命令，使用该命令可以确定有哪些进程正在运行和运行的状态、进程是否结束、进程有没有僵尸、哪些进程占用了过多的资源等。&lt;/p&gt;
+&lt;p&gt;ps 命令显示的是瞬间进程的状态，并不是动态连续的；如果想对进程进行实时监控可用&lt;strong&gt;top&lt;/strong&gt;命令。   &lt;/p&gt;
     
     </summary>
     
@@ -247,7 +307,7 @@
     
       <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="kill" scheme="http://forgetst.github.io/categories/Linux/command/kill/"/>
+      <category term="ps" scheme="http://forgetst.github.io/categories/Linux/command/ps/"/>
     
     
       <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
@@ -257,30 +317,30 @@
   </entry>
   
   <entry>
-    <title>python __future__ module</title>
-    <link href="http://forgetst.github.io/2019/08/06/python-module-py-future-d/"/>
-    <id>http://forgetst.github.io/2019/08/06/python-module-py-future-d/</id>
-    <published>2019-08-05T16:00:00.000Z</published>
-    <updated>2019-08-05T16:00:00.000Z</updated>
+    <title>Linux netstat command</title>
+    <link href="http://forgetst.github.io/2019/08/05/Linux-command-netstat/"/>
+    <id>http://forgetst.github.io/2019/08/05/Linux-command-netstat/</id>
+    <published>2019-08-04T16:00:00.000Z</published>
+    <updated>2019-08-04T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;在Internet &lt;a href=&quot;https://baike.baidu.com/item/RFC/2798645&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;RFC&lt;/a&gt;&lt;a href=&quot;https://baike.baidu.com/item/标准&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;标准&lt;/a&gt;中， Netstat是在内核中访问网络连接状态及其相关信息的程序，它能提供TCP连接，TCP和UDP监听，进程内存管理的相关报告。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Netstat 是控制台命令&lt;/strong&gt;，是一个监控TCP/IP网络的非常有用的工具，它可以&lt;strong&gt;显示路由表、实际的网络连接以及每一个网络接口设备的状态信息&lt;/strong&gt;。  &lt;/p&gt;
+&lt;p&gt;Netstat 用于&lt;strong&gt;显示与IP、&lt;a href=&quot;https://baike.baidu.com/item/TCP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TCP&lt;/a&gt;、&lt;a href=&quot;https://baike.baidu.com/item/UDP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UDP&lt;/a&gt;和&lt;a href=&quot;https://baike.baidu.com/item/ICMP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ICMP&lt;/a&gt;协议相关的统计数据&lt;/strong&gt;，一般用于检验本机各端口的网络连接情况。&lt;/p&gt;
     
     </summary>
     
-      <category term="python" scheme="http://forgetst.github.io/categories/python/"/>
+      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
     
-      <category term="module" scheme="http://forgetst.github.io/categories/python/module/"/>
+      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="__future__" scheme="http://forgetst.github.io/categories/python/module/future/"/>
+      <category term="netstat" scheme="http://forgetst.github.io/categories/Linux/command/netstat/"/>
     
     
-      <category term="python" scheme="http://forgetst.github.io/tags/python/"/>
+      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
     
-      <category term="module" scheme="http://forgetst.github.io/tags/module/"/>
+      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
     
   </entry>
   
@@ -314,34 +374,6 @@
       <category term="python" scheme="http://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="http://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux netstat command</title>
-    <link href="http://forgetst.github.io/2019/08/05/Linux-command-netstat/"/>
-    <id>http://forgetst.github.io/2019/08/05/Linux-command-netstat/</id>
-    <published>2019-08-04T16:00:00.000Z</published>
-    <updated>2019-08-04T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;在Internet &lt;a href=&quot;https://baike.baidu.com/item/RFC/2798645&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;RFC&lt;/a&gt;&lt;a href=&quot;https://baike.baidu.com/item/标准&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;标准&lt;/a&gt;中， Netstat是在内核中访问网络连接状态及其相关信息的程序，它能提供TCP连接，TCP和UDP监听，进程内存管理的相关报告。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Netstat 是控制台命令&lt;/strong&gt;，是一个监控TCP/IP网络的非常有用的工具，它可以&lt;strong&gt;显示路由表、实际的网络连接以及每一个网络接口设备的状态信息&lt;/strong&gt;。  &lt;/p&gt;
-&lt;p&gt;Netstat 用于&lt;strong&gt;显示与IP、&lt;a href=&quot;https://baike.baidu.com/item/TCP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TCP&lt;/a&gt;、&lt;a href=&quot;https://baike.baidu.com/item/UDP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UDP&lt;/a&gt;和&lt;a href=&quot;https://baike.baidu.com/item/ICMP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ICMP&lt;/a&gt;协议相关的统计数据&lt;/strong&gt;，一般用于检验本机各端口的网络连接情况。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
-    
-      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
-    
-      <category term="netstat" scheme="http://forgetst.github.io/categories/Linux/command/netstat/"/>
-    
-    
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
     
   </entry>
   
