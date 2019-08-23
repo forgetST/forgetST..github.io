@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://forgetst.github.io/"/>
+  <link href="https://forgetst.github.io/"/>
   <updated>2019-08-18T16:00:00.000Z</updated>
-  <id>http://forgetst.github.io/</id>
+  <id>https://forgetst.github.io/</id>
   
   <author>
     <name>Mr Wang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Linux 设置静态IP</title>
-    <link href="http://forgetst.github.io/2019/08/19/Linux-%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81IP/"/>
-    <id>http://forgetst.github.io/2019/08/19/Linux-设置静态IP/</id>
+    <link href="https://forgetst.github.io/2019/08/19/Linux-%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81IP/"/>
+    <id>https://forgetst.github.io/2019/08/19/Linux-设置静态IP/</id>
     <published>2019-08-18T16:00:00.000Z</published>
     <updated>2019-08-18T16:00:00.000Z</updated>
     
@@ -29,17 +29,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>正则表达式简述</title>
-    <link href="http://forgetst.github.io/2019/08/16/%E6%AD%A3%E5%88%99%E7%AE%80%E8%BF%B0/"/>
-    <id>http://forgetst.github.io/2019/08/16/正则简述/</id>
+    <link href="https://forgetst.github.io/2019/08/16/%E6%AD%A3%E5%88%99%E7%AE%80%E8%BF%B0/"/>
+    <id>https://forgetst.github.io/2019/08/16/正则简述/</id>
     <published>2019-08-15T16:00:00.000Z</published>
     <updated>2019-08-19T12:42:16.742Z</updated>
     
@@ -50,19 +50,19 @@
     
     </summary>
     
-      <category term="regex" scheme="http://forgetst.github.io/categories/regex/"/>
+      <category term="regex" scheme="https://forgetst.github.io/categories/regex/"/>
     
     
-      <category term="python" scheme="http://forgetst.github.io/tags/python/"/>
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
-      <category term="regex" scheme="http://forgetst.github.io/tags/regex/"/>
+      <category term="regex" scheme="https://forgetst.github.io/tags/regex/"/>
     
   </entry>
   
   <entry>
     <title>执行chmod -R 777 命令误操作根目录补救的方法</title>
-    <link href="http://forgetst.github.io/2019/08/14/Linux-%E6%89%A7%E8%A1%8Cchmod-R-777-%E5%91%BD%E4%BB%A4%E8%AF%AF%E6%93%8D%E4%BD%9C%E6%A0%B9%E7%9B%AE%E5%BD%95/"/>
-    <id>http://forgetst.github.io/2019/08/14/Linux-执行chmod-R-777-命令误操作根目录/</id>
+    <link href="https://forgetst.github.io/2019/08/14/Linux-%E6%89%A7%E8%A1%8Cchmod-R-777-%E5%91%BD%E4%BB%A4%E8%AF%AF%E6%93%8D%E4%BD%9C%E6%A0%B9%E7%9B%AE%E5%BD%95/"/>
+    <id>https://forgetst.github.io/2019/08/14/Linux-执行chmod-R-777-命令误操作根目录/</id>
     <published>2019-08-13T16:00:00.000Z</published>
     <updated>2019-08-15T22:24:50.298Z</updated>
     
@@ -72,17 +72,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>软连接与硬连接</title>
-    <link href="http://forgetst.github.io/2019/08/13/Linux-%E8%BD%AF%E8%BF%9E%E6%8E%A5%E4%B8%8E%E7%A1%AC%E8%BF%9E%E6%8E%A5/"/>
-    <id>http://forgetst.github.io/2019/08/13/Linux-软连接与硬连接/</id>
+    <link href="https://forgetst.github.io/2019/08/13/Linux-%E8%BD%AF%E8%BF%9E%E6%8E%A5%E4%B8%8E%E7%A1%AC%E8%BF%9E%E6%8E%A5/"/>
+    <id>https://forgetst.github.io/2019/08/13/Linux-软连接与硬连接/</id>
     <published>2019-08-12T16:00:00.000Z</published>
     <updated>2019-08-14T15:27:20.870Z</updated>
     
@@ -94,17 +94,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>Linux jps</title>
-    <link href="http://forgetst.github.io/2019/08/12/Linux-command-jps/"/>
-    <id>http://forgetst.github.io/2019/08/12/Linux-command-jps/</id>
+    <link href="https://forgetst.github.io/2019/08/12/Linux-command-jps/"/>
+    <id>https://forgetst.github.io/2019/08/12/Linux-command-jps/</id>
     <published>2019-08-11T16:00:00.000Z</published>
     <updated>2019-08-11T16:00:00.000Z</updated>
     
@@ -114,23 +114,23 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="jps" scheme="http://forgetst.github.io/categories/Linux/command/jps/"/>
+      <category term="jps" scheme="https://forgetst.github.io/categories/Linux/command/jps/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
   <entry>
     <title>Linux ping command</title>
-    <link href="http://forgetst.github.io/2019/08/11/Linux-command-ping/"/>
-    <id>http://forgetst.github.io/2019/08/11/Linux-command-ping/</id>
+    <link href="https://forgetst.github.io/2019/08/11/Linux-command-ping/"/>
+    <id>https://forgetst.github.io/2019/08/11/Linux-command-ping/</id>
     <published>2019-08-10T16:00:00.000Z</published>
     <updated>2019-08-10T16:00:00.000Z</updated>
     
@@ -140,23 +140,23 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="ping" scheme="http://forgetst.github.io/categories/Linux/command/ping/"/>
+      <category term="ping" scheme="https://forgetst.github.io/categories/Linux/command/ping/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
   <entry>
     <title>Linux 查看系统版本</title>
-    <link href="http://forgetst.github.io/2019/08/11/Linux-Linux-%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC/"/>
-    <id>http://forgetst.github.io/2019/08/11/Linux-Linux-查看系统版本/</id>
+    <link href="https://forgetst.github.io/2019/08/11/Linux-Linux-%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC/"/>
+    <id>https://forgetst.github.io/2019/08/11/Linux-Linux-查看系统版本/</id>
     <published>2019-08-10T16:00:00.000Z</published>
     <updated>2019-08-10T16:00:00.000Z</updated>
     
@@ -166,55 +166,49 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="ifconfig" scheme="http://forgetst.github.io/categories/Linux/command/ifconfig/"/>
+      <category term="ifconfig" scheme="https://forgetst.github.io/categories/Linux/command/ifconfig/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
   <entry>
     <title>Linux grep command</title>
-    <link href="http://forgetst.github.io/2019/08/10/Linux-command-grep/"/>
-    <id>http://forgetst.github.io/2019/08/10/Linux-command-grep/</id>
+    <link href="https://forgetst.github.io/2019/08/10/Linux-command-grep/"/>
+    <id>https://forgetst.github.io/2019/08/10/Linux-command-grep/</id>
     <published>2019-08-09T16:00:00.000Z</published>
     <updated>2019-08-09T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;grep&lt;/strong&gt;（global search regular expression(RE) and print
-        
-      
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;grep&lt;/strong&gt;（global search regular expression(RE) and print out the line，全面搜索正则表达式并把行打印出来）是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。&lt;/p&gt;
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="grep" scheme="http://forgetst.github.io/categories/Linux/command/grep/"/>
+      <category term="grep" scheme="https://forgetst.github.io/categories/Linux/command/grep/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
   <entry>
     <title>hexo 增加浏览次数与访客数量统计功能</title>
-    <link href="http://forgetst.github.io/2019/08/09/hexo-%E8%AE%BE%E7%BD%AE%E8%AE%BF%E9%97%AE%E9%87%8F/"/>
-    <id>http://forgetst.github.io/2019/08/09/hexo-设置访问量/</id>
+    <link href="https://forgetst.github.io/2019/08/09/hexo-%E8%AE%BE%E7%BD%AE%E8%AE%BF%E9%97%AE%E9%87%8F/"/>
+    <id>https://forgetst.github.io/2019/08/09/hexo-设置访问量/</id>
     <published>2019-08-09T13:00:00.000Z</published>
     <updated>2019-08-09T14:25:42.101Z</updated>
     
@@ -224,19 +218,19 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://forgetst.github.io/categories/hexo/"/>
+      <category term="hexo" scheme="https://forgetst.github.io/categories/hexo/"/>
     
-      <category term="config" scheme="http://forgetst.github.io/categories/hexo/config/"/>
+      <category term="config" scheme="https://forgetst.github.io/categories/hexo/config/"/>
     
     
-      <category term="hexo" scheme="http://forgetst.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>git 不同仓库间进行项目迁移</title>
-    <link href="http://forgetst.github.io/2019/08/07/git-%E4%BB%8E%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93/"/>
-    <id>http://forgetst.github.io/2019/08/07/git-从一个git仓库提交代码到另一个git仓库/</id>
+    <link href="https://forgetst.github.io/2019/08/07/git-%E4%BB%8E%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93/"/>
+    <id>https://forgetst.github.io/2019/08/07/git-从一个git仓库提交代码到另一个git仓库/</id>
     <published>2019-08-06T16:00:00.000Z</published>
     <updated>2019-08-06T16:00:00.000Z</updated>
     
@@ -247,17 +241,17 @@
     
     </summary>
     
-      <category term="git" scheme="http://forgetst.github.io/categories/git/"/>
+      <category term="git" scheme="https://forgetst.github.io/categories/git/"/>
     
     
-      <category term="git" scheme="http://forgetst.github.io/tags/git/"/>
+      <category term="git" scheme="https://forgetst.github.io/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>Linux pkill command</title>
-    <link href="http://forgetst.github.io/2019/08/07/Linux-command-pkill/"/>
-    <id>http://forgetst.github.io/2019/08/07/Linux-command-pkill/</id>
+    <link href="https://forgetst.github.io/2019/08/07/Linux-command-pkill/"/>
+    <id>https://forgetst.github.io/2019/08/07/Linux-command-pkill/</id>
     <published>2019-08-06T16:00:00.000Z</published>
     <updated>2019-08-06T16:00:00.000Z</updated>
     
@@ -267,51 +261,23 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="pkill" scheme="http://forgetst.github.io/categories/Linux/command/pkill/"/>
-    
-    
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python __future__ module</title>
-    <link href="http://forgetst.github.io/2019/08/06/python-module-py-future-d/"/>
-    <id>http://forgetst.github.io/2019/08/06/python-module-py-future-d/</id>
-    <published>2019-08-05T16:00:00.000Z</published>
-    <updated>2019-08-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="http://forgetst.github.io/categories/python/"/>
-    
-      <category term="module" scheme="http://forgetst.github.io/categories/python/module/"/>
-    
-      <category term="__future__" scheme="http://forgetst.github.io/categories/python/module/future/"/>
+      <category term="pkill" scheme="https://forgetst.github.io/categories/Linux/command/pkill/"/>
     
     
-      <category term="python" scheme="http://forgetst.github.io/tags/python/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
-      <category term="module" scheme="http://forgetst.github.io/tags/module/"/>
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
   <entry>
     <title>Linux kill command</title>
-    <link href="http://forgetst.github.io/2019/08/06/Linux-command-kill/"/>
-    <id>http://forgetst.github.io/2019/08/06/Linux-command-kill/</id>
+    <link href="https://forgetst.github.io/2019/08/06/Linux-command-kill/"/>
+    <id>https://forgetst.github.io/2019/08/06/Linux-command-kill/</id>
     <published>2019-08-05T16:00:00.000Z</published>
     <updated>2019-08-05T16:00:00.000Z</updated>
     
@@ -323,23 +289,23 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="kill" scheme="http://forgetst.github.io/categories/Linux/command/kill/"/>
+      <category term="kill" scheme="https://forgetst.github.io/categories/Linux/command/kill/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
   <entry>
     <title>Linux killall command</title>
-    <link href="http://forgetst.github.io/2019/08/06/Linux-command-killall/"/>
-    <id>http://forgetst.github.io/2019/08/06/Linux-command-killall/</id>
+    <link href="https://forgetst.github.io/2019/08/06/Linux-command-killall/"/>
+    <id>https://forgetst.github.io/2019/08/06/Linux-command-killall/</id>
     <published>2019-08-05T16:00:00.000Z</published>
     <updated>2019-08-05T16:00:00.000Z</updated>
     
@@ -353,23 +319,23 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="killall" scheme="http://forgetst.github.io/categories/Linux/command/killall/"/>
+      <category term="killall" scheme="https://forgetst.github.io/categories/Linux/command/killall/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
   <entry>
     <title>Linux ps command</title>
-    <link href="http://forgetst.github.io/2019/08/06/Linux-command-ps/"/>
-    <id>http://forgetst.github.io/2019/08/06/Linux-command-ps/</id>
+    <link href="https://forgetst.github.io/2019/08/06/Linux-command-ps/"/>
+    <id>https://forgetst.github.io/2019/08/06/Linux-command-ps/</id>
     <published>2019-08-05T16:00:00.000Z</published>
     <updated>2019-08-05T16:00:00.000Z</updated>
     
@@ -381,51 +347,51 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="ps" scheme="http://forgetst.github.io/categories/Linux/command/ps/"/>
+      <category term="ps" scheme="https://forgetst.github.io/categories/Linux/command/ps/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
   <entry>
-    <title>Linux netstat command</title>
-    <link href="http://forgetst.github.io/2019/08/05/Linux-command-netstat/"/>
-    <id>http://forgetst.github.io/2019/08/05/Linux-command-netstat/</id>
-    <published>2019-08-04T16:00:00.000Z</published>
-    <updated>2019-08-04T16:00:00.000Z</updated>
+    <title>python __future__ module</title>
+    <link href="https://forgetst.github.io/2019/08/06/python-module-py-future-d/"/>
+    <id>https://forgetst.github.io/2019/08/06/python-module-py-future-d/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;在Internet &lt;a href=&quot;https://baike.baidu.com/item/RFC/2798645&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;RFC&lt;/a&gt;&lt;a href=&quot;https://baike.baidu.com/item/标准&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;标准&lt;/a&gt;中， Netstat是在内核中访问网络连接状态及其相关信息的程序，它能提供TCP连接，TCP和UDP监听，进程内存管理的相关报告。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Netstat 是控制台命令&lt;/strong&gt;，是一个监控TCP/IP网络的非常有用的工具，它可以&lt;strong&gt;显示路由表、实际的网络连接以及每一个网络接口设备的状态信息&lt;/strong&gt;。  &lt;/p&gt;
-&lt;p&gt;Netstat 用于&lt;strong&gt;显示与IP、&lt;a href=&quot;https://baike.baidu.com/item/TCP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TCP&lt;/a&gt;、&lt;a href=&quot;https://baike.baidu.com/item/UDP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UDP&lt;/a&gt;和&lt;a href=&quot;https://baike.baidu.com/item/ICMP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ICMP&lt;/a&gt;协议相关的统计数据&lt;/strong&gt;，一般用于检验本机各端口的网络连接情况。&lt;/p&gt;
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/categories/Linux/command/"/>
+      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
     
-      <category term="netstat" scheme="http://forgetst.github.io/categories/Linux/command/netstat/"/>
+      <category term="__future__" scheme="https://forgetst.github.io/categories/python/module/future/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
+      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
     
   </entry>
   
   <entry>
     <title>python glob module</title>
-    <link href="http://forgetst.github.io/2019/08/05/python-module-glob/"/>
-    <id>http://forgetst.github.io/2019/08/05/python-module-glob/</id>
+    <link href="https://forgetst.github.io/2019/08/05/python-module-glob/"/>
+    <id>https://forgetst.github.io/2019/08/05/python-module-glob/</id>
     <published>2019-08-04T16:00:00.000Z</published>
     <updated>2019-08-04T16:00:00.000Z</updated>
     
@@ -442,25 +408,53 @@
     
     </summary>
     
-      <category term="python" scheme="http://forgetst.github.io/categories/python/"/>
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
-      <category term="module" scheme="http://forgetst.github.io/categories/python/module/"/>
+      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
     
-      <category term="glob" scheme="http://forgetst.github.io/categories/python/module/glob/"/>
+      <category term="glob" scheme="https://forgetst.github.io/categories/python/module/glob/"/>
     
     
-      <category term="python" scheme="http://forgetst.github.io/tags/python/"/>
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
-      <category term="module" scheme="http://forgetst.github.io/tags/module/"/>
+      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
     
   </entry>
   
   <entry>
-    <title>The Python Tutorial</title>
-    <link href="http://forgetst.github.io/2019/08/02/python-python3-%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/"/>
-    <id>http://forgetst.github.io/2019/08/02/python-python3-简单教程/</id>
+    <title>Linux netstat command</title>
+    <link href="https://forgetst.github.io/2019/08/05/Linux-command-netstat/"/>
+    <id>https://forgetst.github.io/2019/08/05/Linux-command-netstat/</id>
+    <published>2019-08-04T16:00:00.000Z</published>
+    <updated>2019-08-04T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;在Internet &lt;a href=&quot;https://baike.baidu.com/item/RFC/2798645&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;RFC&lt;/a&gt;&lt;a href=&quot;https://baike.baidu.com/item/标准&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;标准&lt;/a&gt;中， Netstat是在内核中访问网络连接状态及其相关信息的程序，它能提供TCP连接，TCP和UDP监听，进程内存管理的相关报告。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Netstat 是控制台命令&lt;/strong&gt;，是一个监控TCP/IP网络的非常有用的工具，它可以&lt;strong&gt;显示路由表、实际的网络连接以及每一个网络接口设备的状态信息&lt;/strong&gt;。  &lt;/p&gt;
+&lt;p&gt;Netstat 用于&lt;strong&gt;显示与IP、&lt;a href=&quot;https://baike.baidu.com/item/TCP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TCP&lt;/a&gt;、&lt;a href=&quot;https://baike.baidu.com/item/UDP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UDP&lt;/a&gt;和&lt;a href=&quot;https://baike.baidu.com/item/ICMP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ICMP&lt;/a&gt;协议相关的统计数据&lt;/strong&gt;，一般用于检验本机各端口的网络连接情况。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
+    
+      <category term="netstat" scheme="https://forgetst.github.io/categories/Linux/command/netstat/"/>
+    
+    
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The Python3.7 Tutorial</title>
+    <link href="https://forgetst.github.io/2019/08/02/python-python3-%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B/"/>
+    <id>https://forgetst.github.io/2019/08/02/python-python3-简单教程/</id>
     <published>2019-08-01T16:00:00.000Z</published>
-    <updated>2019-08-13T22:10:32.245Z</updated>
+    <updated>2019-08-23T00:18:31.144Z</updated>
     
     <summary type="html">
     
@@ -468,21 +462,21 @@
     
     </summary>
     
-      <category term="python" scheme="http://forgetst.github.io/categories/python/"/>
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
-      <category term="Tutorial" scheme="http://forgetst.github.io/categories/python/Tutorial/"/>
+      <category term="Tutorial" scheme="https://forgetst.github.io/categories/python/Tutorial/"/>
     
     
-      <category term="python" scheme="http://forgetst.github.io/tags/python/"/>
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
-      <category term="Tutorial" scheme="http://forgetst.github.io/tags/Tutorial/"/>
+      <category term="Tutorial" scheme="https://forgetst.github.io/tags/Tutorial/"/>
     
   </entry>
   
   <entry>
     <title>python datetime module</title>
-    <link href="http://forgetst.github.io/2019/08/01/python-module-datetime/"/>
-    <id>http://forgetst.github.io/2019/08/01/python-module-datetime/</id>
+    <link href="https://forgetst.github.io/2019/08/01/python-module-datetime/"/>
+    <id>https://forgetst.github.io/2019/08/01/python-module-datetime/</id>
     <published>2019-07-31T16:00:00.000Z</published>
     <updated>2019-08-01T16:00:00.000Z</updated>
     
@@ -494,23 +488,23 @@
     
     </summary>
     
-      <category term="python" scheme="http://forgetst.github.io/categories/python/"/>
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
-      <category term="module" scheme="http://forgetst.github.io/categories/python/module/"/>
+      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
     
-      <category term="datetime" scheme="http://forgetst.github.io/categories/python/module/datetime/"/>
+      <category term="datetime" scheme="https://forgetst.github.io/categories/python/module/datetime/"/>
     
     
-      <category term="python" scheme="http://forgetst.github.io/tags/python/"/>
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
-      <category term="module" scheme="http://forgetst.github.io/tags/module/"/>
+      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
     
   </entry>
   
   <entry>
     <title>linux 安装ssh以及ssh用法与免密登录</title>
-    <link href="http://forgetst.github.io/2019/07/31/Linux-linux-%E5%AE%89%E8%A3%85ssh%E4%BB%A5%E5%8F%8Assh%E7%94%A8%E6%B3%95%E4%B8%8E%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/"/>
-    <id>http://forgetst.github.io/2019/07/31/Linux-linux-安装ssh以及ssh用法与免密登录/</id>
+    <link href="https://forgetst.github.io/2019/07/31/Linux-linux-%E5%AE%89%E8%A3%85ssh%E4%BB%A5%E5%8F%8Assh%E7%94%A8%E6%B3%95%E4%B8%8E%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95/"/>
+    <id>https://forgetst.github.io/2019/07/31/Linux-linux-安装ssh以及ssh用法与免密登录/</id>
     <published>2019-07-30T16:00:00.000Z</published>
     <updated>2019-08-13T23:12:09.881Z</updated>
     
@@ -523,16 +517,16 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://forgetst.github.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
     
-      <category term="ssh" scheme="http://forgetst.github.io/categories/Linux/ssh/"/>
+      <category term="ssh" scheme="https://forgetst.github.io/categories/Linux/ssh/"/>
     
     
-      <category term="Linux" scheme="http://forgetst.github.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
-      <category term="command" scheme="http://forgetst.github.io/tags/command/"/>
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
-      <category term="ssh" scheme="http://forgetst.github.io/tags/ssh/"/>
+      <category term="ssh" scheme="https://forgetst.github.io/tags/ssh/"/>
     
   </entry>
   
