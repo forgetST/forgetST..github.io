@@ -25,14 +25,8 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;wc&lt;/strong&gt; 命令用于计算字数。&lt;/p&gt;
-&lt;p&gt;利用 &lt;strong&gt;wc&lt;/strong&gt;
-        
-      
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;wc&lt;/strong&gt; 命令用于计算字数。&lt;/p&gt;
+&lt;p&gt;利用 &lt;strong&gt;wc&lt;/strong&gt; 指令我们可以计算文件的Byte数、字数、或是列数，若不指定文件名称、或是所给予的文件名为”-“，则wc指令会从标准输入设备读取数据。&lt;/p&gt;
     
     </summary>
     
@@ -308,34 +302,6 @@
   </entry>
   
   <entry>
-    <title>python __future__ module</title>
-    <link href="https://forgetst.github.io/2019/08/06/python-module-py-future-d/"/>
-    <id>https://forgetst.github.io/2019/08/06/python-module-py-future-d/</id>
-    <published>2019-08-05T16:00:00.000Z</published>
-    <updated>2019-08-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
-    
-      <category term="__future__" scheme="https://forgetst.github.io/categories/python/module/future/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux killall command</title>
     <link href="https://forgetst.github.io/2019/08/06/Linux-command-killall/"/>
     <id>https://forgetst.github.io/2019/08/06/Linux-command-killall/</id>
@@ -362,6 +328,34 @@
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
       <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python __future__ module</title>
+    <link href="https://forgetst.github.io/2019/08/06/python-module-py-future-d/"/>
+    <id>https://forgetst.github.io/2019/08/06/python-module-py-future-d/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
+    
+      <category term="__future__" scheme="https://forgetst.github.io/categories/python/module/future/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
     
   </entry>
   
@@ -422,6 +416,34 @@
   </entry>
   
   <entry>
+    <title>Linux netstat command</title>
+    <link href="https://forgetst.github.io/2019/08/05/Linux-command-netstat/"/>
+    <id>https://forgetst.github.io/2019/08/05/Linux-command-netstat/</id>
+    <published>2019-08-04T16:00:00.000Z</published>
+    <updated>2019-08-04T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;在Internet &lt;a href=&quot;https://baike.baidu.com/item/RFC/2798645&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;RFC&lt;/a&gt;&lt;a href=&quot;https://baike.baidu.com/item/标准&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;标准&lt;/a&gt;中， Netstat是在内核中访问网络连接状态及其相关信息的程序，它能提供TCP连接，TCP和UDP监听，进程内存管理的相关报告。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Netstat 是控制台命令&lt;/strong&gt;，是一个监控TCP/IP网络的非常有用的工具，它可以&lt;strong&gt;显示路由表、实际的网络连接以及每一个网络接口设备的状态信息&lt;/strong&gt;。  &lt;/p&gt;
+&lt;p&gt;Netstat 用于&lt;strong&gt;显示与IP、&lt;a href=&quot;https://baike.baidu.com/item/TCP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TCP&lt;/a&gt;、&lt;a href=&quot;https://baike.baidu.com/item/UDP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UDP&lt;/a&gt;和&lt;a href=&quot;https://baike.baidu.com/item/ICMP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ICMP&lt;/a&gt;协议相关的统计数据&lt;/strong&gt;，一般用于检验本机各端口的网络连接情况。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
+    
+      <category term="netstat" scheme="https://forgetst.github.io/categories/Linux/command/netstat/"/>
+    
+    
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python glob module</title>
     <link href="https://forgetst.github.io/2019/08/05/python-module-glob/"/>
     <id>https://forgetst.github.io/2019/08/05/python-module-glob/</id>
@@ -451,34 +473,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux netstat command</title>
-    <link href="https://forgetst.github.io/2019/08/05/Linux-command-netstat/"/>
-    <id>https://forgetst.github.io/2019/08/05/Linux-command-netstat/</id>
-    <published>2019-08-04T16:00:00.000Z</published>
-    <updated>2019-08-04T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;在Internet &lt;a href=&quot;https://baike.baidu.com/item/RFC/2798645&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;RFC&lt;/a&gt;&lt;a href=&quot;https://baike.baidu.com/item/标准&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;标准&lt;/a&gt;中， Netstat是在内核中访问网络连接状态及其相关信息的程序，它能提供TCP连接，TCP和UDP监听，进程内存管理的相关报告。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Netstat 是控制台命令&lt;/strong&gt;，是一个监控TCP/IP网络的非常有用的工具，它可以&lt;strong&gt;显示路由表、实际的网络连接以及每一个网络接口设备的状态信息&lt;/strong&gt;。  &lt;/p&gt;
-&lt;p&gt;Netstat 用于&lt;strong&gt;显示与IP、&lt;a href=&quot;https://baike.baidu.com/item/TCP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TCP&lt;/a&gt;、&lt;a href=&quot;https://baike.baidu.com/item/UDP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UDP&lt;/a&gt;和&lt;a href=&quot;https://baike.baidu.com/item/ICMP&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ICMP&lt;/a&gt;协议相关的统计数据&lt;/strong&gt;，一般用于检验本机各端口的网络连接情况。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
-    
-      <category term="netstat" scheme="https://forgetst.github.io/categories/Linux/command/netstat/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
