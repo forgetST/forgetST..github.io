@@ -93,18 +93,18 @@
   };
 </script>
 
-  <meta name="description" content="链接是一种文件共享的方式，是 POSIX 中的概念，主流文件系统都支持链接文件。 链接无非是把文件名和计算机文件系统使用的节点号链接起来。因此我们可以用多个文件名与同一个文件进行链接，这些文件名可以在同一目录或不同目录。  对链接进行编辑，实际上是对原始文件进行编辑。">
-<meta name="keywords" content="Linux">
+  <meta name="description" content="作用wc 命令用于计算字数。 利用 wc 指令我们可以计算文件的Byte数、字数、或是列数，若不指定文件名称、或是所给予的文件名为”-“，则wc指令会从标准输入设备读取数据。 用法语法1wc [-clw][--help][--version][文件...]  参数1234567-c, --bytes	 	统计字节数-m, --chars 	统计字符数,这个标志不能与 -c 标志一起使用-l, --">
+<meta name="keywords" content="Linux,command">
 <meta property="og:type" content="article">
-<meta property="og:title" content="软连接与硬连接">
-<meta property="og:url" content="https://forgetst.github.io/2019/08/13/Linux-软连接与硬连接/index.html">
+<meta property="og:title" content="Linux wc command">
+<meta property="og:url" content="https://forgetst.github.io/2019/08/20/Linux-command-wc/index.html">
 <meta property="og:site_name" content="勿忘，须舍">
-<meta property="og:description" content="链接是一种文件共享的方式，是 POSIX 中的概念，主流文件系统都支持链接文件。 链接无非是把文件名和计算机文件系统使用的节点号链接起来。因此我们可以用多个文件名与同一个文件进行链接，这些文件名可以在同一目录或不同目录。  对链接进行编辑，实际上是对原始文件进行编辑。">
+<meta property="og:description" content="作用wc 命令用于计算字数。 利用 wc 指令我们可以计算文件的Byte数、字数、或是列数，若不指定文件名称、或是所给予的文件名为”-“，则wc指令会从标准输入设备读取数据。 用法语法1wc [-clw][--help][--version][文件...]  参数1234567-c, --bytes	 	统计字节数-m, --chars 	统计字符数,这个标志不能与 -c 标志一起使用-l, --">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-14T15:27:20.870Z">
+<meta property="og:updated_time" content="2019-08-19T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="软连接与硬连接">
-<meta name="twitter:description" content="链接是一种文件共享的方式，是 POSIX 中的概念，主流文件系统都支持链接文件。 链接无非是把文件名和计算机文件系统使用的节点号链接起来。因此我们可以用多个文件名与同一个文件进行链接，这些文件名可以在同一目录或不同目录。  对链接进行编辑，实际上是对原始文件进行编辑。">
+<meta name="twitter:title" content="Linux wc command">
+<meta name="twitter:description" content="作用wc 命令用于计算字数。 利用 wc 指令我们可以计算文件的Byte数、字数、或是列数，若不指定文件名称、或是所给予的文件名为”-“，则wc指令会从标准输入设备读取数据。 用法语法1wc [-clw][--help][--version][文件...]  参数1234567-c, --bytes	 	统计字节数-m, --chars 	统计字符数,这个标志不能与 -c 标志一起使用-l, --">
 
 
 
@@ -114,7 +114,7 @@
 
   
   
-  <link rel="canonical" href="https://forgetst.github.io/2019/08/13/Linux-软连接与硬连接/">
+  <link rel="canonical" href="https://forgetst.github.io/2019/08/20/Linux-command-wc/">
 
 
 
@@ -125,7 +125,7 @@
 </script>
 
   
-  <title>软连接与硬连接 | 勿忘，须舍</title>
+  <title>Linux wc command | 勿忘，须舍</title>
   
 
 
@@ -361,7 +361,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/2019/08/13/Linux-软连接与硬连接/">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/2019/08/20/Linux-command-wc/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -378,7 +378,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">软连接与硬连接
+          <h1 class="post-title" itemprop="name headline">Linux wc command
 
               
             
@@ -404,24 +404,10 @@
                 
               
 
-              <time title="创建时间：2019-08-13 00:00" itemprop="dateCreated datePublished" datetime="2019-08-13T00:00:00+08:00">2019-08-13</time>
+              <time title="创建时间：2019-08-20 00:00" itemprop="dateCreated datePublished" datetime="2019-08-20T00:00:00+08:00">2019-08-20</time>
             </span>
           
 
-          
-            
-
-            
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-08-14 23:27" itemprop="dateModified" datetime="2019-08-14T23:27:20+08:00">2019-08-14</time>
-              </span>
-            
           
 
           
@@ -434,6 +420,20 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/" itemprop="url" rel="index"><span itemprop="name">command</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/wc/" itemprop="url" rel="index"><span itemprop="name">wc</span></a></span>
 
                 
                 
@@ -473,42 +473,28 @@
       
 
       
-        <p>链接是一种文件共享的方式，是 <strong>POSIX</strong> 中的概念，主流文件系统都支持链接文件。</p>
-<p>链接无非是把文件名和计算机文件系统使用的节点号链接起来。因此我们可以用多个文件名与同一个文件进行链接，这些文件名可以在同一目录或不同目录。 </p>
-<p>对链接进行编辑，实际上是对原始文件进行编辑。</p>
-<a id="more"></a>
+        <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p><strong>wc</strong> 命令用于计算字数。</p>
+<p>利用 <strong>wc</strong> 指令我们可以计算文件的Byte数、字数、或是列数，若不指定文件名称、或是所给予的文件名为”-“，则wc指令会从标准输入设备读取数据。</p>
+<h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wc [-clw][--help][--version][文件...]</span><br></pre></td></tr></table></figure>
 
-<h2 id="硬链接"><a href="#硬链接" class="headerlink" title="硬链接"></a>硬链接</h2><p>硬链接只能引用同一文件系统中的文件。它引用的是文件在文件系统中的物理索引(也称为 inode)。当您移动或删除原始文件时，硬链接不会被破坏，因为它所引用的是文件的物理数据而不是文件在文件结构中的位置。硬链接的文件不需要用户有访问原始文件的权限，也不会显示原始文件的位置，这样有助于文件的安全。如果您删除的文件有相应的硬链接，那么这个文件依然会保留，直到所有对它的引用都被删除。</p>
-<p><strong>使用</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln [源文件] [目标文件]</span><br></pre></td></tr></table></figure>
+<h3 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">-c, --bytes	 	统计字节数</span><br><span class="line">-m, --chars 	统计字符数,这个标志不能与 -c 标志一起使用</span><br><span class="line">-l, --lines  	统计列数</span><br><span class="line">-L, --max-line-length	打印最长行的长度</span><br><span class="line">-w, --words 	统计字数</span><br><span class="line">–help 			打印帮助文档</span><br><span class="line">–version 		显示版本信息</span><br></pre></td></tr></table></figure>
 
-<p><strong>示例</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># 创建一个测试文件 test.txt</span><br><span class="line">[root@hadoop-centos-01 test]# echo &quot;Make deserts bloom&quot; &gt; text.txt</span><br><span class="line">[root@hadoop-centos-01 test]# ls</span><br><span class="line">text.txt</span><br><span class="line"></span><br><span class="line"># 以 text.txt 为源创建一个硬连接 text.txt.hard</span><br><span class="line">[root@hadoop-centos-01 test]# ln text.txt  text.txt.hard</span><br><span class="line">[root@hadoop-centos-01 test]# ls -li</span><br><span class="line">total 8</span><br><span class="line">51936935 -rw-r--r--. 2 root root 19 Aug 14 06:43 text.txt</span><br><span class="line">51936935 -rw-r--r--. 2 root root 19 Aug 14 06:43 text.txt.hard</span><br></pre></td></tr></table></figure>
+<h3 id="用法示例"><a href="#用法示例" class="headerlink" title="用法示例"></a>用法示例</h3><ul>
+<li><p>查看文件的字节数、字数、行数 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># command</span><br><span class="line">wc filename</span><br><span class="line"></span><br><span class="line"># example</span><br><span class="line">[root@hadoop-centos-01 python_exm]# ls</span><br><span class="line">example.py</span><br><span class="line">[root@hadoop-centos-01 python_exm]# wc example.py</span><br><span class="line"> 4 10 70 example.py</span><br><span class="line"></span><br><span class="line">注: 打印结果依次为：行数 单词数 字节数 文件名</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>只打印统计数字不打印文件名</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-centos-01 python_exm]# wc -l example.py</span><br><span class="line">4 example.py</span><br><span class="line">[root@hadoop-centos-01 python_exm]# cat example.py | wc -l</span><br><span class="line">4</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>统计当前目录下的文件数</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-centos-01 test]# tree -L 1</span><br><span class="line">.</span><br><span class="line">├── hadoop</span><br><span class="line">├── python_exm</span><br><span class="line">├── spark</span><br><span class="line">├── text.txt</span><br><span class="line">├── text.txt.hard</span><br><span class="line">├── text.txt.soft -&gt; text.txt</span><br><span class="line">└── ts.txt</span><br><span class="line"></span><br><span class="line">3 directories, 4 files</span><br><span class="line"></span><br><span class="line">[root@hadoop-centos-01 test]# ls | wc -l</span><br><span class="line">7</span><br></pre></td></tr></table></figure>
 
-<p><strong>注意事项</strong></p>
-<ol>
-<li>修改源文件或者目标文件, 对应另外一个文件也会发生相应修改；</li>
-<li>删除源文件或者目标文件, 对另外一个文件没有影响；</li>
-<li>硬链接文件不占用存储空间；</li>
-<li>不能对目录文件进行创建硬链接操作；</li>
-<li>硬链接文件不能跨文件系统。</li>
-</ol>
-<h2 id="软链接"><a href="#软链接" class="headerlink" title="软链接"></a>软链接</h2><p>软链接也称之为符号连接（Symbolic Link）。</p>
-<p>软链接文件有类似于Windows的快捷方式。它实际上是一个特殊的文件。其包含了另一文件的位置信息。</p>
-<p><strong>使用：</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln -s [源文件或目录]  [目标文件或目录]</span><br></pre></td></tr></table></figure>
 
-<p><strong>示例：</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-centos-01 test]# ln -s text.txt text.txt.soft</span><br><span class="line">[root@hadoop-centos-01 test]# ll -i</span><br><span class="line">total 8</span><br><span class="line">51936935 -rw-r--r--. 2 root root 19 Aug 14 06:43 text.txt</span><br><span class="line">51936935 -rw-r--r--. 2 root root 19 Aug 14 06:43 text.txt.hard # test.txt 的硬链接</span><br><span class="line">51936939 lrwxrwxrwx. 1 root root  8 Aug 14 06:51 text.txt.soft -&gt; text.txt #  test.txt 的软链接</span><br></pre></td></tr></table></figure>
 
-<h2 id="硬链接与软链接的区别"><a href="#硬链接与软链接的区别" class="headerlink" title="硬链接与软链接的区别"></a>硬链接与软链接的区别</h2><p>在Linux的文件系统中，保存在磁盘分区中的文件不管是什么类型都给它分配一个编号，称为<a href="https://baike.baidu.com/item/索引节点" target="_blank" rel="noopener">索引节点</a>号inode 。</p>
-<p>软连接，其实就是新建立一个文件，这个文件就是专门用来指向别的文件的，类似于windows 下的快捷方式。删了这个软连接文件，不影响其指向的实体文件，但如果删除其指向的实体文件，则该软链接不可用。</p>
-<p>硬连接，不会建立<strong>inode</strong>的，他只是在文件原来的inode link count域再增加1而已，也因此硬链接是不可以跨越文件系统的。相反都是软连接会重新建立一个inode，当然inode的结构跟其他的不一样，他只是一个指明源文件的字符串信息。一旦删除源文件，那么软连接将变得毫无意义。而硬链接删除的时候，系统调用会检查inode link count的数值，如果他大于等于1，那么inode不会被回收。因此文件的内容不会被删除。</p>
-<p>创建硬链接实际上是为<strong>原文件在储存器中的资源</strong>再新建一个入口，所以硬链接和原文件指向的其实是<strong>储存器中的同一处资源</strong>（可以理解为硬链接和原文件就是同一个文件）。可以通过ls -i来查看一下，这两个文件的inode号是同一个，说明它们是同一个文件；而软链接建立的是一个指向，即链接文件内的内容是指向原文件的指针，它们是两个文件。</p>
-<p>软链接可以跨文件系统，硬链接不可以；软链接可以对一个不存在的文件名(filename)进行链接（当然此时如果你vi这个软链接文件，linux会自动新建一个文件名为filename的文件）,硬链接不可以（其文件必须存在，inode必须存在）；</p>
-<p>软链接可以对目录进行连接，硬链接不可以。两种链接都可以通过命令 ln 来创建。ln 默认创建的是硬链接。使用 -s 开关可以创建软链接。</p>
-<p><strong>参考：</strong></p>
-<p><a href="https://baike.baidu.com/item/%E7%A1%AC%E9%93%BE%E6%8E%A5" target="_blank" rel="noopener">https://baike.baidu.com/item/%E7%A1%AC%E9%93%BE%E6%8E%A5</a></p>
+</li>
+</ul>
+<h3 id="帮助文档"><a href="#帮助文档" class="headerlink" title="帮助文档"></a>帮助文档</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">Usage: wc [OPTION]... [FILE]...</span><br><span class="line">  or:  wc [OPTION]... --files0-from=F</span><br><span class="line">Print newline, word, and byte counts for each FILE, and a total line if</span><br><span class="line">more than one FILE is specified.  With no FILE, or when FILE is -,</span><br><span class="line">read standard input.  A word is a non-zero-length sequence of characters</span><br><span class="line">delimited by white space.</span><br><span class="line">The options below may be used to select which counts are printed, always in</span><br><span class="line">the following order: newline, word, character, byte, maximum line length.</span><br><span class="line">  -c, --bytes            print the byte counts</span><br><span class="line">  -m, --chars            print the character counts</span><br><span class="line">  -l, --lines            print the newline counts</span><br><span class="line">      --files0-from=F    read input from the files specified by</span><br><span class="line">                           NUL-terminated names in file F;</span><br><span class="line">                           If F is - then read names from standard input</span><br><span class="line">  -L, --max-line-length  print the length of the longest line</span><br><span class="line">  -w, --words            print the word counts</span><br><span class="line">      --help     display this help and exit</span><br><span class="line">      --version  output version information and exit</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
@@ -547,7 +533,7 @@
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
     
-    <a href="https://forgetst.github.io/2019/08/13/Linux-软连接与硬连接/" title="软连接与硬连接">https://forgetst.github.io/2019/08/13/Linux-软连接与硬连接/</a>
+    <a href="https://forgetst.github.io/2019/08/20/Linux-command-wc/" title="Linux wc command">https://forgetst.github.io/2019/08/20/Linux-command-wc/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
@@ -576,6 +562,8 @@
           
             <a href="/tags/Linux/" rel="tag"># Linux</a>
           
+            <a href="/tags/command/" rel="tag"># command</a>
+          
         </div>
       
 
@@ -587,8 +575,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/08/12/Linux-command-jps/" rel="next" title="Linux jps">
-                <i class="fa fa-chevron-left"></i> Linux jps
+              <a href="/2019/08/19/Linux-设置静态IP/" rel="next" title="Linux 设置静态IP">
+                <i class="fa fa-chevron-left"></i> Linux 设置静态IP
               </a>
             
           </div>
@@ -596,10 +584,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/08/14/Linux-执行chmod-R-777-命令误操作根目录/" rel="prev" title="执行chmod -R 777 命令误操作根目录补救的方法">
-                执行chmod -R 777 命令误操作根目录补救的方法 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -881,7 +865,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#硬链接"><span class="nav-number">1.</span> <span class="nav-text">硬链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#软链接"><span class="nav-number">2.</span> <span class="nav-text">软链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#硬链接与软链接的区别"><span class="nav-number">3.</span> <span class="nav-text">硬链接与软链接的区别</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#作用"><span class="nav-number">1.</span> <span class="nav-text">作用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#用法"><span class="nav-number">2.</span> <span class="nav-text">用法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#语法"><span class="nav-number">2.1.</span> <span class="nav-text">语法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参数"><span class="nav-number">2.2.</span> <span class="nav-text">参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#用法示例"><span class="nav-number">2.3.</span> <span class="nav-text">用法示例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#帮助文档"><span class="nav-number">2.4.</span> <span class="nav-text">帮助文档</span></a></li></ol></li></ol></div>
             
 
           </div>
