@@ -552,15 +552,91 @@
 <p>HTML文件后缀名为 <code>.html</code> 或 <code>.htm</code></p>
 <h3 id="HTML结构标准"><a href="#HTML结构标准" class="headerlink" title="HTML结构标准"></a>HTML结构标准</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;    	# 声明文档类型</span><br><span class="line">&lt;html lang=&quot;en&quot;&gt;	# 根标签</span><br><span class="line">&lt;head&gt;		# 头标签</span><br><span class="line">    &lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</span><br><span class="line">    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;</span><br><span class="line">    &lt;title&gt;Document&lt;/title&gt;		# 标题标签</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;	# 主题标签</span><br><span class="line">    。。。</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 
-<h3 id="HTML标签分类"><a href="#HTML标签分类" class="headerlink" title="HTML标签分类"></a>HTML标签分类</h3><ul>
+<h3 id="HTML标签分类"><a href="#HTML标签分类" class="headerlink" title="HTML标签分类"></a>HTML标签分类</h3><h4 id="单标签"><a href="#单标签" class="headerlink" title="单标签"></a>单标签</h4><ul>
 <li><p>单标签</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;hr /&gt; 、&lt;br /&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>注释标签</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 注释内容 --&gt;</span><br><span class="line">注： 快捷键 Ctrl + /</span><br></pre></td></tr></table></figure>
 </li>
+<li><p>换行标签</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;br /&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>水平线标签</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;hr /&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>图片标签</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=&quot;/path/filename&quot; alt=&quot;替代文字&quot; /&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>。。。。。。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="双标签"><a href="#双标签" class="headerlink" title="双标签"></a>双标签</h4><ul>
 <li><p>双标签</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;...&lt;/html&gt; 、&lt;head&gt;...&lt;/head&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>段落标签</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;p&gt;段落内容&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
 
 </li>
 </ul>
+</li>
+</ul>
+<ul>
+<li><p>标题标签</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;h#&gt; 标题 &lt;/h#&gt;</span><br><span class="line"></span><br><span class="line">注： # 为 1-6</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li><p>文本标签</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;font&gt;文本内容&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li><p>文本加粗标签</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;strong&gt;文本内容&lt;/strong&gt; # 建议使用</span><br><span class="line">或</span><br><span class="line">&lt;b&gt;文本内容&lt;/b&gt;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li><p>下划线标签</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;ins&gt;文本内容&lt;/ins&gt;</span><br><span class="line">或</span><br><span class="line">&lt;u&gt;文本内容&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li><p>文本倾斜标签</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;em&gt;文本内容&lt;/em&gt;  # 建议使用</span><br><span class="line">或</span><br><span class="line">&lt;i&gt;文本内容&lt;/i&gt;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li><p>删除线标签</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;del&gt;文本内容&lt;/del&gt;   # 建议使用</span><br><span class="line">或</span><br><span class="line">&lt;s&gt;&lt;/s&gt;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li><p>超链接</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;link path&quot;&gt;链接名&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<ul>
+<li>。。。。。。</li>
+</ul>
+<h3 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h3><h4 id="相对路径"><a href="#相对路径" class="headerlink" title="相对路径"></a>相对路径</h4><p>相对于文件自身出发的路径，就是相对路径。</p>
+<h4 id="绝对路径"><a href="#绝对路径" class="headerlink" title="绝对路径"></a>绝对路径</h4><p>从根目录出发的路径，即位绝对路径。</p>
 
       
     </div>
@@ -725,7 +801,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">25</span>
+          <span class="site-state-item-count">26</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -935,7 +1011,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#认识windows快捷键"><span class="nav-number">1.</span> <span class="nav-text">认识windows快捷键</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#认识大前端"><span class="nav-number">2.</span> <span class="nav-text">认识大前端</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#认识网页"><span class="nav-number">3.</span> <span class="nav-text">认识网页</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#web标准"><span class="nav-number">3.1.</span> <span class="nav-text">web标准</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#浏览器"><span class="nav-number">3.2.</span> <span class="nav-text">浏览器</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初识HTML"><span class="nav-number">4.</span> <span class="nav-text">初识HTML</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTML结构标准"><span class="nav-number">4.1.</span> <span class="nav-text">HTML结构标准</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HTML标签分类"><span class="nav-number">4.2.</span> <span class="nav-text">HTML标签分类</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#认识windows快捷键"><span class="nav-number">1.</span> <span class="nav-text">认识windows快捷键</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#认识大前端"><span class="nav-number">2.</span> <span class="nav-text">认识大前端</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#认识网页"><span class="nav-number">3.</span> <span class="nav-text">认识网页</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#web标准"><span class="nav-number">3.1.</span> <span class="nav-text">web标准</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#浏览器"><span class="nav-number">3.2.</span> <span class="nav-text">浏览器</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初识HTML"><span class="nav-number">4.</span> <span class="nav-text">初识HTML</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTML结构标准"><span class="nav-number">4.1.</span> <span class="nav-text">HTML结构标准</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HTML标签分类"><span class="nav-number">4.2.</span> <span class="nav-text">HTML标签分类</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#单标签"><span class="nav-number">4.2.1.</span> <span class="nav-text">单标签</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#双标签"><span class="nav-number">4.2.2.</span> <span class="nav-text">双标签</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#路径"><span class="nav-number">4.3.</span> <span class="nav-text">路径</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#相对路径"><span class="nav-number">4.3.1.</span> <span class="nav-text">相对路径</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#绝对路径"><span class="nav-number">4.3.2.</span> <span class="nav-text">绝对路径</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
