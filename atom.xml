@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2019-08-24T16:00:00.000Z</updated>
+  <updated>2019-09-01T07:37:30.955Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The Python 魔法方法</title>
+    <link href="https://forgetst.github.io/2019/08/30/python-python-%E9%AD%94%E6%B3%95%E6%96%B9%E6%B3%95/"/>
+    <id>https://forgetst.github.io/2019/08/30/python-python-魔法方法/</id>
+    <published>2019-08-29T16:00:00.000Z</published>
+    <updated>2019-09-01T07:37:30.955Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;魔法方法&lt;/strong&gt;，也叫做&lt;strong&gt;特殊方法&lt;/strong&gt;，是指名称前面和后面都加上了双下划线的方法。&lt;/p&gt;
+&lt;p&gt;对python而言，下划线对解释器有特殊的意义，而且是内建标识符所使用的符号，故应慎用下划线开始的变量名。&lt;/p&gt;
+&lt;p&gt;python中，变量以单下划线和双下划线开始，有不同的含义：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“单下划线” 开始的成员变量叫做保护变量&lt;/strong&gt;，意思是只有类对象和子类对象自己能访问到这些变量；&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“双下划线” 开始的是私有成员&lt;/strong&gt;，意思是只有类对象自己能访问，连子类对象也不能访问到这个数据。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>python operator module</title>
@@ -207,32 +231,6 @@
   </entry>
   
   <entry>
-    <title>Linux ping command</title>
-    <link href="https://forgetst.github.io/2019/08/11/Linux-command-ping/"/>
-    <id>https://forgetst.github.io/2019/08/11/Linux-command-ping/</id>
-    <published>2019-08-10T16:00:00.000Z</published>
-    <updated>2019-08-10T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt;网络命令，用来测试与目标主机的连通性。  &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
-    
-      <category term="ping" scheme="https://forgetst.github.io/categories/Linux/command/ping/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux 查看系统版本</title>
     <link href="https://forgetst.github.io/2019/08/11/Linux-Linux-%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC/"/>
     <id>https://forgetst.github.io/2019/08/11/Linux-Linux-查看系统版本/</id>
@@ -250,6 +248,32 @@
       <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
       <category term="ifconfig" scheme="https://forgetst.github.io/categories/Linux/command/ifconfig/"/>
+    
+    
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux ping command</title>
+    <link href="https://forgetst.github.io/2019/08/11/Linux-command-ping/"/>
+    <id>https://forgetst.github.io/2019/08/11/Linux-command-ping/</id>
+    <published>2019-08-10T16:00:00.000Z</published>
+    <updated>2019-08-10T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt;网络命令，用来测试与目标主机的连通性。  &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
+    
+      <category term="ping" scheme="https://forgetst.github.io/categories/Linux/command/ping/"/>
     
     
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
@@ -354,34 +378,6 @@
   </entry>
   
   <entry>
-    <title>python __future__ module</title>
-    <link href="https://forgetst.github.io/2019/08/06/python-module-py-future-d/"/>
-    <id>https://forgetst.github.io/2019/08/06/python-module-py-future-d/</id>
-    <published>2019-08-05T16:00:00.000Z</published>
-    <updated>2019-08-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
-    
-      <category term="__future__" scheme="https://forgetst.github.io/categories/python/module/future/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux kill command</title>
     <link href="https://forgetst.github.io/2019/08/06/Linux-command-kill/"/>
     <id>https://forgetst.github.io/2019/08/06/Linux-command-kill/</id>
@@ -468,22 +464,17 @@
   </entry>
   
   <entry>
-    <title>python glob module</title>
-    <link href="https://forgetst.github.io/2019/08/05/python-module-glob/"/>
-    <id>https://forgetst.github.io/2019/08/05/python-module-glob/</id>
-    <published>2019-08-04T16:00:00.000Z</published>
-    <updated>2019-08-04T16:00:00.000Z</updated>
+    <title>python __future__ module</title>
+    <link href="https://forgetst.github.io/2019/08/06/python-module-py-future-d/"/>
+    <id>https://forgetst.github.io/2019/08/06/python-module-py-future-d/</id>
+    <published>2019-08-05T16:00:00.000Z</published>
+    <updated>2019-08-05T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;glob&lt;/strong&gt; —查找符合特定规则的文件路径名&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Source code:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/glob.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/glob.py&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;匹配符：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;*  匹配0个或多个字符&lt;/li&gt;
-&lt;li&gt;?  匹配单个字符&lt;/li&gt;
-&lt;li&gt;[] 匹配指定范围内的字符，如：[0-9]匹配数字&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -491,7 +482,7 @@
     
       <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
     
-      <category term="glob" scheme="https://forgetst.github.io/categories/python/module/glob/"/>
+      <category term="__future__" scheme="https://forgetst.github.io/categories/python/module/future/"/>
     
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
