@@ -420,7 +420,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-09-06 22:36" itemprop="dateModified" datetime="2019-09-06T22:36:23+08:00">2019-09-06</time>
+                <time title="修改时间：2019-09-06 23:12" itemprop="dateModified" datetime="2019-09-06T23:12:03+08:00">2019-09-06</time>
               </span>
             
           
@@ -530,16 +530,64 @@
 <li><p><strong>package</strong> 导入</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">import test_package</span><br><span class="line"></span><br><span class="line">注：通过此种方式导入包，其实际是运行了 __init__.py 文件， 故将需要导入的模块导入到 __init__.py 文件即可</span><br></pre></td></tr></table></figure>
 
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">from test_package import pack1, pack2</span><br></pre></td></tr></table></figure>
 
+</li>
+</ul>
+<h3 id="命名空间"><a href="#命名空间" class="headerlink" title="命名空间"></a>命名空间</h3><ul>
+<li><p><strong>定义</strong></p>
+<ul>
+<li>名称到对象的映射。</li>
+<li>命名空间是一个字典的实现，键为变量名，值是变量对应的值。</li>
+<li>各个命名空间是独立没有关系的，一个命名空间中不能有重名，但是不同的命名空间可以重名而没有任何影响。</li>
+</ul>
+</li>
+<li><p><strong>分类</strong></p>
+<ul>
+<li>局部命名空间（Local Namespace），函数运行时创建，记录了函数中定义的所有变量，包括函数的入参、内部定义的局部变量。</li>
+<li>全局命名空间（Global Namespace），每个模块加载时创建，记录了模块中定义的变量，包括模块中定义的函数、类、其他导入的模块、模块级的变量与常量。</li>
+<li>内建命名空间（Built-in Namespace ），任何模块均可以访问，放着内置的函数和异常。</li>
+</ul>
+</li>
+<li><p><strong>生命周期</strong></p>
+<ul>
+<li>Local Namespace 在函数被调用时创建，结束时销毁。</li>
+<li>Global Namespace 在模块被加载时创建，通常一直保留直到python解释器退出。</li>
+<li>Built-inNamespace 在python解释器启动时创建，一直保留直到解释器退出。</li>
+</ul>
+</li>
+<li><p><strong>创建顺序</strong></p>
+<ul>
+<li>内建命名空间 -&gt; 全局命名空间 -&gt; 局部命名空间</li>
+</ul>
+</li>
+<li><p><strong>销毁顺序</strong></p>
+<ul>
+<li>局部命名空间 -&gt; 全局命名空间 -&gt; 内建命名空间</li>
+</ul>
+</li>
+<li><p><strong>变量查找顺序</strong></p>
+<ul>
+<li>局部命名空间 -&gt; 全局命名空间 -&gt; 内建命名空间</li>
+<li>若在这些命名空间找不到相关变量，Python会放弃查找并且引发一个NameError异常</li>
+</ul>
+</li>
+<li><p><strong>访问</strong></p>
+<ul>
+<li><p>局部命名空间可以通过 <strong>locals()</strong>  访问</p>
+<p>locals()返回一个键/值的dict，键为变量名字（str形式），值为该变量的实际值</p>
+</li>
+<li><p>全局命名空间可以用 <strong>globals()</strong> 访问</p>
+</li>
+</ul>
+<p>注：</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">1. 模块的命名空间不仅包括模块的常量和变量，还包括模块中定义的函数和类。此外还包括，任何被导入模块中的东西。</span><br><span class="line">2. 内置命名同样放置在一个模块中，被称作builtins</span><br><span class="line">3. from module import function 和import module不同</span><br><span class="line">	使用import module,模块被导入，但是它仍保持自己的命名空间，所以需要模块名来访问函数或者属性（例如module.function）；</span><br><span class="line">	使用from module import function ，实际上是直接从另一个模块中导入相关属性或函数，因此可以直接访问而不需要知道它们的来源。使用globals函数可以实现。</span><br><span class="line">4. locals是只读的(不能改变)，globals不是（可以改变）</span><br><span class="line">	locals没有返回局部命名空间，它返回的是一个拷贝。所以对它进行改变，对局部命名空间中的变量值没有影响</span><br><span class="line">	globals返回全部实际命名空间，而非拷贝。所以globals返回的dict任何改动都会影响到全局变量</span><br></pre></td></tr></table></figure>
 
 
 
 </li>
 </ul>
-<ul>
-<li>import test_package</li>
-</ul>
-<h3 id="命名空间"><a href="#命名空间" class="headerlink" title="命名空间"></a>命名空间</h3>
+
           
         
       
