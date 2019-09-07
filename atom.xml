@@ -69,13 +69,10 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;斐波那契数列（Fibonacci sequence），又称&lt;a
-        
-      
+      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;斐波那契数列（Fibonacci sequence），又称&lt;a href=&quot;https://baike.baidu.com/item/黄金分割/115896&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;黄金分割&lt;/a&gt;数列、因数学家列昂纳多·斐波那契（Leonardoda Fibonacci）以兔子繁殖为例子而引入，故又称为“&lt;a href=&quot;https://baike.baidu.com/item/兔子数列/6849441&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;兔子数列&lt;/a&gt;”。&lt;/p&gt;
+&lt;p&gt;其指的是这样一个数列：1、1、2、3、5、8、13、21、34、……&lt;br&gt;如果设F(n）为该数列的第n项（n∈N*），那么这句话可以写成如下形式：:F(n)=F(n-1)+F(n-2)&lt;/p&gt;
+&lt;p&gt;在现代物理、准晶体结构、化学等领域，斐波纳契数列都有直接的应用。&lt;/p&gt;
+&lt;p&gt;详细介绍参考：&lt;a href=&quot;https://baike.baidu.com/item/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145?fromtitle=%E6%96%90%E6%B3%A2%E7%BA%B3%E5%A5%91%E6%95%B0%E5%88%97&amp;fromid=6286043&amp;fr=aladdin&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;传送门&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -329,28 +326,6 @@
   </entry>
   
   <entry>
-    <title>hexo 添加页面点击特效</title>
-    <link href="https://forgetst.github.io/2019/08/10/hexo-%E6%B7%BB%E5%8A%A0%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E7%89%B9%E6%95%88/"/>
-    <id>https://forgetst.github.io/2019/08/10/hexo-添加鼠标点击特效/</id>
-    <published>2019-08-09T16:00:00.000Z</published>
-    <updated>2019-08-09T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文主要介绍点击页面出现心形图标。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="hexo" scheme="https://forgetst.github.io/categories/hexo/"/>
-    
-      <category term="config" scheme="https://forgetst.github.io/categories/hexo/config/"/>
-    
-    
-      <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo 添加页面萌宠</title>
     <link href="https://forgetst.github.io/2019/08/10/hexo-%E6%B7%BB%E5%8A%A0%E8%90%8C%E5%AE%A0/"/>
     <id>https://forgetst.github.io/2019/08/10/hexo-添加萌宠/</id>
@@ -400,6 +375,28 @@
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
       <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo 添加页面点击特效</title>
+    <link href="https://forgetst.github.io/2019/08/10/hexo-%E6%B7%BB%E5%8A%A0%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E7%89%B9%E6%95%88/"/>
+    <id>https://forgetst.github.io/2019/08/10/hexo-添加鼠标点击特效/</id>
+    <published>2019-08-09T16:00:00.000Z</published>
+    <updated>2019-08-09T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文主要介绍点击页面出现心形图标。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://forgetst.github.io/categories/hexo/"/>
+    
+      <category term="config" scheme="https://forgetst.github.io/categories/hexo/config/"/>
+    
+    
+      <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -473,17 +470,19 @@
   </entry>
   
   <entry>
-    <title>Linux kill command</title>
-    <link href="https://forgetst.github.io/2019/08/06/Linux-command-kill/"/>
-    <id>https://forgetst.github.io/2019/08/06/Linux-command-kill/</id>
+    <title>Linux killall command</title>
+    <link href="https://forgetst.github.io/2019/08/06/Linux-command-killall/"/>
+    <id>https://forgetst.github.io/2019/08/06/Linux-command-killall/</id>
     <published>2019-08-05T16:00:00.000Z</published>
     <updated>2019-08-05T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。&lt;/p&gt;
-&lt;p&gt;kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。&lt;/p&gt;
-&lt;p&gt;进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。&lt;/p&gt;
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;killall - kill processes by name&lt;/p&gt;
+&lt;p&gt;killall  sends  a  signal  to all processes running any of the specified commands.  If no signal name is specified, SIGTERM is sent. Signals can be specified either by name (e.g.  -HUP or -SIGHUP) or by number (e.g.  -1) or by option -s.&lt;/p&gt;
+&lt;p&gt;If the command name is not regular expression (option -r) and contains a slash (/), processes executing that  particular  file will be selected for killing, independent of their name.&lt;/p&gt;
+&lt;p&gt;killall returns a zero return code if at least one process has been killed for each listed command, or no commands were listed and at least one process matched the -u and -Z search criteria.  killall returns non-zero otherwise.&lt;/p&gt;
+&lt;p&gt;A killall process never kills itself (but may kill other killall processes)&lt;/p&gt;
     
     </summary>
     
@@ -491,7 +490,7 @@
     
       <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="kill" scheme="https://forgetst.github.io/categories/Linux/command/kill/"/>
+      <category term="killall" scheme="https://forgetst.github.io/categories/Linux/command/killall/"/>
     
     
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
