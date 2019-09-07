@@ -93,18 +93,18 @@
   };
 </script>
 
-  <meta name="description" content="前言python module （python 模块） module 定义  是一个以 .py、.pyo、.pyc、.pyd、.so、.dll等结尾的文件； 文件内包含了Python定义的变量、函数、类和及其它可执行语句。   module 来源  Python内置的模块（标准库） 第三方模块 自定义模块   module  使用  当做脚本直接运行 12345678910111213141516">
+  <meta name="description" content="前期铺垫本文测试环境为python3。这里先简单介绍下与 import 导入相关的概念。">
 <meta name="keywords" content="python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python import 原理">
 <meta property="og:url" content="https://forgetst.github.io/2019/09/04/python-python-import原理/index.html">
 <meta property="og:site_name" content="勿忘，须舍">
-<meta property="og:description" content="前言python module （python 模块） module 定义  是一个以 .py、.pyo、.pyc、.pyd、.so、.dll等结尾的文件； 文件内包含了Python定义的变量、函数、类和及其它可执行语句。   module 来源  Python内置的模块（标准库） 第三方模块 自定义模块   module  使用  当做脚本直接运行 12345678910111213141516">
+<meta property="og:description" content="前期铺垫本文测试环境为python3。这里先简单介绍下与 import 导入相关的概念。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-06T15:12:03.249Z">
+<meta property="og:updated_time" content="2019-09-07T06:19:35.626Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python import 原理">
-<meta name="twitter:description" content="前言python module （python 模块） module 定义  是一个以 .py、.pyo、.pyc、.pyd、.so、.dll等结尾的文件； 文件内包含了Python定义的变量、函数、类和及其它可执行语句。   module 来源  Python内置的模块（标准库） 第三方模块 自定义模块   module  使用  当做脚本直接运行 12345678910111213141516">
+<meta name="twitter:description" content="前期铺垫本文测试环境为python3。这里先简单介绍下与 import 导入相关的概念。">
 
 
 
@@ -419,7 +419,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-09-06 23:12" itemprop="dateModified" datetime="2019-09-06T23:12:03+08:00">2019-09-06</time>
+                <time title="修改时间：2019-09-07 14:19" itemprop="dateModified" datetime="2019-09-07T14:19:35+08:00">2019-09-07</time>
               </span>
             
           
@@ -473,7 +473,10 @@
       
 
       
-        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="python-module-（python-模块）"><a href="#python-module-（python-模块）" class="headerlink" title="python module （python 模块）"></a><strong>python module</strong> （python 模块）</h3><ul>
+        <h2 id="前期铺垫"><a href="#前期铺垫" class="headerlink" title="前期铺垫"></a>前期铺垫</h2><p>本文测试环境为python3。这里先简单介绍下与 import 导入相关的概念。</p>
+<a id="more"></a>
+
+<h3 id="python-module-（python-模块）"><a href="#python-module-（python-模块）" class="headerlink" title="python module （python 模块）"></a><strong>python module</strong> （python 模块）</h3><ul>
 <li><p><strong>module</strong> 定义</p>
 <ul>
 <li>是一个以 <code>.py、.pyo、.pyc、.pyd、.so、.dll</code>等结尾的文件；</li>
@@ -519,8 +522,10 @@
 </li>
 <li><p><code>__init __.py</code> 文件在包被导入时会自动运行</p>
 </li>
+<li><p>所有的包都是模块，但并非所有模块都是包。 或者换句话说，包只是一种特殊的模块。任何具有 <code>__path__</code> 属性的模块都会被当作是包。</p>
+</li>
 <li><p>示例：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">test_package/</span><br><span class="line">├── __init__.py</span><br><span class="line">├── pack1</span><br><span class="line">│   ├── __init__.py</span><br><span class="line">│   ├── mod1.py</span><br><span class="line">│   └── mod2.py</span><br><span class="line">└── pack2</span><br><span class="line">    ├── __init__.py</span><br><span class="line">    ├── mod1.py</span><br><span class="line">    └── mod2.py</span><br><span class="line"></span><br><span class="line"># 在根目录下的 __init__.py 文件写入下列语句</span><br><span class="line">    import pack1</span><br><span class="line">    import pack2</span><br><span class="line"></span><br><span class="line"># 在pack1 __init__.py 文件写入下列语句</span><br><span class="line">	import pack1.mod1</span><br><span class="line">	import pack1.mod2</span><br><span class="line"></span><br><span class="line"># 在pack2 __init__.py 文件写入下列语句</span><br><span class="line">	import pack2.mod1</span><br><span class="line">	import pack2.mod2</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">test_package/</span><br><span class="line">├── __init__.py</span><br><span class="line">├── pack1</span><br><span class="line">│   ├── __init__.py</span><br><span class="line">│   ├── mod1.py</span><br><span class="line">│   └── mod2.py</span><br><span class="line">└── pack2</span><br><span class="line">    ├── __init__.py</span><br><span class="line">    ├── mod1.py</span><br><span class="line">    └── mod2.py</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
@@ -580,10 +585,99 @@
 <p>注：</p>
   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">1. 模块的命名空间不仅包括模块的常量和变量，还包括模块中定义的函数和类。此外还包括，任何被导入模块中的东西。</span><br><span class="line">2. 内置命名同样放置在一个模块中，被称作builtins</span><br><span class="line">3. from module import function 和import module不同</span><br><span class="line">	使用import module,模块被导入，但是它仍保持自己的命名空间，所以需要模块名来访问函数或者属性（例如module.function）；</span><br><span class="line">	使用from module import function ，实际上是直接从另一个模块中导入相关属性或函数，因此可以直接访问而不需要知道它们的来源。使用globals函数可以实现。</span><br><span class="line">4. locals是只读的(不能改变)，globals不是（可以改变）</span><br><span class="line">	locals没有返回局部命名空间，它返回的是一个拷贝。所以对它进行改变，对局部命名空间中的变量值没有影响</span><br><span class="line">	globals返回全部实际命名空间，而非拷贝。所以globals返回的dict任何改动都会影响到全局变量</span><br></pre></td></tr></table></figure>
 
-
+</li>
+</ul>
+<h3 id="作用域"><a href="#作用域" class="headerlink" title="作用域"></a>作用域</h3><ul>
+<li><p><strong>定义</strong></p>
+<p>访问变量时所查找的区域，python中作用域规则可以简单的归纳为LEGB原则：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">L：local，局部作用域，即函数中定义的变量；</span><br><span class="line">E：enclosing，外部嵌套函数作用域，即包含此函数的上级函数的局部作用域，但不是全局的；</span><br><span class="line">G：global，全局作用域，就是模块级别定义的变量；</span><br><span class="line">B：built-in，内建作用域，系统固定模块里面的变量，比如：int，bytearray等</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>查找顺序</strong></p>
+<p>局部作用域 -&gt;外部嵌套函数作用域 -&gt; 全局作用域 -&gt; 内建作用域，即 L -&gt; E -&gt; G -&gt; B</p>
+</li>
+<li><p><strong>global 关键字</strong></p>
+<ul>
+<li><p>global 关键字用来在函数或其他局部作用域中使用全局变量。如果不修改全局变量，根据变量查找规则，也可以不使用global关键字。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/env python3</span><br><span class="line"></span><br><span class="line">gloabl_var = 1</span><br><span class="line"></span><br><span class="line">def func1():</span><br><span class="line">	print(gloal_var)  # 若不修改全局变量，可直接使用</span><br><span class="line">	</span><br><span class="line">def func2():</span><br><span class="line">	global gloabl_var</span><br><span class="line">	gloabl_var += 1</span><br><span class="line">	print(gloabl_var)</span><br><span class="line"></span><br><span class="line">if __name__ == &quot;__main__&quot;:</span><br><span class="line">	func1()  # 1</span><br><span class="line">	func2()  # 2</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>global 关键字用来在函数或其他局部作用域中声明全局变量。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/env python3</span><br><span class="line">	</span><br><span class="line">def func():</span><br><span class="line">	global gloabl_var	# 声明的全局变量可在全局命名空间内使用</span><br><span class="line">	gloabl_var = 1</span><br><span class="line">	print(gloabl_var)</span><br><span class="line"> </span><br><span class="line">print(gloabl_var)  # 1</span><br><span class="line"></span><br><span class="line">if __name__ == &quot;__main__&quot;：</span><br><span class="line">	func()</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p><strong>nonlocal关键字</strong></p>
+<p>nonlocal 关键字用来在函数或其他作用域中使用外层(非全局)变量。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/env python3</span><br><span class="line"></span><br><span class="line">def func(): </span><br><span class="line">    count = 0 </span><br><span class="line">    def counter(): </span><br><span class="line">        nonlocal count </span><br><span class="line">        count += 1 </span><br><span class="line">        return count </span><br><span class="line">    return counter </span><br><span class="line"></span><br><span class="line">if __name__ == &quot;__main__&quot;:</span><br><span class="line">	func()()  # 1</span><br></pre></td></tr></table></figure>
 
 </li>
 </ul>
+<p>注：Python 中只有模块（module），类（class）以及函数（def、lambda）才会引入新的作用域，其它的代码块（如 if ~ elif ~ else、try ~ except、for ~ else 、while ~ else等）是不会引入新的作用域的，故在这些语句内定义的变量，外部也可以访问。</p>
+<h2 id="import-导入"><a href="#import-导入" class="headerlink" title="import 导入"></a>import 导入</h2><h3 id="Python-import-搜索路径"><a href="#Python-import-搜索路径" class="headerlink" title="Python import 搜索路径"></a>Python import 搜索路径</h3><pre><code>1. 在当前目录下搜索该模块
+2. python安装目录，UNIX下，默认路径一般为/usr/local/lib/python/
+3. 在 Python 安装路径的 lib 库中搜索
+4. python3.x 中.pth 文件内容</code></pre><p>注：import 搜索路径是按照 <code>sys.path</code>中的路径列表来搜索的。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; import sys</span><br><span class="line">&gt;&gt;&gt; sys.path</span><br><span class="line">[&apos;&apos;, &apos;/usr/local/python2/lib/python27.zip&apos;, &apos;/usr/local/python2/lib/python2.7&apos;, &apos;/usr/local/python2/lib/python2.7/plat-linux2&apos;, &apos;/usr/local/python2/lib/python2.7/lib-tk&apos;, &apos;/usr/local/python2/lib/python2.7/lib-old&apos;, &apos;/usr/local/python2/lib/python2.7/lib-dynload&apos;, &apos;/usr/local/python2/lib/python2.7/site-packages&apos;, &apos;/usr/local/python2/lib/python2.7/site-packages/setuptools-41.0.1-py2.7.egg&apos;, &apos;/usr/local/python2/lib/python2.7/site-packages/pip-19.1.1-py2.7.egg&apos;]</span><br><span class="line"></span><br><span class="line"># sys.path 是一个list, 第一项为一个空字符串，代表当前目录，可通过 os.getcwd() 查看当前所在目录。</span><br></pre></td></tr></table></figure>
+
+<h3 id="Python-import-导入步骤"><a href="#Python-import-导入步骤" class="headerlink" title="Python import 导入步骤"></a>Python import 导入步骤</h3><p>​    python 所有加载的模块信息都存放在 <code>sys.modules</code>结构中，当 import 一个模块时，会按如下步骤来进行：</p>
+<ol>
+<li>如果是 <code>import A</code>，检查 <code>sys.modules</code>中是否已经有 A，如果有则不加载，如果没有则为 A 创建 module 对象，并加载 A 到 <code>sys.modules</code> 中</li>
+<li>如果是 <code>from A import B</code>，先为 A 创建 module 对象，再解析A，从中寻找B并填充到 A 的 <code>__dict__</code>中</li>
+</ol>
+<h3 id="Python-import-导入方式"><a href="#Python-import-导入方式" class="headerlink" title="Python import 导入方式"></a>Python import 导入方式</h3><p><strong>Python 相对导入与绝对导入是相对于包内导入而言的</strong>。所谓包内导入是指包内的模块导入包内部的模块。</p>
+<ul>
+<li><p>绝对导入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import A.B </span><br><span class="line">或 </span><br><span class="line">from A import B</span><br><span class="line"></span><br><span class="line">注：module A的路径应在 sys.path 列表中，否则会引发 ModuleNotFoundError 异常</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>相对导入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">from . import B </span><br><span class="line">或 </span><br><span class="line">from ..A import B</span><br><span class="line"></span><br><span class="line">注：.代表当前模块，..代表上层模块，...代表上上层模块，依次类推。 </span><br><span class="line">	相对导入时不能超过包的顶层，即不能导入包以外的模块或包</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>注：</p>
+<ul>
+<li><p>Python2.x 缺省为相对路径导入，Python3.x 缺省为绝对路径导入。</p>
+</li>
+<li><p>相对导入可以避免硬编码带来的维护问题，例如我们改了某一顶层包的名，那么其子包所有的导入就都不能用了。</p>
+</li>
+<li><p>绝对导入可以避免导入子包覆盖掉标准库模块（由于名字相同，发生冲突）。如果在 Python2.x 中要默认使用绝对导入，可以在文件开头加入如下语句：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">from__future__ import absolute_import</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Python-导包异常处理"><a href="#Python-导包异常处理" class="headerlink" title="Python 导包异常处理"></a>Python 导包异常处理</h3><ul>
+<li><p>示例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">test_package/</span><br><span class="line">├── __init__.py</span><br><span class="line">├── pack1</span><br><span class="line">│   ├── __init__.py</span><br><span class="line">│   ├── mod1.py</span><br><span class="line">│   └── mod2.py</span><br><span class="line">└── pack2</span><br><span class="line">    ├── __init__.py</span><br><span class="line">    ├── mod1.py</span><br><span class="line">    └── mod2.py</span><br><span class="line"></span><br><span class="line"># 在根目录下的 __init__.py 文件写入下列语句</span><br><span class="line">    import test_package.pack1</span><br><span class="line">    import test_package.pack2</span><br><span class="line">	</span><br><span class="line">	在使用 import test_package 导入包时，可自行导入 pack1 和 pack2 两个包，</span><br><span class="line">	&gt;&gt;&gt; import test_package</span><br><span class="line">    &gt;&gt;&gt; dir(test_package)</span><br><span class="line">    [&apos;__builtins__&apos;, &apos;__cached__&apos;, &apos;__doc__&apos;, &apos;__file__&apos;, &apos;__loader__&apos;, &apos;__name__&apos;, &apos;__package__&apos;, &apos;__path__&apos;, &apos;__spec__&apos;, &apos;pack1&apos;, &apos;pack2&apos;, &apos;test_package&apos;]</span><br><span class="line"></span><br><span class="line"># 在pack1 __init__.py 文件写入下列语句</span><br><span class="line">	import test_package.pack1.mod1</span><br><span class="line">	import test_package.pack1.mod2</span><br><span class="line">	</span><br><span class="line">	在使用 from test_package import pack1 导入包时，可自行导入 pack1 包下的 mod1 和 mod2 模块</span><br><span class="line">	&gt;&gt;&gt; from test_package import pack1</span><br><span class="line">    &gt;&gt;&gt; dir(pack1)</span><br><span class="line">    [&apos;__builtins__&apos;, &apos;__cached__&apos;, &apos;__doc__&apos;, &apos;__file__&apos;, &apos;__loader__&apos;, &apos;__name__&apos;, &apos;__package__&apos;, &apos;__path__&apos;, &apos;__spec__&apos;, &apos;mod1&apos;, &apos;mod2&apos;, &apos;test_package&apos;]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 在pack2 __init__.py 文件写入下列语句</span><br><span class="line">    from test_package.pack1.mod1 import pack1_func_1</span><br><span class="line">    from test_package.pack1.mod2 import pack1_func_2</span><br><span class="line">	</span><br><span class="line">	在使用 from test_package import pack2 导入包时，可自行导入 pack2 包下的 mod1 和 mod2 模块中的pack1_func_1 和 pack1_func_2 函数</span><br><span class="line">	&gt;&gt;&gt; from test_package import pack1</span><br><span class="line">    &gt;&gt;&gt; dir(pack1)</span><br><span class="line">    [&apos;__builtins__&apos;, &apos;__cached__&apos;, &apos;__doc__&apos;, &apos;__file__&apos;, &apos;__loader__&apos;, &apos;__name__&apos;, &apos;__package__&apos;, &apos;__path__&apos;, &apos;__spec__&apos;, &apos;mod1&apos;, &apos;mod2&apos;, &apos;pack1_func_1&apos;, &apos;pack1_func_2&apos;]</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>错误处理</p>
+<ul>
+<li><p>ModuleNotFoundError: No module named ‘test_package’</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; import test_package</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">ModuleNotFoundError: No module named &apos;test_package&apos;</span><br></pre></td></tr></table></figure>
+
+<p>ModuleNotFoundError 异常是由于找不到 test_package 包的路径造成的，解决方法：</p>
+<ul>
+<li><p>在 <code>sys.path</code>中添加 <code>test_package</code>包所在的路径</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">try:</span><br><span class="line">	import test_package</span><br><span class="line">excep ModuleNotFoundError:</span><br><span class="line">	import sys</span><br><span class="line">	sys.path.append(&apos;path&apos;)  # path 为test_package所在的路径</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将 <code>test_package</code>包所在的路径添加到PYTHONPATH环境变量中</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd ~;vim .bashrc</span><br><span class="line"></span><br><span class="line">export PYTHONPATH=&apos;path&apos;  # path为test_package所在的路径</span><br><span class="line"></span><br><span class="line"># 保存退出，并重新激活 source .bashrc</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>ValueError: attempted relative import beyond top-level package</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 在pack2下的mod1.py通过 from ..pack1 import mod1 的方式导入pack1下的mod1， 并执行pack2下的mod1.py</span><br><span class="line">[root@hadoop-centos-01 pack2]# python3 mod1.py</span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;mod1.py&quot;, line 3, in &lt;module&gt;</span><br><span class="line">    from ..pack1 import mod1</span><br><span class="line">ValueError: attempted relative import beyond top-level package</span><br></pre></td></tr></table></figure>
+
+<p>处理方法参考： <a href="https://blog.csdn.net/sky453589103/article/details/78863050" target="_blank" rel="noopener">https://blog.csdn.net/sky453589103/article/details/78863050</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>命名空间：</p>
+<p>​    <a href="https://www.cnblogs.com/windlaughing/archive/2013/05/26/3100362.html" target="_blank" rel="noopener">https://www.cnblogs.com/windlaughing/archive/2013/05/26/3100362.html</a></p>
+<p>​    <a href="https://www.cnblogs.com/zhangxinhe/p/6963462.html" target="_blank" rel="noopener">https://www.cnblogs.com/zhangxinhe/p/6963462.html</a>  </p>
+<p>相对导入和绝对导入：</p>
+<p>​    <a href="https://www.jb51.net/article/102252.htm" target="_blank" rel="noopener">https://www.jb51.net/article/102252.htm</a></p>
+<p>​    <a href="https://blog.csdn.net/weixin_38256474/article/details/81228492" target="_blank" rel="noopener">https://blog.csdn.net/weixin_38256474/article/details/81228492</a></p>
+<p>​    <a href="https://blog.csdn.net/gaifuxi9518/article/details/81038818" target="_blank" rel="noopener">https://blog.csdn.net/gaifuxi9518/article/details/81038818</a></p>
 
       
     </div>
@@ -958,7 +1052,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#python-module-（python-模块）"><span class="nav-number">1.1.</span> <span class="nav-text">python module （python 模块）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#python-package-（python-包）"><span class="nav-number">1.2.</span> <span class="nav-text">python package （python 包）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#命名空间"><span class="nav-number">1.3.</span> <span class="nav-text">命名空间</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前期铺垫"><span class="nav-number">1.</span> <span class="nav-text">前期铺垫</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#python-module-（python-模块）"><span class="nav-number">1.1.</span> <span class="nav-text">python module （python 模块）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#python-package-（python-包）"><span class="nav-number">1.2.</span> <span class="nav-text">python package （python 包）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#命名空间"><span class="nav-number">1.3.</span> <span class="nav-text">命名空间</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#作用域"><span class="nav-number">1.4.</span> <span class="nav-text">作用域</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#import-导入"><span class="nav-number">2.</span> <span class="nav-text">import 导入</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Python-import-搜索路径"><span class="nav-number">2.1.</span> <span class="nav-text">Python import 搜索路径</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Python-import-导入步骤"><span class="nav-number">2.2.</span> <span class="nav-text">Python import 导入步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Python-import-导入方式"><span class="nav-number">2.3.</span> <span class="nav-text">Python import 导入方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Python-导包异常处理"><span class="nav-number">2.4.</span> <span class="nav-text">Python 导包异常处理</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-number">3.</span> <span class="nav-text">Reference</span></a></li></ol></div>
             
 
           </div>

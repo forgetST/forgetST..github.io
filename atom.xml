@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2019-09-06T15:12:03.249Z</updated>
+  <updated>2019-09-07T06:19:35.626Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -21,17 +21,11 @@
     <link href="https://forgetst.github.io/2019/09/04/python-python-import%E5%8E%9F%E7%90%86/"/>
     <id>https://forgetst.github.io/2019/09/04/python-python-import原理/</id>
     <published>2019-09-03T16:00:00.000Z</published>
-    <updated>2019-09-06T15:12:03.249Z</updated>
+    <updated>2019-09-07T06:19:35.626Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;h3 id=&quot;python-module-（python-模块）&quot;&gt;&lt;a href=&quot;#python-module-（python-模块）&quot;
-        
-      
+      &lt;h2 id=&quot;前期铺垫&quot;&gt;&lt;a href=&quot;#前期铺垫&quot; class=&quot;headerlink&quot; title=&quot;前期铺垫&quot;&gt;&lt;/a&gt;前期铺垫&lt;/h2&gt;&lt;p&gt;本文测试环境为python3。这里先简单介绍下与 import 导入相关的概念。&lt;/p&gt;
     
     </summary>
     
