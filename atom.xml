@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2019-09-07T06:19:35.626Z</updated>
+  <updated>2019-09-07T07:17:48.970Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="https://forgetst.github.io/2019/09/04/python-python-import%E5%8E%9F%E7%90%86/"/>
     <id>https://forgetst.github.io/2019/09/04/python-python-import原理/</id>
     <published>2019-09-03T16:00:00.000Z</published>
-    <updated>2019-09-07T06:19:35.626Z</updated>
+    <updated>2019-09-07T07:17:48.970Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;前期铺垫&quot;&gt;&lt;a href=&quot;#前期铺垫&quot; class=&quot;headerlink&quot; title=&quot;前期铺垫&quot;&gt;&lt;/a&gt;前期铺垫&lt;/h2&gt;&lt;p&gt;本文测试环境为python3。这里先简单介绍下与 import 导入相关的概念。&lt;/p&gt;
+      &lt;p&gt;本文测试环境为python3。这里先简单介绍下与 import 导入相关的概念。&lt;/p&gt;
     
     </summary>
     
@@ -329,6 +329,28 @@
   </entry>
   
   <entry>
+    <title>hexo 添加页面点击特效</title>
+    <link href="https://forgetst.github.io/2019/08/10/hexo-%E6%B7%BB%E5%8A%A0%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E7%89%B9%E6%95%88/"/>
+    <id>https://forgetst.github.io/2019/08/10/hexo-添加鼠标点击特效/</id>
+    <published>2019-08-09T16:00:00.000Z</published>
+    <updated>2019-08-09T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文主要介绍点击页面出现心形图标。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://forgetst.github.io/categories/hexo/"/>
+    
+      <category term="config" scheme="https://forgetst.github.io/categories/hexo/config/"/>
+    
+    
+      <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux grep command</title>
     <link href="https://forgetst.github.io/2019/08/10/Linux-command-grep/"/>
     <id>https://forgetst.github.io/2019/08/10/Linux-command-grep/</id>
@@ -478,34 +500,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux kill command</title>
-    <link href="https://forgetst.github.io/2019/08/06/Linux-command-kill/"/>
-    <id>https://forgetst.github.io/2019/08/06/Linux-command-kill/</id>
-    <published>2019-08-05T16:00:00.000Z</published>
-    <updated>2019-08-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。&lt;/p&gt;
-&lt;p&gt;kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。&lt;/p&gt;
-&lt;p&gt;进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
-    
-      <category term="kill" scheme="https://forgetst.github.io/categories/Linux/command/kill/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
