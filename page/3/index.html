@@ -361,7 +361,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/2019/08/06/Linux-command-kill/">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/2019/08/06/Linux-command-killall/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -381,7 +381,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/08/06/Linux-command-kill/" class="post-title-link" itemprop="url">Linux kill command</a>
+                <a href="/2019/08/06/Linux-command-killall/" class="post-title-link" itemprop="url">Linux killall command</a>
               
             
           </h1>
@@ -435,7 +435,7 @@
                   ，
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/kill/" itemprop="url" rel="index"><span itemprop="name">kill</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/killall/" itemprop="url" rel="index"><span itemprop="name">killall</span></a></span>
 
                 
                 
@@ -476,13 +476,15 @@
 
       
         
-          <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p>kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。</p>
-<p>kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。</p>
-<p>进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。</p>
+          <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p>killall - kill processes by name</p>
+<p>killall  sends  a  signal  to all processes running any of the specified commands.  If no signal name is specified, SIGTERM is sent. Signals can be specified either by name (e.g.  -HUP or -SIGHUP) or by number (e.g.  -1) or by option -s.</p>
+<p>If the command name is not regular expression (option -r) and contains a slash (/), processes executing that  particular  file will be selected for killing, independent of their name.</p>
+<p>killall returns a zero return code if at least one process has been killed for each listed command, or no commands were listed and at least one process matched the -u and -Z search criteria.  killall returns non-zero otherwise.</p>
+<p>A killall process never kills itself (but may kill other killall processes)</p>
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/2019/08/06/Linux-command-kill/#more" rel="contents">
+              <a class="btn" href="/2019/08/06/Linux-command-killall/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>

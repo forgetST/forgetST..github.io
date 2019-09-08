@@ -274,6 +274,32 @@
   </entry>
   
   <entry>
+    <title>Linux ping command</title>
+    <link href="https://forgetst.github.io/2019/08/11/Linux-command-ping/"/>
+    <id>https://forgetst.github.io/2019/08/11/Linux-command-ping/</id>
+    <published>2019-08-10T16:00:00.000Z</published>
+    <updated>2019-08-10T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt;网络命令，用来测试与目标主机的连通性。  &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
+    
+      <category term="ping" scheme="https://forgetst.github.io/categories/Linux/command/ping/"/>
+    
+    
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux 查看系统版本</title>
     <link href="https://forgetst.github.io/2019/08/11/Linux-Linux-%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC/"/>
     <id>https://forgetst.github.io/2019/08/11/Linux-Linux-查看系统版本/</id>
@@ -300,15 +326,15 @@
   </entry>
   
   <entry>
-    <title>Linux ping command</title>
-    <link href="https://forgetst.github.io/2019/08/11/Linux-command-ping/"/>
-    <id>https://forgetst.github.io/2019/08/11/Linux-command-ping/</id>
-    <published>2019-08-10T16:00:00.000Z</published>
-    <updated>2019-08-10T16:00:00.000Z</updated>
+    <title>Linux grep command</title>
+    <link href="https://forgetst.github.io/2019/08/10/Linux-command-grep/"/>
+    <id>https://forgetst.github.io/2019/08/10/Linux-command-grep/</id>
+    <published>2019-08-09T16:00:00.000Z</published>
+    <updated>2019-08-09T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt;网络命令，用来测试与目标主机的连通性。  &lt;/p&gt;
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;grep&lt;/strong&gt;（global search regular expression(RE) and print out the line，全面搜索正则表达式并把行打印出来）是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。&lt;/p&gt;
     
     </summary>
     
@@ -316,7 +342,7 @@
     
       <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="ping" scheme="https://forgetst.github.io/categories/Linux/command/ping/"/>
+      <category term="grep" scheme="https://forgetst.github.io/categories/Linux/command/grep/"/>
     
     
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
@@ -373,32 +399,6 @@
   </entry>
   
   <entry>
-    <title>Linux grep command</title>
-    <link href="https://forgetst.github.io/2019/08/10/Linux-command-grep/"/>
-    <id>https://forgetst.github.io/2019/08/10/Linux-command-grep/</id>
-    <published>2019-08-09T16:00:00.000Z</published>
-    <updated>2019-08-09T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;grep&lt;/strong&gt;（global search regular expression(RE) and print out the line，全面搜索正则表达式并把行打印出来）是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
-    
-      <category term="grep" scheme="https://forgetst.github.io/categories/Linux/command/grep/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo 增加浏览次数与访客数量统计功能</title>
     <link href="https://forgetst.github.io/2019/08/09/hexo-%E8%AE%BE%E7%BD%AE%E8%AE%BF%E9%97%AE%E9%87%8F/"/>
     <id>https://forgetst.github.io/2019/08/09/hexo-设置访问量/</id>
@@ -417,6 +417,27 @@
     
     
       <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git 不同仓库间进行项目迁移</title>
+    <link href="https://forgetst.github.io/2019/08/07/git-%E4%BB%8E%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93/"/>
+    <id>https://forgetst.github.io/2019/08/07/git-从一个git仓库提交代码到另一个git仓库/</id>
+    <published>2019-08-06T16:00:00.000Z</published>
+    <updated>2019-08-06T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;需求&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;将仓库A的某个branch的代码独立成为一个新的仓库B。并且提交的代码为当前分支最新的，且保留整个提交历史。这种需求对于git来说小菜一碟，可通过git remote命令来实现。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="git" scheme="https://forgetst.github.io/categories/git/"/>
+    
+    
+      <category term="git" scheme="https://forgetst.github.io/tags/git/"/>
     
   </entry>
   
@@ -447,40 +468,17 @@
   </entry>
   
   <entry>
-    <title>git 不同仓库间进行项目迁移</title>
-    <link href="https://forgetst.github.io/2019/08/07/git-%E4%BB%8E%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AAgit%E4%BB%93%E5%BA%93/"/>
-    <id>https://forgetst.github.io/2019/08/07/git-从一个git仓库提交代码到另一个git仓库/</id>
-    <published>2019-08-06T16:00:00.000Z</published>
-    <updated>2019-08-06T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;需求&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;将仓库A的某个branch的代码独立成为一个新的仓库B。并且提交的代码为当前分支最新的，且保留整个提交历史。这种需求对于git来说小菜一碟，可通过git remote命令来实现。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="git" scheme="https://forgetst.github.io/categories/git/"/>
-    
-    
-      <category term="git" scheme="https://forgetst.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux killall command</title>
-    <link href="https://forgetst.github.io/2019/08/06/Linux-command-killall/"/>
-    <id>https://forgetst.github.io/2019/08/06/Linux-command-killall/</id>
+    <title>Linux kill command</title>
+    <link href="https://forgetst.github.io/2019/08/06/Linux-command-kill/"/>
+    <id>https://forgetst.github.io/2019/08/06/Linux-command-kill/</id>
     <published>2019-08-05T16:00:00.000Z</published>
     <updated>2019-08-05T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;killall - kill processes by name&lt;/p&gt;
-&lt;p&gt;killall  sends  a  signal  to all processes running any of the specified commands.  If no signal name is specified, SIGTERM is sent. Signals can be specified either by name (e.g.  -HUP or -SIGHUP) or by number (e.g.  -1) or by option -s.&lt;/p&gt;
-&lt;p&gt;If the command name is not regular expression (option -r) and contains a slash (/), processes executing that  particular  file will be selected for killing, independent of their name.&lt;/p&gt;
-&lt;p&gt;killall returns a zero return code if at least one process has been killed for each listed command, or no commands were listed and at least one process matched the -u and -Z search criteria.  killall returns non-zero otherwise.&lt;/p&gt;
-&lt;p&gt;A killall process never kills itself (but may kill other killall processes)&lt;/p&gt;
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。&lt;/p&gt;
+&lt;p&gt;kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。&lt;/p&gt;
+&lt;p&gt;进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。&lt;/p&gt;
     
     </summary>
     
@@ -488,7 +486,7 @@
     
       <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="killall" scheme="https://forgetst.github.io/categories/Linux/command/killall/"/>
+      <category term="kill" scheme="https://forgetst.github.io/categories/Linux/command/kill/"/>
     
     
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
