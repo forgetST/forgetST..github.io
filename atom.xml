@@ -25,13 +25,7 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;一只顽猴儿在一座有 &lt;strong&gt;n&lt;/strong&gt;
-        
-      
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;一只顽猴儿在一座有 &lt;strong&gt;n&lt;/strong&gt; 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。&lt;/p&gt;
     
     </summary>
     
@@ -300,32 +294,6 @@
   </entry>
   
   <entry>
-    <title>Linux 查看系统版本</title>
-    <link href="https://forgetst.github.io/2019/08/11/Linux-Linux-%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC/"/>
-    <id>https://forgetst.github.io/2019/08/11/Linux-Linux-查看系统版本/</id>
-    <published>2019-08-10T16:00:00.000Z</published>
-    <updated>2019-08-10T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;linux系统版本信息（Oracle Linux、Centos Linux、Redhat Linux、Debian、Ubuntu）；  &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
-    
-      <category term="ifconfig" scheme="https://forgetst.github.io/categories/Linux/command/ifconfig/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux ping command</title>
     <link href="https://forgetst.github.io/2019/08/11/Linux-command-ping/"/>
     <id>https://forgetst.github.io/2019/08/11/Linux-command-ping/</id>
@@ -352,15 +320,15 @@
   </entry>
   
   <entry>
-    <title>Linux grep command</title>
-    <link href="https://forgetst.github.io/2019/08/10/Linux-command-grep/"/>
-    <id>https://forgetst.github.io/2019/08/10/Linux-command-grep/</id>
-    <published>2019-08-09T16:00:00.000Z</published>
-    <updated>2019-08-09T16:00:00.000Z</updated>
+    <title>Linux 查看系统版本</title>
+    <link href="https://forgetst.github.io/2019/08/11/Linux-Linux-%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC/"/>
+    <id>https://forgetst.github.io/2019/08/11/Linux-Linux-查看系统版本/</id>
+    <published>2019-08-10T16:00:00.000Z</published>
+    <updated>2019-08-10T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;grep&lt;/strong&gt;（global search regular expression(RE) and print out the line，全面搜索正则表达式并把行打印出来）是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。&lt;/p&gt;
+      &lt;p&gt;linux系统版本信息（Oracle Linux、Centos Linux、Redhat Linux、Debian、Ubuntu）；  &lt;/p&gt;
     
     </summary>
     
@@ -368,12 +336,32 @@
     
       <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
     
-      <category term="grep" scheme="https://forgetst.github.io/categories/Linux/command/grep/"/>
+      <category term="ifconfig" scheme="https://forgetst.github.io/categories/Linux/command/ifconfig/"/>
     
     
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
       <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo 添加页面点击特效</title>
+    <link href="https://forgetst.github.io/2019/08/10/hexo-%E6%B7%BB%E5%8A%A0%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E7%89%B9%E6%95%88/"/>
+    <id>https://forgetst.github.io/2019/08/10/hexo-添加鼠标点击特效/</id>
+    <published>2019-08-09T16:00:00.000Z</published>
+    <updated>2019-08-09T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文主要介绍点击页面出现心形图标。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://forgetst.github.io/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -405,22 +393,28 @@
   </entry>
   
   <entry>
-    <title>hexo 添加页面点击特效</title>
-    <link href="https://forgetst.github.io/2019/08/10/hexo-%E6%B7%BB%E5%8A%A0%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E7%89%B9%E6%95%88/"/>
-    <id>https://forgetst.github.io/2019/08/10/hexo-添加鼠标点击特效/</id>
+    <title>Linux grep command</title>
+    <link href="https://forgetst.github.io/2019/08/10/Linux-command-grep/"/>
+    <id>https://forgetst.github.io/2019/08/10/Linux-command-grep/</id>
     <published>2019-08-09T16:00:00.000Z</published>
     <updated>2019-08-09T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;本文主要介绍点击页面出现心形图标。&lt;/p&gt;
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;grep&lt;/strong&gt;（global search regular expression(RE) and print out the line，全面搜索正则表达式并把行打印出来）是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。&lt;/p&gt;
     
     </summary>
     
-      <category term="hexo" scheme="https://forgetst.github.io/categories/hexo/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
+    
+      <category term="grep" scheme="https://forgetst.github.io/categories/Linux/command/grep/"/>
     
     
-      <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   

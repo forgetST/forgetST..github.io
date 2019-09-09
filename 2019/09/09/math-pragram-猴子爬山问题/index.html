@@ -94,18 +94,18 @@
 </script>
 
 
-  <meta name="description" content="问题一只顽猴儿在一座有 n 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。 分析这一问题实际上是一个整数有序可重复拆分问题，通过递归思想求解：  f(n)  –&amp;gt;   n 级台阶的爬山总方法数 考虑在猴子到达最后一个台阶时，其所处位置在 n-1 台阶处或n-3 台阶处，故有 f(n) = f(n-1) + f(n-3) 因 n&amp;gt;0 , 故： n">
+  <meta name="description" content="问题一只顽猴儿在一座有 n 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。">
 <meta name="keywords" content="math">
 <meta property="og:type" content="article">
 <meta property="og:title" content="猴子爬山问题">
 <meta property="og:url" content="https://forgetst.github.io/2019/09/09/math-pragram-猴子爬山问题/index.html">
 <meta property="og:site_name" content="勿忘，须舍">
-<meta property="og:description" content="问题一只顽猴儿在一座有 n 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。 分析这一问题实际上是一个整数有序可重复拆分问题，通过递归思想求解：  f(n)  –&amp;gt;   n 级台阶的爬山总方法数 考虑在猴子到达最后一个台阶时，其所处位置在 n-1 台阶处或n-3 台阶处，故有 f(n) = f(n-1) + f(n-3) 因 n&amp;gt;0 , 故： n">
+<meta property="og:description" content="问题一只顽猴儿在一座有 n 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2019-09-08T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="猴子爬山问题">
-<meta name="twitter:description" content="问题一只顽猴儿在一座有 n 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。 分析这一问题实际上是一个整数有序可重复拆分问题，通过递归思想求解：  f(n)  –&amp;gt;   n 级台阶的爬山总方法数 考虑在猴子到达最后一个台阶时，其所处位置在 n-1 台阶处或n-3 台阶处，故有 f(n) = f(n-1) + f(n-3) 因 n&amp;gt;0 , 故： n">
+<meta name="twitter:description" content="问题一只顽猴儿在一座有 n 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。">
 
 
 
@@ -461,6 +461,8 @@
 
       
         <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>一只顽猴儿在一座有 <strong>n</strong> 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。</p>
+<a id="more"></a>
+
 <h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>这一问题实际上是一个<strong>整数有序可重复拆分问题</strong>，通过递归思想求解：</p>
 <ol>
 <li><strong>f(n)</strong>  –&gt;   <strong>n</strong> 级台阶的爬山总方法数</li>
