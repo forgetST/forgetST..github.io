@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2019-09-07T07:17:48.970Z</updated>
+  <updated>2019-09-08T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>猴子爬山问题</title>
+    <link href="https://forgetst.github.io/2019/09/09/math-pragram-%E7%8C%B4%E5%AD%90%E7%88%AC%E5%B1%B1%E9%97%AE%E9%A2%98/"/>
+    <id>https://forgetst.github.io/2019/09/09/math-pragram-猴子爬山问题/</id>
+    <published>2019-09-08T16:00:00.000Z</published>
+    <updated>2019-09-08T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;一只顽猴儿在一座有 &lt;strong&gt;n&lt;/strong&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="math" scheme="https://forgetst.github.io/categories/math/"/>
+    
+    
+      <category term="math" scheme="https://forgetst.github.io/tags/math/"/>
+    
+  </entry>
   
   <entry>
     <title>python import 原理</title>
@@ -326,22 +352,28 @@
   </entry>
   
   <entry>
-    <title>hexo 添加页面点击特效</title>
-    <link href="https://forgetst.github.io/2019/08/10/hexo-%E6%B7%BB%E5%8A%A0%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E7%89%B9%E6%95%88/"/>
-    <id>https://forgetst.github.io/2019/08/10/hexo-添加鼠标点击特效/</id>
+    <title>Linux grep command</title>
+    <link href="https://forgetst.github.io/2019/08/10/Linux-command-grep/"/>
+    <id>https://forgetst.github.io/2019/08/10/Linux-command-grep/</id>
     <published>2019-08-09T16:00:00.000Z</published>
     <updated>2019-08-09T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;本文主要介绍点击页面出现心形图标。&lt;/p&gt;
+      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;grep&lt;/strong&gt;（global search regular expression(RE) and print out the line，全面搜索正则表达式并把行打印出来）是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。&lt;/p&gt;
     
     </summary>
     
-      <category term="hexo" scheme="https://forgetst.github.io/categories/hexo/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
+    
+      <category term="grep" scheme="https://forgetst.github.io/categories/Linux/command/grep/"/>
     
     
-      <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
@@ -373,28 +405,22 @@
   </entry>
   
   <entry>
-    <title>Linux grep command</title>
-    <link href="https://forgetst.github.io/2019/08/10/Linux-command-grep/"/>
-    <id>https://forgetst.github.io/2019/08/10/Linux-command-grep/</id>
+    <title>hexo 添加页面点击特效</title>
+    <link href="https://forgetst.github.io/2019/08/10/hexo-%E6%B7%BB%E5%8A%A0%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E7%89%B9%E6%95%88/"/>
+    <id>https://forgetst.github.io/2019/08/10/hexo-添加鼠标点击特效/</id>
     <published>2019-08-09T16:00:00.000Z</published>
     <updated>2019-08-09T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;grep&lt;/strong&gt;（global search regular expression(RE) and print out the line，全面搜索正则表达式并把行打印出来）是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹配的行打印出来。&lt;/p&gt;
+      &lt;p&gt;本文主要介绍点击页面出现心形图标。&lt;/p&gt;
     
     </summary>
     
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
-    
-      <category term="grep" scheme="https://forgetst.github.io/categories/Linux/command/grep/"/>
+      <category term="hexo" scheme="https://forgetst.github.io/categories/hexo/"/>
     
     
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
+      <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -464,34 +490,6 @@
     
     
       <category term="git" scheme="https://forgetst.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python __future__ module</title>
-    <link href="https://forgetst.github.io/2019/08/06/python-module-py-future-d/"/>
-    <id>https://forgetst.github.io/2019/08/06/python-module-py-future-d/</id>
-    <published>2019-08-05T16:00:00.000Z</published>
-    <updated>2019-08-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;将下一个新版本的特性导入到当前版本并进行测试（新版的改动不兼容老版本，就是这么任性）。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py2.7-源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/2.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;py3.7-源代码：&lt;/strong&gt;&lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/__future__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/__future__.py&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
-    
-      <category term="__future__" scheme="https://forgetst.github.io/categories/python/module/future/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
     
   </entry>
   
