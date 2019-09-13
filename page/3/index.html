@@ -910,7 +910,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/2019/08/06/Linux-command-killall/">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/2019/08/06/Linux-command-kill/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -930,7 +930,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/08/06/Linux-command-killall/" class="post-title-link" itemprop="url">Linux killall command</a>
+                <a href="/2019/08/06/Linux-command-kill/" class="post-title-link" itemprop="url">Linux kill command</a>
               
             
           </h1>
@@ -984,7 +984,7 @@
                   ，
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/killall/" itemprop="url" rel="index"><span itemprop="name">killall</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/kill/" itemprop="url" rel="index"><span itemprop="name">kill</span></a></span>
 
                 
                 
@@ -1025,15 +1025,13 @@
 
       
         
-          <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p>killall - kill processes by name</p>
-<p>killall  sends  a  signal  to all processes running any of the specified commands.  If no signal name is specified, SIGTERM is sent. Signals can be specified either by name (e.g.  -HUP or -SIGHUP) or by number (e.g.  -1) or by option -s.</p>
-<p>If the command name is not regular expression (option -r) and contains a slash (/), processes executing that  particular  file will be selected for killing, independent of their name.</p>
-<p>killall returns a zero return code if at least one process has been killed for each listed command, or no commands were listed and at least one process matched the -u and -Z search criteria.  killall returns non-zero otherwise.</p>
-<p>A killall process never kills itself (but may kill other killall processes)</p>
+          <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p>kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。</p>
+<p>kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。</p>
+<p>进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。</p>
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/2019/08/06/Linux-command-killall/#more" rel="contents">
+              <a class="btn" href="/2019/08/06/Linux-command-kill/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1286,6 +1284,195 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/2019/08/06/Linux-command-killall/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/08/06/Linux-command-killall/" class="post-title-link" itemprop="url">Linux killall command</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-06 00:00" itemprop="dateCreated datePublished" datetime="2019-08-06T00:00:00+08:00">2019-08-06</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/" itemprop="url" rel="index"><span itemprop="name">command</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/killall/" itemprop="url" rel="index"><span itemprop="name">killall</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p>killall - kill processes by name</p>
+<p>killall  sends  a  signal  to all processes running any of the specified commands.  If no signal name is specified, SIGTERM is sent. Signals can be specified either by name (e.g.  -HUP or -SIGHUP) or by number (e.g.  -1) or by option -s.</p>
+<p>If the command name is not regular expression (option -r) and contains a slash (/), processes executing that  particular  file will be selected for killing, independent of their name.</p>
+<p>killall returns a zero return code if at least one process has been killed for each listed command, or no commands were listed and at least one process matched the -u and -Z search criteria.  killall returns non-zero otherwise.</p>
+<p>A killall process never kills itself (but may kill other killall processes)</p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/08/06/Linux-command-killall/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/2019/08/06/Linux-command-ps/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1408,193 +1595,6 @@
           
             <div class="post-button text-center">
               <a class="btn" href="/2019/08/06/Linux-command-ps/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/2019/08/06/Linux-command-kill/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/08/06/Linux-command-kill/" class="post-title-link" itemprop="url">Linux kill command</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-08-06 00:00" itemprop="dateCreated datePublished" datetime="2019-08-06T00:00:00+08:00">2019-08-06</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/" itemprop="url" rel="index"><span itemprop="name">command</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/kill/" itemprop="url" rel="index"><span itemprop="name">kill</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p>kill 命令是用来向进程发送一个用户指定的信号，对进程进行相应的操作。</p>
-<p>kill 命令的执行原理是向操作系统内核发送一个信号（多是终止信号）和目标进程的 PID，系统内核根据收到的信号类型，对指定进程进行相应的操作。</p>
-<p>进程PID可用ps、pidof、pstree、top等工具获取，然后使用kill命令来结束该进程。</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/08/06/Linux-command-kill/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -2099,7 +2099,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-09-13 19:10" itemprop="dateModified" datetime="2019-09-13T19:10:43+08:00">2019-09-13</time>
+                <time title="修改时间：2019-09-13 22:27" itemprop="dateModified" datetime="2019-09-13T22:27:21+08:00">2019-09-13</time>
               </span>
             
           
@@ -2176,7 +2176,7 @@
 </ul>
 <h2 id="查找最大或最小的-N-个元素"><a href="#查找最大或最小的-N-个元素" class="headerlink" title="查找最大或最小的 N 个元素"></a>查找最大或最小的 N 个元素</h2><ul>
 <li><p><strong>问题</strong></p>
-<p>获得一个列表中最大或者最小的 N 个元素列表？</p>
+<p>获得一个列表(列表元素很多)中最大或者最小的 N 个元素列表？</p>
 </li>
 <li><p><strong>实现</strong></p>
 <ol>
@@ -2188,11 +2188,24 @@
 </li>
 <li><p>当取一个最大值或最小值，通过 <code>max</code> 和<code>min</code>函数获得</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; nums = [1, 8, 2, 23, 7, -4, 18, 23, 42, 37, 2]</span><br><span class="line"></span><br><span class="line"># 取最大数</span><br><span class="line">&gt;&gt;&gt; max(nums)</span><br><span class="line">42</span><br><span class="line"></span><br><span class="line"># 取最小数</span><br><span class="line">&gt;&gt;&gt; min(nums)</span><br><span class="line">-4</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>测试示例</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; import heapq</span><br><span class="line">&gt;&gt;&gt; import timeit</span><br><span class="line">&gt;&gt;&gt; import random</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; nums = random.choices(range(50000), k=20000) </span><br><span class="line">&gt;&gt;&gt; len(nums)</span><br><span class="line">20000</span><br><span class="line"></span><br><span class="line"># ---------------------------------------------------------------------------------</span><br><span class="line"># 从nums中取10个最小的数</span><br><span class="line"># 通过 sorted(nums)[:10] 方式</span><br><span class="line">&gt;&gt;&gt; timeit.repeat(&apos;sorted(nums)[:10]&apos;, &apos;import heapq;from __main__ import nums&apos;, number=1000, repeat=3)</span><br><span class="line">[5.283976222000092, 5.281303266000577, 5.272159137000017] # 执行1000遍，重复3次用时列表</span><br><span class="line"></span><br><span class="line"># 通过heapq.nsmallest(10, nums) 方式</span><br><span class="line">&gt;&gt;&gt; timeit.repeat(&apos;heapq.nsmallest(10, nums)&apos;, &apos;import heapq;from __main__ import nums&apos;, number=1000, repeat=3)</span><br><span class="line">[1.1154322049997063, 1.065238846000284, 1.0126771430004737] # 执行1000遍，重复3次用时列表</span><br><span class="line"></span><br><span class="line"># ---------------------------------------------------------------------------------</span><br><span class="line"># 从nums中取10个最大的数</span><br><span class="line"># 通过 sorted(nums)[:10] 方式</span><br><span class="line">&gt;&gt;&gt; timeit.repeat(&apos;sorted(nums, reverse=True)[:10]&apos;, &apos;import heapq;from __main__ import nums&apos;, number=1000, repeat=3)</span><br><span class="line">[5.402307174000271, 5.62465228200017, 5.546984251999675]</span><br><span class="line"></span><br><span class="line"># 通过 heapq.nlargest(10, nums) 方式</span><br><span class="line">&gt;&gt;&gt; timeit.repeat(&apos;heapq.nlargest(10, nums)&apos;, &apos;import heapq;from __main__ import nums&apos;, number=1000, repeat=3)	 </span><br><span class="line">[1.0458967599997777, 1.060633938999672, 1.0392043130004822] # 执行1000遍，重复3次用时列表</span><br><span class="line"></span><br><span class="line"># ---------------------------------------------------------------------------------</span><br><span class="line"># 从nums中取10000个最小的数</span><br><span class="line"># 通过 sorted(nums)[:10000] 方式</span><br><span class="line">&gt;&gt;&gt; timeit.repeat(&apos;sorted(nums,)[:10000]&apos;, &apos;import heapq;from __main__ import nums&apos;, number=1000, repeat=3)</span><br><span class="line">[5.616329210999538, 5.384628143000555, 5.36661329799972] # 执行1000遍，重复3次用时列表</span><br><span class="line"></span><br><span class="line"># 通过heapq.nsmallest(10000, nums) 方式</span><br><span class="line">&gt;&gt;&gt; timeit.repeat(&apos;heapq.nsmallest(10000, nums)&apos;, &apos;import heapq;from __main__ import nums&apos;, number=1000, repeat=3)</span><br><span class="line">[30.37623528200038, 30.471836461999374, 30.748560685000484] # 执行1000遍，重复3次用时列表</span><br><span class="line"></span><br><span class="line"># ---------------------------------------------------------------------------------</span><br><span class="line"># 从nums中取10000个最大的数</span><br><span class="line"># 通过 sorted(nums， reverse=True)[:10000] 方式</span><br><span class="line">&gt;&gt;&gt; timeit.repeat(&apos;sorted(nums, reverse=True)[:10000]&apos;, &apos;import heapq;from __main__ import nums&apos;, number=1000, repeat=3)</span><br><span class="line">[5.462146738999763, 5.569061694000084, 5.482768033999491] # 执行1000遍，重复3次用时列表</span><br><span class="line"></span><br><span class="line"># 通过 heapq.nlargest(10000, nums) 方式</span><br><span class="line">&gt;&gt;&gt; timeit.repeat(&apos;heapq.nlargest(10000, nums)&apos;, &apos;import heapq;from __main__ import nums&apos;, number=1000, repeat=3)</span><br><span class="line">[33.05006609500015, 30.762279339999623, 33.79276524299985] # 执行1000遍，重复3次用时列表</span><br></pre></td></tr></table></figure>
 
 </li>
 </ol>
 </li>
 </ul>
+<h2 id="实现一个优先级队列"><a href="#实现一个优先级队列" class="headerlink" title="实现一个优先级队列"></a>实现一个优先级队列</h2><ul>
+<li><p>问题</p>
+<p>怎样实现一个按优先级排序的队列？ 并且在这个队列上面每次 pop 操作总是返回优先级最高的那个元素</p>
+</li>
+<li><p>实现</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">import heapq</span><br><span class="line"></span><br><span class="line">class PriorityQueue(object):</span><br><span class="line">    def __init__(self):</span><br><span class="line">        self._queue = []</span><br><span class="line">        self._index = 0</span><br><span class="line">       </span><br><span class="line">    def push(self, itme, priority):</span><br><span class="line">   	    heapq.heappush(self._queue, (-priority, self._index, item))</span><br><span class="line">   	    self._index += 1</span><br><span class="line">   	</span><br><span class="line">   	def pop(self):</span><br><span class="line">   	    heapq.heappop(self._queue)[-1]</span><br><span class="line"> </span><br><span class="line">注：</span><br><span class="line">	由于 push 和 pop 操作时间复杂度为 O(log N)，其中 N 是堆的大小，因此就算是 N 很大的时候它们运行速度也依旧很快；</span><br><span class="line">	优先级为负数的目的是使得元素按照优先级从高到低排序。 这个跟普通的按优先级从低到高排序的堆排序恰巧相反。</span><br><span class="line">	index 变量的作用是保证同等优先级元素的正确排序。</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://python3-cookbook.readthedocs.io/zh_CN/latest/index.html" target="_blank" rel="noopener">https://python3-cookbook.readthedocs.io/zh_CN/latest/index.html</a></p>
 
           
         
