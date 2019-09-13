@@ -110,7 +110,7 @@
 <meta property="og:site_name" content="勿忘，须舍">
 <meta property="og:description" content="解压序列赋值给多个变量 问题 现在有一个包含 N 个元素的元组或者是序列，怎样将它里面的值解压后同时赋值给 N 个变量？   实现   123456789101112131415161718# test_seq is sequence or iterable objects  # 通过等长个数的变量赋值, 即变量个数等于 len(test_seq)var1, var2, var3, ... = t">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-13T08:45:34.206Z">
+<meta property="og:updated_time" content="2019-09-13T11:10:43.641Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="The Python3 小技巧">
 <meta name="twitter:description" content="解压序列赋值给多个变量 问题 现在有一个包含 N 个元素的元组或者是序列，怎样将它里面的值解压后同时赋值给 N 个变量？   实现   123456789101112131415161718# test_seq is sequence or iterable objects  # 通过等长个数的变量赋值, 即变量个数等于 len(test_seq)var1, var2, var3, ... = t">
@@ -430,7 +430,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-09-13 16:45" itemprop="dateModified" datetime="2019-09-13T16:45:34+08:00">2019-09-13</time>
+                <time title="修改时间：2019-09-13 19:10" itemprop="dateModified" datetime="2019-09-13T19:10:43+08:00">2019-09-13</time>
               </span>
             
           
@@ -508,9 +508,18 @@
 <p>获得一个列表中最大或者最小的 N 个元素列表？</p>
 </li>
 <li><p><strong>实现</strong></p>
-<p>heapq 模块有两个函数：<code>nlargest()</code> 和 <code>nsmallest()</code> 可以完美解决这个问题。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> </span><br></pre></td></tr></table></figure>
+<ol>
+<li><p>当要查找的元素个数 N 相对比较小的时候</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; import heapq</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; nums = [1, 8, 2, 23, 7, -4, 18, 23, 42, 37, 2]</span><br><span class="line"></span><br><span class="line"># 取最大的 3 个数</span><br><span class="line">&gt;&gt;&gt; heapq.nlargest(3, nums)</span><br><span class="line">[42, 37, 23]</span><br><span class="line"></span><br><span class="line"># 取最小的 3 个数</span><br><span class="line">&gt;&gt;&gt; heapq.nsmallest(3, nums)</span><br><span class="line">[-4, 1, 2]</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>当要查找的元素个数 N 接近要查找的可迭代对象的长度时，出于性能考虑，可用切片替代</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; nums = [1, 8, 2, 23, 7, -4, 18, 23, 42, 37, 2]</span><br><span class="line"></span><br><span class="line"># 取最大的 3 个数</span><br><span class="line">&gt;&gt;&gt; sorted(nums, reverse=True)[:3]</span><br><span class="line">[42, 37, 23]</span><br><span class="line"></span><br><span class="line"># 取最小的 3 个数</span><br><span class="line">&gt;&gt;&gt; sorted(nums)[:3]</span><br><span class="line">[-4, 1, 2]</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>当取一个最大值或最小值，通过 <code>max</code> 和<code>min</code>函数获得</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; nums = [1, 8, 2, 23, 7, -4, 18, 23, 42, 37, 2]</span><br><span class="line"></span><br><span class="line"># 取最大数</span><br><span class="line">&gt;&gt;&gt; max(nums)</span><br><span class="line">42</span><br><span class="line"></span><br><span class="line"># 取最小数</span><br><span class="line">&gt;&gt;&gt; min(nums)</span><br><span class="line">-4</span><br></pre></td></tr></table></figure>
 
+</li>
+</ol>
 </li>
 </ul>
 
@@ -601,8 +610,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/08/05/python-module-glob/" rel="prev" title="python glob module">
-                python glob module <i class="fa fa-chevron-right"></i>
+              <a href="/2019/08/05/Linux-command-netstat/" rel="prev" title="Linux netstat command">
+                Linux netstat command <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -675,7 +684,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">36</span>
+          <span class="site-state-item-count">37</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -762,7 +771,9 @@
         
           
         
-        <span class="site-state-item-count">30</span>
+          
+        
+        <span class="site-state-item-count">31</span>
         <span class="site-state-item-name">分类</span>
         </a>
       </div>
