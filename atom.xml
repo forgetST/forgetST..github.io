@@ -57,29 +57,30 @@
   </entry>
   
   <entry>
-    <title>python timeit module</title>
-    <link href="https://forgetst.github.io/2019/09/01/python-module-timeit/"/>
-    <id>https://forgetst.github.io/2019/09/01/python-module-timeit/</id>
+    <title>python  实现一个优先级队列</title>
+    <link href="https://forgetst.github.io/2019/09/01/python-tips-python-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97/"/>
+    <id>https://forgetst.github.io/2019/09/01/python-tips-python-实现一个优先级队列/</id>
     <published>2019-08-31T16:00:00.000Z</published>
     <updated>2019-08-31T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;用于计算一小段 Python 代码耗时的模块。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;源码：&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/timeit.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/timeit.py&lt;/a&gt;&lt;/p&gt;
+      
+      
+        
+        
+          &lt;h2 id=&quot;实现一个优先级队列&quot;&gt;&lt;a href=&quot;#实现一个优先级队列&quot; class=&quot;headerlink&quot; title=&quot;实现一个优先级队列&quot;&gt;&lt;/a&gt;实现一个优先级队列&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;问题&lt;/p&gt;
+&lt;p&gt;怎样实现一个按优先级排序的队列？
+        
+      
     
     </summary>
     
       <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
-      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
-    
-      <category term="timeit" scheme="https://forgetst.github.io/categories/python/module/timeit/"/>
-    
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
     
   </entry>
   
@@ -376,32 +377,6 @@
   </entry>
   
   <entry>
-    <title>Linux ping command</title>
-    <link href="https://forgetst.github.io/2019/08/11/Linux-command-ping/"/>
-    <id>https://forgetst.github.io/2019/08/11/Linux-command-ping/</id>
-    <published>2019-08-10T16:00:00.000Z</published>
-    <updated>2019-08-10T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt;网络命令，用来测试与目标主机的连通性。  &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
-    
-      <category term="ping" scheme="https://forgetst.github.io/categories/Linux/command/ping/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo 添加DaoVoice实现在线联系</title>
     <link href="https://forgetst.github.io/2019/08/11/hexo-%E6%B7%BB%E5%8A%A0daovoice/"/>
     <id>https://forgetst.github.io/2019/08/11/hexo-添加daovoice/</id>
@@ -424,6 +399,32 @@
     
     
       <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux ping command</title>
+    <link href="https://forgetst.github.io/2019/08/11/Linux-command-ping/"/>
+    <id>https://forgetst.github.io/2019/08/11/Linux-command-ping/</id>
+    <published>2019-08-10T16:00:00.000Z</published>
+    <updated>2019-08-10T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt;网络命令，用来测试与目标主机的连通性。  &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
+    
+      <category term="ping" scheme="https://forgetst.github.io/categories/Linux/command/ping/"/>
+    
+    
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
