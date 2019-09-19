@@ -57,6 +57,88 @@
   </entry>
   
   <entry>
+    <title>python zip 与 dict</title>
+    <link href="https://forgetst.github.io/2019/09/02/python-tips-python-zip%E4%B8%8Edict/"/>
+    <id>https://forgetst.github.io/2019/09/02/python-tips-python-zip与dict/</id>
+    <published>2019-09-01T16:00:00.000Z</published>
+    <updated>2019-09-01T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;zip 实现字典求最大值、最小值、排序等&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python 删除序列相同元素并保持顺序</title>
+    <link href="https://forgetst.github.io/2019/09/02/python-tips-python-%E5%88%A0%E9%99%A4%E5%BA%8F%E5%88%97%E7%9B%B8%E5%90%8C%E5%85%83%E7%B4%A0%E5%B9%B6%E4%BF%9D%E6%8C%81%E9%A1%BA%E5%BA%8F/"/>
+    <id>https://forgetst.github.io/2019/09/02/python-tips-python-删除序列相同元素并保持顺序/</id>
+    <published>2019-09-01T16:00:00.000Z</published>
+    <updated>2019-09-01T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;怎样在一个序列上面保持元素顺序的同时消除重复的值？&lt;/p&gt;
+&lt;h2 id=&quot;实现&quot;&gt;&lt;a href=&quot;#实现&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python  实现一个优先级队列</title>
+    <link href="https://forgetst.github.io/2019/09/01/python-tips-python-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97/"/>
+    <id>https://forgetst.github.io/2019/09/01/python-tips-python-实现一个优先级队列/</id>
+    <published>2019-08-31T16:00:00.000Z</published>
+    <updated>2019-08-31T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;实现一个优先级队列&quot;&gt;&lt;a href=&quot;#实现一个优先级队列&quot; class=&quot;headerlink&quot; title=&quot;实现一个优先级队列&quot;&gt;&lt;/a&gt;实现一个优先级队列&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;问题&lt;/p&gt;
+&lt;p&gt;怎样实现一个按优先级排序的队列？
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python heapq module</title>
     <link href="https://forgetst.github.io/2019/09/01/python-module-heapq/"/>
     <id>https://forgetst.github.io/2019/09/01/python-module-heapq/</id>
@@ -80,33 +162,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python 实现一个顺序字典</title>
-    <link href="https://forgetst.github.io/2019/09/01/python-tips-python-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%A1%BA%E5%BA%8F%E5%AD%97%E5%85%B8/"/>
-    <id>https://forgetst.github.io/2019/09/01/python-tips-python-实现一个顺序字典/</id>
-    <published>2019-08-31T16:00:00.000Z</published>
-    <updated>2019-09-19T14:31:16.520Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你想创建一个字典，并且在迭代或序列化这个字典的时候能够控制元素的顺序。&lt;/p&gt;
-&lt;h2 id=&quot;实现&quot;&gt;&lt;a href=&quot;#实现&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
@@ -138,11 +193,11 @@
   </entry>
   
   <entry>
-    <title>python  实现一个优先级队列</title>
-    <link href="https://forgetst.github.io/2019/09/01/python-tips-python-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97/"/>
-    <id>https://forgetst.github.io/2019/09/01/python-tips-python-实现一个优先级队列/</id>
+    <title>python 实现一个顺序字典</title>
+    <link href="https://forgetst.github.io/2019/09/01/python-tips-python-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%A1%BA%E5%BA%8F%E5%AD%97%E5%85%B8/"/>
+    <id>https://forgetst.github.io/2019/09/01/python-tips-python-实现一个顺序字典/</id>
     <published>2019-08-31T16:00:00.000Z</published>
-    <updated>2019-08-31T16:00:00.000Z</updated>
+    <updated>2019-09-19T14:38:41.012Z</updated>
     
     <summary type="html">
     
@@ -150,9 +205,8 @@
       
         
         
-          &lt;h2 id=&quot;实现一个优先级队列&quot;&gt;&lt;a href=&quot;#实现一个优先级队列&quot; class=&quot;headerlink&quot; title=&quot;实现一个优先级队列&quot;&gt;&lt;/a&gt;实现一个优先级队列&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;问题&lt;/p&gt;
-&lt;p&gt;怎样实现一个按优先级排序的队列？
+          &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你想创建一个字典，并且在迭代或序列化这个字典的时候能够控制元素的顺序。&lt;/p&gt;
+&lt;h2 id=&quot;实现&quot;&gt;&lt;a href=&quot;#实现&quot;
         
       
     
@@ -427,32 +481,6 @@
   </entry>
   
   <entry>
-    <title>Linux 查看系统版本</title>
-    <link href="https://forgetst.github.io/2019/08/11/Linux-Linux-%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC/"/>
-    <id>https://forgetst.github.io/2019/08/11/Linux-Linux-查看系统版本/</id>
-    <published>2019-08-10T16:00:00.000Z</published>
-    <updated>2019-08-10T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;linux系统版本信息（Oracle Linux、Centos Linux、Redhat Linux、Debian、Ubuntu）；  &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
-    
-      <category term="ifconfig" scheme="https://forgetst.github.io/categories/Linux/command/ifconfig/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux ping command</title>
     <link href="https://forgetst.github.io/2019/08/11/Linux-command-ping/"/>
     <id>https://forgetst.github.io/2019/08/11/Linux-command-ping/</id>
@@ -475,33 +503,6 @@
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
       <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo 添加页面萌宠</title>
-    <link href="https://forgetst.github.io/2019/08/10/hexo-%E6%B7%BB%E5%8A%A0%E8%90%8C%E5%AE%A0/"/>
-    <id>https://forgetst.github.io/2019/08/10/hexo-添加萌宠/</id>
-    <published>2019-08-09T16:00:00.000Z</published>
-    <updated>2019-08-09T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;安装Live2D插件&quot;&gt;&lt;a href=&quot;#安装Live2D插件&quot; class=&quot;headerlink&quot; title=&quot;安装Live2D插件&quot;&gt;&lt;/a&gt;安装Live2D插件&lt;/h2&gt;&lt;p&gt;在hexo根目录下执行以下命令&lt;/p&gt;
-&lt;figure
-        
-      
-    
-    </summary>
-    
-      <category term="hexo" scheme="https://forgetst.github.io/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
     
   </entry>
   
