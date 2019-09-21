@@ -37,6 +37,33 @@
   </entry>
   
   <entry>
+    <title>python 序列中出现次数最多的元素</title>
+    <link href="https://forgetst.github.io/2019/09/06/python-tips-python-%E5%BA%8F%E5%88%97%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E6%9C%80%E5%A4%9A%E7%9A%84%E5%85%83%E7%B4%A0/"/>
+    <id>https://forgetst.github.io/2019/09/06/python-tips-python-序列中出现次数最多的元素/</id>
+    <published>2019-09-05T16:00:00.000Z</published>
+    <updated>2019-09-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;怎样找出一个序列中出现次数最多的元素呢？&lt;/p&gt;
+&lt;h2 id=&quot;实现&quot;&gt;&lt;a href=&quot;#实现&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python import 原理</title>
     <link href="https://forgetst.github.io/2019/09/04/python-python-import%E5%8E%9F%E7%90%86/"/>
     <id>https://forgetst.github.io/2019/09/04/python-python-import原理/</id>
@@ -139,6 +166,33 @@
   </entry>
   
   <entry>
+    <title>python 字典中的键映射多个值</title>
+    <link href="https://forgetst.github.io/2019/09/01/python-tips-python-%E5%AD%97%E5%85%B8%E4%B8%AD%E7%9A%84%E9%94%AE%E6%98%A0%E5%B0%84%E5%A4%9A%E4%B8%AA%E5%80%BC/"/>
+    <id>https://forgetst.github.io/2019/09/01/python-tips-python-字典中的键映射多个值/</id>
+    <published>2019-08-31T16:00:00.000Z</published>
+    <updated>2019-08-31T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;实现一个键对应多个值的字典&lt;/p&gt;
+&lt;h2 id=&quot;实现&quot;&gt;&lt;a href=&quot;#实现&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python heapq module</title>
     <link href="https://forgetst.github.io/2019/09/01/python-module-heapq/"/>
     <id>https://forgetst.github.io/2019/09/01/python-module-heapq/</id>
@@ -166,38 +220,11 @@
   </entry>
   
   <entry>
-    <title>python 字典中的键映射多个值</title>
-    <link href="https://forgetst.github.io/2019/09/01/python-tips-python-%E5%AD%97%E5%85%B8%E4%B8%AD%E7%9A%84%E9%94%AE%E6%98%A0%E5%B0%84%E5%A4%9A%E4%B8%AA%E5%80%BC/"/>
-    <id>https://forgetst.github.io/2019/09/01/python-tips-python-字典中的键映射多个值/</id>
-    <published>2019-08-31T16:00:00.000Z</published>
-    <updated>2019-09-19T14:14:43.008Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;实现一个键对应多个值的字典&lt;/p&gt;
-&lt;h2 id=&quot;实现&quot;&gt;&lt;a href=&quot;#实现&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>python 实现一个顺序字典</title>
     <link href="https://forgetst.github.io/2019/09/01/python-tips-python-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%A1%BA%E5%BA%8F%E5%AD%97%E5%85%B8/"/>
     <id>https://forgetst.github.io/2019/09/01/python-tips-python-实现一个顺序字典/</id>
     <published>2019-08-31T16:00:00.000Z</published>
-    <updated>2019-09-19T14:38:41.012Z</updated>
+    <updated>2019-08-31T16:00:00.000Z</updated>
     
     <summary type="html">
     
@@ -451,32 +478,6 @@
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
     
       <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo 添加DaoVoice实现在线联系</title>
-    <link href="https://forgetst.github.io/2019/08/11/hexo-%E6%B7%BB%E5%8A%A0daovoice/"/>
-    <id>https://forgetst.github.io/2019/08/11/hexo-添加daovoice/</id>
-    <published>2019-08-10T16:00:00.000Z</published>
-    <updated>2019-08-10T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;注册登录DaoVoice&quot;&gt;&lt;a href=&quot;#注册登录DaoVoice&quot; class=&quot;headerlink&quot; title=&quot;注册登录DaoVoice&quot;&gt;&lt;/a&gt;注册登录DaoVoice&lt;/h2&gt;&lt;p&gt;注册地址: &lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="hexo" scheme="https://forgetst.github.io/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="https://forgetst.github.io/tags/hexo/"/>
     
   </entry>
   
