@@ -18,8 +18,8 @@
   
   <entry>
     <title>猴子爬山问题</title>
-    <link href="https://forgetst.github.io/2019/09/09/math-pragram-%E7%8C%B4%E5%AD%90%E7%88%AC%E5%B1%B1%E9%97%AE%E9%A2%98/"/>
-    <id>https://forgetst.github.io/2019/09/09/math-pragram-猴子爬山问题/</id>
+    <link href="https://forgetst.github.io/math/ck0t8wh8g002ztwv7aq2ovag1.html"/>
+    <id>https://forgetst.github.io/math/ck0t8wh8g002ztwv7aq2ovag1.html</id>
     <published>2019-09-08T16:00:00.000Z</published>
     <updated>2019-09-08T16:00:00.000Z</updated>
     
@@ -37,9 +37,67 @@
   </entry>
   
   <entry>
+    <title>python 通过某个字段将记录分组</title>
+    <link href="https://forgetst.github.io/python/tips/ck0t8whru006rtwv77fl00ktp.html"/>
+    <id>https://forgetst.github.io/python/tips/ck0t8whru006rtwv77fl00ktp.html</id>
+    <published>2019-09-05T16:00:00.000Z</published>
+    <updated>2019-09-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你有一个字典或者实例的序列，然后你想根据某个特定的字段比如 date 来分组迭代访问。&lt;/p&gt;
+&lt;h2 id=&quot;实现&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python 映射名称到序列元素</title>
+    <link href="https://forgetst.github.io/python/tips/ck0t8whr8006ktwv77d3xr6ak.html"/>
+    <id>https://forgetst.github.io/python/tips/ck0t8whr8006ktwv77d3xr6ak.html</id>
+    <published>2019-09-05T16:00:00.000Z</published>
+    <updated>2019-09-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你有一段通过下标访问列表或者元组中元素的代码，但是这样有时候会使得你的代码难以阅读， 于是你想通过名称来访问元素。&lt;/p&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python 序列中出现次数最多的元素</title>
-    <link href="https://forgetst.github.io/2019/09/06/python-tips-python-%E5%BA%8F%E5%88%97%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E6%9C%80%E5%A4%9A%E7%9A%84%E5%85%83%E7%B4%A0/"/>
-    <id>https://forgetst.github.io/2019/09/06/python-tips-python-序列中出现次数最多的元素/</id>
+    <link href="https://forgetst.github.io/python/tips/ck0t8whqs006dtwv7c6qg2yss.html"/>
+    <id>https://forgetst.github.io/python/tips/ck0t8whqs006dtwv7c6qg2yss.html</id>
     <published>2019-09-05T16:00:00.000Z</published>
     <updated>2019-09-05T16:00:00.000Z</updated>
     
@@ -58,6 +116,37 @@
     
       <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python 合并多个字典或映射</title>
+    <link href="https://forgetst.github.io/python/tips/ck0t8whq20063twv7yvtlplkf.html"/>
+    <id>https://forgetst.github.io/python/tips/ck0t8whq20063twv7yvtlplkf.html</id>
+    <published>2019-09-05T16:00:00.000Z</published>
+    <updated>2019-09-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;现在有多个字典或者映射，你想将它们从逻辑上合并为一个单一的映射后执行某些操作， 比如查找值或者检查某些键是否存在。&lt;/p&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
@@ -65,8 +154,8 @@
   
   <entry>
     <title>python import 原理</title>
-    <link href="https://forgetst.github.io/2019/09/04/python-python-import%E5%8E%9F%E7%90%86/"/>
-    <id>https://forgetst.github.io/2019/09/04/python-python-import原理/</id>
+    <link href="https://forgetst.github.io/python/ck0t8whca0049twv7asxcm9q3.html"/>
+    <id>https://forgetst.github.io/python/ck0t8whca0049twv7asxcm9q3.html</id>
     <published>2019-09-03T16:00:00.000Z</published>
     <updated>2019-09-07T07:17:48.970Z</updated>
     
@@ -85,8 +174,8 @@
   
   <entry>
     <title>python zip 与 dict</title>
-    <link href="https://forgetst.github.io/2019/09/02/python-tips-python-zip%E4%B8%8Edict/"/>
-    <id>https://forgetst.github.io/2019/09/02/python-tips-python-zip与dict/</id>
+    <link href="https://forgetst.github.io/python/tips/ck0t8whp4005ntwv7ub6on2tj.html"/>
+    <id>https://forgetst.github.io/python/tips/ck0t8whp4005ntwv7ub6on2tj.html</id>
     <published>2019-09-01T16:00:00.000Z</published>
     <updated>2019-09-01T16:00:00.000Z</updated>
     
@@ -105,6 +194,8 @@
     
       <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
@@ -112,8 +203,8 @@
   
   <entry>
     <title>python 删除序列相同元素并保持顺序</title>
-    <link href="https://forgetst.github.io/2019/09/02/python-tips-python-%E5%88%A0%E9%99%A4%E5%BA%8F%E5%88%97%E7%9B%B8%E5%90%8C%E5%85%83%E7%B4%A0%E5%B9%B6%E4%BF%9D%E6%8C%81%E9%A1%BA%E5%BA%8F/"/>
-    <id>https://forgetst.github.io/2019/09/02/python-tips-python-删除序列相同元素并保持顺序/</id>
+    <link href="https://forgetst.github.io/python/tips/ck0t8whpv0060twv7d0h1nlm7.html"/>
+    <id>https://forgetst.github.io/python/tips/ck0t8whpv0060twv7d0h1nlm7.html</id>
     <published>2019-09-01T16:00:00.000Z</published>
     <updated>2019-09-01T16:00:00.000Z</updated>
     
@@ -132,33 +223,7 @@
     
       <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python  实现一个优先级队列</title>
-    <link href="https://forgetst.github.io/2019/09/01/python-tips-python-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97/"/>
-    <id>https://forgetst.github.io/2019/09/01/python-tips-python-实现一个优先级队列/</id>
-    <published>2019-08-31T16:00:00.000Z</published>
-    <updated>2019-08-31T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;实现一个优先级队列&quot;&gt;&lt;a href=&quot;#实现一个优先级队列&quot; class=&quot;headerlink&quot; title=&quot;实现一个优先级队列&quot;&gt;&lt;/a&gt;实现一个优先级队列&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;问题&lt;/p&gt;
-&lt;p&gt;怎样实现一个按优先级排序的队列？
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
     
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
@@ -167,8 +232,8 @@
   
   <entry>
     <title>python 字典中的键映射多个值</title>
-    <link href="https://forgetst.github.io/2019/09/01/python-tips-python-%E5%AD%97%E5%85%B8%E4%B8%AD%E7%9A%84%E9%94%AE%E6%98%A0%E5%B0%84%E5%A4%9A%E4%B8%AA%E5%80%BC/"/>
-    <id>https://forgetst.github.io/2019/09/01/python-tips-python-字典中的键映射多个值/</id>
+    <link href="https://forgetst.github.io/python/tips/ck0t8whqd0067twv7een5zes9.html"/>
+    <id>https://forgetst.github.io/python/tips/ck0t8whqd0067twv7een5zes9.html</id>
     <published>2019-08-31T16:00:00.000Z</published>
     <updated>2019-08-31T16:00:00.000Z</updated>
     
@@ -187,6 +252,8 @@
     
       <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
@@ -194,8 +261,8 @@
   
   <entry>
     <title>python heapq module</title>
-    <link href="https://forgetst.github.io/2019/09/01/python-module-heapq/"/>
-    <id>https://forgetst.github.io/2019/09/01/python-module-heapq/</id>
+    <link href="https://forgetst.github.io/python/module/ck0t8who70059twv7w2foyvah.html"/>
+    <id>https://forgetst.github.io/python/module/ck0t8who70059twv7w2foyvah.html</id>
     <published>2019-08-31T16:00:00.000Z</published>
     <updated>2019-08-31T16:00:00.000Z</updated>
     
@@ -221,8 +288,8 @@
   
   <entry>
     <title>python 实现一个顺序字典</title>
-    <link href="https://forgetst.github.io/2019/09/01/python-tips-python-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E9%A1%BA%E5%BA%8F%E5%AD%97%E5%85%B8/"/>
-    <id>https://forgetst.github.io/2019/09/01/python-tips-python-实现一个顺序字典/</id>
+    <link href="https://forgetst.github.io/python/tips/ck0t8whqk006atwv7ykxbamwd.html"/>
+    <id>https://forgetst.github.io/python/tips/ck0t8whqk006atwv7ykxbamwd.html</id>
     <published>2019-08-31T16:00:00.000Z</published>
     <updated>2019-08-31T16:00:00.000Z</updated>
     
@@ -241,6 +308,38 @@
     
       <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python  实现一个优先级队列</title>
+    <link href="https://forgetst.github.io/python/tips/ck0t8whpf005stwv7f3ysvldq.html"/>
+    <id>https://forgetst.github.io/python/tips/ck0t8whpf005stwv7f3ysvldq.html</id>
+    <published>2019-08-31T16:00:00.000Z</published>
+    <updated>2019-08-31T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;实现一个优先级队列&quot;&gt;&lt;a href=&quot;#实现一个优先级队列&quot; class=&quot;headerlink&quot; title=&quot;实现一个优先级队列&quot;&gt;&lt;/a&gt;实现一个优先级队列&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;问题&lt;/p&gt;
+&lt;p&gt;怎样实现一个按优先级排序的队列？
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
@@ -248,8 +347,8 @@
   
   <entry>
     <title>The Python 魔法方法</title>
-    <link href="https://forgetst.github.io/2019/08/30/python-python-%E9%AD%94%E6%B3%95%E6%96%B9%E6%B3%95/"/>
-    <id>https://forgetst.github.io/2019/08/30/python-python-魔法方法/</id>
+    <link href="https://forgetst.github.io/python/ck0t8whc60047twv7apqof31i.html"/>
+    <id>https://forgetst.github.io/python/ck0t8whc60047twv7apqof31i.html</id>
     <published>2019-08-29T16:00:00.000Z</published>
     <updated>2019-09-01T07:37:30.955Z</updated>
     
@@ -272,8 +371,8 @@
   
   <entry>
     <title>斐波那契数列</title>
-    <link href="https://forgetst.github.io/2019/08/26/math-pragram-Fibonacci-sequence/"/>
-    <id>https://forgetst.github.io/2019/08/26/math-pragram-Fibonacci-sequence/</id>
+    <link href="https://forgetst.github.io/math/ck0t8wh84002utwv77vfxlhqg.html"/>
+    <id>https://forgetst.github.io/math/ck0t8wh84002utwv77vfxlhqg.html</id>
     <published>2019-08-25T16:00:00.000Z</published>
     <updated>2019-08-25T16:00:00.000Z</updated>
     
@@ -295,8 +394,8 @@
   
   <entry>
     <title>python operator module</title>
-    <link href="https://forgetst.github.io/2019/08/25/python-module-operator/"/>
-    <id>https://forgetst.github.io/2019/08/25/python-module-operator/</id>
+    <link href="https://forgetst.github.io/python/module/ck0t8whx9008stwv7u8lsyozk.html"/>
+    <id>https://forgetst.github.io/python/module/ck0t8whx9008stwv7u8lsyozk.html</id>
     <published>2019-08-24T16:00:00.000Z</published>
     <updated>2019-08-24T16:00:00.000Z</updated>
     
@@ -321,8 +420,8 @@
   
   <entry>
     <title>Linux 统计文件及目录个数</title>
-    <link href="https://forgetst.github.io/2019/08/21/Linux-linux-%E7%BB%9F%E8%AE%A1%E6%96%87%E4%BB%B6%E4%B8%AA%E6%95%B0/"/>
-    <id>https://forgetst.github.io/2019/08/21/Linux-linux-统计文件个数/</id>
+    <link href="https://forgetst.github.io/Linux/command/ck0t8wh5c001ntwv7zqowhun5.html"/>
+    <id>https://forgetst.github.io/Linux/command/ck0t8wh5c001ntwv7zqowhun5.html</id>
     <published>2019-08-20T16:00:00.000Z</published>
     <updated>2019-08-20T16:00:00.000Z</updated>
     
@@ -345,8 +444,8 @@
   
   <entry>
     <title>Linux wc command</title>
-    <link href="https://forgetst.github.io/2019/08/20/Linux-command-wc/"/>
-    <id>https://forgetst.github.io/2019/08/20/Linux-command-wc/</id>
+    <link href="https://forgetst.github.io/Linux/command/wc/ck0t8whnx0055twv77bvnbjte.html"/>
+    <id>https://forgetst.github.io/Linux/command/wc/ck0t8whnx0055twv77bvnbjte.html</id>
     <published>2019-08-19T16:00:00.000Z</published>
     <updated>2019-08-19T16:00:00.000Z</updated>
     
@@ -372,8 +471,8 @@
   
   <entry>
     <title>Linux 设置静态IP</title>
-    <link href="https://forgetst.github.io/2019/08/19/Linux-%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81IP/"/>
-    <id>https://forgetst.github.io/2019/08/19/Linux-设置静态IP/</id>
+    <link href="https://forgetst.github.io/Linux/ck0t8wh690021twv73ozi74md.html"/>
+    <id>https://forgetst.github.io/Linux/ck0t8wh690021twv73ozi74md.html</id>
     <published>2019-08-18T16:00:00.000Z</published>
     <updated>2019-08-18T16:00:00.000Z</updated>
     
@@ -392,8 +491,8 @@
   
   <entry>
     <title>正则表达式简述</title>
-    <link href="https://forgetst.github.io/2019/08/16/%E6%AD%A3%E5%88%99%E7%AE%80%E8%BF%B0/"/>
-    <id>https://forgetst.github.io/2019/08/16/正则简述/</id>
+    <link href="https://forgetst.github.io/regex/ck0t8wgze000xtwv7j9u7pkc0.html"/>
+    <id>https://forgetst.github.io/regex/ck0t8wgze000xtwv7j9u7pkc0.html</id>
     <published>2019-08-15T16:00:00.000Z</published>
     <updated>2019-08-19T12:42:16.742Z</updated>
     
@@ -415,8 +514,8 @@
   
   <entry>
     <title>执行chmod -R 777 命令误操作根目录补救的方法</title>
-    <link href="https://forgetst.github.io/2019/08/14/Linux-%E6%89%A7%E8%A1%8Cchmod-R-777-%E5%91%BD%E4%BB%A4%E8%AF%AF%E6%93%8D%E4%BD%9C%E6%A0%B9%E7%9B%AE%E5%BD%95/"/>
-    <id>https://forgetst.github.io/2019/08/14/Linux-执行chmod-R-777-命令误操作根目录/</id>
+    <link href="https://forgetst.github.io/Linux/ck0t8wh5t001vtwv7ox2ownni.html"/>
+    <id>https://forgetst.github.io/Linux/ck0t8wh5t001vtwv7ox2ownni.html</id>
     <published>2019-08-13T16:00:00.000Z</published>
     <updated>2019-08-15T22:24:50.298Z</updated>
     
@@ -430,80 +529,6 @@
     
     
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>软连接与硬连接</title>
-    <link href="https://forgetst.github.io/2019/08/13/Linux-%E8%BD%AF%E8%BF%9E%E6%8E%A5%E4%B8%8E%E7%A1%AC%E8%BF%9E%E6%8E%A5/"/>
-    <id>https://forgetst.github.io/2019/08/13/Linux-软连接与硬连接/</id>
-    <published>2019-08-12T16:00:00.000Z</published>
-    <updated>2019-08-14T15:27:20.870Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;链接是一种文件共享的方式，是 &lt;strong&gt;POSIX&lt;/strong&gt; 中的概念，主流文件系统都支持链接文件。&lt;/p&gt;
-&lt;p&gt;链接无非是把文件名和计算机文件系统使用的节点号链接起来。因此我们可以用多个文件名与同一个文件进行链接，这些文件名可以在同一目录或不同目录。 &lt;/p&gt;
-&lt;p&gt;对链接进行编辑，实际上是对原始文件进行编辑。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux jps</title>
-    <link href="https://forgetst.github.io/2019/08/12/Linux-command-jps/"/>
-    <id>https://forgetst.github.io/2019/08/12/Linux-command-jps/</id>
-    <published>2019-08-11T16:00:00.000Z</published>
-    <updated>2019-08-11T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;jps(Java Virtual Machine Process Status Tool)&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
-    
-      <category term="jps" scheme="https://forgetst.github.io/categories/Linux/command/jps/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux ping command</title>
-    <link href="https://forgetst.github.io/2019/08/11/Linux-command-ping/"/>
-    <id>https://forgetst.github.io/2019/08/11/Linux-command-ping/</id>
-    <published>2019-08-10T16:00:00.000Z</published>
-    <updated>2019-08-10T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt;网络命令，用来测试与目标主机的连通性。  &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/categories/Linux/command/"/>
-    
-      <category term="ping" scheme="https://forgetst.github.io/categories/Linux/command/ping/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-      <category term="command" scheme="https://forgetst.github.io/tags/command/"/>
     
   </entry>
   
