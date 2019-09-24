@@ -387,7 +387,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0wkb2aa0087nkv7sw0o85v8.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0xy27m2008hksv7m8nkabqv.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -407,7 +407,186 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ck0wkb2aa0087nkv7sw0o85v8.html" class="post-title-link" itemprop="url">python zip 与 dict</a>
+                <a href="/python/tips/ck0xy27m2008hksv7m8nkabqv.html" class="post-title-link" itemprop="url">python 删除序列相同元素并保持顺序</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-09-02 00:00" itemprop="dateCreated datePublished" datetime="2019-09-02T00:00:00+08:00">2019-09-02</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/tips/" itemprop="url" rel="index"><span itemprop="name">tips</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>怎样在一个序列上面保持元素顺序的同时消除重复的值？</p>
+<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><ul>
+<li><p>如果序列上的值都是 hashable 类型，那么可以很简单的利用集合或者生成器来解决这个问题。比如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">def dedupe(items):</span><br><span class="line">  seen = set()</span><br><span class="line">  for item in items:</span><br><span class="line">      if item not in seen:</span><br><span class="line">          yield item</span><br><span class="line">          seen.add(item)</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; a = [1, 5, 2, 1, 9, 1, 5, 10]</span><br><span class="line">&gt;&gt;&gt; list(dedupe(a))</span><br><span class="line">[1, 5, 2, 9, 10]</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>如果序列上的值是不可 hashable 类型</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">def dedupe(items, key=None):</span><br><span class="line">  seen = set()</span><br><span class="line">  for item in items:</span><br><span class="line">      val = item if key is None else key(item)</span><br><span class="line">      if val not in seen:</span><br><span class="line">          yield item</span><br><span class="line">          seen.add(val)</span><br><span class="line">  </span><br><span class="line">&gt;&gt;&gt; a = [ &#123;&apos;x&apos;:1, &apos;y&apos;:2&#125;, &#123;&apos;x&apos;:1, &apos;y&apos;:3&#125;, &#123;&apos;x&apos;:1, &apos;y&apos;:2&#125;, &#123;&apos;x&apos;:2, &apos;y&apos;:4&#125;]</span><br><span class="line">&gt;&gt;&gt; list(dedupe(a, key=lambda d: (d[&apos;x&apos;],d[&apos;y&apos;])))</span><br><span class="line">[&#123;&apos;x&apos;: 1, &apos;y&apos;: 2&#125;, &#123;&apos;x&apos;: 1, &apos;y&apos;: 3&#125;, &#123;&apos;x&apos;: 2, &apos;y&apos;: 4&#125;]</span><br><span class="line">&gt;&gt;&gt; list(dedupe(a, key=lambda d: d[&apos;x&apos;]))</span><br><span class="line">[&#123;&apos;x&apos;: 1, &apos;y&apos;: 2&#125;, &#123;&apos;x&apos;: 2, &apos;y&apos;: 4&#125;]</span><br><span class="line"></span><br><span class="line">注：key参数指定了一个函数，将序列元素转换成 hashable 类型</span><br></pre></td></tr></table></figure></li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0xy27lj008aksv7jafolceu.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/python/tips/ck0xy27lj008aksv7jafolceu.html" class="post-title-link" itemprop="url">python zip 与 dict</a>
               
             
           </h1>
@@ -561,7 +740,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck0wkb24x005gnkv7ct7a5ync.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0xy27mb008kksv7od2x4ky6.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -581,369 +760,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/module/ck0wkb24x005gnkv7ct7a5ync.html" class="post-title-link" itemprop="url">python heapq module</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-09-01 00:00" itemprop="dateCreated datePublished" datetime="2019-09-01T00:00:00+08:00">2019-09-01</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/" itemprop="url" rel="index"><span itemprop="name">module</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Python提供的关于堆的操作模块。</p>
-<p>源码：<a href="https://github.com/python/cpython/tree/3.7/Lib/heapq.py" target="_blank" rel="noopener">Lib/heapq.py</a></p>
-<p>Python 提供的是基于小顶堆的操作，因此 Python 可以对 list 中的元素进行小顶堆排列，这样程序每次获取堆中元素时，总会取得堆中最小的元素。</p>
-<p>有关堆的介绍：<a href="https://baike.baidu.com/item/%E5%A0%86/20606834?fr=aladdin" target="_blank" rel="noopener">传送门</a></p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/python/module/ck0wkb24x005gnkv7ct7a5ync.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0wkb2bs008unkv7y70twxxg.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/python/tips/ck0wkb2bs008unkv7y70twxxg.html" class="post-title-link" itemprop="url">python 实现一个顺序字典</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-09-01 00:00" itemprop="dateCreated datePublished" datetime="2019-09-01T00:00:00+08:00">2019-09-01</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/tips/" itemprop="url" rel="index"><span itemprop="name">tips</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>你想创建一个字典，并且在迭代或序列化这个字典的时候能够控制元素的顺序。</p>
-<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><p>通过 <strong>collections</strong> 模块中的 <strong>OrderedDict</strong> 类，可生成一个保持元素被插入时的顺序的字典，示例如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; from collections import OrderedDict</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; d = OrderedDict()</span><br><span class="line">&gt;&gt;&gt; d[&apos;foo&apos;] = 1</span><br><span class="line">&gt;&gt;&gt; d[&apos;bar&apos;] = 2</span><br><span class="line">&gt;&gt;&gt; d[&apos;spam&apos;] = 3</span><br><span class="line">&gt;&gt;&gt; d[&apos;grok&apos;] = 4</span><br><span class="line"></span><br><span class="line"># Outputs </span><br><span class="line">&gt;&gt;&gt; for k, v in d.items():</span><br><span class="line">      print(&apos;%s --&gt; %s&apos; % (k, v))</span><br><span class="line"></span><br><span class="line">foo --&gt; 1</span><br><span class="line">bar --&gt; 2</span><br><span class="line">spam --&gt; 3</span><br><span class="line">grok --&gt; 4</span><br></pre></td></tr></table></figure>
-
-<p>当你想要构建一个将来需要序列化或编码成其他格式的映射的时候， OrderedDict 是非常有用的。 比如，你想精确控制以 JSON 编码后字段的顺序，你可以先使用 OrderedDict 来构建这样的数据：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; import json</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; json.dumps(d)</span><br><span class="line">&apos;&#123;&quot;foo&quot;: 1, &quot;bar&quot;: 2, &quot;spam&quot;: 3, &quot;grok&quot;: 4&#125;&apos;</span><br></pre></td></tr></table></figure>
-
-<h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><p>OrderedDict 内部维护着一个根据键插入顺序排序的双向链表。每次当一个新的元素插入进来的时候， 它会被放到链表的尾部。对于一个已经存在的键的重复赋值不会改变键的顺序。</p>
-<p>需要注意的是，一个 OrderedDict 的大小是一个普通字典的两倍，因为它内部维护着另外一个链表。 所以如果你要构建一个需要大量 OrderedDict 实例的数据结构的时候（比如读取 100,000 行 CSV 数据到一个 OrderedDict 列表中去）， 那么你就得仔细权衡一下是否使用 OrderedDict 带来的好处要大过额外内存消耗的影响。</p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://python3-cookbook.readthedocs.io/zh_CN/latest/c01/p07_keep_dict_in_order.html" target="_blank" rel="noopener">https://python3-cookbook.readthedocs.io/zh_CN/latest/c01/p07_keep_dict_in_order.html</a></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0wkb2aw008inkv71fv36wlp.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/python/tips/ck0wkb2aw008inkv71fv36wlp.html" class="post-title-link" itemprop="url">python 字典中的键映射多个值</a>
+                <a href="/python/tips/ck0xy27mb008kksv7od2x4ky6.html" class="post-title-link" itemprop="url">python 字典中的键映射多个值</a>
               
             
           </h1>
@@ -1101,7 +918,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0wkb2a60085nkv71aa70bal.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck0xy27ep005cksv7iqm9qzqk.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1121,7 +938,188 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ck0wkb2a60085nkv71aa70bal.html" class="post-title-link" itemprop="url">python  实现一个优先级队列</a>
+                <a href="/python/module/ck0xy27ep005cksv7iqm9qzqk.html" class="post-title-link" itemprop="url">python heapq module</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-09-01 00:00" itemprop="dateCreated datePublished" datetime="2019-09-01T00:00:00+08:00">2019-09-01</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/" itemprop="url" rel="index"><span itemprop="name">module</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Python提供的关于堆的操作模块。</p>
+<p>源码：<a href="https://github.com/python/cpython/tree/3.7/Lib/heapq.py" target="_blank" rel="noopener">Lib/heapq.py</a></p>
+<p>Python 提供的是基于小顶堆的操作，因此 Python 可以对 list 中的元素进行小顶堆排列，这样程序每次获取堆中元素时，总会取得堆中最小的元素。</p>
+<p>有关堆的介绍：<a href="https://baike.baidu.com/item/%E5%A0%86/20606834?fr=aladdin" target="_blank" rel="noopener">传送门</a></p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/python/module/ck0xy27ep005cksv7iqm9qzqk.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0xy27lr008cksv7wii7unwa.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/python/tips/ck0xy27lr008cksv7wii7unwa.html" class="post-title-link" itemprop="url">python  实现一个优先级队列</a>
               
             
           </h1>
@@ -1283,7 +1281,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/ck0wkb1wi0049nkv7d68s828a.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0xy27mt008qksv7p2e1wolh.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1303,7 +1301,188 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/ck0wkb1wi0049nkv7d68s828a.html" class="post-title-link" itemprop="url">The Python 魔法方法</a>
+                <a href="/python/tips/ck0xy27mt008qksv7p2e1wolh.html" class="post-title-link" itemprop="url">python 实现一个顺序字典</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-09-01 00:00" itemprop="dateCreated datePublished" datetime="2019-09-01T00:00:00+08:00">2019-09-01</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/tips/" itemprop="url" rel="index"><span itemprop="name">tips</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>你想创建一个字典，并且在迭代或序列化这个字典的时候能够控制元素的顺序。</p>
+<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><p>通过 <strong>collections</strong> 模块中的 <strong>OrderedDict</strong> 类，可生成一个保持元素被插入时的顺序的字典，示例如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; from collections import OrderedDict</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; d = OrderedDict()</span><br><span class="line">&gt;&gt;&gt; d[&apos;foo&apos;] = 1</span><br><span class="line">&gt;&gt;&gt; d[&apos;bar&apos;] = 2</span><br><span class="line">&gt;&gt;&gt; d[&apos;spam&apos;] = 3</span><br><span class="line">&gt;&gt;&gt; d[&apos;grok&apos;] = 4</span><br><span class="line"></span><br><span class="line"># Outputs </span><br><span class="line">&gt;&gt;&gt; for k, v in d.items():</span><br><span class="line">      print(&apos;%s --&gt; %s&apos; % (k, v))</span><br><span class="line"></span><br><span class="line">foo --&gt; 1</span><br><span class="line">bar --&gt; 2</span><br><span class="line">spam --&gt; 3</span><br><span class="line">grok --&gt; 4</span><br></pre></td></tr></table></figure>
+
+<p>当你想要构建一个将来需要序列化或编码成其他格式的映射的时候， OrderedDict 是非常有用的。 比如，你想精确控制以 JSON 编码后字段的顺序，你可以先使用 OrderedDict 来构建这样的数据：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; import json</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; json.dumps(d)</span><br><span class="line">&apos;&#123;&quot;foo&quot;: 1, &quot;bar&quot;: 2, &quot;spam&quot;: 3, &quot;grok&quot;: 4&#125;&apos;</span><br></pre></td></tr></table></figure>
+
+<h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><p>OrderedDict 内部维护着一个根据键插入顺序排序的双向链表。每次当一个新的元素插入进来的时候， 它会被放到链表的尾部。对于一个已经存在的键的重复赋值不会改变键的顺序。</p>
+<p>需要注意的是，一个 OrderedDict 的大小是一个普通字典的两倍，因为它内部维护着另外一个链表。 所以如果你要构建一个需要大量 OrderedDict 实例的数据结构的时候（比如读取 100,000 行 CSV 数据到一个 OrderedDict 列表中去）， 那么你就得仔细权衡一下是否使用 OrderedDict 带来的好处要大过额外内存消耗的影响。</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://python3-cookbook.readthedocs.io/zh_CN/latest/c01/p07_keep_dict_in_order.html" target="_blank" rel="noopener">https://python3-cookbook.readthedocs.io/zh_CN/latest/c01/p07_keep_dict_in_order.html</a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/ck0xy275s0049ksv75y4yf8cy.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/python/ck0xy275s0049ksv75y4yf8cy.html" class="post-title-link" itemprop="url">The Python 魔法方法</a>
               
             
           </h1>
@@ -1406,7 +1585,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/ck0wkb1wi0049nkv7d68s828a.html#more" rel="contents">
+              <a class="btn" href="/python/ck0xy275s0049ksv75y4yf8cy.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1472,7 +1651,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/math/ck0wkb1sz002unkv7p98i1sje.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/math/ck0xy272g002zksv7tj80owae.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1492,7 +1671,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/math/ck0wkb1sz002unkv7p98i1sje.html" class="post-title-link" itemprop="url">斐波那契数列</a>
+                <a href="/math/ck0xy272g002zksv7tj80owae.html" class="post-title-link" itemprop="url">斐波那契数列</a>
               
             
           </h1>
@@ -1580,7 +1759,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/math/ck0wkb1sz002unkv7p98i1sje.html#more" rel="contents">
+              <a class="btn" href="/math/ck0xy272g002zksv7tj80owae.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1646,7 +1825,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck0wkb293007lnkv7l6xf99uk.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck0xy27k6007qksv7jp1h88xl.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1666,7 +1845,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/module/ck0wkb293007lnkv7l6xf99uk.html" class="post-title-link" itemprop="url">python operator module</a>
+                <a href="/python/module/ck0xy27k6007qksv7jp1h88xl.html" class="post-title-link" itemprop="url">python operator module</a>
               
             
           </h1>
@@ -1760,7 +1939,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/module/ck0wkb293007lnkv7l6xf99uk.html#more" rel="contents">
+              <a class="btn" href="/python/module/ck0xy27k6007qksv7jp1h88xl.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1826,7 +2005,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/Linux/command/ck0wkb1px001nnkv7s03nqhck.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/Linux/command/ck0xy26z3001nksv78qm278u7.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1846,7 +2025,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/Linux/command/ck0wkb1px001nnkv7s03nqhck.html" class="post-title-link" itemprop="url">Linux 统计文件及目录个数</a>
+                <a href="/Linux/command/ck0xy26z3001nksv78qm278u7.html" class="post-title-link" itemprop="url">Linux 统计文件及目录个数</a>
               
             
           </h1>
@@ -1938,193 +2117,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/Linux/command/ck0wkb1px001nnkv7s03nqhck.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/Linux/command/wc/ck0wkb24a0055nkv7zyqz9ney.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/Linux/command/wc/ck0wkb24a0055nkv7zyqz9ney.html" class="post-title-link" itemprop="url">Linux wc command</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-08-20 00:00" itemprop="dateCreated datePublished" datetime="2019-08-20T00:00:00+08:00">2019-08-20</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/" itemprop="url" rel="index"><span itemprop="name">command</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/command/wc/" itemprop="url" rel="index"><span itemprop="name">wc</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><p><strong>wc</strong> 命令用于计算字数。</p>
-<p>利用 <strong>wc</strong> 指令我们可以计算文件的Byte数、字数、或是列数，若不指定文件名称、或是所给予的文件名为”-“，则wc指令会从标准输入设备读取数据。</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/Linux/command/wc/ck0wkb24a0055nkv7zyqz9ney.html#more" rel="contents">
+              <a class="btn" href="/Linux/command/ck0xy26z3001nksv78qm278u7.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -2224,7 +2217,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">51</span>
+          <span class="site-state-item-count">52</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>

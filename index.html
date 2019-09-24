@@ -387,7 +387,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0wkb25l005vnkv7vdmxyfkv.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0xy27fu005vksv726n8bmf5.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -407,7 +407,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ck0wkb25l005vnkv7vdmxyfkv.html" class="post-title-link" itemprop="url">python 将Unicode文本标准化</a>
+                <a href="/python/tips/ck0xy27fu005vksv726n8bmf5.html" class="post-title-link" itemprop="url">python 审查清理文本字符串</a>
               
             
           </h1>
@@ -432,7 +432,7 @@
                 
               
 
-              <time title="创建时间：2019-09-23 00:00" itemprop="dateCreated datePublished" datetime="2019-09-23T00:00:00+08:00">2019-09-23</time>
+              <time title="创建时间：2019-09-24 00:00" itemprop="dateCreated datePublished" datetime="2019-09-24T00:00:00+08:00">2019-09-24</time>
             </span>
           
 
@@ -495,16 +495,37 @@
 
       
         
-          <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>你正在处理Unicode字符串，需要确保所有字符串在底层有相同的表示。</p>
-          <!--noindex-->
           
-            <div class="post-button text-center">
-              <a class="btn" href="/python/tips/ck0wkb25l005vnkv7vdmxyfkv.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
+            <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>一些无聊的幼稚黑客在你的网站页面表单中输入文本”pýtĥöñ”，然后你想将这些字符清理掉。</p>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>文本清理问题会涉及到包括文本解析与数据处理等一系列问题。 在非常简单的情形下，你可能会选择使用字符串函数(比如 <code>str.upper()</code> 和 <code>str.lower()</code> )将文本转为标准格式。 使用 <code>str.replace()</code>或者 <code>re.sub()</code> 的简单替换操作能删除或者改变指定的字符序列。 你同样还可以使用2.9小节的 <code>unicodedata.normalize()</code> 函数将unicode文本标准化。</p>
+<p>然后，有时候你可能还想在清理操作上更进一步。比如，你可能想消除整个区间上的字符或者去除变音符。 为了这样做，你可以使用经常会被忽视的 <code>str.translate()</code> 方法。 为了演示，假设你现在有下面这个凌乱的字符串：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; s = &apos;pýtĥöñ\fis\tawesome\r\n&apos;</span><br><span class="line">&gt;&gt;&gt; s</span><br><span class="line">&apos;pýtĥöñ\x0cis\tawesome\r\n&apos;</span><br></pre></td></tr></table></figure>
+
+<p>第一步是清理空白字符。为了这样做，先创建一个小的转换表格然后使用 <code>translate()</code> 方法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; remap = &#123;</span><br><span class="line">     ord(&apos;\t&apos;) : &apos; &apos;,</span><br><span class="line">     ord(&apos;\f&apos;) : &apos; &apos;,</span><br><span class="line">     ord(&apos;\r&apos;) : None # Deleted</span><br><span class="line"> &#125;</span><br><span class="line">&gt;&gt;&gt; a = s.translate(remap)</span><br><span class="line">&gt;&gt;&gt; a</span><br><span class="line">&apos;pýtĥöñ is awesome\n&apos;</span><br></pre></td></tr></table></figure>
+
+<p>正如你看的那样，空白字符 <code>\t</code> 和 <code>\f</code> 已经被重新映射到一个空格。回车字符r直接被删除。</p>
+<p>你可以以这个表格为基础进一步构建更大的表格。比如，让我们删除所有的和音符：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; import unicodedata</span><br><span class="line">&gt;&gt;&gt; import sys</span><br><span class="line">&gt;&gt;&gt; cmb_chrs = dict.fromkeys(c for c in range(sys.maxunicode) if unicodedata.combining(chr(c)))</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; b = unicodedata.normalize(&apos;NFD&apos;, a)</span><br><span class="line">&gt;&gt;&gt; b</span><br><span class="line">&apos;pýtĥöñ is awesome\n&apos;</span><br><span class="line">&gt;&gt;&gt; b.translate(cmb_chrs)</span><br><span class="line">&apos;python is awesome\n&apos;</span><br></pre></td></tr></table></figure>
+
+<p>上面例子中，通过使用 <code>dict.fromkeys()</code> 方法构造一个字典，每个Unicode和音符作为键，对应的值全部为 <code>None</code> 。</p>
+<p>然后使用 <code>unicodedata.normalize()</code> 将原始输入标准化为分解形式字符。 然后再调用 <code>translate</code> 函数删除所有重音符。 同样的技术也可以被用来删除其他类型的字符(比如控制字符等)。</p>
+<p>作为另一个例子，这里构造一个将所有Unicode数字字符映射到对应的ASCII字符上的表格：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; digitmap = &#123; c: ord(&apos;0&apos;) + unicodedata.digit(chr(c))</span><br><span class="line">        for c in range(sys.maxunicode)</span><br><span class="line">        if unicodedata.category(chr(c)) == &apos;Nd&apos; &#125;</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; len(digitmap)</span><br><span class="line">460</span><br><span class="line">&gt;&gt;&gt; # Arabic digits</span><br><span class="line">&gt;&gt;&gt; x = &apos;\u0661\u0662\u0663&apos;</span><br><span class="line">&gt;&gt;&gt; x.translate(digitmap)</span><br><span class="line">&apos;123&apos;</span><br></pre></td></tr></table></figure>
+
+<p>另一种清理文本的技术涉及到I/O解码与编码函数。这里的思路是先对文本做一些初步的清理， 然后再结合 <code>encode()</code> 或者 <code>decode()</code> 操作来清除或修改它。比如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; a</span><br><span class="line">&apos;pýtĥöñ is awesome\n&apos;</span><br><span class="line">&gt;&gt;&gt; b = unicodedata.normalize(&apos;NFD&apos;, a)</span><br><span class="line">&gt;&gt;&gt; b.encode(&apos;ascii&apos;, &apos;ignore&apos;).decode(&apos;ascii&apos;)</span><br><span class="line">&apos;python is awesome\n&apos;</span><br></pre></td></tr></table></figure>
+
+<p>这里的标准化操作将原来的文本分解为单独的和音符。接下来的ASCII编码/解码只是简单的一下子丢弃掉那些字符。 当然，这种方法仅仅只在最后的目标就是获取到文本对应ACSII表示的时候生效。</p>
+<h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><p>文本字符清理一个最主要的问题应该是运行的性能。一般来讲，代码越简单运行越快。 对于简单的替换操作， <code>str.replace()</code> 方法通常是最快的，甚至在你需要多次调用的时候。 比如，为了清理空白字符，你可以这样做：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">def clean_spaces(s):</span><br><span class="line">    s = s.replace(&apos;\r&apos;, &apos;&apos;)</span><br><span class="line">    s = s.replace(&apos;\t&apos;, &apos; &apos;)</span><br><span class="line">    s = s.replace(&apos;\f&apos;, &apos; &apos;)</span><br><span class="line">    return s</span><br></pre></td></tr></table></figure>
+
+<p>如果你去测试的话，你就会发现这种方式会比使用 <code>translate()</code> 或者正则表达式要快很多。</p>
+<p>另一方面，如果你需要执行任何复杂字符对字符的重新映射或者删除操作的话， <code>tanslate()</code> 方法会非常的快。</p>
+<p>从大的方面来讲，对于你的应用程序来说性能是你不得不去自己研究的东西。 不幸的是，我们不可能给你建议一个特定的技术，使它能够适应所有的情况。 因此实际情况中需要你自己去尝试不同的方法并评估它。</p>
+<p>转载自：<a href="https://python3-cookbook.readthedocs.io/zh_CN/latest/c02/p12_sanitizing_clean_up_text.html" target="_blank" rel="noopener">https://python3-cookbook.readthedocs.io/zh_CN/latest/c02/p12_sanitizing_clean_up_text.html</a></p>
+
           
-          <!--/noindex-->
         
       
     </div>
@@ -565,7 +586,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck0wkb25h005snkv7i9c6rcp0.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck0xy27fe005nksv71bsfnkdk.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -585,7 +606,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/module/ck0wkb25h005snkv7i9c6rcp0.html" class="post-title-link" itemprop="url">python unicodedata module</a>
+                <a href="/python/module/ck0xy27fe005nksv71bsfnkdk.html" class="post-title-link" itemprop="url">python unicodedata module</a>
               
             
           </h1>
@@ -680,7 +701,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/module/ck0wkb25h005snkv7i9c6rcp0.html#more" rel="contents">
+              <a class="btn" href="/python/module/ck0xy27fe005nksv71bsfnkdk.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -746,7 +767,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck0wkb24k0059nkv7w0mlydys.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0xy27fn005sksv7kkyztw1m.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -766,7 +787,185 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/module/ck0wkb24k0059nkv7w0mlydys.html" class="post-title-link" itemprop="url">python fnmatch module</a>
+                <a href="/python/tips/ck0xy27fn005sksv7kkyztw1m.html" class="post-title-link" itemprop="url">python 将Unicode文本标准化</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-09-23 00:00" itemprop="dateCreated datePublished" datetime="2019-09-23T00:00:00+08:00">2019-09-23</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/tips/" itemprop="url" rel="index"><span itemprop="name">tips</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>你正在处理Unicode字符串，需要确保所有字符串在底层有相同的表示。</p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/python/tips/ck0xy27fn005sksv7kkyztw1m.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck0xy27g20060ksv7zbnj7phh.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/python/module/ck0xy27g20060ksv7zbnj7phh.html" class="post-title-link" itemprop="url">python fnmatch module</a>
               
             
           </h1>
@@ -884,7 +1083,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/module/ck0wkb24k0059nkv7w0mlydys.html#more" rel="contents">
+              <a class="btn" href="/python/module/ck0xy27g20060ksv7zbnj7phh.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -950,7 +1149,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/math/ck0wkb1t8002znkv7bdf98nfj.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/math/ck0xy271q002uksv7trp7vsln.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -970,7 +1169,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/math/ck0wkb1t8002znkv7bdf98nfj.html" class="post-title-link" itemprop="url">猴子爬山问题</a>
+                <a href="/math/ck0xy271q002uksv7trp7vsln.html" class="post-title-link" itemprop="url">猴子爬山问题</a>
               
             
           </h1>
@@ -1055,7 +1254,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/math/ck0wkb1t8002znkv7bdf98nfj.html#more" rel="contents">
+              <a class="btn" href="/math/ck0xy271q002uksv7trp7vsln.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1121,7 +1320,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0wkb2bz008xnkv7r0ic3zo2.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0xy27no0095ksv76v4h0o53.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1141,7 +1340,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ck0wkb2bz008xnkv7r0ic3zo2.html" class="post-title-link" itemprop="url">python 通过某个字段将记录分组</a>
+                <a href="/python/tips/ck0xy27no0095ksv76v4h0o53.html" class="post-title-link" itemprop="url">python 通过某个字段将记录分组</a>
               
             
           </h1>
@@ -1301,7 +1500,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0wkb2b1008lnkv7y0z6jlvg.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0xy27my008tksv77j1fgyiq.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1321,7 +1520,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ck0wkb2b1008lnkv7y0z6jlvg.html" class="post-title-link" itemprop="url">python 序列中出现次数最多的元素</a>
+                <a href="/python/tips/ck0xy27my008tksv77j1fgyiq.html" class="post-title-link" itemprop="url">python 序列中出现次数最多的元素</a>
               
             
           </h1>
@@ -1478,7 +1677,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0wkb2aq008fnkv7l0h17kwg.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0xy27ml008nksv7ks3sfi3c.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1498,7 +1697,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ck0wkb2aq008fnkv7l0h17kwg.html" class="post-title-link" itemprop="url">python 合并多个字典或映射</a>
+                <a href="/python/tips/ck0xy27ml008nksv7ks3sfi3c.html" class="post-title-link" itemprop="url">python 合并多个字典或映射</a>
               
             
           </h1>
@@ -1661,7 +1860,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0wkb2bk008rnkv71ot6c86z.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0xy27n5008wksv7wzt6khi9.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1681,7 +1880,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ck0wkb2bk008rnkv71ot6c86z.html" class="post-title-link" itemprop="url">python 映射名称到序列元素</a>
+                <a href="/python/tips/ck0xy27n5008wksv7wzt6khi9.html" class="post-title-link" itemprop="url">python 映射名称到序列元素</a>
               
             
           </h1>
@@ -1836,7 +2035,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/ck0wkb1we0047nkv7s79ylstm.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/ck0xy275n0047ksv7c0le65vm.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1856,7 +2055,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/ck0wkb1we0047nkv7s79ylstm.html" class="post-title-link" itemprop="url">python import 原理</a>
+                <a href="/python/ck0xy275n0047ksv7c0le65vm.html" class="post-title-link" itemprop="url">python import 原理</a>
               
             
           </h1>
@@ -1955,191 +2154,12 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/ck0wkb1we0047nkv7s79ylstm.html#more" rel="contents">
+              <a class="btn" href="/python/ck0xy275n0047ksv7c0le65vm.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
           
           <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck0wkb2ae0089nkv7jof7kk1w.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/python/tips/ck0wkb2ae0089nkv7jof7kk1w.html" class="post-title-link" itemprop="url">python 删除序列相同元素并保持顺序</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-09-02 00:00" itemprop="dateCreated datePublished" datetime="2019-09-02T00:00:00+08:00">2019-09-02</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/tips/" itemprop="url" rel="index"><span itemprop="name">tips</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>怎样在一个序列上面保持元素顺序的同时消除重复的值？</p>
-<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><ul>
-<li><p>如果序列上的值都是 hashable 类型，那么可以很简单的利用集合或者生成器来解决这个问题。比如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">def dedupe(items):</span><br><span class="line">  seen = set()</span><br><span class="line">  for item in items:</span><br><span class="line">      if item not in seen:</span><br><span class="line">          yield item</span><br><span class="line">          seen.add(item)</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt; a = [1, 5, 2, 1, 9, 1, 5, 10]</span><br><span class="line">&gt;&gt;&gt; list(dedupe(a))</span><br><span class="line">[1, 5, 2, 9, 10]</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>如果序列上的值是不可 hashable 类型</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">def dedupe(items, key=None):</span><br><span class="line">  seen = set()</span><br><span class="line">  for item in items:</span><br><span class="line">      val = item if key is None else key(item)</span><br><span class="line">      if val not in seen:</span><br><span class="line">          yield item</span><br><span class="line">          seen.add(val)</span><br><span class="line">  </span><br><span class="line">&gt;&gt;&gt; a = [ &#123;&apos;x&apos;:1, &apos;y&apos;:2&#125;, &#123;&apos;x&apos;:1, &apos;y&apos;:3&#125;, &#123;&apos;x&apos;:1, &apos;y&apos;:2&#125;, &#123;&apos;x&apos;:2, &apos;y&apos;:4&#125;]</span><br><span class="line">&gt;&gt;&gt; list(dedupe(a, key=lambda d: (d[&apos;x&apos;],d[&apos;y&apos;])))</span><br><span class="line">[&#123;&apos;x&apos;: 1, &apos;y&apos;: 2&#125;, &#123;&apos;x&apos;: 1, &apos;y&apos;: 3&#125;, &#123;&apos;x&apos;: 2, &apos;y&apos;: 4&#125;]</span><br><span class="line">&gt;&gt;&gt; list(dedupe(a, key=lambda d: d[&apos;x&apos;]))</span><br><span class="line">[&#123;&apos;x&apos;: 1, &apos;y&apos;: 2&#125;, &#123;&apos;x&apos;: 2, &apos;y&apos;: 4&#125;]</span><br><span class="line"></span><br><span class="line">注：key参数指定了一个函数，将序列元素转换成 hashable 类型</span><br></pre></td></tr></table></figure></li>
-</ul>
-
-          
         
       
     </div>
@@ -2234,7 +2254,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">51</span>
+          <span class="site-state-item-count">52</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
