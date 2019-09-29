@@ -17,9 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>python 字符串令牌解析</title>
+    <link href="https://forgetst.github.io/python/tips/ck150vyem0066h0v7lziifhw0.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vyem0066h0v7lziifhw0.html</id>
+    <published>2019-09-28T16:00:00.000Z</published>
+    <updated>2019-09-28T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你有一个字符串，想从左至右将其解析为一个令牌流。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python 在字符串中处理html和xml</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrsss0063ygv7ax5st0wl.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrsss0063ygv7ax5st0wl.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck150vye00062h0v7rsyt87fa.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vye00062h0v7rsyt87fa.html</id>
     <published>2019-09-28T16:00:00.000Z</published>
     <updated>2019-09-28T16:00:00.000Z</updated>
     
@@ -40,8 +62,8 @@
   
   <entry>
     <title>python textwrap module</title>
-    <link href="https://forgetst.github.io/python/module/ck14yrsrw005nygv7pjmghbyw.html"/>
-    <id>https://forgetst.github.io/python/module/ck14yrsrw005nygv7pjmghbyw.html</id>
+    <link href="https://forgetst.github.io/python/module/ck150vycd005mh0v7dmni40lb.html"/>
+    <id>https://forgetst.github.io/python/module/ck150vycd005mh0v7dmni40lb.html</id>
     <published>2019-09-26T16:00:00.000Z</published>
     <updated>2019-09-26T16:00:00.000Z</updated>
     
@@ -65,8 +87,8 @@
   
   <entry>
     <title>python format用法</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrsx70084ygv7zcmc3wok.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrsx70084ygv7zcmc3wok.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck150vz00008ah0v7pn8blzh8.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vz00008ah0v7pn8blzh8.html</id>
     <published>2019-09-25T16:00:00.000Z</published>
     <updated>2019-09-25T16:00:00.000Z</updated>
     
@@ -87,8 +109,8 @@
   
   <entry>
     <title>python 审查清理文本字符串</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrst00067ygv7co164nto.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrst00067ygv7co164nto.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck150vyex0069h0v7id9spn96.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vyex0069h0v7id9spn96.html</id>
     <published>2019-09-23T16:00:00.000Z</published>
     <updated>2019-09-23T16:00:00.000Z</updated>
     
@@ -116,8 +138,8 @@
   
   <entry>
     <title>python 将Unicode文本标准化</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrssc005vygv7tedlt39w.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrssc005vygv7tedlt39w.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck150vydr005zh0v7m1xdkaoo.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vydr005zh0v7m1xdkaoo.html</id>
     <published>2019-09-22T16:00:00.000Z</published>
     <updated>2019-09-22T16:00:00.000Z</updated>
     
@@ -138,8 +160,8 @@
   
   <entry>
     <title>python unicodedata module</title>
-    <link href="https://forgetst.github.io/python/module/ck14yrssl0060ygv7r1cem7g7.html"/>
-    <id>https://forgetst.github.io/python/module/ck14yrssl0060ygv7r1cem7g7.html</id>
+    <link href="https://forgetst.github.io/python/module/ck150vydb005uh0v7hjej14eu.html"/>
+    <id>https://forgetst.github.io/python/module/ck150vydb005uh0v7hjej14eu.html</id>
     <published>2019-09-22T16:00:00.000Z</published>
     <updated>2019-09-22T16:00:00.000Z</updated>
     
@@ -165,8 +187,8 @@
   
   <entry>
     <title>python fnmatch module</title>
-    <link href="https://forgetst.github.io/python/module/ck14yrsr00059ygv7y6n386w5.html"/>
-    <id>https://forgetst.github.io/python/module/ck14yrsr00059ygv7y6n386w5.html</id>
+    <link href="https://forgetst.github.io/python/module/ck150vya30058h0v72dbcqgru.html"/>
+    <id>https://forgetst.github.io/python/module/ck150vya30058h0v72dbcqgru.html</id>
     <published>2019-09-09T16:00:00.000Z</published>
     <updated>2019-09-09T16:00:00.000Z</updated>
     
@@ -215,8 +237,8 @@
   
   <entry>
     <title>猴子爬山问题</title>
-    <link href="https://forgetst.github.io/math/ck14yrsdr002zygv7shjkxyc3.html"/>
-    <id>https://forgetst.github.io/math/ck14yrsdr002zygv7shjkxyc3.html</id>
+    <link href="https://forgetst.github.io/math/ck150vxsa002zh0v7otznb1qg.html"/>
+    <id>https://forgetst.github.io/math/ck150vxsa002zh0v7otznb1qg.html</id>
     <published>2019-09-08T16:00:00.000Z</published>
     <updated>2019-09-08T16:00:00.000Z</updated>
     
@@ -235,8 +257,8 @@
   
   <entry>
     <title>python 序列中出现次数最多的元素</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrszw0098ygv7mqno864p.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrszw0098ygv7mqno864p.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck150vz5a009dh0v7u6m6ratb.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vz5a009dh0v7u6m6ratb.html</id>
     <published>2019-09-05T16:00:00.000Z</published>
     <updated>2019-09-05T16:00:00.000Z</updated>
     
@@ -257,8 +279,8 @@
   
   <entry>
     <title>python 通过某个字段将记录分组</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrt0v009kygv77fsataoe.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrt0v009kygv77fsataoe.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck150vz6g009ph0v7mbgkesr6.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vz6g009ph0v7mbgkesr6.html</id>
     <published>2019-09-05T16:00:00.000Z</published>
     <updated>2019-09-05T16:00:00.000Z</updated>
     
@@ -279,8 +301,8 @@
   
   <entry>
     <title>python 映射名称到序列元素</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrt0b009eygv7uj2ffwc0.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrt0b009eygv7uj2ffwc0.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck150vz5y009jh0v7cha5be6h.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vz5y009jh0v7cha5be6h.html</id>
     <published>2019-09-05T16:00:00.000Z</published>
     <updated>2019-09-05T16:00:00.000Z</updated>
     
@@ -301,8 +323,8 @@
   
   <entry>
     <title>python 合并多个字典或映射</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrszr0095ygv7n0f4ch6b.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrszr0095ygv7n0f4ch6b.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck150vz400094h0v76ppr4awe.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vz400094h0v76ppr4awe.html</id>
     <published>2019-09-05T16:00:00.000Z</published>
     <updated>2019-09-05T16:00:00.000Z</updated>
     
@@ -323,8 +345,8 @@
   
   <entry>
     <title>python import 原理</title>
-    <link href="https://forgetst.github.io/python/ck14yrsh60047ygv70livj0tp.html"/>
-    <id>https://forgetst.github.io/python/ck14yrsh60047ygv70livj0tp.html</id>
+    <link href="https://forgetst.github.io/python/ck150vy380047h0v7v5c6s29m.html"/>
+    <id>https://forgetst.github.io/python/ck150vy380047h0v7v5c6s29m.html</id>
     <published>2019-09-03T16:00:00.000Z</published>
     <updated>2019-09-07T07:17:48.970Z</updated>
     
@@ -343,8 +365,8 @@
   
   <entry>
     <title>python zip 与 dict</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrsyn008pygv7ttmm354h.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrsyn008pygv7ttmm354h.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck150vz2u008wh0v72suo3b0g.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vz2u008wh0v72suo3b0g.html</id>
     <published>2019-09-01T16:00:00.000Z</published>
     <updated>2019-09-01T16:00:00.000Z</updated>
     
@@ -365,8 +387,8 @@
   
   <entry>
     <title>python 删除序列相同元素并保持顺序</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrsyy008tygv7hqbs47h5.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrsyy008tygv7hqbs47h5.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck150vz3s0091h0v7m50t1hbn.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vz3s0091h0v7m50t1hbn.html</id>
     <published>2019-09-01T16:00:00.000Z</published>
     <updated>2019-09-01T16:00:00.000Z</updated>
     
@@ -386,53 +408,9 @@
   </entry>
   
   <entry>
-    <title>python 字典中的键映射多个值</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrszd008zygv7be980fap.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrszd008zygv7be980fap.html</id>
-    <published>2019-08-31T16:00:00.000Z</published>
-    <updated>2019-08-31T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;实现一个键对应多个值的字典&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python 实现一个顺序字典</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrszi0092ygv7si46q1r6.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrszi0092ygv7si46q1r6.html</id>
-    <published>2019-08-31T16:00:00.000Z</published>
-    <updated>2019-08-31T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你想创建一个字典，并且在迭代或序列化这个字典的时候能够控制元素的顺序。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>python  实现一个优先级队列</title>
-    <link href="https://forgetst.github.io/python/tips/ck14yrsz2008wygv7exyd8x1s.html"/>
-    <id>https://forgetst.github.io/python/tips/ck14yrsz2008wygv7exyd8x1s.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck150vz2o008uh0v7vp6y9imu.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vz2o008uh0v7vp6y9imu.html</id>
     <published>2019-08-31T16:00:00.000Z</published>
     <updated>2019-08-31T16:00:00.000Z</updated>
     
@@ -454,9 +432,31 @@
   </entry>
   
   <entry>
+    <title>python 字典中的键映射多个值</title>
+    <link href="https://forgetst.github.io/python/tips/ck150vz4b0097h0v7csoxeipp.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vz4b0097h0v7csoxeipp.html</id>
+    <published>2019-08-31T16:00:00.000Z</published>
+    <updated>2019-08-31T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;实现一个键对应多个值的字典&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python heapq module</title>
-    <link href="https://forgetst.github.io/python/module/ck14yrsri005gygv7lpqi74ef.html"/>
-    <id>https://forgetst.github.io/python/module/ck14yrsri005gygv7lpqi74ef.html</id>
+    <link href="https://forgetst.github.io/python/module/ck150vyam005bh0v7ve0p61fy.html"/>
+    <id>https://forgetst.github.io/python/module/ck150vyam005bh0v7ve0p61fy.html</id>
     <published>2019-08-31T16:00:00.000Z</published>
     <updated>2019-08-31T16:00:00.000Z</updated>
     
@@ -481,23 +481,21 @@
   </entry>
   
   <entry>
-    <title>The Python 魔法方法</title>
-    <link href="https://forgetst.github.io/python/ck14yrshb0049ygv7fz3tybsl.html"/>
-    <id>https://forgetst.github.io/python/ck14yrshb0049ygv7fz3tybsl.html</id>
-    <published>2019-08-29T16:00:00.000Z</published>
-    <updated>2019-09-01T07:37:30.955Z</updated>
+    <title>python 实现一个顺序字典</title>
+    <link href="https://forgetst.github.io/python/tips/ck150vz4l009ah0v75y3taxfk.html"/>
+    <id>https://forgetst.github.io/python/tips/ck150vz4l009ah0v75y3taxfk.html</id>
+    <published>2019-08-31T16:00:00.000Z</published>
+    <updated>2019-08-31T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;strong&gt;魔法方法&lt;/strong&gt;，也叫做&lt;strong&gt;特殊方法&lt;/strong&gt;，是指名称前面和后面都加上了双下划线的方法。&lt;/p&gt;
-&lt;p&gt;对python而言，下划线对解释器有特殊的意义，而且是内建标识符所使用的符号，故应慎用下划线开始的变量名。&lt;/p&gt;
-&lt;p&gt;python中，变量以单下划线和双下划线开始，有不同的含义：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“单下划线” 开始的成员变量叫做保护变量&lt;/strong&gt;，意思是只有类对象和子类对象自己能访问到这些变量；&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;“双下划线” 开始的是私有成员&lt;/strong&gt;，意思是只有类对象自己能访问，连子类对象也不能访问到这个数据。&lt;/p&gt;
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你想创建一个字典，并且在迭代或序列化这个字典的时候能够控制元素的顺序。&lt;/p&gt;
     
     </summary>
     
       <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
     
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
