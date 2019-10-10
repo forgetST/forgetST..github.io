@@ -387,7 +387,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck1hz3p5v005w9gv78yx8ol89.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck1lbm6x900a6w0v7vfzdelyb.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -407,7 +407,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/module/ck1hz3p5v005w9gv78yx8ol89.html" class="post-title-link" itemprop="url">python timeit module</a>
+                <a href="/python/tips/ck1lbm6x900a6w0v7vfzdelyb.html" class="post-title-link" itemprop="url">python 查找最大或最小的 N 个元素</a>
               
             
           </h1>
@@ -432,7 +432,7 @@
                 
               
 
-              <time title="创建时间：2019-08-02 00:00" itemprop="dateCreated datePublished" datetime="2019-08-02T00:00:00+08:00">2019-08-02</time>
+              <time title="创建时间：2019-08-03 00:00" itemprop="dateCreated datePublished" datetime="2019-08-03T00:00:00+08:00">2019-08-03</time>
             </span>
           
 
@@ -454,7 +454,7 @@
                   ，
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/" itemprop="url" rel="index"><span itemprop="name">module</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/tips/" itemprop="url" rel="index"><span itemprop="name">tips</span></a></span>
 
                 
                 
@@ -495,12 +495,15 @@
 
       
         
-          <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>用于计算一小段 Python 代码耗时的模块。</p>
-<p><strong>源码：</strong> <a href="https://github.com/python/cpython/tree/3.7/Lib/timeit.py" target="_blank" rel="noopener">Lib/timeit.py</a></p>
+          <h2 id="查找最大或最小的-N-个元素"><a href="#查找最大或最小的-N-个元素" class="headerlink" title="查找最大或最小的 N 个元素"></a>查找最大或最小的 N 个元素</h2><ul>
+<li><p><strong>问题</strong></p>
+<p>获得一个列表(列表元素很多)中最大或者最小的 N 个元素列表？</p>
+</li>
+</ul>
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/module/ck1hz3p5v005w9gv78yx8ol89.html#more" rel="contents">
+              <a class="btn" href="/python/tips/ck1lbm6x900a6w0v7vfzdelyb.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -566,7 +569,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck1hz3phl009d9gv71kfviqog.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck1lbm6x000a3w0v79v0xiote.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -586,7 +589,185 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ck1hz3phl009d9gv71kfviqog.html" class="post-title-link" itemprop="url">python 保留最后N个元素</a>
+                <a href="/python/tips/ck1lbm6x000a3w0v79v0xiote.html" class="post-title-link" itemprop="url">python 解压序列赋值给多个变量</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-02 00:00" itemprop="dateCreated datePublished" datetime="2019-08-02T00:00:00+08:00">2019-08-02</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/tips/" itemprop="url" rel="index"><span itemprop="name">tips</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>现在有一个包含 N 个元素的元组或者是序列，怎样将它里面的值解压后同时赋值给 N 个变量？</p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/python/tips/ck1lbm6x000a3w0v79v0xiote.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck1lbm6vf009iw0v7asteahxq.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/python/tips/ck1lbm6vf009iw0v7asteahxq.html" class="post-title-link" itemprop="url">python 保留最后N个元素</a>
               
             
           </h1>
@@ -682,7 +863,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/tips/ck1hz3phl009d9gv71kfviqog.html#more" rel="contents">
+              <a class="btn" href="/python/tips/ck1lbm6vf009iw0v7asteahxq.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -748,7 +929,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ck1hz3pit009s9gv7f8dpymf5.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck1lbm6ld005zw0v7pin22zc0.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -768,7 +949,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ck1hz3pit009s9gv7f8dpymf5.html" class="post-title-link" itemprop="url">python 解压序列赋值给多个变量</a>
+                <a href="/python/module/ck1lbm6ld005zw0v7pin22zc0.html" class="post-title-link" itemprop="url">python timeit module</a>
               
             
           </h1>
@@ -815,7 +996,7 @@
                   ，
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/tips/" itemprop="url" rel="index"><span itemprop="name">tips</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/" itemprop="url" rel="index"><span itemprop="name">module</span></a></span>
 
                 
                 
@@ -856,11 +1037,12 @@
 
       
         
-          <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>现在有一个包含 N 个元素的元组或者是序列，怎样将它里面的值解压后同时赋值给 N 个变量？</p>
+          <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>用于计算一小段 Python 代码耗时的模块。</p>
+<p><strong>源码：</strong> <a href="https://github.com/python/cpython/tree/3.7/Lib/timeit.py" target="_blank" rel="noopener">Lib/timeit.py</a></p>
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/tips/ck1hz3pit009s9gv7f8dpymf5.html#more" rel="contents">
+              <a class="btn" href="/python/module/ck1lbm6ld005zw0v7pin22zc0.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -926,7 +1108,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck1hz3pld00al9gv7s5bbg90j.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck1lbm6yx00atw0v70umaiik0.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -946,7 +1128,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/module/ck1hz3pld00al9gv7s5bbg90j.html" class="post-title-link" itemprop="url">python datetime module</a>
+                <a href="/python/module/ck1lbm6yx00atw0v70umaiik0.html" class="post-title-link" itemprop="url">python datetime module</a>
               
             
           </h1>
@@ -1054,7 +1236,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/module/ck1hz3pld00al9gv7s5bbg90j.html#more" rel="contents">
+              <a class="btn" href="/python/module/ck1lbm6yx00atw0v70umaiik0.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1120,7 +1302,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/web/HTML/ck1hz3onp00339gv7stawwbjq.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/web/HTML/ck1lbm5yi0038w0v71u6ajrj9.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1140,7 +1322,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/web/HTML/ck1hz3onp00339gv7stawwbjq.html" class="post-title-link" itemprop="url">HTML 笔记</a>
+                <a href="/web/HTML/ck1lbm5yi0038w0v71u6ajrj9.html" class="post-title-link" itemprop="url">HTML 笔记</a>
               
             
           </h1>
@@ -1232,7 +1414,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/web/HTML/ck1hz3onp00339gv7stawwbjq.html#more" rel="contents">
+              <a class="btn" href="/web/HTML/ck1lbm5yi0038w0v71u6ajrj9.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1298,7 +1480,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/Linux/ssh/ck1hz3ok3001t9gv77jov6kv1.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/Linux/ssh/ck1lbm5rl001tw0v7wlmxvdgy.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1318,7 +1500,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/Linux/ssh/ck1hz3ok3001t9gv77jov6kv1.html" class="post-title-link" itemprop="url">linux 安装ssh以及ssh用法与免密登录</a>
+                <a href="/Linux/ssh/ck1lbm5rl001tw0v7wlmxvdgy.html" class="post-title-link" itemprop="url">linux 安装ssh以及ssh用法与免密登录</a>
               
             
           </h1>
@@ -1427,7 +1609,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/Linux/ssh/ck1hz3ok3001t9gv77jov6kv1.html#more" rel="contents">
+              <a class="btn" href="/Linux/ssh/ck1lbm5rl001tw0v7wlmxvdgy.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1493,7 +1675,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/Typora/ck1hz3o6p00099gv7ewwmc7nq.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/Typora/ck1lbm5480009w0v7yt95o1s2.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1513,7 +1695,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/Typora/ck1hz3o6p00099gv7ewwmc7nq.html" class="post-title-link" itemprop="url">Typora简单教程</a>
+                <a href="/Typora/ck1lbm5480009w0v7yt95o1s2.html" class="post-title-link" itemprop="url">Typora简单教程</a>
               
             
           </h1>
@@ -1598,7 +1780,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/Typora/ck1hz3o6p00099gv7ewwmc7nq.html#more" rel="contents">
+              <a class="btn" href="/Typora/ck1lbm5480009w0v7yt95o1s2.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1664,7 +1846,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/hexo/error-log/ck1hz3olg002c9gv7rg86iu94.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/hexo/error-log/ck1lbm5tv002cw0v7j4nubvqk.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1684,7 +1866,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/hexo/error-log/ck1hz3olg002c9gv7rg86iu94.html" class="post-title-link" itemprop="url">hexo error log</a>
+                <a href="/hexo/error-log/ck1lbm5tv002cw0v7j4nubvqk.html" class="post-title-link" itemprop="url">hexo error log</a>
               
             
           </h1>
@@ -1851,7 +2033,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/markdown/ck1hz3odh000v9gv7ef4febr1.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/markdown/ck1lbm5g5000vw0v7x52z0onu.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1871,7 +2053,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/markdown/ck1hz3odh000v9gv7ef4febr1.html" class="post-title-link" itemprop="url">Markdown 教程</a>
+                <a href="/markdown/ck1lbm5g5000vw0v7x52z0onu.html" class="post-title-link" itemprop="url">Markdown 教程</a>
               
             
           </h1>
@@ -1970,194 +2152,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/markdown/ck1hz3odh000v9gv7ef4febr1.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/git/ck1hz3p1k004g9gv71drwgdx4.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/git/ck1hz3p1k004g9gv71drwgdx4.html" class="post-title-link" itemprop="url">git 教程</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-07-20 00:00" itemprop="dateCreated datePublished" datetime="2019-07-20T00:00:00+08:00">2019-07-20</time>
-            </span>
-          
-
-          
-            
-
-            
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-08-01 00:00" itemprop="dateModified" datetime="2019-08-01T00:00:00+08:00">2019-08-01</time>
-              </span>
-            
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="git-简介"><a href="#git-简介" class="headerlink" title="git 简介"></a>git 简介</h2><p>git是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。</p>
-<p>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p>
-<p>Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/git/ck1hz3p1k004g9gv71drwgdx4.html#more" rel="contents">
+              <a class="btn" href="/markdown/ck1lbm5g5000vw0v7x52z0onu.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -2212,7 +2207,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/5/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span>
+    <a class="extend prev" rel="prev" href="/page/5/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/7/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -2257,7 +2252,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">60</span>
+          <span class="site-state-item-count">61</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
