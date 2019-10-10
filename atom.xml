@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2019-10-07T16:00:00.000Z</updated>
+  <updated>2019-10-09T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python 迭代器和生成器</title>
+    <link href="https://forgetst.github.io/python/ck1kson8o00005kv7gm8fn522.html"/>
+    <id>https://forgetst.github.io/python/ck1kson8o00005kv7gm8fn522.html</id>
+    <published>2019-10-09T16:00:00.000Z</published>
+    <updated>2019-10-09T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;迭代器&quot;&gt;&lt;a href=&quot;#迭代器&quot; class=&quot;headerlink&quot; title=&quot;迭代器&quot;&gt;&lt;/a&gt;迭代器&lt;/h2&gt;&lt;p&gt;迭代是Python最强大的功能之一，是访问集合元素的一种方式。&lt;/p&gt;
+&lt;p&gt;迭代器是一个实现了迭代器协议的对象。&lt;/p&gt;
+&lt;p&gt;迭代器对象从集合的第一个元素开始访问，直到所有的元素被访问完结束。迭代器只能往前不会后退。&lt;/p&gt;
+&lt;p&gt;迭代器有两个基本的方法：&lt;strong&gt;iter()&lt;/strong&gt; 和 &lt;strong&gt;next()&lt;/strong&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>Restful API 简述</title>
@@ -199,28 +222,6 @@
   </entry>
   
   <entry>
-    <title>python 将Unicode文本标准化</title>
-    <link href="https://forgetst.github.io/python/tips/ck1hz3p6e00649gv7urqdoorh.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1hz3p6e00649gv7urqdoorh.html</id>
-    <published>2019-09-22T16:00:00.000Z</published>
-    <updated>2019-09-22T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你正在处理Unicode字符串，需要确保所有字符串在底层有相同的表示。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>python unicodedata module</title>
     <link href="https://forgetst.github.io/python/module/ck1hz3p6700619gv7ka53raml.html"/>
     <id>https://forgetst.github.io/python/module/ck1hz3p6700619gv7ka53raml.html</id>
@@ -244,6 +245,28 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python 将Unicode文本标准化</title>
+    <link href="https://forgetst.github.io/python/tips/ck1hz3p6e00649gv7urqdoorh.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1hz3p6e00649gv7urqdoorh.html</id>
+    <published>2019-09-22T16:00:00.000Z</published>
+    <updated>2019-09-22T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你正在处理Unicode字符串，需要确保所有字符串在底层有相同的表示。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
@@ -318,6 +341,28 @@
   </entry>
   
   <entry>
+    <title>python 序列中出现次数最多的元素</title>
+    <link href="https://forgetst.github.io/python/tips/ck1hz3pif009m9gv7n51z8p7m.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1hz3pif009m9gv7n51z8p7m.html</id>
+    <published>2019-09-05T16:00:00.000Z</published>
+    <updated>2019-09-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;怎样找出一个序列中出现次数最多的元素呢？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python 合并多个字典或映射</title>
     <link href="https://forgetst.github.io/python/tips/ck1hz3pin009p9gv762rtdpfk.html"/>
     <id>https://forgetst.github.io/python/tips/ck1hz3pin009p9gv762rtdpfk.html</id>
@@ -384,28 +429,6 @@
   </entry>
   
   <entry>
-    <title>python 序列中出现次数最多的元素</title>
-    <link href="https://forgetst.github.io/python/tips/ck1hz3pif009m9gv7n51z8p7m.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1hz3pif009m9gv7n51z8p7m.html</id>
-    <published>2019-09-05T16:00:00.000Z</published>
-    <updated>2019-09-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;怎样找出一个序列中出现次数最多的元素呢？&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>python import 原理</title>
     <link href="https://forgetst.github.io/python/ck1hz3orp004a9gv7xkprklup.html"/>
     <id>https://forgetst.github.io/python/ck1hz3orp004a9gv7xkprklup.html</id>
@@ -419,28 +442,6 @@
     </summary>
     
       <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python zip 与 dict</title>
-    <link href="https://forgetst.github.io/python/tips/ck1hz3ph300989gv79v68shgv.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1hz3ph300989gv79v68shgv.html</id>
-    <published>2019-09-01T16:00:00.000Z</published>
-    <updated>2019-09-01T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;zip 实现字典求最大值、最小值、排序等&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
     
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
@@ -470,15 +471,15 @@
   </entry>
   
   <entry>
-    <title>python 字典中的键映射多个值</title>
-    <link href="https://forgetst.github.io/python/tips/ck1hz3phx009g9gv7x56np6p4.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1hz3phx009g9gv7x56np6p4.html</id>
-    <published>2019-08-31T16:00:00.000Z</published>
-    <updated>2019-08-31T16:00:00.000Z</updated>
+    <title>python zip 与 dict</title>
+    <link href="https://forgetst.github.io/python/tips/ck1hz3ph300989gv79v68shgv.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1hz3ph300989gv79v68shgv.html</id>
+    <published>2019-09-01T16:00:00.000Z</published>
+    <updated>2019-09-01T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;实现一个键对应多个值的字典&lt;/p&gt;
+      &lt;p&gt;zip 实现字典求最大值、最小值、排序等&lt;/p&gt;
     
     </summary>
     
