@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2019-10-14T16:00:00.000Z</updated>
+  <updated>2019-10-15T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python factions module</title>
+    <link href="https://forgetst.github.io/python/module/ck1teu2l40000p4v7pssz2gt5.html"/>
+    <id>https://forgetst.github.io/python/module/ck1teu2l40000p4v7pssz2gt5.html</id>
+    <published>2019-10-15T16:00:00.000Z</published>
+    <updated>2019-10-15T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
+    
+  </entry>
   
   <entry>
     <title>docker mysql官方镜像操作</title>
@@ -223,15 +253,15 @@
   </entry>
   
   <entry>
-    <title>python 在字符串中处理html和xml</title>
-    <link href="https://forgetst.github.io/python/tips/ck1r1to4k006sagv7qm9vmjc3.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1r1to4k006sagv7qm9vmjc3.html</id>
+    <title>python 字符串令牌解析</title>
+    <link href="https://forgetst.github.io/python/tips/ck1r1to6g006vagv7in8vsyml.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1r1to6g006vagv7in8vsyml.html</id>
     <published>2019-09-28T16:00:00.000Z</published>
     <updated>2019-09-28T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你想将HTML或者XML实体如 &amp;entity; 或 &amp;#code; 替换为对应的文本。 再者，你需要转换文本中特定的字符(比如&amp;lt;, &amp;gt;, 或 &amp;amp;)。&lt;/p&gt;
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你有一个字符串，想从左至右将其解析为一个令牌流。&lt;/p&gt;
     
     </summary>
     
@@ -245,15 +275,15 @@
   </entry>
   
   <entry>
-    <title>python 字符串令牌解析</title>
-    <link href="https://forgetst.github.io/python/tips/ck1r1to6g006vagv7in8vsyml.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1r1to6g006vagv7in8vsyml.html</id>
+    <title>python 在字符串中处理html和xml</title>
+    <link href="https://forgetst.github.io/python/tips/ck1r1to4k006sagv7qm9vmjc3.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1r1to4k006sagv7qm9vmjc3.html</id>
     <published>2019-09-28T16:00:00.000Z</published>
     <updated>2019-09-28T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你有一个字符串，想从左至右将其解析为一个令牌流。&lt;/p&gt;
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你想将HTML或者XML实体如 &amp;entity; 或 &amp;#code; 替换为对应的文本。 再者，你需要转换文本中特定的字符(比如&amp;lt;, &amp;gt;, 或 &amp;amp;)。&lt;/p&gt;
     
     </summary>
     
@@ -336,28 +366,6 @@
   </entry>
   
   <entry>
-    <title>python 将Unicode文本标准化</title>
-    <link href="https://forgetst.github.io/python/tips/ck1r1to3a006lagv7gnrm0zq9.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1r1to3a006lagv7gnrm0zq9.html</id>
-    <published>2019-09-22T16:00:00.000Z</published>
-    <updated>2019-09-22T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你正在处理Unicode字符串，需要确保所有字符串在底层有相同的表示。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>python unicodedata module</title>
     <link href="https://forgetst.github.io/python/module/ck1r1to2t006iagv7bmo2axbk.html"/>
     <id>https://forgetst.github.io/python/module/ck1r1to2t006iagv7bmo2axbk.html</id>
@@ -381,6 +389,28 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python 将Unicode文本标准化</title>
+    <link href="https://forgetst.github.io/python/tips/ck1r1to3a006lagv7gnrm0zq9.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1r1to3a006lagv7gnrm0zq9.html</id>
+    <published>2019-09-22T16:00:00.000Z</published>
+    <updated>2019-09-22T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你正在处理Unicode字符串，需要确保所有字符串在底层有相同的表示。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
@@ -464,28 +494,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;怎样找出一个序列中出现次数最多的元素呢？&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python 通过某个字段将记录分组</title>
-    <link href="https://forgetst.github.io/python/tips/ck1r1tpc900anagv7rfj9ilgm.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1r1tpc900anagv7rfj9ilgm.html</id>
-    <published>2019-09-05T16:00:00.000Z</published>
-    <updated>2019-09-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你有一个字典或者实例的序列，然后你想根据某个特定的字段比如 date 来分组迭代访问。&lt;/p&gt;
     
     </summary>
     
