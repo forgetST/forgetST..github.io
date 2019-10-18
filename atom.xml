@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2019-10-15T16:00:00.000Z</updated>
+  <updated>2019-10-17T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -17,9 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>spark参数配置说明</title>
+    <link href="https://forgetst.github.io/python/spark/ck1w6dyx3003ozcv7u0xzodcn.html"/>
+    <id>https://forgetst.github.io/python/spark/ck1w6dyx3003ozcv7u0xzodcn.html</id>
+    <published>2019-10-17T16:00:00.000Z</published>
+    <updated>2019-10-17T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="spark" scheme="https://forgetst.github.io/categories/python/spark/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python io module</title>
-    <link href="https://forgetst.github.io/python/module/ck1tyxeb8006bzkv73ylv143r.html"/>
-    <id>https://forgetst.github.io/python/module/ck1tyxeb8006bzkv73ylv143r.html</id>
+    <link href="https://forgetst.github.io/python/module/ck1w6dze3006izcv7b8djvy4q.html"/>
+    <id>https://forgetst.github.io/python/module/ck1w6dze3006izcv7b8djvy4q.html</id>
     <published>2019-10-15T16:00:00.000Z</published>
     <updated>2019-10-15T16:00:00.000Z</updated>
     
@@ -48,8 +78,8 @@
   
   <entry>
     <title>docker mysql官方镜像操作</title>
-    <link href="https://forgetst.github.io/docker/ck1tyxdvk002azkv77pyo9vwh.html"/>
-    <id>https://forgetst.github.io/docker/ck1tyxdvk002azkv77pyo9vwh.html</id>
+    <link href="https://forgetst.github.io/docker/ck1w6dyry002azcv75je2q555.html"/>
+    <id>https://forgetst.github.io/docker/ck1w6dyry002azcv75je2q555.html</id>
     <published>2019-10-14T16:00:00.000Z</published>
     <updated>2019-10-14T16:00:00.000Z</updated>
     
@@ -68,8 +98,8 @@
   
   <entry>
     <title>docker命令操作</title>
-    <link href="https://forgetst.github.io/docker/ck1tyxdvw002izkv7o9u2r6r6.html"/>
-    <id>https://forgetst.github.io/docker/ck1tyxdvw002izkv7o9u2r6r6.html</id>
+    <link href="https://forgetst.github.io/docker/ck1w6dyss002izcv7lezy0o07.html"/>
+    <id>https://forgetst.github.io/docker/ck1w6dyss002izcv7lezy0o07.html</id>
     <published>2019-10-13T16:00:00.000Z</published>
     <updated>2019-10-13T16:00:00.000Z</updated>
     
@@ -88,8 +118,8 @@
   
   <entry>
     <title>docker安装</title>
-    <link href="https://forgetst.github.io/docker/ck1tyxdvp002dzkv7wihc2zvr.html"/>
-    <id>https://forgetst.github.io/docker/ck1tyxdvp002dzkv7wihc2zvr.html</id>
+    <link href="https://forgetst.github.io/docker/ck1w6dysc002dzcv7bjtmudg0.html"/>
+    <id>https://forgetst.github.io/docker/ck1w6dysc002dzcv7bjtmudg0.html</id>
     <published>2019-10-11T16:00:00.000Z</published>
     <updated>2019-10-11T16:00:00.000Z</updated>
     
@@ -108,8 +138,8 @@
   
   <entry>
     <title>python3.7.3安装</title>
-    <link href="https://forgetst.github.io/python/ck1tyxdy2003jzkv7vx7fmh85.html"/>
-    <id>https://forgetst.github.io/python/ck1tyxdy2003jzkv7vx7fmh85.html</id>
+    <link href="https://forgetst.github.io/python/ck1w6dywi003jzcv71izb54ti.html"/>
+    <id>https://forgetst.github.io/python/ck1w6dywi003jzcv71izb54ti.html</id>
     <published>2019-10-10T16:00:00.000Z</published>
     <updated>2019-10-10T16:00:00.000Z</updated>
     
@@ -134,8 +164,8 @@
   
   <entry>
     <title>Python 迭代器和生成器</title>
-    <link href="https://forgetst.github.io/python/ck1tyxdxw003gzkv7m5865o3h.html"/>
-    <id>https://forgetst.github.io/python/ck1tyxdxw003gzkv7m5865o3h.html</id>
+    <link href="https://forgetst.github.io/python/ck1w6dyw9003gzcv70fe92jqi.html"/>
+    <id>https://forgetst.github.io/python/ck1w6dyw9003gzcv70fe92jqi.html</id>
     <published>2019-10-09T16:00:00.000Z</published>
     <updated>2019-10-09T16:00:00.000Z</updated>
     
@@ -156,37 +186,9 @@
   </entry>
   
   <entry>
-    <title>python 遍历目录获得所有文件</title>
-    <link href="https://forgetst.github.io/python/tips/ck1tyxed3007czkv7h85stc0o.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1tyxed3007czkv7h85stc0o.html</id>
-    <published>2019-10-07T16:00:00.000Z</published>
-    <updated>2019-10-07T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Restful API 简述</title>
-    <link href="https://forgetst.github.io/uncategorized/ck1tyxdj8000bzkv76w5odoqk.html"/>
-    <id>https://forgetst.github.io/uncategorized/ck1tyxdj8000bzkv76w5odoqk.html</id>
+    <link href="https://forgetst.github.io/uncategorized/ck1w6dwuq0009zcv7yizb4190.html"/>
+    <id>https://forgetst.github.io/uncategorized/ck1w6dwuq0009zcv7yizb4190.html</id>
     <published>2019-10-07T16:00:00.000Z</published>
     <updated>2019-10-07T16:00:00.000Z</updated>
     
@@ -206,15 +208,21 @@
   </entry>
   
   <entry>
-    <title>python 计算当前月份的日期范围</title>
-    <link href="https://forgetst.github.io/python/tips/ck1tyxecb006yzkv7tjrm4aiq.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1tyxecb006yzkv7tjrm4aiq.html</id>
-    <published>2019-10-05T16:00:00.000Z</published>
-    <updated>2019-10-05T16:00:00.000Z</updated>
+    <title>python 遍历目录获得所有文件</title>
+    <link href="https://forgetst.github.io/python/tips/ck1w6dzh6007jzcv7kzg1mlo2.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1w6dzh6007jzcv7kzg1mlo2.html</id>
+    <published>2019-10-07T16:00:00.000Z</published>
+    <updated>2019-10-07T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你的代码需要在当前月份中循环每一天，想找到一个计算这个日期范围的高效方法。&lt;/p&gt;
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
     
     </summary>
     
@@ -229,8 +237,8 @@
   
   <entry>
     <title>python factions module</title>
-    <link href="https://forgetst.github.io/python/module/ck1tyxeap0060zkv7iqq3jig2.html"/>
-    <id>https://forgetst.github.io/python/module/ck1tyxeap0060zkv7iqq3jig2.html</id>
+    <link href="https://forgetst.github.io/python/module/ck1w6dzdl006bzcv7y64aikxq.html"/>
+    <id>https://forgetst.github.io/python/module/ck1w6dzdl006bzcv7y64aikxq.html</id>
     <published>2019-10-05T16:00:00.000Z</published>
     <updated>2019-10-05T16:00:00.000Z</updated>
     
@@ -253,9 +261,31 @@
   </entry>
   
   <entry>
+    <title>python 计算当前月份的日期范围</title>
+    <link href="https://forgetst.github.io/python/tips/ck1w6dzg70075zcv7t43bvcaq.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1w6dzg70075zcv7t43bvcaq.html</id>
+    <published>2019-10-05T16:00:00.000Z</published>
+    <updated>2019-10-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你的代码需要在当前月份中循环每一天，想找到一个计算这个日期范围的高效方法。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python 字符串令牌解析</title>
-    <link href="https://forgetst.github.io/python/tips/ck1tyxecq0075zkv7q2iau49p.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1tyxecq0075zkv7q2iau49p.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck1w6dzgq007czcv7m75qgvro.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1w6dzgq007czcv7m75qgvro.html</id>
     <published>2019-09-28T16:00:00.000Z</published>
     <updated>2019-09-28T16:00:00.000Z</updated>
     
@@ -276,8 +306,8 @@
   
   <entry>
     <title>python 在字符串中处理html和xml</title>
-    <link href="https://forgetst.github.io/python/tips/ck1tyxecg0071zkv7a3q3plrx.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1tyxecg0071zkv7a3q3plrx.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck1w6dzgf0078zcv7vndoxacx.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1w6dzgf0078zcv7vndoxacx.html</id>
     <published>2019-09-28T16:00:00.000Z</published>
     <updated>2019-09-28T16:00:00.000Z</updated>
     
@@ -298,8 +328,8 @@
   
   <entry>
     <title>python textwrap module</title>
-    <link href="https://forgetst.github.io/python/module/ck1tyxebl006jzkv7sycgvgu8.html"/>
-    <id>https://forgetst.github.io/python/module/ck1tyxebl006jzkv7sycgvgu8.html</id>
+    <link href="https://forgetst.github.io/python/module/ck1w6dzer006qzcv7tvrscdi0.html"/>
+    <id>https://forgetst.github.io/python/module/ck1w6dzer006qzcv7tvrscdi0.html</id>
     <published>2019-09-26T16:00:00.000Z</published>
     <updated>2019-09-26T16:00:00.000Z</updated>
     
@@ -323,8 +353,8 @@
   
   <entry>
     <title>python format用法</title>
-    <link href="https://forgetst.github.io/python/tips/ck1tyxeh4009jzkv7km88ox72.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1tyxeh4009jzkv7km88ox72.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck1w6dzuh009rzcv7eezeyb5o.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1w6dzuh009rzcv7eezeyb5o.html</id>
     <published>2019-09-25T16:00:00.000Z</published>
     <updated>2019-09-25T16:00:00.000Z</updated>
     
@@ -345,8 +375,8 @@
   
   <entry>
     <title>python 审查清理文本字符串</title>
-    <link href="https://forgetst.github.io/python/tips/ck1tyxecw0078zkv7knhw6psb.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1tyxecw0078zkv7knhw6psb.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck1w6dzgw007fzcv7eam14xo5.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1w6dzgw007fzcv7eam14xo5.html</id>
     <published>2019-09-23T16:00:00.000Z</published>
     <updated>2019-09-23T16:00:00.000Z</updated>
     
@@ -366,31 +396,9 @@
   </entry>
   
   <entry>
-    <title>python 将Unicode文本标准化</title>
-    <link href="https://forgetst.github.io/python/tips/ck1tyxec5006vzkv7qcgh2qxe.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1tyxec5006vzkv7qcgh2qxe.html</id>
-    <published>2019-09-22T16:00:00.000Z</published>
-    <updated>2019-09-22T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你正在处理Unicode字符串，需要确保所有字符串在底层有相同的表示。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>python unicodedata module</title>
-    <link href="https://forgetst.github.io/python/module/ck1tyxeby006rzkv7w0ejrh0i.html"/>
-    <id>https://forgetst.github.io/python/module/ck1tyxeby006rzkv7w0ejrh0i.html</id>
+    <link href="https://forgetst.github.io/python/module/ck1w6dzfr006yzcv7cuc0z5u9.html"/>
+    <id>https://forgetst.github.io/python/module/ck1w6dzfr006yzcv7cuc0z5u9.html</id>
     <published>2019-09-22T16:00:00.000Z</published>
     <updated>2019-09-22T16:00:00.000Z</updated>
     
@@ -415,9 +423,31 @@
   </entry>
   
   <entry>
+    <title>python 将Unicode文本标准化</title>
+    <link href="https://forgetst.github.io/python/tips/ck1w6dzfz0072zcv70y9qynq0.html"/>
+    <id>https://forgetst.github.io/python/tips/ck1w6dzfz0072zcv70y9qynq0.html</id>
+    <published>2019-09-22T16:00:00.000Z</published>
+    <updated>2019-09-22T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你正在处理Unicode字符串，需要确保所有字符串在底层有相同的表示。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python fnmatch module</title>
-    <link href="https://forgetst.github.io/python/module/ck1tyxeam005xzkv7noek0ukt.html"/>
-    <id>https://forgetst.github.io/python/module/ck1tyxeam005xzkv7noek0ukt.html</id>
+    <link href="https://forgetst.github.io/python/module/ck1w6dzd10064zcv7f1d0c2ge.html"/>
+    <id>https://forgetst.github.io/python/module/ck1w6dzd10064zcv7f1d0c2ge.html</id>
     <published>2019-09-09T16:00:00.000Z</published>
     <updated>2019-09-09T16:00:00.000Z</updated>
     
@@ -466,8 +496,8 @@
   
   <entry>
     <title>猴子爬山问题</title>
-    <link href="https://forgetst.github.io/math/ck1tyxdxq003czkv7iwqygc7h.html"/>
-    <id>https://forgetst.github.io/math/ck1tyxdxq003czkv7iwqygc7h.html</id>
+    <link href="https://forgetst.github.io/math/ck1w6dyvw003czcv7wyjfuzvw.html"/>
+    <id>https://forgetst.github.io/math/ck1w6dyvw003czcv7wyjfuzvw.html</id>
     <published>2019-09-08T16:00:00.000Z</published>
     <updated>2019-09-08T16:00:00.000Z</updated>
     
@@ -481,28 +511,6 @@
     
     
       <category term="math" scheme="https://forgetst.github.io/tags/math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python 映射名称到序列元素</title>
-    <link href="https://forgetst.github.io/python/tips/ck1tyxejy00awzkv73gjb2akd.html"/>
-    <id>https://forgetst.github.io/python/tips/ck1tyxejy00awzkv73gjb2akd.html</id>
-    <published>2019-09-05T16:00:00.000Z</published>
-    <updated>2019-09-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;你有一段通过下标访问列表或者元组中元素的代码，但是这样有时候会使得你的代码难以阅读， 于是你想通过名称来访问元素。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
