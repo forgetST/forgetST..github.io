@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2019-10-28T16:00:00.000Z</updated>
+  <updated>2019-10-30T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -17,9 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JavaScript Array</title>
+    <link href="https://forgetst.github.io/web/JavaScript/ck2etsysq003uccv7xg9ofs3a.html"/>
+    <id>https://forgetst.github.io/web/JavaScript/ck2etsysq003uccv7xg9ofs3a.html</id>
+    <published>2019-10-30T16:00:00.000Z</published>
+    <updated>2019-10-30T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;数组对象的作用是：使用单独的变量名来存储一系列的值。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="web" scheme="https://forgetst.github.io/categories/web/"/>
+    
+      <category term="JavaScript" scheme="https://forgetst.github.io/categories/web/JavaScript/"/>
+    
+    
+      <category term="web" scheme="https://forgetst.github.io/tags/web/"/>
+    
+      <category term="JavaScript" scheme="https://forgetst.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>vue 安装</title>
-    <link href="https://forgetst.github.io/web/vue/ck2dyg7en007y08v7eirnk5c6.html"/>
-    <id>https://forgetst.github.io/web/vue/ck2dyg7en007y08v7eirnk5c6.html</id>
+    <link href="https://forgetst.github.io/web/vue/ck2etsz4b0089ccv7dz3jvcqe.html"/>
+    <id>https://forgetst.github.io/web/vue/ck2etsz4b0089ccv7dz3jvcqe.html</id>
     <published>2019-10-28T16:00:00.000Z</published>
     <updated>2019-10-28T16:00:00.000Z</updated>
     
@@ -43,8 +67,8 @@
   
   <entry>
     <title>python subprocess module</title>
-    <link href="https://forgetst.github.io/python/module/ck2dyg7ch006y08v7n77ltm7r.html"/>
-    <id>https://forgetst.github.io/python/module/ck2dyg7ch006y08v7n77ltm7r.html</id>
+    <link href="https://forgetst.github.io/python/module/ck2etsz2i007bccv7xk44n4s1.html"/>
+    <id>https://forgetst.github.io/python/module/ck2etsz2i007bccv7xk44n4s1.html</id>
     <published>2019-10-28T16:00:00.000Z</published>
     <updated>2019-10-28T16:00:00.000Z</updated>
     
@@ -73,8 +97,8 @@
   
   <entry>
     <title>window mysql 初始化配置</title>
-    <link href="https://forgetst.github.io/mysql/ck2dyg6zw003g08v7d5uod0mn.html"/>
-    <id>https://forgetst.github.io/mysql/ck2dyg6zw003g08v7d5uod0mn.html</id>
+    <link href="https://forgetst.github.io/mysql/ck2etsyrs003dccv7shbbtnft.html"/>
+    <id>https://forgetst.github.io/mysql/ck2etsyrs003dccv7shbbtnft.html</id>
     <published>2019-10-27T16:00:00.000Z</published>
     <updated>2019-10-27T16:00:00.000Z</updated>
     
@@ -95,8 +119,8 @@
   
   <entry>
     <title>python itertools module</title>
-    <link href="https://forgetst.github.io/python/module/ck2dyg7br006q08v7c6ypevsm.html"/>
-    <id>https://forgetst.github.io/python/module/ck2dyg7br006q08v7c6ypevsm.html</id>
+    <link href="https://forgetst.github.io/python/module/ck2etsz260073ccv7fvinu61y.html"/>
+    <id>https://forgetst.github.io/python/module/ck2etsz260073ccv7fvinu61y.html</id>
     <published>2019-10-24T16:00:00.000Z</published>
     <updated>2019-10-24T16:00:00.000Z</updated>
     
@@ -119,8 +143,8 @@
   
   <entry>
     <title>docker参数说明</title>
-    <link href="https://forgetst.github.io/docker/ck2dyg76x005708v7zk5y2x9u.html"/>
-    <id>https://forgetst.github.io/docker/ck2dyg76x005708v7zk5y2x9u.html</id>
+    <link href="https://forgetst.github.io/docker/ck2etsyy8005fccv7t35r9s8q.html"/>
+    <id>https://forgetst.github.io/docker/ck2etsyy8005fccv7t35r9s8q.html</id>
     <published>2019-10-20T16:00:00.000Z</published>
     <updated>2019-10-20T16:00:00.000Z</updated>
     
@@ -139,8 +163,8 @@
   
   <entry>
     <title>spark参数配置说明</title>
-    <link href="https://forgetst.github.io/python/spark/ck2dyg70l003p08v7k1ks9g76.html"/>
-    <id>https://forgetst.github.io/python/spark/ck2dyg70l003p08v7k1ks9g76.html</id>
+    <link href="https://forgetst.github.io/python/spark/ck2etsysa003mccv7jwxm3wds.html"/>
+    <id>https://forgetst.github.io/python/spark/ck2etsysa003mccv7jwxm3wds.html</id>
     <published>2019-10-17T16:00:00.000Z</published>
     <updated>2019-10-17T16:00:00.000Z</updated>
     
@@ -169,8 +193,8 @@
   
   <entry>
     <title>python io module</title>
-    <link href="https://forgetst.github.io/python/module/ck2dyg7bk006n08v7h7yk2h2f.html"/>
-    <id>https://forgetst.github.io/python/module/ck2dyg7bk006n08v7h7yk2h2f.html</id>
+    <link href="https://forgetst.github.io/python/module/ck2etsz1y006yccv76d7bwb30.html"/>
+    <id>https://forgetst.github.io/python/module/ck2etsz1y006yccv76d7bwb30.html</id>
     <published>2019-10-15T16:00:00.000Z</published>
     <updated>2019-10-15T16:00:00.000Z</updated>
     
@@ -199,8 +223,8 @@
   
   <entry>
     <title>docker mysql官方镜像操作</title>
-    <link href="https://forgetst.github.io/docker/ck2dyg6wr002a08v7d56bctdi.html"/>
-    <id>https://forgetst.github.io/docker/ck2dyg6wr002a08v7d56bctdi.html</id>
+    <link href="https://forgetst.github.io/docker/ck2etsyoz0028ccv7lyvvb826.html"/>
+    <id>https://forgetst.github.io/docker/ck2etsyoz0028ccv7lyvvb826.html</id>
     <published>2019-10-14T16:00:00.000Z</published>
     <updated>2019-10-14T16:00:00.000Z</updated>
     
@@ -219,8 +243,8 @@
   
   <entry>
     <title>docker命令操作</title>
-    <link href="https://forgetst.github.io/docker/ck2dyg6x8002i08v71o28z7th.html"/>
-    <id>https://forgetst.github.io/docker/ck2dyg6x8002i08v71o28z7th.html</id>
+    <link href="https://forgetst.github.io/docker/ck2etsypc002fccv7mokreu6i.html"/>
+    <id>https://forgetst.github.io/docker/ck2etsypc002fccv7mokreu6i.html</id>
     <published>2019-10-13T16:00:00.000Z</published>
     <updated>2019-10-13T16:00:00.000Z</updated>
     
@@ -239,8 +263,8 @@
   
   <entry>
     <title>docker安装</title>
-    <link href="https://forgetst.github.io/docker/ck2dyg6wy002d08v7bjzcx4jb.html"/>
-    <id>https://forgetst.github.io/docker/ck2dyg6wy002d08v7bjzcx4jb.html</id>
+    <link href="https://forgetst.github.io/docker/ck2etsyp5002bccv79tlpkhpx.html"/>
+    <id>https://forgetst.github.io/docker/ck2etsyp5002bccv79tlpkhpx.html</id>
     <published>2019-10-11T16:00:00.000Z</published>
     <updated>2019-10-11T16:00:00.000Z</updated>
     
@@ -259,8 +283,8 @@
   
   <entry>
     <title>python3.7.3安装</title>
-    <link href="https://forgetst.github.io/python/ck2dyg70f003n08v7gbg09gum.html"/>
-    <id>https://forgetst.github.io/python/ck2dyg70f003n08v7gbg09gum.html</id>
+    <link href="https://forgetst.github.io/python/ck2etsys7003kccv7fpxrs4m2.html"/>
+    <id>https://forgetst.github.io/python/ck2etsys7003kccv7fpxrs4m2.html</id>
     <published>2019-10-10T16:00:00.000Z</published>
     <updated>2019-10-10T16:00:00.000Z</updated>
     
@@ -285,8 +309,8 @@
   
   <entry>
     <title>Python 迭代器和生成器</title>
-    <link href="https://forgetst.github.io/python/ck2dyg703003j08v7gv1x7pbb.html"/>
-    <id>https://forgetst.github.io/python/ck2dyg703003j08v7gv1x7pbb.html</id>
+    <link href="https://forgetst.github.io/python/ck2etsyrx003gccv7x0ygseol.html"/>
+    <id>https://forgetst.github.io/python/ck2etsyrx003gccv7x0ygseol.html</id>
     <published>2019-10-09T16:00:00.000Z</published>
     <updated>2019-10-09T16:00:00.000Z</updated>
     
@@ -307,9 +331,31 @@
   </entry>
   
   <entry>
+    <title>Restful API 简述</title>
+    <link href="https://forgetst.github.io/uncategorized/ck2etsy750008ccv7mzh8wyox.html"/>
+    <id>https://forgetst.github.io/uncategorized/ck2etsy750008ccv7mzh8wyox.html</id>
+    <published>2019-10-07T16:00:00.000Z</published>
+    <updated>2019-10-07T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>python 遍历目录获得所有文件</title>
-    <link href="https://forgetst.github.io/python/tips/ck2dyg7eh007u08v7c9ru969b.html"/>
-    <id>https://forgetst.github.io/python/tips/ck2dyg7eh007u08v7c9ru969b.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck2etsz3x0082ccv7we0r8ohc.html"/>
+    <id>https://forgetst.github.io/python/tips/ck2etsz3x0082ccv7we0r8ohc.html</id>
     <published>2019-10-07T16:00:00.000Z</published>
     <updated>2019-10-07T16:00:00.000Z</updated>
     
@@ -335,31 +381,9 @@
   </entry>
   
   <entry>
-    <title>Restful API 简述</title>
-    <link href="https://forgetst.github.io/uncategorized/ck2dyg6ca000908v7fma73apv.html"/>
-    <id>https://forgetst.github.io/uncategorized/ck2dyg6ca000908v7fma73apv.html</id>
-    <published>2019-10-07T16:00:00.000Z</published>
-    <updated>2019-10-07T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>python 计算当前月份的日期范围</title>
-    <link href="https://forgetst.github.io/python/tips/ck2dyg7dl007g08v7v7d6o11l.html"/>
-    <id>https://forgetst.github.io/python/tips/ck2dyg7dl007g08v7v7d6o11l.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck2etsz3g007sccv7soebg7mo.html"/>
+    <id>https://forgetst.github.io/python/tips/ck2etsz3g007sccv7soebg7mo.html</id>
     <published>2019-10-05T16:00:00.000Z</published>
     <updated>2019-10-05T16:00:00.000Z</updated>
     
@@ -380,8 +404,8 @@
   
   <entry>
     <title>python factions module</title>
-    <link href="https://forgetst.github.io/python/module/ck2dyg7eu008108v7kqy8hnuh.html"/>
-    <id>https://forgetst.github.io/python/module/ck2dyg7eu008108v7kqy8hnuh.html</id>
+    <link href="https://forgetst.github.io/python/module/ck2etsz1f006nccv7n56o2e6g.html"/>
+    <id>https://forgetst.github.io/python/module/ck2etsz1f006nccv7n56o2e6g.html</id>
     <published>2019-10-05T16:00:00.000Z</published>
     <updated>2019-10-05T16:00:00.000Z</updated>
     
@@ -405,8 +429,8 @@
   
   <entry>
     <title>python 字符串令牌解析</title>
-    <link href="https://forgetst.github.io/python/tips/ck2dyg7e1007n08v7i63xif8w.html"/>
-    <id>https://forgetst.github.io/python/tips/ck2dyg7e1007n08v7i63xif8w.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck2etsz3s007zccv7jel6mbsb.html"/>
+    <id>https://forgetst.github.io/python/tips/ck2etsz3s007zccv7jel6mbsb.html</id>
     <published>2019-09-28T16:00:00.000Z</published>
     <updated>2019-09-28T16:00:00.000Z</updated>
     
@@ -427,8 +451,8 @@
   
   <entry>
     <title>python 在字符串中处理html和xml</title>
-    <link href="https://forgetst.github.io/python/tips/ck2dyg7dw007k08v7x4dvefga.html"/>
-    <id>https://forgetst.github.io/python/tips/ck2dyg7dw007k08v7x4dvefga.html</id>
+    <link href="https://forgetst.github.io/python/tips/ck2etsz3l007vccv76fmo8x5j.html"/>
+    <id>https://forgetst.github.io/python/tips/ck2etsz3l007vccv76fmo8x5j.html</id>
     <published>2019-09-28T16:00:00.000Z</published>
     <updated>2019-09-28T16:00:00.000Z</updated>
     
@@ -449,8 +473,8 @@
   
   <entry>
     <title>python textwrap module</title>
-    <link href="https://forgetst.github.io/python/module/ck2dyg7cq007308v7i4t7u9fk.html"/>
-    <id>https://forgetst.github.io/python/module/ck2dyg7cq007308v7i4t7u9fk.html</id>
+    <link href="https://forgetst.github.io/python/module/ck2etsz2s007eccv7w3wtism7.html"/>
+    <id>https://forgetst.github.io/python/module/ck2etsz2s007eccv7w3wtism7.html</id>
     <published>2019-09-26T16:00:00.000Z</published>
     <updated>2019-09-26T16:00:00.000Z</updated>
     
@@ -469,28 +493,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python format用法</title>
-    <link href="https://forgetst.github.io/python/tips/ck2dyg7pe00ae08v71rdp50a7.html"/>
-    <id>https://forgetst.github.io/python/tips/ck2dyg7pe00ae08v71rdp50a7.html</id>
-    <published>2019-09-25T16:00:00.000Z</published>
-    <updated>2019-09-25T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;作用&quot;&gt;&lt;a href=&quot;#作用&quot; class=&quot;headerlink&quot; title=&quot;作用&quot;&gt;&lt;/a&gt;作用&lt;/h2&gt;&lt;p&gt;&lt;code&gt;str.format()&lt;/code&gt; 方法通过字符串中的花括号 &lt;code&gt;{}&lt;/code&gt; 来识别替换字段 &lt;code&gt;replacement field&lt;/code&gt;，从而完成字符串的格式化。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="tips" scheme="https://forgetst.github.io/categories/python/tips/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
