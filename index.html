@@ -387,7 +387,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/dataStructure/ck37fsltn002b3gv7q224ihu3.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/bigdata/ck3ws5hqu002axsv7motbplhy.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -407,7 +407,201 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/dataStructure/ck37fsltn002b3gv7q224ihu3.html" class="post-title-link" itemprop="url">二叉树</a>
+                <a href="/bigdata/ck3ws5hqu002axsv7motbplhy.html" class="post-title-link" itemprop="url">spark standalone集群搭建</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-12-08 00:00" itemprop="dateCreated datePublished" datetime="2019-12-08T00:00:00+08:00">2019-12-08</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/bigdata/" itemprop="url" rel="index"><span itemprop="name">bigdata</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="下载软件"><a href="#下载软件" class="headerlink" title="下载软件"></a>下载软件</h2><p><a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="noopener">java JDK-1.8</a></p>
+<p><a href="http://spark.apache.org/downloads.html" target="_blank" rel="noopener">spark</a></p>
+<h2 id="安装软件及配置"><a href="#安装软件及配置" class="headerlink" title="安装软件及配置"></a>安装软件及配置</h2><h3 id="安装jdk"><a href="#安装jdk" class="headerlink" title="安装jdk"></a>安装jdk</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"># 解压 jdk-8u171-linux-x64.tar.gz</span><br><span class="line">tar xf jdk-8u171-linux-x64.tar.gz /opt</span><br><span class="line"></span><br><span class="line"># 配置环境变量</span><br><span class="line">vim /etc/profile</span><br><span class="line"></span><br><span class="line">export JAVA_HOME=/opt/jdk-8u171</span><br><span class="line">export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar</span><br><span class="line">export PATH=$JAVA_HOME/bin:$PATH</span><br><span class="line"></span><br><span class="line"># 激活profile</span><br><span class="line">source /etc/profile</span><br><span class="line"></span><br><span class="line"># 检查jdk版本,看是否安装成功</span><br><span class="line">java -version</span><br></pre></td></tr></table></figure>
+
+<h3 id="安装spark"><a href="#安装spark" class="headerlink" title="安装spark"></a>安装spark</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 解压spark-2.4.3-bin-hadoop2.7.tgz</span><br><span class="line">tar xf spark-2.4.3-bin-hadoop2.7.tgz /opt</span><br><span class="line"></span><br><span class="line"># 配置环境变量</span><br><span class="line">vim /etc/profile</span><br><span class="line"></span><br><span class="line">export SPARK_HOME=/opt/spark-2.4.3-bin-hadoop2.7</span><br><span class="line">export PATH=$PATH:$SPARK_HOME/bin</span><br></pre></td></tr></table></figure>
+
+<h3 id="配置spark"><a href="#配置spark" class="headerlink" title="配置spark"></a>配置spark</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"># cd $&#123;SPARK_HOME&#125;/conf</span><br><span class="line">cp spark-env.sh.template spark-env.sh</span><br><span class="line">slaves.template slaves</span><br><span class="line"></span><br><span class="line"># 配置conf/spark_env.sh</span><br><span class="line">vim spark_env.sh</span><br><span class="line"></span><br><span class="line">export JAVA_HOME=/opt/jdk-8u171</span><br><span class="line">export SPARK_MASTER_HOST=hostname</span><br><span class="line">export SPARK_MASTER_IP=hostname</span><br><span class="line">export SPARK_MASTER_PORT=7077</span><br><span class="line"></span><br><span class="line"># 配置slaves</span><br><span class="line">vim slaves</span><br><span class="line"></span><br><span class="line">hostname1</span><br><span class="line">hostname2</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>spark_env.sh配置参数：<a href="http://spark.apache.org/docs/latest/spark-standalone.html#cluster-launch-scripts" target="_blank" rel="noopener">http://spark.apache.org/docs/latest/spark-standalone.html#cluster-launch-scripts</a></p>
+<h3 id="配置hosts"><a href="#配置hosts" class="headerlink" title="配置hosts"></a>配置hosts</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/hosts</span><br><span class="line"></span><br><span class="line">ip1 hostname1</span><br><span class="line">ip2 hostname2</span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">注：ip用本机物理ip，不用配置静态或浮动ip</span><br></pre></td></tr></table></figure>
+
+<h3 id="配置主机间免密登陆"><a href="#配置主机间免密登陆" class="headerlink" title="配置主机间免密登陆"></a>配置主机间免密登陆</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa   # 一路Enter</span><br><span class="line">ssh-copy-id root@hostname</span><br></pre></td></tr></table></figure>
+
+<h2 id="启动spark集群"><a href="#启动spark集群" class="headerlink" title="启动spark集群"></a>启动spark集群</h2><p><strong>一般来说,Standalone模式的Spark集群的启动有以下的几种方式：</strong> </p>
+<p><strong>1. master,slave一起启动：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd $SPARK_HOME</span><br><span class="line">./sbin/start-all.sh</span><br></pre></td></tr></table></figure>
+
+<p><strong>2. master,slave节点分开启动</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd $SPARK_HOME</span><br><span class="line"></span><br><span class="line"># 先启动 master,在启动slave</span><br><span class="line">./sbin/start-master.sh</span><br><span class="line">./sbin/start-slave.sh</span><br></pre></td></tr></table></figure>
+
+<h2 id="停止spark集群"><a href="#停止spark集群" class="headerlink" title="停止spark集群"></a>停止spark集群</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd $SPARK_HOME</span><br><span class="line">./sbin/stop-all.sh</span><br></pre></td></tr></table></figure>
+
+<h2 id="Spark配置参数详解"><a href="#Spark配置参数详解" class="headerlink" title="Spark配置参数详解"></a>Spark配置参数详解</h2><p>Spark提供三个位置用来配置系统：</p>
+<ul>
+<li>Spark属性：控制大部分的应用程序参数，可以用SparkConf对象或者Java系统属性设置</li>
+<li>环境变量：可以通过每个节点的<code>conf/spark-env.sh</code>脚本设置。例如IP地址、端口等信息</li>
+<li>日志配置：可以通过log4j.properties配置</li>
+</ul>
+<p>参考：<a href="https://www.cnblogs.com/yangcx666/p/8723826.html" target="_blank" rel="noopener">https://www.cnblogs.com/yangcx666/p/8723826.html</a></p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://spark.apache.org/docs/latest/configuration.html" target="_blank" rel="noopener">https://spark.apache.org/docs/latest/configuration.html</a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/dataStructure/ck3ws5hr9002hxsv7eqxu29ik.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/dataStructure/ck3ws5hr9002hxsv7eqxu29ik.html" class="post-title-link" itemprop="url">二叉树</a>
               
             
           </h1>
@@ -494,7 +688,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/dataStructure/ck37fsltn002b3gv7q224ihu3.html#more" rel="contents">
+              <a class="btn" href="/dataStructure/ck3ws5hr9002hxsv7eqxu29ik.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -560,7 +754,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/web/JavaScript/ck37fslwn00403gv7konpjlb1.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/web/JavaScript/ck3ws5hun003zxsv759hvm1f8.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -580,7 +774,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/web/JavaScript/ck37fslwn00403gv7konpjlb1.html" class="post-title-link" itemprop="url">JavaScript Array</a>
+                <a href="/web/JavaScript/ck3ws5hun003zxsv759hvm1f8.html" class="post-title-link" itemprop="url">JavaScript Array</a>
               
             
           </h1>
@@ -672,7 +866,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/web/JavaScript/ck37fslwn00403gv7konpjlb1.html#more" rel="contents">
+              <a class="btn" href="/web/JavaScript/ck3ws5hun003zxsv759hvm1f8.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -738,7 +932,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/web/vue/ck37fsm93008f3gv7z0067u63.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck3ws5i88007lxsv7ltjsh52p.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -758,186 +952,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/web/vue/ck37fsm93008f3gv7z0067u63.html" class="post-title-link" itemprop="url">vue 安装</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-10-29 00:00" itemprop="dateCreated datePublished" datetime="2019-10-29T00:00:00+08:00">2019-10-29</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/vue/" itemprop="url" rel="index"><span itemprop="name">vue</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h3 id="独立版本"><a href="#独立版本" class="headerlink" title="独立版本"></a>独立版本</h3><p>我们可以在 Vue.js 的官网上直接下载 vue.min.js 并用 &lt;script&gt; 标签引入。<br><a href="https://vuejs.org/js/vue.min.js" target="_blank" rel="noopener">Vue.js下载地址</a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;path/to/vue.min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/web/vue/ck37fsm93008f3gv7z0067u63.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck37fsm7n007h3gv7gzjws6fi.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/python/module/ck37fsm7n007h3gv7gzjws6fi.html" class="post-title-link" itemprop="url">python subprocess module</a>
+                <a href="/python/module/ck3ws5i88007lxsv7ltjsh52p.html" class="post-title-link" itemprop="url">python subprocess module</a>
               
             
           </h1>
@@ -1092,7 +1107,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/mysql/ck37fslvx003j3gv7nxzoigru.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/web/vue/ck3ws5ia1008jxsv7pyby28bx.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1112,7 +1127,186 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/mysql/ck37fslvx003j3gv7nxzoigru.html" class="post-title-link" itemprop="url">window mysql 初始化配置</a>
+                <a href="/web/vue/ck3ws5ia1008jxsv7pyby28bx.html" class="post-title-link" itemprop="url">vue 安装</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-10-29 00:00" itemprop="dateCreated datePublished" datetime="2019-10-29T00:00:00+08:00">2019-10-29</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/vue/" itemprop="url" rel="index"><span itemprop="name">vue</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h3 id="独立版本"><a href="#独立版本" class="headerlink" title="独立版本"></a>独立版本</h3><p>我们可以在 Vue.js 的官网上直接下载 vue.min.js 并用 &lt;script&gt; 标签引入。<br><a href="https://vuejs.org/js/vue.min.js" target="_blank" rel="noopener">Vue.js下载地址</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;path/to/vue.min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/web/vue/ck3ws5ia1008jxsv7pyby28bx.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/mysql/ck3ws5htx003nxsv7ab6zdeca.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/mysql/ck3ws5htx003nxsv7ab6zdeca.html" class="post-title-link" itemprop="url">window mysql 初始化配置</a>
               
             
           </h1>
@@ -1199,7 +1393,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/mysql/ck37fslvx003j3gv7nxzoigru.html#more" rel="contents">
+              <a class="btn" href="/mysql/ck3ws5htx003nxsv7ab6zdeca.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1265,7 +1459,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck37fsm7700793gv75tz5rhli.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck3ws5i7m007dxsv7plc1vp28.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1285,7 +1479,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/module/ck37fsm7700793gv75tz5rhli.html" class="post-title-link" itemprop="url">python itertools module</a>
+                <a href="/python/module/ck3ws5i7m007dxsv7plc1vp28.html" class="post-title-link" itemprop="url">python itertools module</a>
               
             
           </h1>
@@ -1377,7 +1571,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/module/ck37fsm7700793gv75tz5rhli.html#more" rel="contents">
+              <a class="btn" href="/python/module/ck3ws5i7m007dxsv7plc1vp28.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1443,7 +1637,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/docker/ck37fslzq005l3gv7igjjyog4.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/docker/ck3ws5hyi005pxsv75v4r494p.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1463,7 +1657,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/docker/ck37fslzq005l3gv7igjjyog4.html" class="post-title-link" itemprop="url">docker参数说明</a>
+                <a href="/docker/ck3ws5hyi005pxsv75v4r494p.html" class="post-title-link" itemprop="url">docker参数说明</a>
               
             
           </h1>
@@ -1548,7 +1742,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/docker/ck37fslzq005l3gv7igjjyog4.html#more" rel="contents">
+              <a class="btn" href="/docker/ck3ws5hyi005pxsv75v4r494p.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1614,7 +1808,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/spark/ck37fslwc003t3gv7jp7ta6ob.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/spark/ck3ws5hui003xxsv7jksqs6wa.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1634,7 +1828,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/spark/ck37fslwc003t3gv7jp7ta6ob.html" class="post-title-link" itemprop="url">spark参数配置说明</a>
+                <a href="/python/spark/ck3ws5hui003xxsv7jksqs6wa.html" class="post-title-link" itemprop="url">spark参数配置说明</a>
               
             
           </h1>
@@ -1799,7 +1993,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck37fsm7000743gv74nzlsieq.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ck3ws5i7d0078xsv7ocnq6e9h.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1819,7 +2013,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/module/ck37fsm7000743gv74nzlsieq.html" class="post-title-link" itemprop="url">python io module</a>
+                <a href="/python/module/ck3ws5i7d0078xsv7ocnq6e9h.html" class="post-title-link" itemprop="url">python io module</a>
               
             
           </h1>
@@ -1956,177 +2150,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/docker/ck37fsltr002e3gv73v3navgy.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/docker/ck37fsltr002e3gv73v3navgy.html" class="post-title-link" itemprop="url">docker mysql官方镜像操作</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-10-15 00:00" itemprop="dateCreated datePublished" datetime="2019-10-15T00:00:00+08:00">2019-10-15</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>…</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/docker/ck37fsltr002e3gv73v3navgy.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2176,7 +2199,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">75</span>
+          <span class="site-state-item-count">76</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -2267,7 +2290,7 @@
         
           
         
-        <span class="site-state-item-count">32</span>
+        <span class="site-state-item-count">33</span>
         <span class="site-state-item-name">分类</span>
         </a>
       </div>
@@ -2328,7 +2351,7 @@
         
           
         
-        <span class="site-state-item-count">19</span>
+        <span class="site-state-item-count">20</span>
         <span class="site-state-item-name">标签</span>
         </a>
       </div>
