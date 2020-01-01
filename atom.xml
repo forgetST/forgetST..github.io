@@ -27,8 +27,8 @@
     
       &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;zipfile&lt;/strong&gt;是python里用来做zip格式编码的压缩和解压缩的&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;zipfile&lt;/strong&gt;里有两个非常重要的class, 分别是&lt;strong&gt;ZipFile&lt;/strong&gt;和&lt;strong&gt;ZipInfo&lt;/strong&gt;, 在绝大多数的情况下，我们只需要使用这两个class就ok了&lt;/p&gt;
-&lt;p&gt;+　&lt;strong&gt;ZipFile&lt;/strong&gt;是主要的类，用来创建和读取zip文件&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ZipFile&lt;/strong&gt;是主要的类，用来创建和读取zip文件&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ZipInfo&lt;/strong&gt;是存储的zip文件的每个文件的信息的&lt;/li&gt;
 &lt;/ul&gt;
     
