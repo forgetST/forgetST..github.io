@@ -18,20 +18,19 @@
   
   <entry>
     <title>python zipfile module</title>
-    <link href="https://forgetst.github.io/python/module/ck4v7s4mr00boiwv79wyak3pl.html"/>
-    <id>https://forgetst.github.io/python/module/ck4v7s4mr00boiwv79wyak3pl.html</id>
+    <link href="https://forgetst.github.io/python/module/ck4v8c0hz00bo14v7yglrpsjc.html"/>
+    <id>https://forgetst.github.io/python/module/ck4v8c0hz00bo14v7yglrpsjc.html</id>
     <published>2019-12-31T16:00:00.000Z</published>
     <updated>2019-12-31T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
+      &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;zipfile&lt;/strong&gt;是python里用来做zip格式编码的压缩和解压缩的&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;zipfile&lt;/strong&gt;里有两个非常重要的class, 分别是&lt;strong&gt;ZipFile&lt;/strong&gt;和&lt;strong&gt;ZipInfo&lt;/strong&gt;, 在绝大多数的情况下，我们只需要使用这两个class就ok了&lt;/p&gt;
+&lt;p&gt;+　&lt;strong&gt;ZipFile&lt;/strong&gt;是主要的类，用来创建和读取zip文件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ZipInfo&lt;/strong&gt;是存储的zip文件的每个文件的信息的&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -48,8 +47,8 @@
   
   <entry>
     <title>python起一个固定端口</title>
-    <link href="https://forgetst.github.io/python/ck4v7s3qs0047iwv7amw2w22f.html"/>
-    <id>https://forgetst.github.io/python/ck4v7s3qs0047iwv7amw2w22f.html</id>
+    <link href="https://forgetst.github.io/python/ck4v8bztu004714v7jptfniv5.html"/>
+    <id>https://forgetst.github.io/python/ck4v8bztu004714v7jptfniv5.html</id>
     <published>2019-12-20T16:00:00.000Z</published>
     <updated>2019-12-20T16:00:00.000Z</updated>
     
@@ -76,8 +75,8 @@
   
   <entry>
     <title>YAML基本语法</title>
-    <link href="https://forgetst.github.io/yaml/ck4v7s3s4004liwv7jesnfba8.html"/>
-    <id>https://forgetst.github.io/yaml/ck4v7s3s4004liwv7jesnfba8.html</id>
+    <link href="https://forgetst.github.io/yaml/ck4v8bzuo004l14v7kijizlnx.html"/>
+    <id>https://forgetst.github.io/yaml/ck4v8bzuo004l14v7kijizlnx.html</id>
     <published>2019-12-20T16:00:00.000Z</published>
     <updated>2019-12-20T16:00:00.000Z</updated>
     
@@ -107,8 +106,8 @@
   
   <entry>
     <title>python操作minio</title>
-    <link href="https://forgetst.github.io/python/ck4v7s3xt0067iwv7y2l4e6mz.html"/>
-    <id>https://forgetst.github.io/python/ck4v7s3xt0067iwv7y2l4e6mz.html</id>
+    <link href="https://forgetst.github.io/python/ck4v8bzyi006714v7i54s44qd.html"/>
+    <id>https://forgetst.github.io/python/ck4v8bzyi006714v7i54s44qd.html</id>
     <published>2019-12-14T16:00:00.000Z</published>
     <updated>2019-12-14T16:00:00.000Z</updated>
     
@@ -137,8 +136,8 @@
   
   <entry>
     <title>spark常见错误处理</title>
-    <link href="https://forgetst.github.io/bigdata/ck4v7s3k4002eiwv7fbjva8ip.html"/>
-    <id>https://forgetst.github.io/bigdata/ck4v7s3k4002eiwv7fbjva8ip.html</id>
+    <link href="https://forgetst.github.io/bigdata/ck4v8bzox002e14v7p898v4ou.html"/>
+    <id>https://forgetst.github.io/bigdata/ck4v8bzox002e14v7p898v4ou.html</id>
     <published>2019-12-07T16:00:00.000Z</published>
     <updated>2019-12-07T16:00:00.000Z</updated>
     
@@ -159,8 +158,8 @@
   
   <entry>
     <title>spark standalone集群搭建</title>
-    <link href="https://forgetst.github.io/bigdata/ck4v7s3kh002hiwv7uw8cm6wv.html"/>
-    <id>https://forgetst.github.io/bigdata/ck4v7s3kh002hiwv7uw8cm6wv.html</id>
+    <link href="https://forgetst.github.io/bigdata/ck4v8bzp4002h14v7y6jlb230.html"/>
+    <id>https://forgetst.github.io/bigdata/ck4v8bzp4002h14v7y6jlb230.html</id>
     <published>2019-12-07T16:00:00.000Z</published>
     <updated>2019-12-07T16:00:00.000Z</updated>
     
@@ -182,8 +181,8 @@
   
   <entry>
     <title>pycharm2018.1激活教程</title>
-    <link href="https://forgetst.github.io/python/ck4v7s2wx000biwv7d8qm7ydh.html"/>
-    <id>https://forgetst.github.io/python/ck4v7s2wx000biwv7d8qm7ydh.html</id>
+    <link href="https://forgetst.github.io/python/ck4v8bzak000b14v7mlg9abe3.html"/>
+    <id>https://forgetst.github.io/python/ck4v8bzak000b14v7mlg9abe3.html</id>
     <published>2019-12-07T16:00:00.000Z</published>
     <updated>2019-12-07T16:00:00.000Z</updated>
     
@@ -210,8 +209,8 @@
   
   <entry>
     <title>二叉树</title>
-    <link href="https://forgetst.github.io/dataStructure/ck4v7s3ky002miwv7pz4hbcyz.html"/>
-    <id>https://forgetst.github.io/dataStructure/ck4v7s3ky002miwv7pz4hbcyz.html</id>
+    <link href="https://forgetst.github.io/dataStructure/ck4v8bzpd002m14v7itz67akt.html"/>
+    <id>https://forgetst.github.io/dataStructure/ck4v8bzpd002m14v7itz67akt.html</id>
     <published>2019-11-05T16:00:00.000Z</published>
     <updated>2019-11-05T16:00:00.000Z</updated>
     
@@ -232,8 +231,8 @@
   
   <entry>
     <title>JavaScript Array</title>
-    <link href="https://forgetst.github.io/web/JavaScript/ck4v7s3rv004iiwv75zjc25ib.html"/>
-    <id>https://forgetst.github.io/web/JavaScript/ck4v7s3rv004iiwv75zjc25ib.html</id>
+    <link href="https://forgetst.github.io/web/JavaScript/ck4v8bzui004i14v7hxcq3p38.html"/>
+    <id>https://forgetst.github.io/web/JavaScript/ck4v8bzui004i14v7hxcq3p38.html</id>
     <published>2019-10-30T16:00:00.000Z</published>
     <updated>2019-10-30T16:00:00.000Z</updated>
     
@@ -256,8 +255,8 @@
   
   <entry>
     <title>python subprocess module</title>
-    <link href="https://forgetst.github.io/python/module/ck4v7s4dk0089iwv7ebza3xuw.html"/>
-    <id>https://forgetst.github.io/python/module/ck4v7s4dk0089iwv7ebza3xuw.html</id>
+    <link href="https://forgetst.github.io/python/module/ck4v8c09k008914v7wanz3v86.html"/>
+    <id>https://forgetst.github.io/python/module/ck4v8c09k008914v7wanz3v86.html</id>
     <published>2019-10-28T16:00:00.000Z</published>
     <updated>2019-10-28T16:00:00.000Z</updated>
     
@@ -286,8 +285,8 @@
   
   <entry>
     <title>vue 安装</title>
-    <link href="https://forgetst.github.io/web/vue/ck4v7s4g40097iwv72wx1hiym.html"/>
-    <id>https://forgetst.github.io/web/vue/ck4v7s4g40097iwv72wx1hiym.html</id>
+    <link href="https://forgetst.github.io/web/vue/ck4v8c0bq009714v7gkffgeuk.html"/>
+    <id>https://forgetst.github.io/web/vue/ck4v8c0bq009714v7gkffgeuk.html</id>
     <published>2019-10-28T16:00:00.000Z</published>
     <updated>2019-10-28T16:00:00.000Z</updated>
     
@@ -311,8 +310,8 @@
   
   <entry>
     <title>window mysql 初始化配置</title>
-    <link href="https://forgetst.github.io/mysql/ck4v7s3pr003wiwv7k6nd5lco.html"/>
-    <id>https://forgetst.github.io/mysql/ck4v7s3pr003wiwv7k6nd5lco.html</id>
+    <link href="https://forgetst.github.io/mysql/ck4v8bzt7003w14v7hx7td3yb.html"/>
+    <id>https://forgetst.github.io/mysql/ck4v8bzt7003w14v7hx7td3yb.html</id>
     <published>2019-10-27T16:00:00.000Z</published>
     <updated>2019-10-27T16:00:00.000Z</updated>
     
@@ -333,8 +332,8 @@
   
   <entry>
     <title>python itertools module</title>
-    <link href="https://forgetst.github.io/python/module/ck4v7s4d10081iwv7p6emz9tc.html"/>
-    <id>https://forgetst.github.io/python/module/ck4v7s4d10081iwv7p6emz9tc.html</id>
+    <link href="https://forgetst.github.io/python/module/ck4v8c093008114v7ia2l28yv.html"/>
+    <id>https://forgetst.github.io/python/module/ck4v8c093008114v7ia2l28yv.html</id>
     <published>2019-10-24T16:00:00.000Z</published>
     <updated>2019-10-24T16:00:00.000Z</updated>
     
@@ -357,8 +356,8 @@
   
   <entry>
     <title>docker参数说明</title>
-    <link href="https://forgetst.github.io/docker/ck4v7s3y00069iwv7u10kk8kp.html"/>
-    <id>https://forgetst.github.io/docker/ck4v7s3y00069iwv7u10kk8kp.html</id>
+    <link href="https://forgetst.github.io/docker/ck4v8bzyn006914v7vqdyxs22.html"/>
+    <id>https://forgetst.github.io/docker/ck4v8bzyn006914v7vqdyxs22.html</id>
     <published>2019-10-20T16:00:00.000Z</published>
     <updated>2019-10-20T16:00:00.000Z</updated>
     
@@ -377,8 +376,8 @@
   
   <entry>
     <title>spark参数配置说明</title>
-    <link href="https://forgetst.github.io/python/spark/ck4v7s3r4004aiwv7iq4tsgyb.html"/>
-    <id>https://forgetst.github.io/python/spark/ck4v7s3r4004aiwv7iq4tsgyb.html</id>
+    <link href="https://forgetst.github.io/python/spark/ck4v8bzu1004a14v7vm10kstt.html"/>
+    <id>https://forgetst.github.io/python/spark/ck4v8bzu1004a14v7vm10kstt.html</id>
     <published>2019-10-17T16:00:00.000Z</published>
     <updated>2019-10-17T16:00:00.000Z</updated>
     
@@ -407,8 +406,8 @@
   
   <entry>
     <title>python io module</title>
-    <link href="https://forgetst.github.io/python/module/ck4v7s4cg007wiwv785hqip3k.html"/>
-    <id>https://forgetst.github.io/python/module/ck4v7s4cg007wiwv785hqip3k.html</id>
+    <link href="https://forgetst.github.io/python/module/ck4v8c08q007w14v7w2ikarky.html"/>
+    <id>https://forgetst.github.io/python/module/ck4v8c08q007w14v7w2ikarky.html</id>
     <published>2019-10-15T16:00:00.000Z</published>
     <updated>2019-10-15T16:00:00.000Z</updated>
     
@@ -437,8 +436,8 @@
   
   <entry>
     <title>docker mysql官方镜像操作</title>
-    <link href="https://forgetst.github.io/docker/ck4v7s3l5002piwv7s1268l26.html"/>
-    <id>https://forgetst.github.io/docker/ck4v7s3l5002piwv7s1268l26.html</id>
+    <link href="https://forgetst.github.io/docker/ck4v8bzpl002p14v7rst83muc.html"/>
+    <id>https://forgetst.github.io/docker/ck4v8bzpl002p14v7rst83muc.html</id>
     <published>2019-10-14T16:00:00.000Z</published>
     <updated>2019-10-14T16:00:00.000Z</updated>
     
@@ -457,8 +456,8 @@
   
   <entry>
     <title>docker命令操作</title>
-    <link href="https://forgetst.github.io/docker/ck4v7s3lz002xiwv7by88o21r.html"/>
-    <id>https://forgetst.github.io/docker/ck4v7s3lz002xiwv7by88o21r.html</id>
+    <link href="https://forgetst.github.io/docker/ck4v8bzqb002x14v7dgqajexr.html"/>
+    <id>https://forgetst.github.io/docker/ck4v8bzqb002x14v7dgqajexr.html</id>
     <published>2019-10-13T16:00:00.000Z</published>
     <updated>2019-10-13T16:00:00.000Z</updated>
     
@@ -477,8 +476,8 @@
   
   <entry>
     <title>docker安装</title>
-    <link href="https://forgetst.github.io/docker/ck4v7s3li002siwv7fz7sun8m.html"/>
-    <id>https://forgetst.github.io/docker/ck4v7s3li002siwv7fz7sun8m.html</id>
+    <link href="https://forgetst.github.io/docker/ck4v8bzpu002s14v7ajaihr1v.html"/>
+    <id>https://forgetst.github.io/docker/ck4v8bzpu002s14v7ajaihr1v.html</id>
     <published>2019-10-11T16:00:00.000Z</published>
     <updated>2019-10-11T16:00:00.000Z</updated>
     
@@ -497,8 +496,8 @@
   
   <entry>
     <title>python3.7.3安装</title>
-    <link href="https://forgetst.github.io/python/ck4v7s3qi0043iwv7qqdbecg0.html"/>
-    <id>https://forgetst.github.io/python/ck4v7s3qi0043iwv7qqdbecg0.html</id>
+    <link href="https://forgetst.github.io/python/ck4v8bztl004314v7mwdzqcvm.html"/>
+    <id>https://forgetst.github.io/python/ck4v8bztl004314v7mwdzqcvm.html</id>
     <published>2019-10-10T16:00:00.000Z</published>
     <updated>2019-10-10T16:00:00.000Z</updated>
     
