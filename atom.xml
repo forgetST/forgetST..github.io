@@ -18,8 +18,8 @@
   
   <entry>
     <title>python起一个固定端口</title>
-    <link href="https://forgetst.github.io/python/ck4v18pq40041x4v7p23l8llz.html"/>
-    <id>https://forgetst.github.io/python/ck4v18pq40041x4v7p23l8llz.html</id>
+    <link href="https://forgetst.github.io/python/ck4v1pez40047x0v7ivx2yuag.html"/>
+    <id>https://forgetst.github.io/python/ck4v1pez40047x0v7ivx2yuag.html</id>
     <published>2019-12-20T16:00:00.000Z</published>
     <updated>2019-12-20T16:00:00.000Z</updated>
     
@@ -46,8 +46,8 @@
   
   <entry>
     <title>YAML基本语法</title>
-    <link href="https://forgetst.github.io/yaml/ck4v18pri004hx4v75pt1lsl9.html"/>
-    <id>https://forgetst.github.io/yaml/ck4v18pri004hx4v75pt1lsl9.html</id>
+    <link href="https://forgetst.github.io/yaml/ck4v1pezu004lx0v7q0ia44fc.html"/>
+    <id>https://forgetst.github.io/yaml/ck4v1pezu004lx0v7q0ia44fc.html</id>
     <published>2019-12-20T16:00:00.000Z</published>
     <updated>2019-12-20T16:00:00.000Z</updated>
     
@@ -77,8 +77,8 @@
   
   <entry>
     <title>python操作minio</title>
-    <link href="https://forgetst.github.io/python/ck4v18px60062x4v7acbvhpcp.html"/>
-    <id>https://forgetst.github.io/python/ck4v18px60062x4v7acbvhpcp.html</id>
+    <link href="https://forgetst.github.io/python/ck4v1pf330067x0v7rx78tl3h.html"/>
+    <id>https://forgetst.github.io/python/ck4v1pf330067x0v7rx78tl3h.html</id>
     <published>2019-12-14T16:00:00.000Z</published>
     <updated>2019-12-14T16:00:00.000Z</updated>
     
@@ -107,8 +107,8 @@
   
   <entry>
     <title>pycharm2018.1激活教程</title>
-    <link href="https://forgetst.github.io/python/ck4v18p3d000bx4v70ojdmidg.html"/>
-    <id>https://forgetst.github.io/python/ck4v18p3d000bx4v70ojdmidg.html</id>
+    <link href="https://forgetst.github.io/python/ck4v1pejw000bx0v7yyxl1m6a.html"/>
+    <id>https://forgetst.github.io/python/ck4v1pejw000bx0v7yyxl1m6a.html</id>
     <published>2019-12-07T16:00:00.000Z</published>
     <updated>2019-12-07T16:00:00.000Z</updated>
     
@@ -134,21 +134,38 @@
   </entry>
   
   <entry>
-    <title>spark standalone集群搭建</title>
-    <link href="https://forgetst.github.io/bigdata/ck4v18pkw002ex4v71cg2c1lv.html"/>
-    <id>https://forgetst.github.io/bigdata/ck4v18pkw002ex4v71cg2c1lv.html</id>
+    <title>spark常见错误处理</title>
+    <link href="https://forgetst.github.io/bigdata/ck4v1pevq002ex0v7uyijjhxl.html"/>
+    <id>https://forgetst.github.io/bigdata/ck4v1pevq002ex0v7uyijjhxl.html</id>
     <published>2019-12-07T16:00:00.000Z</published>
     <updated>2019-12-07T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
+      &lt;p&gt;参考：&lt;a href=&quot;https://blog.csdn.net/cjlion/article/details/81234336&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark常见错误汇总&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="bigdata" scheme="https://forgetst.github.io/categories/bigdata/"/>
+    
+    
+      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
+    
+      <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>spark standalone集群搭建</title>
+    <link href="https://forgetst.github.io/bigdata/ck4v1pevw002hx0v79v5kj95s.html"/>
+    <id>https://forgetst.github.io/bigdata/ck4v1pevw002hx0v79v5kj95s.html</id>
+    <published>2019-12-07T16:00:00.000Z</published>
+    <updated>2019-12-07T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;下载软件&quot;&gt;&lt;a href=&quot;#下载软件&quot; class=&quot;headerlink&quot; title=&quot;下载软件&quot;&gt;&lt;/a&gt;下载软件&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;java JDK-1.8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://spark.apache.org/downloads.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -163,8 +180,8 @@
   
   <entry>
     <title>二叉树</title>
-    <link href="https://forgetst.github.io/dataStructure/ck4v18pl4002hx4v7mq8wh2e8.html"/>
-    <id>https://forgetst.github.io/dataStructure/ck4v18pl4002hx4v7mq8wh2e8.html</id>
+    <link href="https://forgetst.github.io/dataStructure/ck4v1pew4002mx0v7yq2yea0e.html"/>
+    <id>https://forgetst.github.io/dataStructure/ck4v1pew4002mx0v7yq2yea0e.html</id>
     <published>2019-11-05T16:00:00.000Z</published>
     <updated>2019-11-05T16:00:00.000Z</updated>
     
@@ -185,8 +202,8 @@
   
   <entry>
     <title>JavaScript Array</title>
-    <link href="https://forgetst.github.io/web/JavaScript/ck4v18pr0004cx4v7ouj2u97e.html"/>
-    <id>https://forgetst.github.io/web/JavaScript/ck4v18pr0004cx4v7ouj2u97e.html</id>
+    <link href="https://forgetst.github.io/web/JavaScript/ck4v1pezp004ix0v7pxbgfzs7.html"/>
+    <id>https://forgetst.github.io/web/JavaScript/ck4v1pezp004ix0v7pxbgfzs7.html</id>
     <published>2019-10-30T16:00:00.000Z</published>
     <updated>2019-10-30T16:00:00.000Z</updated>
     
@@ -208,39 +225,9 @@
   </entry>
   
   <entry>
-    <title>python subprocess module</title>
-    <link href="https://forgetst.github.io/python/module/ck4v18qa70084x4v7a5v9okxa.html"/>
-    <id>https://forgetst.github.io/python/module/ck4v18qa70084x4v7a5v9okxa.html</id>
-    <published>2019-10-28T16:00:00.000Z</published>
-    <updated>2019-10-28T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
     <title>vue 安装</title>
-    <link href="https://forgetst.github.io/web/vue/ck4v18qcx0092x4v7ogs387ch.html"/>
-    <id>https://forgetst.github.io/web/vue/ck4v18qcx0092x4v7ogs387ch.html</id>
+    <link href="https://forgetst.github.io/web/vue/ck4v1pfdn0097x0v7gsqm17bf.html"/>
+    <id>https://forgetst.github.io/web/vue/ck4v1pfdn0097x0v7gsqm17bf.html</id>
     <published>2019-10-28T16:00:00.000Z</published>
     <updated>2019-10-28T16:00:00.000Z</updated>
     
@@ -263,9 +250,39 @@
   </entry>
   
   <entry>
+    <title>python subprocess module</title>
+    <link href="https://forgetst.github.io/python/module/ck4v1pfc20089x0v7d35h7wpa.html"/>
+    <id>https://forgetst.github.io/python/module/ck4v1pfc20089x0v7d35h7wpa.html</id>
+    <published>2019-10-28T16:00:00.000Z</published>
+    <updated>2019-10-28T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
+    
+  </entry>
+  
+  <entry>
     <title>window mysql 初始化配置</title>
-    <link href="https://forgetst.github.io/mysql/ck4v18ppe003sx4v7jidnvg8l.html"/>
-    <id>https://forgetst.github.io/mysql/ck4v18ppe003sx4v7jidnvg8l.html</id>
+    <link href="https://forgetst.github.io/mysql/ck4v1peyn003wx0v7jdl92h54.html"/>
+    <id>https://forgetst.github.io/mysql/ck4v1peyn003wx0v7jdl92h54.html</id>
     <published>2019-10-27T16:00:00.000Z</published>
     <updated>2019-10-27T16:00:00.000Z</updated>
     
@@ -286,8 +303,8 @@
   
   <entry>
     <title>python itertools module</title>
-    <link href="https://forgetst.github.io/python/module/ck4v18q9o007wx4v7n89ctlyu.html"/>
-    <id>https://forgetst.github.io/python/module/ck4v18q9o007wx4v7n89ctlyu.html</id>
+    <link href="https://forgetst.github.io/python/module/ck4v1pfbo0081x0v7m416vbrz.html"/>
+    <id>https://forgetst.github.io/python/module/ck4v1pfbo0081x0v7m416vbrz.html</id>
     <published>2019-10-24T16:00:00.000Z</published>
     <updated>2019-10-24T16:00:00.000Z</updated>
     
@@ -310,8 +327,8 @@
   
   <entry>
     <title>docker参数说明</title>
-    <link href="https://forgetst.github.io/docker/ck4v18pxa0064x4v7mz53lx2r.html"/>
-    <id>https://forgetst.github.io/docker/ck4v18pxa0064x4v7mz53lx2r.html</id>
+    <link href="https://forgetst.github.io/docker/ck4v1pf380069x0v7xiu28nau.html"/>
+    <id>https://forgetst.github.io/docker/ck4v1pf380069x0v7xiu28nau.html</id>
     <published>2019-10-20T16:00:00.000Z</published>
     <updated>2019-10-20T16:00:00.000Z</updated>
     
@@ -330,8 +347,8 @@
   
   <entry>
     <title>spark参数配置说明</title>
-    <link href="https://forgetst.github.io/python/spark/ck4v18pqd0044x4v7j7z2agkh.html"/>
-    <id>https://forgetst.github.io/python/spark/ck4v18pqd0044x4v7j7z2agkh.html</id>
+    <link href="https://forgetst.github.io/python/spark/ck4v1peza004ax0v7ic434wqi.html"/>
+    <id>https://forgetst.github.io/python/spark/ck4v1peza004ax0v7ic434wqi.html</id>
     <published>2019-10-17T16:00:00.000Z</published>
     <updated>2019-10-17T16:00:00.000Z</updated>
     
@@ -360,8 +377,8 @@
   
   <entry>
     <title>python io module</title>
-    <link href="https://forgetst.github.io/python/module/ck4v18q9a007rx4v7bg9ap2cp.html"/>
-    <id>https://forgetst.github.io/python/module/ck4v18q9a007rx4v7bg9ap2cp.html</id>
+    <link href="https://forgetst.github.io/python/module/ck4v1pfbe007wx0v7p9eq17kq.html"/>
+    <id>https://forgetst.github.io/python/module/ck4v1pfbe007wx0v7p9eq17kq.html</id>
     <published>2019-10-15T16:00:00.000Z</published>
     <updated>2019-10-15T16:00:00.000Z</updated>
     
@@ -390,8 +407,8 @@
   
   <entry>
     <title>docker mysql官方镜像操作</title>
-    <link href="https://forgetst.github.io/docker/ck4v18plf002mx4v7eicwschi.html"/>
-    <id>https://forgetst.github.io/docker/ck4v18plf002mx4v7eicwschi.html</id>
+    <link href="https://forgetst.github.io/docker/ck4v1pewa002px0v7mllj6mqw.html"/>
+    <id>https://forgetst.github.io/docker/ck4v1pewa002px0v7mllj6mqw.html</id>
     <published>2019-10-14T16:00:00.000Z</published>
     <updated>2019-10-14T16:00:00.000Z</updated>
     
@@ -410,8 +427,8 @@
   
   <entry>
     <title>docker命令操作</title>
-    <link href="https://forgetst.github.io/docker/ck4v18plu002sx4v7ie3cd63s.html"/>
-    <id>https://forgetst.github.io/docker/ck4v18plu002sx4v7ie3cd63s.html</id>
+    <link href="https://forgetst.github.io/docker/ck4v1pewp002xx0v7bjavud77.html"/>
+    <id>https://forgetst.github.io/docker/ck4v1pewp002xx0v7bjavud77.html</id>
     <published>2019-10-13T16:00:00.000Z</published>
     <updated>2019-10-13T16:00:00.000Z</updated>
     
@@ -430,8 +447,8 @@
   
   <entry>
     <title>docker安装</title>
-    <link href="https://forgetst.github.io/docker/ck4v18pln002px4v7ds000ask.html"/>
-    <id>https://forgetst.github.io/docker/ck4v18pln002px4v7ds000ask.html</id>
+    <link href="https://forgetst.github.io/docker/ck4v1pewg002sx0v7duo1hl40.html"/>
+    <id>https://forgetst.github.io/docker/ck4v1pewg002sx0v7duo1hl40.html</id>
     <published>2019-10-11T16:00:00.000Z</published>
     <updated>2019-10-11T16:00:00.000Z</updated>
     
@@ -450,8 +467,8 @@
   
   <entry>
     <title>python3.7.3安装</title>
-    <link href="https://forgetst.github.io/python/ck4v18ppw003zx4v72ng1mj1g.html"/>
-    <id>https://forgetst.github.io/python/ck4v18ppw003zx4v72ng1mj1g.html</id>
+    <link href="https://forgetst.github.io/python/ck4v1peyy0043x0v7iv5t1a3g.html"/>
+    <id>https://forgetst.github.io/python/ck4v1peyy0043x0v7iv5t1a3g.html</id>
     <published>2019-10-10T16:00:00.000Z</published>
     <updated>2019-10-10T16:00:00.000Z</updated>
     
@@ -476,8 +493,8 @@
   
   <entry>
     <title>Python 迭代器和生成器</title>
-    <link href="https://forgetst.github.io/python/ck4v18ppm003vx4v7yoekz0wc.html"/>
-    <id>https://forgetst.github.io/python/ck4v18ppm003vx4v7yoekz0wc.html</id>
+    <link href="https://forgetst.github.io/python/ck4v1peyt0040x0v7la8v1sm4.html"/>
+    <id>https://forgetst.github.io/python/ck4v1peyt0040x0v7la8v1sm4.html</id>
     <published>2019-10-09T16:00:00.000Z</published>
     <updated>2019-10-09T16:00:00.000Z</updated>
     
@@ -494,28 +511,6 @@
     
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Restful API 简述</title>
-    <link href="https://forgetst.github.io/uncategorized/ck4v18p3p000fx4v7knpqcrth.html"/>
-    <id>https://forgetst.github.io/uncategorized/ck4v18p3p000fx4v7knpqcrth.html</id>
-    <published>2019-10-07T16:00:00.000Z</published>
-    <updated>2019-10-07T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
     
   </entry>
   
