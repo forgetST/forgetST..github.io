@@ -489,7 +489,17 @@
         <h3 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h3><p>MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">ls       列出文件和文件夹。</span><br><span class="line">mb       创建一个存储桶或一个文件夹。</span><br><span class="line">cat      显示文件和对象内容。</span><br><span class="line">pipe     将一个STDIN重定向到一个对象或者文件或者STDOUT。</span><br><span class="line">share    生成用于共享的URL。</span><br><span class="line">cp       拷贝文件和对象。</span><br><span class="line">mirror   给存储桶和文件夹做镜像。</span><br><span class="line">find     基于参数查找文件。</span><br><span class="line">diff     对两个文件夹或者存储桶比较差异。</span><br><span class="line">rm       删除文件和对象。</span><br><span class="line">events   管理对象通知。</span><br><span class="line">watch    监听文件和对象的事件。</span><br><span class="line">policy   管理访问策略。</span><br><span class="line">session  为cp命令管理保存的会话。</span><br><span class="line">config   管理mc配置文件。</span><br><span class="line">update   检查软件更新。</span><br><span class="line">version  输出版本信息。</span><br></pre></td></tr></table></figure>
 
-<h3 id="客户端下载"><a href="#客户端下载" class="headerlink" title="客户端下载"></a>客户端下载</h3><h4 id="GNU-Linux"><a href="#GNU-Linux" class="headerlink" title="GNU/Linux"></a>GNU/Linux</h4><table>
+<h3 id="客户端下载"><a href="#客户端下载" class="headerlink" title="客户端下载"></a>客户端下载</h3><h4 id="Docker容器"><a href="#Docker容器" class="headerlink" title="Docker容器"></a>Docker容器</h4><p><strong>稳定版</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Copydocker pull minio/mc</span><br><span class="line">docker run minio/mc ls play</span><br></pre></td></tr></table></figure>
+
+<p><strong>尝鲜版</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Copydocker pull minio/mc:edge</span><br><span class="line">docker run minio/mc:edge ls play</span><br></pre></td></tr></table></figure>
+
+<p><strong>注意:</strong> 上述示例默认使用MinIO<a href="https://docs.min.io/cn/minio-client-quickstart-guide.html#test-your-setup" target="_blank" rel="noopener">演示环境</a>做演示，如果想用<code>mc</code>操作其它S3兼容的服务，采用下面的方式来启动容器：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Copydocker run -it --entrypoint=/bin/sh minio/mc</span><br></pre></td></tr></table></figure>
+
+<p>然后使用<code>mc config</code>命令。</p>
+<h4 id="GNU-Linux"><a href="#GNU-Linux" class="headerlink" title="GNU/Linux"></a>GNU/Linux</h4><table>
 <thead>
 <tr>
 <th align="left">平台</th>
@@ -532,6 +542,18 @@
 <h3 id="配置下载策略"><a href="#配置下载策略" class="headerlink" title="配置下载策略"></a>配置下载策略</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mc policy public minio/base</span><br></pre></td></tr></table></figure>
 
 <p>这个命令的作用是将 server 端的 base 桶设置为开放管理，可以直接通过 url 进行下载。</p>
+<h3 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a>错误处理</h3><p>执行以下命令：</p>
+<blockquote>
+<p> mc config host add minio <a href="http://172.17.0.3" target="_blank" rel="noopener">http://172.17.0.3</a> AKIAIOSFODNN7EXAMPLE wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY S3v4</p>
+</blockquote>
+<p>产生如下错误：</p>
+<blockquote>
+<p> mc: <error> Unable to initialize new config from the provided credentials. Get <a href="http://172.17.0.3/probe-bucket-sign-mtwaqfha50la/?location=" target="_blank" rel="noopener">http://172.17.0.3/probe-bucket-sign-mtwaqfha50la/?location=</a>: dial tcp 172.17.0.3:80: connect: connection refused.</error></p>
+</blockquote>
+<p>处理方式：</p>
+<blockquote>
+<p>暂无</p>
+</blockquote>
 <h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="https://docs.min.io/cn/minio-client-quickstart-guide.html" target="_blank" rel="noopener">MinIO客户端快速入门指南</a></p>
 
       
@@ -937,7 +959,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#简述"><span class="nav-number">1.</span> <span class="nav-text">简述</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#客户端下载"><span class="nav-number">2.</span> <span class="nav-text">客户端下载</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#GNU-Linux"><span class="nav-number">2.1.</span> <span class="nav-text">GNU/Linux</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Microsoft-Windows"><span class="nav-number">2.2.</span> <span class="nav-text">Microsoft Windows</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加云存储服务"><span class="nav-number">3.</span> <span class="nav-text">添加云存储服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置下载策略"><span class="nav-number">4.</span> <span class="nav-text">配置下载策略</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考"><span class="nav-number">5.</span> <span class="nav-text">参考</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#简述"><span class="nav-number">1.</span> <span class="nav-text">简述</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#客户端下载"><span class="nav-number">2.</span> <span class="nav-text">客户端下载</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Docker容器"><span class="nav-number">2.1.</span> <span class="nav-text">Docker容器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#GNU-Linux"><span class="nav-number">2.2.</span> <span class="nav-text">GNU/Linux</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Microsoft-Windows"><span class="nav-number">2.3.</span> <span class="nav-text">Microsoft Windows</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加云存储服务"><span class="nav-number">3.</span> <span class="nav-text">添加云存储服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置下载策略"><span class="nav-number">4.</span> <span class="nav-text">配置下载策略</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#错误处理"><span class="nav-number">5.</span> <span class="nav-text">错误处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考"><span class="nav-number">6.</span> <span class="nav-text">参考</span></a></li></ol></div>
             
 
           </div>
