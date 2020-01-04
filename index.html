@@ -1264,78 +1264,16 @@
 
       
         
+          <h3 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h3><p>MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。</p>
+          <!--noindex-->
           
-            <h3 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h3><p>MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">ls       列出文件和文件夹。</span><br><span class="line">mb       创建一个存储桶或一个文件夹。</span><br><span class="line">cat      显示文件和对象内容。</span><br><span class="line">pipe     将一个STDIN重定向到一个对象或者文件或者STDOUT。</span><br><span class="line">share    生成用于共享的URL。</span><br><span class="line">cp       拷贝文件和对象。</span><br><span class="line">mirror   给存储桶和文件夹做镜像。</span><br><span class="line">find     基于参数查找文件。</span><br><span class="line">diff     对两个文件夹或者存储桶比较差异。</span><br><span class="line">rm       删除文件和对象。</span><br><span class="line">events   管理对象通知。</span><br><span class="line">watch    监听文件和对象的事件。</span><br><span class="line">policy   管理访问策略。</span><br><span class="line">session  为cp命令管理保存的会话。</span><br><span class="line">config   管理mc配置文件。</span><br><span class="line">update   检查软件更新。</span><br><span class="line">version  输出版本信息。</span><br></pre></td></tr></table></figure>
-
-<h3 id="客户端下载"><a href="#客户端下载" class="headerlink" title="客户端下载"></a>客户端下载</h3><h4 id="Docker容器"><a href="#Docker容器" class="headerlink" title="Docker容器"></a>Docker容器</h4><p><strong>稳定版</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Copydocker pull minio/mc</span><br><span class="line">docker run minio/mc ls play</span><br></pre></td></tr></table></figure>
-
-<p><strong>尝鲜版</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Copydocker pull minio/mc:edge</span><br><span class="line">docker run minio/mc:edge ls play</span><br></pre></td></tr></table></figure>
-
-<p><strong>注意:</strong> 上述示例默认使用MinIO<a href="https://docs.min.io/cn/minio-client-quickstart-guide.html#test-your-setup" target="_blank" rel="noopener">演示环境</a>做演示，如果想用<code>mc</code>操作其它S3兼容的服务，采用下面的方式来启动容器：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Copydocker run -it --entrypoint=/bin/sh minio/mc</span><br></pre></td></tr></table></figure>
-
-<p>然后使用<code>mc config</code>命令。</p>
-<h4 id="GNU-Linux"><a href="#GNU-Linux" class="headerlink" title="GNU/Linux"></a>GNU/Linux</h4><table>
-<thead>
-<tr>
-<th align="left">平台</th>
-<th align="left">CPU架构</th>
-<th align="left">URL</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">GNU/Linux</td>
-<td align="left">64-bit Intel</td>
-<td align="left"><a href="https://dl.min.io/client/mc/release/linux-amd64/mc" target="_blank" rel="noopener">https://dl.min.io/client/mc/release/linux-amd64/mc</a></td>
-</tr>
-</tbody></table>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chmod +x mc</span><br><span class="line">./mc --help</span><br></pre></td></tr></table></figure>
-
-<h4 id="Microsoft-Windows"><a href="#Microsoft-Windows" class="headerlink" title="Microsoft Windows"></a>Microsoft Windows</h4><table>
-<thead>
-<tr>
-<th align="left">平台</th>
-<th align="left">CPU架构</th>
-<th align="left">URL</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">Microsoft Windows</td>
-<td align="left">64-bit Intel</td>
-<td align="left"><a href="https://dl.min.io/client/mc/release/windows-amd64/mc.exe" target="_blank" rel="noopener">https://dl.min.io/client/mc/release/windows-amd64/mc.exe</a></td>
-</tr>
-</tbody></table>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Copymc.exe --help</span><br></pre></td></tr></table></figure>
-
-<h3 id="添加云存储服务"><a href="#添加云存储服务" class="headerlink" title="添加云存储服务"></a>添加云存储服务</h3><p><code>mc</code>将所有的配置信息都存储在<code>~/.mc/config.json</code>文件中</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mc config host add &lt;ALIAS&gt; &lt;YOUR-S3-ENDPOINT&gt; &lt;YOUR-ACCESS-KEY&gt; &lt;YOUR-SECRET-KEY&gt; &lt;API-SIGNATURE&gt;</span><br></pre></td></tr></table></figure>
-
-<p>别名就是给你的云存储服务起了一个短点的外号。S3 endpoint,access key和secret key是你的云存储服务提供的。API签名是可选参数，默认情况下，它被设置为”S3v4”。</p>
-<p><strong>示例-MinIO云存储</strong></p>
-<p>从MinIO服务获得URL、access key和secret key。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mc config host add minio http://192.168.1.51 BKIKJAA5BMMU2RHO6IBB V7f1CwQqAcwo80UEIJEjc5gVQUSSx5ohQ9GSrr12 S3v4</span><br></pre></td></tr></table></figure>
-
-<h3 id="配置下载策略"><a href="#配置下载策略" class="headerlink" title="配置下载策略"></a>配置下载策略</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mc policy public minio/base</span><br></pre></td></tr></table></figure>
-
-<p>这个命令的作用是将 server 端的 base 桶设置为开放管理，可以直接通过 url 进行下载。</p>
-<h3 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a>错误处理</h3><p>执行以下命令：</p>
-<blockquote>
-<p> mc config host add minio <a href="http://172.17.0.3" target="_blank" rel="noopener">http://172.17.0.3</a> AKIAIOSFODNN7EXAMPLE wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY S3v4</p>
-</blockquote>
-<p>产生如下错误：</p>
-<blockquote>
-<p> mc: <error> Unable to initialize new config from the provided credentials. Get <a href="http://172.17.0.3/probe-bucket-sign-mtwaqfha50la/?location=" target="_blank" rel="noopener">http://172.17.0.3/probe-bucket-sign-mtwaqfha50la/?location=</a>: dial tcp 172.17.0.3:80: connect: connection refused.</error></p>
-</blockquote>
-<p>处理方式：</p>
-<blockquote>
-<p>暂无</p>
-</blockquote>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="https://docs.min.io/cn/minio-client-quickstart-guide.html" target="_blank" rel="noopener">MinIO客户端快速入门指南</a></p>
-
+            <div class="post-button text-center">
+              <a class="btn" href="/minio/ck4z4yxvu00dz9sv7p3d67psb.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
           
+          <!--/noindex-->
         
       
     </div>
