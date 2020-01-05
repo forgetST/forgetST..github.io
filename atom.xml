@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2019-12-31T16:00:00.000Z</updated>
+  <updated>2020-01-04T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>shell 脚本</title>
+    <link href="https://forgetst.github.io/shell/ck5137l890000mov72ogre2ik.html"/>
+    <id>https://forgetst.github.io/shell/ck5137l890000mov72ogre2ik.html</id>
+    <published>2020-01-04T16:00:00.000Z</published>
+    <updated>2020-01-04T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="shell" scheme="https://forgetst.github.io/categories/shell/"/>
+    
+    
+      <category term="shell" scheme="https://forgetst.github.io/tags/shell/"/>
+    
+  </entry>
   
   <entry>
     <title>python zipfile module</title>
@@ -157,34 +183,6 @@
   </entry>
   
   <entry>
-    <title>pycharm2018.1激活教程</title>
-    <link href="https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html"/>
-    <id>https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html</id>
-    <published>2019-12-07T16:00:00.000Z</published>
-    <updated>2019-12-07T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>spark常见错误处理</title>
     <link href="https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html"/>
     <id>https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html</id>
@@ -226,6 +224,34 @@
       <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
     
       <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pycharm2018.1激活教程</title>
+    <link href="https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html"/>
+    <id>https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html</id>
+    <published>2019-12-07T16:00:00.000Z</published>
+    <updated>2019-12-07T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
@@ -276,6 +302,31 @@
   </entry>
   
   <entry>
+    <title>vue 安装</title>
+    <link href="https://forgetst.github.io/web/vue/ck4z4ln9w00969sv7ykxl9tjl.html"/>
+    <id>https://forgetst.github.io/web/vue/ck4z4ln9w00969sv7ykxl9tjl.html</id>
+    <published>2019-10-28T16:00:00.000Z</published>
+    <updated>2019-10-28T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;独立版本&quot;&gt;&lt;a href=&quot;#独立版本&quot; class=&quot;headerlink&quot; title=&quot;独立版本&quot;&gt;&lt;/a&gt;独立版本&lt;/h3&gt;&lt;p&gt;我们可以在 Vue.js 的官网上直接下载 vue.min.js 并用 &amp;lt;script&amp;gt; 标签引入。&lt;br&gt;&lt;a href=&quot;https://vuejs.org/js/vue.min.js&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Vue.js下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script src=&amp;quot;path/to/vue.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="web" scheme="https://forgetst.github.io/categories/web/"/>
+    
+      <category term="vue" scheme="https://forgetst.github.io/categories/web/vue/"/>
+    
+    
+      <category term="web" scheme="https://forgetst.github.io/tags/web/"/>
+    
+      <category term="vue" scheme="https://forgetst.github.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python subprocess module</title>
     <link href="https://forgetst.github.io/python/module/ck4z4ln8900889sv7aiiog0ff.html"/>
     <id>https://forgetst.github.io/python/module/ck4z4ln8900889sv7aiiog0ff.html</id>
@@ -302,31 +353,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vue 安装</title>
-    <link href="https://forgetst.github.io/web/vue/ck4z4ln9w00969sv7ykxl9tjl.html"/>
-    <id>https://forgetst.github.io/web/vue/ck4z4ln9w00969sv7ykxl9tjl.html</id>
-    <published>2019-10-28T16:00:00.000Z</published>
-    <updated>2019-10-28T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;独立版本&quot;&gt;&lt;a href=&quot;#独立版本&quot; class=&quot;headerlink&quot; title=&quot;独立版本&quot;&gt;&lt;/a&gt;独立版本&lt;/h3&gt;&lt;p&gt;我们可以在 Vue.js 的官网上直接下载 vue.min.js 并用 &amp;lt;script&amp;gt; 标签引入。&lt;br&gt;&lt;a href=&quot;https://vuejs.org/js/vue.min.js&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Vue.js下载地址&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script src=&amp;quot;path/to/vue.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="web" scheme="https://forgetst.github.io/categories/web/"/>
-    
-      <category term="vue" scheme="https://forgetst.github.io/categories/web/vue/"/>
-    
-    
-      <category term="web" scheme="https://forgetst.github.io/tags/web/"/>
-    
-      <category term="vue" scheme="https://forgetst.github.io/tags/vue/"/>
     
   </entry>
   
@@ -486,26 +512,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;查看docker版本&quot;&gt;&lt;a href=&quot;#查看docker版本&quot; class=&quot;headerlink&quot; title=&quot;查看docker版本&quot;&gt;&lt;/a&gt;查看docker版本&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[root@hadoop01 ~]# docker -v&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Docker version 19.03.3, build a872fc2f86&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="docker" scheme="https://forgetst.github.io/categories/docker/"/>
-    
-    
-      <category term="docker" scheme="https://forgetst.github.io/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker安装</title>
-    <link href="https://forgetst.github.io/docker/ck4z4lmuo002s9sv7i3tmwsl0.html"/>
-    <id>https://forgetst.github.io/docker/ck4z4lmuo002s9sv7i3tmwsl0.html</id>
-    <published>2019-10-11T16:00:00.000Z</published>
-    <updated>2019-10-11T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;什么是docker&quot;&gt;&lt;a href=&quot;#什么是docker&quot; class=&quot;headerlink&quot; title=&quot;什么是docker&quot;&gt;&lt;/a&gt;什么是docker&lt;/h2&gt;&lt;p&gt;Docker 是一个开源的应用容器引擎，基于Go语言并遵从Apache2.0协议开源。&lt;br&gt;Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。&lt;br&gt;容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。&lt;br&gt;Docker 从 17.03 版本之后分为 CE（Community Edition: 社区版） 和 EE（Enterprise Edition: 企业版）。&lt;/p&gt;
     
     </summary>
     
