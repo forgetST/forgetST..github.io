@@ -102,18 +102,18 @@
   daovoice('update');
   </script>
 
-  <meta name="description" content="问题一只顽猴儿在一座有 n 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。">
-<meta name="keywords" content="math">
+  <meta name="description" content="shell 杂记主要记录shell使用的以下小技巧，及命令。">
+<meta name="keywords" content="shell">
 <meta property="og:type" content="article">
-<meta property="og:title" content="猴子爬山问题">
-<meta property="og:url" content="https://forgetst.github.io/math/ck4z4lmxq003t9sv7l31tozy3.html">
+<meta property="og:title" content="shell 杂记">
+<meta property="og:url" content="https://forgetst.github.io/shell/ck5b0qhy80000bsv7y77dp95h.html">
 <meta property="og:site_name" content="勿忘，须舍">
-<meta property="og:description" content="问题一只顽猴儿在一座有 n 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。">
+<meta property="og:description" content="shell 杂记主要记录shell使用的以下小技巧，及命令。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-08T16:00:00.000Z">
+<meta property="og:updated_time" content="2020-01-11T16:00:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="猴子爬山问题">
-<meta name="twitter:description" content="问题一只顽猴儿在一座有 n 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。">
+<meta name="twitter:title" content="shell 杂记">
+<meta name="twitter:description" content="shell 杂记主要记录shell使用的以下小技巧，及命令。">
 
 
 
@@ -123,7 +123,7 @@
 
   
   
-  <link rel="canonical" href="https://forgetst.github.io/math/ck4z4lmxq003t9sv7l31tozy3">
+  <link rel="canonical" href="https://forgetst.github.io/shell/ck5b0qhy80000bsv7y77dp95h">
 
 
 
@@ -134,7 +134,7 @@
 </script>
 
   
-  <title>猴子爬山问题 | 勿忘，须舍</title>
+  <title>shell 杂记 | 勿忘，须舍</title>
   
 
 
@@ -388,7 +388,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/math/ck4z4lmxq003t9sv7l31tozy3.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/shell/ck5b0qhy80000bsv7y77dp95h.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -405,7 +405,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">猴子爬山问题
+          <h1 class="post-title" itemprop="name headline">shell 杂记
 
               
             
@@ -431,7 +431,7 @@
                 
               
 
-              <time title="创建时间：2019-09-09 00:00" itemprop="dateCreated datePublished" datetime="2019-09-09T00:00:00+08:00">2019-09-09</time>
+              <time title="创建时间：2020-01-12 00:00" itemprop="dateCreated datePublished" datetime="2020-01-12T00:00:00+08:00">2020-01-12</time>
             </span>
           
 
@@ -446,7 +446,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/math/" itemprop="url" rel="index"><span itemprop="name">math</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/shell/" itemprop="url" rel="index"><span itemprop="name">shell</span></a></span>
 
                 
                 
@@ -486,39 +486,16 @@
       
 
       
-        <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>一只顽猴儿在一座有 <strong>n</strong> 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。</p>
+        <p>shell 杂记主要记录shell使用的以下小技巧，及命令。</p>
 <a id="more"></a>
 
-<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>这一问题实际上是一个<strong>整数有序可重复拆分问题</strong>，通过递归思想求解：</p>
-<ol>
-<li><strong>f(n)</strong>  –&gt;   <strong>n</strong> 级台阶的爬山总方法数</li>
-<li>考虑在猴子到达最后一个台阶时，其所处位置在 <strong>n-1 台阶</strong>处或<strong>n-3 台阶</strong>处，故有 <strong>f(n) = f(n-1) + f(n-3)</strong></li>
-<li>因 <strong>n&gt;0</strong> , 故：<ul>
-<li><strong>n=1 或 n=2</strong> , <strong>f(1) = f(2) = 1</strong></li>
-<li><strong>n = 3</strong> , <strong>f(3) = 2</strong> </li>
-</ul>
-</li>
-</ol>
-<h2 id="程序设计"><a href="#程序设计" class="headerlink" title="程序设计"></a>程序设计</h2><h3 id="python-实现"><a href="#python-实现" class="headerlink" title="python 实现"></a>python 实现</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/env python3</span><br><span class="line"></span><br><span class="line">import functools</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">@functools.lru_cache()</span><br><span class="line">def recursion_count(n: &quot;int, and n &gt; 0&quot;):</span><br><span class="line">    if n == 1 or n == 2:</span><br><span class="line">        return 1</span><br><span class="line">    elif n == 3:</span><br><span class="line">        return 2</span><br><span class="line">    elif n &gt; 3:</span><br><span class="line">        return recursion_count(n-1) + recursion_count(n-3)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &quot;__main__&quot;:</span><br><span class="line">    a = recursion_count(50)</span><br><span class="line">    print(a)  # 122106097</span><br></pre></td></tr></table></figure>
+<h2 id="从给定的文件中查找最大数及最小数"><a href="#从给定的文件中查找最大数及最小数" class="headerlink" title="从给定的文件中查找最大数及最小数"></a>从给定的文件中查找最大数及最小数</h2><h3 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h3><p>从下述文件中找到最大值机最小值并打印。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop01 shell]# cat number.txt</span><br><span class="line">158 252 6389</span><br><span class="line">15</span><br><span class="line"></span><br><span class="line">124</span><br><span class="line">485 78</span><br><span class="line">1 256</span><br><span class="line">  493</span><br><span class="line">1249</span><br><span class="line">-1393 85 63</span><br><span class="line"></span><br><span class="line">145 863</span><br><span class="line">[root@hadoop01 shell]#</span><br></pre></td></tr></table></figure>
+
+<h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop01 shell]# cat number.txt | sed 's/ /\n/g' | grep -v '^$' | sort -nr | sed -n '1p;$p'</span><br><span class="line">6389</span><br><span class="line">-1393</span><br><span class="line">[root@hadoop01 shell]#</span><br></pre></td></tr></table></figure>
 
 <blockquote>
-<ul>
-<li><p>functools.lru_cache 为python中一个缓存装饰器，其作用可以直接将函数或类方法的结果缓存住，后续调用则直接返回缓存的结果。</p>
-</li>
-<li><p>原型如下：</p>
-<blockquote>
-<p> @functools.lru_cache(maxsize=None, typed=False)</p>
-<blockquote>
-<ul>
-<li>maxsize –&gt; 最多缓存的次数，如果为 None，则无限制，设置为 2 的幂时，性能最佳</li>
-<li>typed=True  –&gt; 不同参数类型的调用将分别缓存，例如 f(3) 和 f(3.0)。(注意，在 functools32 中没有此参数)   </li>
-</ul>
-</blockquote>
-</blockquote>
-</li>
-<li><p>LRU (Least Recently Used，最近最少使用) 算法是一种缓存淘汰策略。其根据数据的历史访问记录来进行淘汰，核心思想是，“如果数据最近被访问过，那么将来被访问的几率也更高”。该算法最初为操作系统中一种内存管理的页面置换算法，主要用于找出内存中较久时间没有使用的内存块，将其移出内存从而为新数据提供空间。</p>
-</li>
-</ul>
+<p>注：<br> sed ‘s/ /\n/g’ 作用是将空格替换为换行符，是一个数字占一行<br> grep -v ‘^$’ 作用是过滤空行<br> sort -nr  作用是将每行数字倒序排序<br> sed -n ‘1p;$p’ 作用是输出第一行和最后一行</p>
 </blockquote>
 
       
@@ -558,7 +535,7 @@
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
     
-    <a href="https://forgetst.github.io/math/ck4z4lmxq003t9sv7l31tozy3.html" title="猴子爬山问题">https://forgetst.github.io/math/ck4z4lmxq003t9sv7l31tozy3.html</a>
+    <a href="https://forgetst.github.io/shell/ck5b0qhy80000bsv7y77dp95h.html" title="shell 杂记">https://forgetst.github.io/shell/ck5b0qhy80000bsv7y77dp95h.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
@@ -585,7 +562,7 @@
         
         <div class="post-tags">
           
-            <a href="/tags/math/" rel="tag"><i class="fa fa-tag"></i> math</a>
+            <a href="/tags/shell/" rel="tag"><i class="fa fa-tag"></i> shell</a>
           
         </div>
       
@@ -598,8 +575,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/python/tips/ck4z4lnkb00cq9sv7sihsr4pt.html" rel="next" title="python 序列中出现次数最多的元素">
-                <i class="fa fa-chevron-left"></i> python 序列中出现次数最多的元素
+              <a href="/shell/ck5137l890000mov72ogre2ik.html" rel="next" title="shell 脚本">
+                <i class="fa fa-chevron-left"></i> shell 脚本
               </a>
             
           </div>
@@ -607,10 +584,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/python/module/ck4z4ln6z007h9sv71w5tsydt.html" rel="prev" title="python fnmatch module">
-                python fnmatch module <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -926,7 +899,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#问题"><span class="nav-number">1.</span> <span class="nav-text">问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分析"><span class="nav-number">2.</span> <span class="nav-text">分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#程序设计"><span class="nav-number">3.</span> <span class="nav-text">程序设计</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#python-实现"><span class="nav-number">3.1.</span> <span class="nav-text">python 实现</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#从给定的文件中查找最大数及最小数"><span class="nav-number">1.</span> <span class="nav-text">从给定的文件中查找最大数及最小数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#问题："><span class="nav-number">1.1.</span> <span class="nav-text">问题：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实现"><span class="nav-number">1.2.</span> <span class="nav-text">实现</span></a></li></ol></li></ol></div>
             
 
           </div>

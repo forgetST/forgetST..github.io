@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-01-04T16:00:00.000Z</updated>
+  <updated>2020-01-11T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>shell 杂记</title>
+    <link href="https://forgetst.github.io/shell/ck5b0qhy80000bsv7y77dp95h.html"/>
+    <id>https://forgetst.github.io/shell/ck5b0qhy80000bsv7y77dp95h.html</id>
+    <published>2020-01-11T16:00:00.000Z</published>
+    <updated>2020-01-11T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;shell 杂记主要记录shell使用的以下小技巧，及命令。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="shell" scheme="https://forgetst.github.io/categories/shell/"/>
+    
+    
+      <category term="shell" scheme="https://forgetst.github.io/tags/shell/"/>
+    
+  </entry>
   
   <entry>
     <title>shell 脚本</title>
@@ -66,6 +86,34 @@
   </entry>
   
   <entry>
+    <title>python起一个固定端口</title>
+    <link href="https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html"/>
+    <id>https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html</id>
+    <published>2019-12-20T16:00:00.000Z</published>
+    <updated>2019-12-20T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
+    
+  </entry>
+  
+  <entry>
     <title>YAML基本语法</title>
     <link href="https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html"/>
     <id>https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html</id>
@@ -93,34 +141,6 @@
     
     
       <category term="yaml" scheme="https://forgetst.github.io/tags/yaml/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python起一个固定端口</title>
-    <link href="https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html"/>
-    <id>https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html</id>
-    <published>2019-12-20T16:00:00.000Z</published>
-    <updated>2019-12-20T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
     
   </entry>
   
@@ -178,6 +198,34 @@
   </entry>
   
   <entry>
+    <title>pycharm2018.1激活教程</title>
+    <link href="https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html"/>
+    <id>https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html</id>
+    <published>2019-12-07T16:00:00.000Z</published>
+    <updated>2019-12-07T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>spark常见错误处理</title>
     <link href="https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html"/>
     <id>https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html</id>
@@ -219,34 +267,6 @@
       <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
     
       <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pycharm2018.1激活教程</title>
-    <link href="https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html"/>
-    <id>https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html</id>
-    <published>2019-12-07T16:00:00.000Z</published>
-    <updated>2019-12-07T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
@@ -487,26 +507,6 @@
     <summary type="html">
     
       &lt;p&gt;…&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="docker" scheme="https://forgetst.github.io/categories/docker/"/>
-    
-    
-      <category term="docker" scheme="https://forgetst.github.io/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker命令操作</title>
-    <link href="https://forgetst.github.io/docker/ck4z4lmuz002x9sv7sobr89pp.html"/>
-    <id>https://forgetst.github.io/docker/ck4z4lmuz002x9sv7sobr89pp.html</id>
-    <published>2019-10-13T16:00:00.000Z</published>
-    <updated>2019-10-13T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;查看docker版本&quot;&gt;&lt;a href=&quot;#查看docker版本&quot; class=&quot;headerlink&quot; title=&quot;查看docker版本&quot;&gt;&lt;/a&gt;查看docker版本&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[root@hadoop01 ~]# docker -v&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Docker version 19.03.3, build a872fc2f86&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
