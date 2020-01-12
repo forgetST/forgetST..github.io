@@ -25,13 +25,7 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
+      &lt;h2 id=&quot;第一个shell脚本&quot;&gt;&lt;a href=&quot;#第一个shell脚本&quot; class=&quot;headerlink&quot; title=&quot;第一个shell脚本&quot;&gt;&lt;/a&gt;第一个shell脚本&lt;/h2&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;!/bin/bash&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;echo &quot;Hello World !&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;注：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    #! 是一个约定的标记，它告诉系统这个脚本需要什么解释器来执行，即使用哪一种 Shell。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    echo 命令用于向窗口输出文本。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -139,13 +133,14 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;python版本：3.7&lt;/p&gt;
+&lt;p&gt;minio版本：5.0.5&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# 使用pip安装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;pip install minio&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# 使用源码安装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git clone https://github.com/minio/minio-py&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cd minio-py&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;python setup.py install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;参考文档：&lt;/p&gt;
+&lt;p&gt;快速入门：&lt;a href=&quot;https://docs.min.io/cn/python-client-quickstart-guide.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://docs.min.io/cn/python-client-quickstart-guide.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;完整文档：&lt;a href=&quot;https://docs.min.io/cn/python-client-api-reference.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://docs.min.io/cn/python-client-api-reference.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;API示例：&lt;a href=&quot;https://github.com/minio/minio-py/tree/master/examples&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/minio/minio-py/tree/master/examples&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
