@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-01-26T16:00:00.000Z</updated>
+  <updated>2020-01-27T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python random module</title>
+    <link href="https://forgetst.github.io/python/module/ck5z6isva0000r0v7dj0f0pjw.html"/>
+    <id>https://forgetst.github.io/python/module/ck5z6isva0000r0v7dj0f0pjw.html</id>
+    <published>2020-01-27T16:00:00.000Z</published>
+    <updated>2020-01-27T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;该模块实现了各种分布的伪随机数生成器。&lt;/p&gt;
+&lt;p&gt;不应将此模块的伪随机生成器用于安全目的。 有关安全性或加密用途，请参阅 &lt;a href=&quot;https://docs.python.org/zh-cn/3.7/library/secrets.html#module-secrets&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;code&gt;secrets&lt;/code&gt;&lt;/a&gt; 模块。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;源码：&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/random.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/random.py&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
+    
+  </entry>
   
   <entry>
     <title>python numpy 快速入门</title>
@@ -226,25 +252,30 @@
   </entry>
   
   <entry>
-    <title>spark standalone集群搭建</title>
-    <link href="https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html"/>
-    <id>https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html</id>
+    <title>pycharm2018.1激活教程</title>
+    <link href="https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html"/>
+    <id>https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html</id>
     <published>2019-12-07T16:00:00.000Z</published>
     <updated>2019-12-07T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;下载软件&quot;&gt;&lt;a href=&quot;#下载软件&quot; class=&quot;headerlink&quot; title=&quot;下载软件&quot;&gt;&lt;/a&gt;下载软件&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;java JDK-1.8&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://spark.apache.org/downloads.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark&lt;/a&gt;&lt;/p&gt;
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
     
     </summary>
     
-      <category term="bigdata" scheme="https://forgetst.github.io/categories/bigdata/"/>
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
     
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
+      <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
     
-      <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
@@ -271,30 +302,25 @@
   </entry>
   
   <entry>
-    <title>pycharm2018.1激活教程</title>
-    <link href="https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html"/>
-    <id>https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html</id>
+    <title>spark standalone集群搭建</title>
+    <link href="https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html"/>
+    <id>https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html</id>
     <published>2019-12-07T16:00:00.000Z</published>
     <updated>2019-12-07T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
+      &lt;h2 id=&quot;下载软件&quot;&gt;&lt;a href=&quot;#下载软件&quot; class=&quot;headerlink&quot; title=&quot;下载软件&quot;&gt;&lt;/a&gt;下载软件&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;java JDK-1.8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://spark.apache.org/downloads.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+      <category term="bigdata" scheme="https://forgetst.github.io/categories/bigdata/"/>
     
     
-      <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
+      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
     
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+      <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
     
   </entry>
   
@@ -492,36 +518,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python io module</title>
-    <link href="https://forgetst.github.io/python/module/ck4z4ln7p007v9sv7fylh7xwg.html"/>
-    <id>https://forgetst.github.io/python/module/ck4z4ln7p007v9sv7fylh7xwg.html</id>
-    <published>2019-10-15T16:00:00.000Z</published>
-    <updated>2019-10-15T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
     
   </entry>
   
