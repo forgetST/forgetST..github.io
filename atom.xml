@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-01-27T16:00:00.000Z</updated>
+  <updated>2020-01-30T12:34:29.407Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python numpy module</title>
+    <link href="https://forgetst.github.io/python/module/ck60hslwa00002kv7dc73buqc.html"/>
+    <id>https://forgetst.github.io/python/module/ck60hslwa00002kv7dc73buqc.html</id>
+    <published>2020-01-29T16:00:00.000Z</published>
+    <updated>2020-01-30T12:34:29.407Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;NumPy 是一个 Python 包。 它代表 “Numeric Python”。 它是一个由多维数组对象和用于处理数组的例程集合组成的库。&lt;/p&gt;
+&lt;p&gt;Numeric，即 NumPy 的前身，是由 Jim Hugunin 开发的。 也开发了另一个包 Numarray ，它拥有一些额外的功能。 2005年，Travis Oliphant 通过将 Numarray 的功能集成到 Numeric 包中来创建 NumPy 包。 这个开源项目有很多贡献者。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
+    
+  </entry>
   
   <entry>
     <title>python random module</title>
@@ -136,6 +161,37 @@
   </entry>
   
   <entry>
+    <title>YAML基本语法</title>
+    <link href="https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html"/>
+    <id>https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html</id>
+    <published>2019-12-20T16:00:00.000Z</published>
+    <updated>2019-12-20T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;YAML:以数据为中心，比json、xml等更适合做配置文件,yaml必须遵守的三个规则&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;缩进&lt;/p&gt;
+&lt;p&gt;yaml使用一个固定的缩进风格表示数据层结构关系，Saltstack需要每个缩进级别由两个空格组成。一定不能使用tab键&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;冒号&lt;/p&gt;
+&lt;p&gt;每个冒号后面一定要有一个空格（以冒号结尾不需要空格，表示文件路径的模版可以不需要空格）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;短横线&lt;/p&gt;
+&lt;p&gt;想要表示列表项，使用一个短横杠加一个空格。多个项使用同样的缩进级别作为同一个列表的一部分&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="yaml" scheme="https://forgetst.github.io/categories/yaml/"/>
+    
+    
+      <category term="yaml" scheme="https://forgetst.github.io/tags/yaml/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python起一个固定端口</title>
     <link href="https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html"/>
     <id>https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html</id>
@@ -164,33 +220,24 @@
   </entry>
   
   <entry>
-    <title>YAML基本语法</title>
-    <link href="https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html"/>
-    <id>https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html</id>
-    <published>2019-12-20T16:00:00.000Z</published>
-    <updated>2019-12-20T16:00:00.000Z</updated>
+    <title>minio mc使用</title>
+    <link href="https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html"/>
+    <id>https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html</id>
+    <published>2019-12-14T16:00:00.000Z</published>
+    <updated>2019-12-14T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;YAML:以数据为中心，比json、xml等更适合做配置文件,yaml必须遵守的三个规则&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;缩进&lt;/p&gt;
-&lt;p&gt;yaml使用一个固定的缩进风格表示数据层结构关系，Saltstack需要每个缩进级别由两个空格组成。一定不能使用tab键&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;冒号&lt;/p&gt;
-&lt;p&gt;每个冒号后面一定要有一个空格（以冒号结尾不需要空格，表示文件路径的模版可以不需要空格）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;短横线&lt;/p&gt;
-&lt;p&gt;想要表示列表项，使用一个短横杠加一个空格。多个项使用同样的缩进级别作为同一个列表的一部分&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;h3 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h3&gt;&lt;p&gt;MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。&lt;/p&gt;
     
     </summary>
     
-      <category term="yaml" scheme="https://forgetst.github.io/categories/yaml/"/>
+      <category term="minio" scheme="https://forgetst.github.io/categories/minio/"/>
     
     
-      <category term="yaml" scheme="https://forgetst.github.io/tags/yaml/"/>
+      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
+    
+      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
     
   </entry>
   
@@ -230,28 +277,6 @@
   </entry>
   
   <entry>
-    <title>minio mc使用</title>
-    <link href="https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html"/>
-    <id>https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html</id>
-    <published>2019-12-14T16:00:00.000Z</published>
-    <updated>2019-12-14T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h3&gt;&lt;p&gt;MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="minio" scheme="https://forgetst.github.io/categories/minio/"/>
-    
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
-    
-      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
-    
-  </entry>
-  
-  <entry>
     <title>pycharm2018.1激活教程</title>
     <link href="https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html"/>
     <id>https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html</id>
@@ -280,15 +305,16 @@
   </entry>
   
   <entry>
-    <title>spark常见错误处理</title>
-    <link href="https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html"/>
-    <id>https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html</id>
+    <title>spark standalone集群搭建</title>
+    <link href="https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html"/>
+    <id>https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html</id>
     <published>2019-12-07T16:00:00.000Z</published>
     <updated>2019-12-07T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;参考：&lt;a href=&quot;https://blog.csdn.net/cjlion/article/details/81234336&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark常见错误汇总&lt;/a&gt;&lt;/p&gt;
+      &lt;h2 id=&quot;下载软件&quot;&gt;&lt;a href=&quot;#下载软件&quot; class=&quot;headerlink&quot; title=&quot;下载软件&quot;&gt;&lt;/a&gt;下载软件&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;java JDK-1.8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://spark.apache.org/downloads.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -302,16 +328,15 @@
   </entry>
   
   <entry>
-    <title>spark standalone集群搭建</title>
-    <link href="https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html"/>
-    <id>https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html</id>
+    <title>spark常见错误处理</title>
+    <link href="https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html"/>
+    <id>https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html</id>
     <published>2019-12-07T16:00:00.000Z</published>
     <updated>2019-12-07T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;下载软件&quot;&gt;&lt;a href=&quot;#下载软件&quot; class=&quot;headerlink&quot; title=&quot;下载软件&quot;&gt;&lt;/a&gt;下载软件&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;java JDK-1.8&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://spark.apache.org/downloads.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;参考：&lt;a href=&quot;https://blog.csdn.net/cjlion/article/details/81234336&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark常见错误汇总&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -371,6 +396,31 @@
   </entry>
   
   <entry>
+    <title>vue 安装</title>
+    <link href="https://forgetst.github.io/web/vue/ck4z4ln9w00969sv7ykxl9tjl.html"/>
+    <id>https://forgetst.github.io/web/vue/ck4z4ln9w00969sv7ykxl9tjl.html</id>
+    <published>2019-10-28T16:00:00.000Z</published>
+    <updated>2019-10-28T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;独立版本&quot;&gt;&lt;a href=&quot;#独立版本&quot; class=&quot;headerlink&quot; title=&quot;独立版本&quot;&gt;&lt;/a&gt;独立版本&lt;/h3&gt;&lt;p&gt;我们可以在 Vue.js 的官网上直接下载 vue.min.js 并用 &amp;lt;script&amp;gt; 标签引入。&lt;br&gt;&lt;a href=&quot;https://vuejs.org/js/vue.min.js&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Vue.js下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script src=&amp;quot;path/to/vue.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="web" scheme="https://forgetst.github.io/categories/web/"/>
+    
+      <category term="vue" scheme="https://forgetst.github.io/categories/web/vue/"/>
+    
+    
+      <category term="web" scheme="https://forgetst.github.io/tags/web/"/>
+    
+      <category term="vue" scheme="https://forgetst.github.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python subprocess module</title>
     <link href="https://forgetst.github.io/python/module/ck4z4ln8900889sv7aiiog0ff.html"/>
     <id>https://forgetst.github.io/python/module/ck4z4ln8900889sv7aiiog0ff.html</id>
@@ -397,31 +447,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vue 安装</title>
-    <link href="https://forgetst.github.io/web/vue/ck4z4ln9w00969sv7ykxl9tjl.html"/>
-    <id>https://forgetst.github.io/web/vue/ck4z4ln9w00969sv7ykxl9tjl.html</id>
-    <published>2019-10-28T16:00:00.000Z</published>
-    <updated>2019-10-28T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;独立版本&quot;&gt;&lt;a href=&quot;#独立版本&quot; class=&quot;headerlink&quot; title=&quot;独立版本&quot;&gt;&lt;/a&gt;独立版本&lt;/h3&gt;&lt;p&gt;我们可以在 Vue.js 的官网上直接下载 vue.min.js 并用 &amp;lt;script&amp;gt; 标签引入。&lt;br&gt;&lt;a href=&quot;https://vuejs.org/js/vue.min.js&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Vue.js下载地址&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script src=&amp;quot;path/to/vue.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="web" scheme="https://forgetst.github.io/categories/web/"/>
-    
-      <category term="vue" scheme="https://forgetst.github.io/categories/web/vue/"/>
-    
-    
-      <category term="web" scheme="https://forgetst.github.io/tags/web/"/>
-    
-      <category term="vue" scheme="https://forgetst.github.io/tags/vue/"/>
     
   </entry>
   
@@ -488,36 +513,6 @@
     
     
       <category term="docker" scheme="https://forgetst.github.io/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>spark参数配置说明</title>
-    <link href="https://forgetst.github.io/python/spark/ck4z4lmyh004a9sv7wtlzrr7e.html"/>
-    <id>https://forgetst.github.io/python/spark/ck4z4lmyh004a9sv7wtlzrr7e.html</id>
-    <published>2019-10-17T16:00:00.000Z</published>
-    <updated>2019-10-17T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="spark" scheme="https://forgetst.github.io/categories/python/spark/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
     
   </entry>
   
