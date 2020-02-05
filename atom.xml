@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-02-02T16:00:00.000Z</updated>
+  <updated>2020-02-05T05:32:54.098Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://forgetst.github.io/uncategorized/ck68uy8mi0000p4v7oc0le6rn.html"/>
+    <id>https://forgetst.github.io/uncategorized/ck68uy8mi0000p4v7oc0le6rn.html</id>
+    <published>2020-02-05T05:14:24.834Z</published>
+    <updated>2020-02-05T05:32:54.098Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>java学习笔记</title>
@@ -260,6 +282,28 @@
   </entry>
   
   <entry>
+    <title>minio mc使用</title>
+    <link href="https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html"/>
+    <id>https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html</id>
+    <published>2019-12-14T16:00:00.000Z</published>
+    <updated>2019-12-14T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h3&gt;&lt;p&gt;MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="minio" scheme="https://forgetst.github.io/categories/minio/"/>
+    
+    
+      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
+    
+      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python操作minio</title>
     <link href="https://forgetst.github.io/python/module/ck4z4ln3z00679sv7551zr81q.html"/>
     <id>https://forgetst.github.io/python/module/ck4z4ln3z00679sv7551zr81q.html</id>
@@ -295,24 +339,25 @@
   </entry>
   
   <entry>
-    <title>minio mc使用</title>
-    <link href="https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html"/>
-    <id>https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html</id>
-    <published>2019-12-14T16:00:00.000Z</published>
-    <updated>2019-12-14T16:00:00.000Z</updated>
+    <title>spark standalone集群搭建</title>
+    <link href="https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html"/>
+    <id>https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html</id>
+    <published>2019-12-07T16:00:00.000Z</published>
+    <updated>2019-12-07T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h3&gt;&lt;p&gt;MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。&lt;/p&gt;
+      &lt;h2 id=&quot;下载软件&quot;&gt;&lt;a href=&quot;#下载软件&quot; class=&quot;headerlink&quot; title=&quot;下载软件&quot;&gt;&lt;/a&gt;下载软件&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;java JDK-1.8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://spark.apache.org/downloads.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
-      <category term="minio" scheme="https://forgetst.github.io/categories/minio/"/>
+      <category term="bigdata" scheme="https://forgetst.github.io/categories/bigdata/"/>
     
     
       <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
     
-      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
+      <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
     
   </entry>
   
@@ -354,29 +399,6 @@
     <summary type="html">
     
       &lt;p&gt;参考：&lt;a href=&quot;https://blog.csdn.net/cjlion/article/details/81234336&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark常见错误汇总&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/categories/bigdata/"/>
-    
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
-    
-      <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>spark standalone集群搭建</title>
-    <link href="https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html"/>
-    <id>https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html</id>
-    <published>2019-12-07T16:00:00.000Z</published>
-    <updated>2019-12-07T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;下载软件&quot;&gt;&lt;a href=&quot;#下载软件&quot; class=&quot;headerlink&quot; title=&quot;下载软件&quot;&gt;&lt;/a&gt;下载软件&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;java JDK-1.8&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://spark.apache.org/downloads.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -487,28 +509,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>window mysql 初始化配置</title>
-    <link href="https://forgetst.github.io/mysql/ck4z4lmxv003w9sv75f7dqu20.html"/>
-    <id>https://forgetst.github.io/mysql/ck4z4lmxv003w9sv75f7dqu20.html</id>
-    <published>2019-10-27T16:00:00.000Z</published>
-    <updated>2019-10-27T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;mysql-下载地址&quot;&gt;&lt;a href=&quot;#mysql-下载地址&quot; class=&quot;headerlink&quot; title=&quot;mysql 下载地址&quot;&gt;&lt;/a&gt;mysql 下载地址&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://dev.mysql.com/downloads/installer/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dev.mysql.com/downloads/installer/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;注： msi安装包的就直接安装&lt;/p&gt;
-&lt;p&gt;​         zip包的需要解压到特定地方然后配置系统变量的path路径，定位到mysql/bin目录下&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="mysql" scheme="https://forgetst.github.io/categories/mysql/"/>
-    
-    
-      <category term="mysql" scheme="https://forgetst.github.io/tags/mysql/"/>
     
   </entry>
   
