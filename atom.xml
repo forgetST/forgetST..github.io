@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-02-04T16:00:00.000Z</updated>
+  <updated>2020-02-05T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>window使用随记</title>
+    <link href="https://forgetst.github.io/window/ck6anbbnh000sp4v7kpll2fcc.html"/>
+    <id>https://forgetst.github.io/window/ck6anbbnh000sp4v7kpll2fcc.html</id>
+    <published>2020-02-05T16:00:00.000Z</published>
+    <updated>2020-02-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
+    
+    
+      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>window搭建spark及hadoop开发环境.md</title>
+    <link href="https://forgetst.github.io/bigdata/ck6a9wxgd0000p4v7ryvegcdx.html"/>
+    <id>https://forgetst.github.io/bigdata/ck6a9wxgd0000p4v7ryvegcdx.html</id>
+    <published>2020-02-05T16:00:00.000Z</published>
+    <updated>2020-02-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;由于Spark是用Scala来写的，所以Spark对Scala肯定是原生态支持的，因此这里以Scala为主来介绍Spark环境的搭建，主要包括四个步骤，分别是：JDK的安装，Scala的安装，Spark的安装，Hadoop的下载和配置。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="bigdata" scheme="https://forgetst.github.io/categories/bigdata/"/>
+    
+    
+      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
+    
+      <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
+    
+      <category term="hadoop" scheme="https://forgetst.github.io/tags/hadoop/"/>
+    
+  </entry>
   
   <entry>
     <title>vscode 编辑java程序插件</title>
@@ -221,34 +265,6 @@
   </entry>
   
   <entry>
-    <title>python起一个固定端口</title>
-    <link href="https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html"/>
-    <id>https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html</id>
-    <published>2019-12-20T16:00:00.000Z</published>
-    <updated>2019-12-20T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
-    
-  </entry>
-  
-  <entry>
     <title>YAML基本语法</title>
     <link href="https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html"/>
     <id>https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html</id>
@@ -280,24 +296,30 @@
   </entry>
   
   <entry>
-    <title>minio mc使用</title>
-    <link href="https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html"/>
-    <id>https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html</id>
-    <published>2019-12-14T16:00:00.000Z</published>
-    <updated>2019-12-14T16:00:00.000Z</updated>
+    <title>python起一个固定端口</title>
+    <link href="https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html"/>
+    <id>https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html</id>
+    <published>2019-12-20T16:00:00.000Z</published>
+    <updated>2019-12-20T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h3&gt;&lt;p&gt;MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。&lt;/p&gt;
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
     
     </summary>
     
-      <category term="minio" scheme="https://forgetst.github.io/categories/minio/"/>
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
-    
-      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
     
   </entry>
   
@@ -333,6 +355,28 @@
       <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>minio mc使用</title>
+    <link href="https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html"/>
+    <id>https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html</id>
+    <published>2019-12-14T16:00:00.000Z</published>
+    <updated>2019-12-14T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h3&gt;&lt;p&gt;MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="minio" scheme="https://forgetst.github.io/categories/minio/"/>
+    
+    
+      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
+    
+      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
     
   </entry>
   
@@ -452,61 +496,6 @@
       <category term="web" scheme="https://forgetst.github.io/tags/web/"/>
     
       <category term="JavaScript" scheme="https://forgetst.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vue 安装</title>
-    <link href="https://forgetst.github.io/web/vue/ck4z4ln9w00969sv7ykxl9tjl.html"/>
-    <id>https://forgetst.github.io/web/vue/ck4z4ln9w00969sv7ykxl9tjl.html</id>
-    <published>2019-10-28T16:00:00.000Z</published>
-    <updated>2019-10-28T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;独立版本&quot;&gt;&lt;a href=&quot;#独立版本&quot; class=&quot;headerlink&quot; title=&quot;独立版本&quot;&gt;&lt;/a&gt;独立版本&lt;/h3&gt;&lt;p&gt;我们可以在 Vue.js 的官网上直接下载 vue.min.js 并用 &amp;lt;script&amp;gt; 标签引入。&lt;br&gt;&lt;a href=&quot;https://vuejs.org/js/vue.min.js&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Vue.js下载地址&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;script src=&amp;quot;path/to/vue.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="web" scheme="https://forgetst.github.io/categories/web/"/>
-    
-      <category term="vue" scheme="https://forgetst.github.io/categories/web/vue/"/>
-    
-    
-      <category term="web" scheme="https://forgetst.github.io/tags/web/"/>
-    
-      <category term="vue" scheme="https://forgetst.github.io/tags/vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python subprocess module</title>
-    <link href="https://forgetst.github.io/python/module/ck4z4ln8900889sv7aiiog0ff.html"/>
-    <id>https://forgetst.github.io/python/module/ck4z4ln8900889sv7aiiog0ff.html</id>
-    <published>2019-10-28T16:00:00.000Z</published>
-    <updated>2019-10-28T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
     
   </entry>
   
