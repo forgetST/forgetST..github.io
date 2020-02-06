@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>%2Funcategorized%2Fck68uy8mi0000p4v7oc0le6rn.html</url>
-    <content type="text"><![CDATA[1234567title: vscode 编辑java程序插件date: 2020-02-05updated: 2020-02-05categories: - javatags: - java VS Code is a fast editor and ships with great editing features. Add Java language support to VS Code by installing the popular Java extensions. To help set up Java on VS Code, there is a Java Extension Pack, which contains the most popular extensions for most Java developers: Language Support for Java(TM) by Red Hat Debugger for Java Java Test Runner Maven for Java Java Dependency Viewer There are also other popular Java extensions you can pick for your own needs, including: Spring Boot Tools Spring Initializr Java Support Spring Boot Dashboard Tomcat Jetty CheckStyle]]></content>
+    <title><![CDATA[vscode 编辑java程序插件]]></title>
+    <url>%2Fjava%2Fck68uy8mi0000p4v7oc0le6rn.html</url>
+    <content type="text"><![CDATA[VS Code is a fast editor and ships with great editing features. Add Java language support to VS Code by installing the popular Java extensions. To help set up Java on VS Code, there is a Java Extension Pack, which contains the most popular extensions for most Java developers: Language Support for Java(TM) by Red Hat Debugger for Java Java Test Runner Maven for Java Java Dependency Viewer There are also other popular Java extensions you can pick for your own needs, including: Spring Boot Tools Spring Initializr Java Support Spring Boot Dashboard Tomcat Jetty CheckStyle]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[java学习笔记]]></title>

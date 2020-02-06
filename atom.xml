@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-02-05T05:32:54.098Z</updated>
+  <updated>2020-02-04T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -17,24 +17,22 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://forgetst.github.io/uncategorized/ck68uy8mi0000p4v7oc0le6rn.html"/>
-    <id>https://forgetst.github.io/uncategorized/ck68uy8mi0000p4v7oc0le6rn.html</id>
-    <published>2020-02-05T05:14:24.834Z</published>
-    <updated>2020-02-05T05:32:54.098Z</updated>
+    <title>vscode 编辑java程序插件</title>
+    <link href="https://forgetst.github.io/java/ck68uy8mi0000p4v7oc0le6rn.html"/>
+    <id>https://forgetst.github.io/java/ck68uy8mi0000p4v7oc0le6rn.html</id>
+    <published>2020-02-04T16:00:00.000Z</published>
+    <updated>2020-02-04T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
+      &lt;p&gt;VS Code is a fast editor and ships with great editing features. Add Java language support to VS Code by installing the popular Java extensions. To help set up Java on VS Code, there is a &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Java Extension Pack&lt;/a&gt;, which contains the most popular extensions for most Java developers:&lt;/p&gt;
     
     </summary>
     
+      <category term="java" scheme="https://forgetst.github.io/categories/java/"/>
+    
+    
+      <category term="java" scheme="https://forgetst.github.io/tags/java/"/>
     
   </entry>
   
