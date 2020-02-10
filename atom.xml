@@ -17,26 +17,6 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>window使用随记</title>
-    <link href="https://forgetst.github.io/window/ck6anbbnh000sp4v7kpll2fcc.html"/>
-    <id>https://forgetst.github.io/window/ck6anbbnh000sp4v7kpll2fcc.html</id>
-    <published>2020-02-05T16:00:00.000Z</published>
-    <updated>2020-02-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
-    
-    
-      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
-    
-  </entry>
-  
-  <entry>
     <title>window搭建spark及hadoop开发环境.md</title>
     <link href="https://forgetst.github.io/bigdata/ck6a9wxgd0000p4v7ryvegcdx.html"/>
     <id>https://forgetst.github.io/bigdata/ck6a9wxgd0000p4v7ryvegcdx.html</id>
@@ -57,6 +37,26 @@
       <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
     
       <category term="hadoop" scheme="https://forgetst.github.io/tags/hadoop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>window使用随记</title>
+    <link href="https://forgetst.github.io/window/ck6anbbnh000sp4v7kpll2fcc.html"/>
+    <id>https://forgetst.github.io/window/ck6anbbnh000sp4v7kpll2fcc.html</id>
+    <published>2020-02-05T16:00:00.000Z</published>
+    <updated>2020-02-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
+    
+    
+      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
     
   </entry>
   
@@ -381,16 +381,15 @@
   </entry>
   
   <entry>
-    <title>spark standalone集群搭建</title>
-    <link href="https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html"/>
-    <id>https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html</id>
+    <title>spark常见错误处理</title>
+    <link href="https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html"/>
+    <id>https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html</id>
     <published>2019-12-07T16:00:00.000Z</published>
     <updated>2019-12-07T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;下载软件&quot;&gt;&lt;a href=&quot;#下载软件&quot; class=&quot;headerlink&quot; title=&quot;下载软件&quot;&gt;&lt;/a&gt;下载软件&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;java JDK-1.8&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://spark.apache.org/downloads.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;参考：&lt;a href=&quot;https://blog.csdn.net/cjlion/article/details/81234336&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark常见错误汇总&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -432,15 +431,16 @@
   </entry>
   
   <entry>
-    <title>spark常见错误处理</title>
-    <link href="https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html"/>
-    <id>https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html</id>
+    <title>spark standalone集群搭建</title>
+    <link href="https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html"/>
+    <id>https://forgetst.github.io/bigdata/ck4z4lmu4002h9sv7zk36wfvp.html</id>
     <published>2019-12-07T16:00:00.000Z</published>
     <updated>2019-12-07T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;参考：&lt;a href=&quot;https://blog.csdn.net/cjlion/article/details/81234336&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark常见错误汇总&lt;/a&gt;&lt;/p&gt;
+      &lt;h2 id=&quot;下载软件&quot;&gt;&lt;a href=&quot;#下载软件&quot; class=&quot;headerlink&quot; title=&quot;下载软件&quot;&gt;&lt;/a&gt;下载软件&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;java JDK-1.8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://spark.apache.org/downloads.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
