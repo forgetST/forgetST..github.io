@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-02-19T16:00:00.000Z</updated>
+  <updated>2020-02-21T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python collections module</title>
+    <link href="https://forgetst.github.io/python/module/ck6xlngbg0007v8v7ov5q7ahi.html"/>
+    <id>https://forgetst.github.io/python/module/ck6xlngbg0007v8v7ov5q7ahi.html</id>
+    <published>2020-02-21T16:00:00.000Z</published>
+    <updated>2020-02-21T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;Source code:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/3.8/Lib/collections/__init__.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/collections/&lt;strong&gt;init&lt;/strong&gt;.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个模块实现了特定目标的容器，以提供Python标准内建容器 &lt;strong&gt;dict&lt;/strong&gt; , list , &lt;strong&gt;set&lt;/strong&gt; , 和 &lt;strong&gt;tuple&lt;/strong&gt; 的替代选择。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
+    
+  </entry>
   
   <entry>
     <title>python pickle module</title>
@@ -351,28 +376,6 @@
   </entry>
   
   <entry>
-    <title>minio mc使用</title>
-    <link href="https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html"/>
-    <id>https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html</id>
-    <published>2019-12-14T16:00:00.000Z</published>
-    <updated>2019-12-14T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h3&gt;&lt;p&gt;MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="minio" scheme="https://forgetst.github.io/categories/minio/"/>
-    
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
-    
-      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
-    
-  </entry>
-  
-  <entry>
     <title>python操作minio</title>
     <link href="https://forgetst.github.io/python/module/ck4z4ln3z00679sv7551zr81q.html"/>
     <id>https://forgetst.github.io/python/module/ck4z4ln3z00679sv7551zr81q.html</id>
@@ -408,11 +411,11 @@
   </entry>
   
   <entry>
-    <title>pycharm2018.1激活教程</title>
-    <link href="https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html"/>
-    <id>https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html</id>
-    <published>2019-12-07T16:00:00.000Z</published>
-    <updated>2019-12-07T16:00:00.000Z</updated>
+    <title>cassandra相关操作</title>
+    <link href="https://forgetst.github.io/database/ck6xlfxsk0000v8v7rqfwlunq.html"/>
+    <id>https://forgetst.github.io/database/ck6xlfxsk0000v8v7rqfwlunq.html</id>
+    <published>2019-12-14T16:00:00.000Z</published>
+    <updated>2019-12-14T16:00:00.000Z</updated>
     
     <summary type="html">
     
@@ -426,34 +429,34 @@
     
     </summary>
     
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+      <category term="database" scheme="https://forgetst.github.io/categories/database/"/>
     
     
-      <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
+      <category term="database" scheme="https://forgetst.github.io/tags/database/"/>
     
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+      <category term="cassandra" scheme="https://forgetst.github.io/tags/cassandra/"/>
     
   </entry>
   
   <entry>
-    <title>spark常见错误处理</title>
-    <link href="https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html"/>
-    <id>https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html</id>
-    <published>2019-12-07T16:00:00.000Z</published>
-    <updated>2019-12-07T16:00:00.000Z</updated>
+    <title>minio mc使用</title>
+    <link href="https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html"/>
+    <id>https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html</id>
+    <published>2019-12-14T16:00:00.000Z</published>
+    <updated>2019-12-14T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;参考：&lt;a href=&quot;https://blog.csdn.net/cjlion/article/details/81234336&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark常见错误汇总&lt;/a&gt;&lt;/p&gt;
+      &lt;h3 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h3&gt;&lt;p&gt;MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。&lt;/p&gt;
     
     </summary>
     
-      <category term="bigdata" scheme="https://forgetst.github.io/categories/bigdata/"/>
+      <category term="minio" scheme="https://forgetst.github.io/categories/minio/"/>
     
     
       <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
     
-      <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
+      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
     
   </entry>
   
@@ -481,24 +484,30 @@
   </entry>
   
   <entry>
-    <title>二叉树</title>
-    <link href="https://forgetst.github.io/dataStructure/ck4z4lmuc002m9sv7f64fecz9.html"/>
-    <id>https://forgetst.github.io/dataStructure/ck4z4lmuc002m9sv7f64fecz9.html</id>
-    <published>2019-11-05T16:00:00.000Z</published>
-    <updated>2019-11-05T16:00:00.000Z</updated>
+    <title>pycharm2018.1激活教程</title>
+    <link href="https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html"/>
+    <id>https://forgetst.github.io/python/ck4z4lmck00089sv7a37dm48r.html</id>
+    <published>2019-12-07T16:00:00.000Z</published>
+    <updated>2019-12-07T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;code&gt;树&lt;/code&gt; 是一种经常用到的数据结构，用来模拟具有树状结构性质的数据集合。&lt;/p&gt;
-&lt;p&gt;树里的每一个节点有一个根植和一个包含所有子节点的列表。从图的观点来看，树也可视为一个拥有&lt;code&gt;N 个节点&lt;/code&gt;和&lt;code&gt;N-1 条边&lt;/code&gt;的一个有向无环图。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;二叉树&lt;/code&gt;是一种更为典型的树树状结构。如它名字所描述的那样，二叉树是每个节点最多有&lt;code&gt;两个子树&lt;/code&gt;的树结构，通常子树被称作“左子树”和“右子树”。&lt;/p&gt;
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
     
     </summary>
     
-      <category term="dataStructure" scheme="https://forgetst.github.io/categories/dataStructure/"/>
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
     
-      <category term="dataStructure" scheme="https://forgetst.github.io/tags/dataStructure/"/>
+      <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
