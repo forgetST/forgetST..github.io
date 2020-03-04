@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-02-22T16:00:00.000Z</updated>
+  <updated>2020-03-03T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pyspark 学习笔记</title>
+    <link href="https://forgetst.github.io/python/ck7dh2ow80001n0v7gkm370eb.html"/>
+    <id>https://forgetst.github.io/python/ck7dh2ow80001n0v7gkm370eb.html</id>
+    <published>2020-03-03T16:00:00.000Z</published>
+    <updated>2020-03-03T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;pypark用法记录。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>python argparse module</title>
@@ -341,6 +361,37 @@
   </entry>
   
   <entry>
+    <title>YAML基本语法</title>
+    <link href="https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html"/>
+    <id>https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html</id>
+    <published>2019-12-20T16:00:00.000Z</published>
+    <updated>2019-12-20T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;YAML:以数据为中心，比json、xml等更适合做配置文件,yaml必须遵守的三个规则&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;缩进&lt;/p&gt;
+&lt;p&gt;yaml使用一个固定的缩进风格表示数据层结构关系，Saltstack需要每个缩进级别由两个空格组成。一定不能使用tab键&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;冒号&lt;/p&gt;
+&lt;p&gt;每个冒号后面一定要有一个空格（以冒号结尾不需要空格，表示文件路径的模版可以不需要空格）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;短横线&lt;/p&gt;
+&lt;p&gt;想要表示列表项，使用一个短横杠加一个空格。多个项使用同样的缩进级别作为同一个列表的一部分&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="yaml" scheme="https://forgetst.github.io/categories/yaml/"/>
+    
+    
+      <category term="yaml" scheme="https://forgetst.github.io/tags/yaml/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python起一个固定端口</title>
     <link href="https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html"/>
     <id>https://forgetst.github.io/python/ck4z4lmyc00479sv7kwj7nln0.html</id>
@@ -369,33 +420,24 @@
   </entry>
   
   <entry>
-    <title>YAML基本语法</title>
-    <link href="https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html"/>
-    <id>https://forgetst.github.io/yaml/ck4z4lmz2004l9sv7p2y7to4n.html</id>
-    <published>2019-12-20T16:00:00.000Z</published>
-    <updated>2019-12-20T16:00:00.000Z</updated>
+    <title>minio mc使用</title>
+    <link href="https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html"/>
+    <id>https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html</id>
+    <published>2019-12-14T16:00:00.000Z</published>
+    <updated>2019-12-14T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;YAML:以数据为中心，比json、xml等更适合做配置文件,yaml必须遵守的三个规则&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;缩进&lt;/p&gt;
-&lt;p&gt;yaml使用一个固定的缩进风格表示数据层结构关系，Saltstack需要每个缩进级别由两个空格组成。一定不能使用tab键&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;冒号&lt;/p&gt;
-&lt;p&gt;每个冒号后面一定要有一个空格（以冒号结尾不需要空格，表示文件路径的模版可以不需要空格）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;短横线&lt;/p&gt;
-&lt;p&gt;想要表示列表项，使用一个短横杠加一个空格。多个项使用同样的缩进级别作为同一个列表的一部分&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;h3 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h3&gt;&lt;p&gt;MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。&lt;/p&gt;
     
     </summary>
     
-      <category term="yaml" scheme="https://forgetst.github.io/categories/yaml/"/>
+      <category term="minio" scheme="https://forgetst.github.io/categories/minio/"/>
     
     
-      <category term="yaml" scheme="https://forgetst.github.io/tags/yaml/"/>
+      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
+    
+      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
     
   </entry>
   
@@ -459,50 +501,6 @@
       <category term="database" scheme="https://forgetst.github.io/tags/database/"/>
     
       <category term="cassandra" scheme="https://forgetst.github.io/tags/cassandra/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>minio mc使用</title>
-    <link href="https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html"/>
-    <id>https://forgetst.github.io/minio/ck4z4yxvu00dz9sv7p3d67psb.html</id>
-    <published>2019-12-14T16:00:00.000Z</published>
-    <updated>2019-12-14T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h3&gt;&lt;p&gt;MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="minio" scheme="https://forgetst.github.io/categories/minio/"/>
-    
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
-    
-      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>spark常见错误处理</title>
-    <link href="https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html"/>
-    <id>https://forgetst.github.io/bigdata/ck4z4lmtw002e9sv7gw2pt84l.html</id>
-    <published>2019-12-07T16:00:00.000Z</published>
-    <updated>2019-12-07T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;参考：&lt;a href=&quot;https://blog.csdn.net/cjlion/article/details/81234336&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;spark常见错误汇总&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/categories/bigdata/"/>
-    
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
-    
-      <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
     
   </entry>
   
