@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-03-03T16:00:00.000Z</updated>
+  <updated>2020-03-11T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python functools module</title>
+    <link href="https://forgetst.github.io/python/module/ck7oulxsh0000xwv7jerdyn0q.html"/>
+    <id>https://forgetst.github.io/python/module/ck7oulxsh0000xwv7jerdyn0q.html</id>
+    <published>2020-03-11T16:00:00.000Z</published>
+    <updated>2020-03-11T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;functools 模块应用于高阶函数，此模块的功能适用于所有可调用对象。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;源代码:&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/functools.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/functools.py&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
+    
+  </entry>
   
   <entry>
     <title>pyspark 学习笔记</title>
@@ -113,26 +138,6 @@
   </entry>
   
   <entry>
-    <title>window使用随记</title>
-    <link href="https://forgetst.github.io/window/ck7hi2fqc000ffsv79a72nlyi.html"/>
-    <id>https://forgetst.github.io/window/ck7hi2fqc000ffsv79a72nlyi.html</id>
-    <published>2020-02-05T16:00:00.000Z</published>
-    <updated>2020-02-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
-    
-    
-      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
-    
-  </entry>
-  
-  <entry>
     <title>window搭建spark及hadoop开发环境.md</title>
     <link href="https://forgetst.github.io/bigdata/ck7hi2fwx002pfsv764xbjx24.html"/>
     <id>https://forgetst.github.io/bigdata/ck7hi2fwx002pfsv764xbjx24.html</id>
@@ -153,6 +158,26 @@
       <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
     
       <category term="hadoop" scheme="https://forgetst.github.io/tags/hadoop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>window使用随记</title>
+    <link href="https://forgetst.github.io/window/ck7hi2fqc000ffsv79a72nlyi.html"/>
+    <id>https://forgetst.github.io/window/ck7hi2fqc000ffsv79a72nlyi.html</id>
+    <published>2020-02-05T16:00:00.000Z</published>
+    <updated>2020-02-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
+    
+    
+      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
     
   </entry>
   
@@ -438,34 +463,6 @@
       <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
     
       <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>cassandra相关操作</title>
-    <link href="https://forgetst.github.io/database/ck7hi2fvw001sfsv7godolqkb.html"/>
-    <id>https://forgetst.github.io/database/ck7hi2fvw001sfsv7godolqkb.html</id>
-    <published>2019-12-14T16:00:00.000Z</published>
-    <updated>2019-12-14T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="database" scheme="https://forgetst.github.io/categories/database/"/>
-    
-    
-      <category term="database" scheme="https://forgetst.github.io/tags/database/"/>
-    
-      <category term="cassandra" scheme="https://forgetst.github.io/tags/cassandra/"/>
     
   </entry>
   
