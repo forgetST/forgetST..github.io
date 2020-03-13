@@ -248,26 +248,6 @@
   </entry>
   
   <entry>
-    <title>python 杂记</title>
-    <link href="https://forgetst.github.io/python/ck7hi2g86007yfsv7hdnbqvw0.html"/>
-    <id>https://forgetst.github.io/python/ck7hi2g86007yfsv7hdnbqvw0.html</id>
-    <published>2020-01-30T16:00:00.000Z</published>
-    <updated>2020-01-30T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;记录python相关的知识或使用技巧。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux 杂记</title>
     <link href="https://forgetst.github.io/Linux/ck7q9llfd000580v79w1sktt4.html"/>
     <id>https://forgetst.github.io/Linux/ck7q9llfd000580v79w1sktt4.html</id>
@@ -284,6 +264,26 @@
     
     
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python 杂记</title>
+    <link href="https://forgetst.github.io/python/ck7hi2g86007yfsv7hdnbqvw0.html"/>
+    <id>https://forgetst.github.io/python/ck7hi2g86007yfsv7hdnbqvw0.html</id>
+    <published>2020-01-30T16:00:00.000Z</published>
+    <updated>2020-01-30T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;记录python相关的知识或使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   

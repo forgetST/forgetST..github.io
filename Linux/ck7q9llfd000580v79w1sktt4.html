@@ -538,6 +538,65 @@
 </li>
 </ul>
 <h2 id="firewall-cmd用法"><a href="#firewall-cmd用法" class="headerlink" title="firewall-cmd用法"></a>firewall-cmd用法</h2><p><a href="https://www.cnblogs.com/wn1m/p/10920018.html" target="_blank" rel="noopener">firewall-cmd 使用总结</a></p>
+<h2 id="Linux卸载java-1-8"><a href="#Linux卸载java-1-8" class="headerlink" title="Linux卸载java-1.8"></a>Linux卸载java-1.8</h2><ul>
+<li><p>查看已安装java</p>
+<ul>
+<li><p><code>rpm -qa | grep jdk</code></p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop01 ~]# rpm -qa | grep jdk</span><br><span class="line"><span class="built_in">copy</span>-jdk-configs-<span class="number">3</span>.<span class="number">3</span>-<span class="number">10</span>.el7_5.noarch</span><br><span class="line">java-<span class="number">1</span>.<span class="number">8</span>.<span class="number">0</span>-openjdk-headless-<span class="number">1</span>.<span class="number">8</span>.<span class="number">0</span>.<span class="number">181</span>-<span class="number">7</span>.b13.el7.x86_64</span><br><span class="line">java-<span class="number">1</span>.<span class="number">8</span>.<span class="number">0</span>-openjdk-<span class="number">1</span>.<span class="number">8</span>.<span class="number">0</span>.<span class="number">181</span>-<span class="number">7</span>.b13.el7.x86_64</span><br><span class="line">java-<span class="number">1</span>.<span class="number">7</span>.<span class="number">0</span>-openjdk-<span class="number">1</span>.<span class="number">7</span>.<span class="number">0</span>.<span class="number">191</span>-<span class="number">2</span>.<span class="number">6</span>.<span class="number">15</span>.<span class="number">5</span>.el7.x86_64</span><br><span class="line">java-<span class="number">1</span>.<span class="number">7</span>.<span class="number">0</span>-openjdk-headless-<span class="number">1</span>.<span class="number">7</span>.<span class="number">0</span>.<span class="number">191</span>-<span class="number">2</span>.<span class="number">6</span>.<span class="number">15</span>.<span class="number">5</span>.el7.x86_64</span><br><span class="line">[root@hadoop01 ~]#</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>卸载</p>
+<ul>
+<li><p>方式一</p>
+<p><code>yum -y remove java-1.7.0-openjdk-1.7.0.191-2.6.15.5.el7.x86_64</code></p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop01 ~]# yum -y remove java-<span class="number">1</span>.<span class="number">7</span>.<span class="number">0</span>-openjdk-<span class="number">1</span>.<span class="number">7</span>.<span class="number">0</span>.<span class="number">191</span>-<span class="number">2</span>.<span class="number">6</span>.<span class="number">15</span>.<span class="number">5</span>.el7.x86_64</span><br><span class="line">Loaded plugins: fastestmirror, langpacks</span><br><span class="line">Resolving Dependencies</span><br><span class="line">--&gt; Running transaction check</span><br><span class="line">---&gt; Package java-<span class="number">1</span>.<span class="number">7</span>.<span class="number">0</span>-openjdk.x86_64 <span class="number">1</span>:<span class="number">1</span>.<span class="number">7</span>.<span class="number">0</span>.<span class="number">191</span>-<span class="number">2</span>.<span class="number">6</span>.<span class="number">15</span>.<span class="number">5</span>.el7 will be erased</span><br><span class="line">--&gt; Finished Dependency Resolution</span><br><span class="line">......</span><br><span class="line"><span class="function">Removed:</span></span><br><span class="line"><span class="function">  <span class="title">java</span>-1.7.0-<span class="title">openjdk.x86_64</span> 1:1.7.0.191-2.6.15.5.<span class="title">el7</span></span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"><span class="title">Complete</span>!</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>方式二</p>
+<p><code>rpm -e --nodeps java-1.7.0-openjdk-headless-1.7.0.191-2.6.15.5.el7.x86_64</code> </p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop01 ~]# rpm -e --nodeps java-<span class="number">1</span>.<span class="number">7</span>.<span class="number">0</span>-openjdk-headless-<span class="number">1</span>.<span class="number">7</span>.<span class="number">0</span>.<span class="number">191</span>-<span class="number">2</span>.<span class="number">6</span>.<span class="number">15</span>.<span class="number">5</span>.el7.x86_64</span><br><span class="line">[root@hadoop01 ~]# rpm -qa | grep jdk</span><br><span class="line"><span class="built_in">copy</span>-jdk-configs-<span class="number">3</span>.<span class="number">3</span>-<span class="number">10</span>.el7_5.noarch</span><br><span class="line">java-<span class="number">1</span>.<span class="number">8</span>.<span class="number">0</span>-openjdk-headless-<span class="number">1</span>.<span class="number">8</span>.<span class="number">0</span>.<span class="number">181</span>-<span class="number">7</span>.b13.el7.x86_64</span><br><span class="line">java-<span class="number">1</span>.<span class="number">8</span>.<span class="number">0</span>-openjdk-<span class="number">1</span>.<span class="number">8</span>.<span class="number">0</span>.<span class="number">181</span>-<span class="number">7</span>.b13.el7.x86_64</span><br><span class="line">[root@hadoop01 ~]#</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="yum和rpm区别"><a href="#yum和rpm区别" class="headerlink" title="yum和rpm区别"></a>yum和rpm区别</h2><ul>
+<li><p>rpm是RPM Package Manager（RPM软件包管理器）的缩写，是由红帽公司开发的软件包管理方式，使用rpm可以方便的进行软件的安装、查询、卸载、升级等工作。但是rpm软件包之间的依赖性问题往往会很繁琐,尤其是软件由多个rpm包组成时。</p>
+</li>
+<li><p>Yum（全称为 Yellow dog Updater, Modified）是一个在Fedora和RedHat以及SUSE中的Shell前端软件包管理器。基於RPM包管理，能够从指定的服务器自动下载RPM包并且安装，可以自动处理依赖性关系，并且一次安装所有依赖的软体包，无须繁琐地一次次下载、安装。yum会从一个资源库（repository）中下载软件包，并经过完全依赖解析来安装它，所以每次运行yum install的时候会看到安装一堆相关软件；而rpm则需要先下载好一个rpm文件然后进行安装，并且如果rpm程序发现缺少了一个依赖，就会报错并退出。</p>
+</li>
+<li><p><code>yum -y remove</code> 和 <code>rpm -e --nodeps</code>区别</p>
+<ul>
+<li><p>为什么使用yum remove卸载不了，而需要使用rpm卸载呢？</p>
+<ul>
+<li><p>这里需要首先判断软件是通过什么方式安装的，执行：<code>rpm -q php</code> </p>
+<p>如果此命令返回php版本，则是rpm安装；</p>
+<p>如不返回php版本则是二进制安装。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>卸载有没有顺序？</p>
+<ul>
+<li><p>有的。使用<code>rpm –qa | grep php</code></p>
+<p> 此命令是把php相关的包都列出来，而卸载最好从最下面的一个包开始，直到卸载掉第一个为止。</p>
+</li>
+<li><p>注意：卸载的时候如果卸载不掉，系统一般会提示包的依赖关系，并且列出依赖的包的名称，先卸载提示依赖的包即可。</p>
+</li>
+<li><p>如果实在实在有卸载不掉的包，可以增加—nodeps这个参数来卸载，例如：</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rpm -e php-<span class="number">4</span>.<span class="number">3</span>.<span class="number">4</span>-<span class="number">11</span> --nodeps</span><br><span class="line">或</span><br><span class="line">rpm -e --nodeps php-<span class="number">4</span>.<span class="number">3</span>.<span class="number">4</span>-<span class="number">11</span></span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>使用编译安装<code>make &amp;&amp; make install</code> ，如果要卸载可以使用：<code>make uninstall</code></li>
+</ul>
 
       
     </div>
@@ -616,8 +675,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/python/module/ck7hi2gls00f4fsv7c1w38jcm.html" rel="next" title="python numpy module">
-                <i class="fa fa-chevron-left"></i> python numpy module
+              <a href="/python/ck7hi2g86007yfsv7hdnbqvw0.html" rel="next" title="python 杂记">
+                <i class="fa fa-chevron-left"></i> python 杂记
               </a>
             
           </div>
@@ -626,8 +685,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/python/ck7hi2g86007yfsv7hdnbqvw0.html" rel="prev" title="python 杂记">
-                python 杂记 <i class="fa fa-chevron-right"></i>
+              <a href="/java/ck7hi2gfs00bffsv7rwpawv8p.html" rel="prev" title="java学习笔记">
+                java学习笔记 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -700,7 +759,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">104</span>
+          <span class="site-state-item-count">105</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -805,7 +864,9 @@
         
           
         
-        <span class="site-state-item-count">40</span>
+          
+        
+        <span class="site-state-item-count">41</span>
         <span class="site-state-item-name">分类</span>
         </a>
       </div>
@@ -964,7 +1025,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux放行8080端口"><span class="nav-number">1.</span> <span class="nav-text">Linux放行8080端口</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#firewall-cmd用法"><span class="nav-number">2.</span> <span class="nav-text">firewall-cmd用法</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux放行8080端口"><span class="nav-number">1.</span> <span class="nav-text">Linux放行8080端口</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#firewall-cmd用法"><span class="nav-number">2.</span> <span class="nav-text">firewall-cmd用法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux卸载java-1-8"><span class="nav-number">3.</span> <span class="nav-text">Linux卸载java-1.8</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#yum和rpm区别"><span class="nav-number">4.</span> <span class="nav-text">yum和rpm区别</span></a></li></ol></div>
             
 
           </div>
