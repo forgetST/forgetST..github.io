@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-03-11T16:00:00.000Z</updated>
+  <updated>2020-03-12T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nginx 操作</title>
+    <link href="https://forgetst.github.io/nginx/ck7q9lkml000080v7m9lyg9vx.html"/>
+    <id>https://forgetst.github.io/nginx/ck7q9lkml000080v7m9lyg9vx.html</id>
+    <published>2020-03-12T16:00:00.000Z</published>
+    <updated>2020-03-12T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="nginx" scheme="https://forgetst.github.io/categories/nginx/"/>
+    
+    
+      <category term="nginx" scheme="https://forgetst.github.io/tags/nginx/"/>
+    
+  </entry>
   
   <entry>
     <title>python functools module</title>
@@ -242,6 +268,26 @@
   </entry>
   
   <entry>
+    <title>Linux 杂记</title>
+    <link href="https://forgetst.github.io/Linux/ck7q9llfd000580v79w1sktt4.html"/>
+    <id>https://forgetst.github.io/Linux/ck7q9llfd000580v79w1sktt4.html</id>
+    <published>2020-01-30T16:00:00.000Z</published>
+    <updated>2020-01-30T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;记录Linux相关的知识或使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python numpy module</title>
     <link href="https://forgetst.github.io/python/module/ck7hi2gls00f4fsv7c1w38jcm.html"/>
     <id>https://forgetst.github.io/python/module/ck7hi2gls00f4fsv7c1w38jcm.html</id>
@@ -441,63 +487,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>minio mc使用</title>
-    <link href="https://forgetst.github.io/minio/ck7hi2fwa0023fsv78x9uvqyl.html"/>
-    <id>https://forgetst.github.io/minio/ck7hi2fwa0023fsv78x9uvqyl.html</id>
-    <published>2019-12-14T16:00:00.000Z</published>
-    <updated>2019-12-14T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h3&gt;&lt;p&gt;MinIO Client (mc)为ls，cat，cp，mirror，diff，find等UNIX命令提供了一种替代方案。它支持文件系统和兼容Amazon S3的云存储服务（AWS Signature v2和v4）。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="minio" scheme="https://forgetst.github.io/categories/minio/"/>
-    
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
-    
-      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python操作minio</title>
-    <link href="https://forgetst.github.io/python/module/ck7hi2g42006xfsv70qz9cp4q.html"/>
-    <id>https://forgetst.github.io/python/module/ck7hi2g42006xfsv70qz9cp4q.html</id>
-    <published>2019-12-14T16:00:00.000Z</published>
-    <updated>2019-12-14T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;python版本：3.7&lt;/p&gt;
-&lt;p&gt;minio版本：5.0.5&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# 使用pip安装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;pip install minio&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# 使用源码安装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git clone https://github.com/minio/minio-py&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cd minio-py&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;python setup.py install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;参考文档：&lt;/p&gt;
-&lt;p&gt;快速入门：&lt;a href=&quot;https://docs.min.io/cn/python-client-quickstart-guide.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://docs.min.io/cn/python-client-quickstart-guide.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;完整文档：&lt;a href=&quot;https://docs.min.io/cn/python-client-api-reference.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://docs.min.io/cn/python-client-api-reference.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;API示例：&lt;a href=&quot;https://github.com/minio/minio-py/tree/master/examples&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/minio/minio-py/tree/master/examples&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
-    
-      <category term="minio" scheme="https://forgetst.github.io/tags/minio/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
     
   </entry>
   
