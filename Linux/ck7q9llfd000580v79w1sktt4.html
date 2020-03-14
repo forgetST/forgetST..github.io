@@ -597,7 +597,26 @@
 <ul>
 <li>使用编译安装<code>make &amp;&amp; make install</code> ，如果要卸载可以使用：<code>make uninstall</code></li>
 </ul>
+<h2 id="centos7开放、关闭及查看端口"><a href="#centos7开放、关闭及查看端口" class="headerlink" title="centos7开放、关闭及查看端口"></a>centos7开放、关闭及查看端口</h2><h3 id="查看防火墙所有开放的端口"><a href="#查看防火墙所有开放的端口" class="headerlink" title="查看防火墙所有开放的端口"></a>查看防火墙所有开放的端口</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop01 ~]# firewall-<span class="built_in">cmd</span> --zone=public --list-ports</span><br></pre></td></tr></table></figure>
 
+<h3 id="查看防火墙状态"><a href="#查看防火墙状态" class="headerlink" title="查看防火墙状态"></a>查看防火墙状态</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop01 ~]# firewall-<span class="built_in">cmd</span> --state</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>查看防火墙状态<br>查看防火墙状态 systemctl status firewalld<br>开启防火墙 systemctl start firewalld<br>关闭防火墙 systemctl stop firewalld<br>开启防火墙 service firewalld start<br>若遇到无法开启<br>先用：systemctl unmask firewalld.service<br>然后：systemctl start firewalld.service</p>
+</blockquote>
+<h3 id="查询端口号8080-是否开启"><a href="#查询端口号8080-是否开启" class="headerlink" title="查询端口号8080 是否开启"></a>查询端口号8080 是否开启</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop01 nginx]# firewall-<span class="built_in">cmd</span> --query-port=<span class="number">8080</span>/tcp</span><br><span class="line">yes</span><br></pre></td></tr></table></figure>
+
+<h3 id="开放端口的方法"><a href="#开放端口的方法" class="headerlink" title="开放端口的方法"></a>开放端口的方法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop01 ~]# firewall-cmd --zone=public --add-port=8080/tcp --permanent</span><br><span class="line">success</span><br></pre></td></tr></table></figure>
+
+<h3 id="关闭端口方法"><a href="#关闭端口方法" class="headerlink" title="关闭端口方法"></a>关闭端口方法</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop01 ~]# firewall-<span class="built_in">cmd</span> --remove-port=<span class="number">8080</span>/tcp --permanent</span><br><span class="line">success</span><br></pre></td></tr></table></figure>
+
+<h3 id="重启防火墙"><a href="#重启防火墙" class="headerlink" title="重启防火墙"></a>重启防火墙</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart firewalld.service</span><br></pre></td></tr></table></figure>
+
+<h3 id="关闭防火墙"><a href="#关闭防火墙" class="headerlink" title="关闭防火墙"></a>关闭防火墙</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld.service</span><br></pre></td></tr></table></figure>
+
+<h3 id="查看监听-Listen-的端口"><a href="#查看监听-Listen-的端口" class="headerlink" title="查看监听(Listen)的端口"></a>查看监听(Listen)的端口</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -lntp</span><br></pre></td></tr></table></figure>
+
+<h3 id="检查端口被哪个进程占用"><a href="#检查端口被哪个进程占用" class="headerlink" title="检查端口被哪个进程占用"></a>检查端口被哪个进程占用</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -lnp|grep <span class="number">8080</span></span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -759,7 +778,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">105</span>
+          <span class="site-state-item-count">106</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1025,7 +1044,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux放行8080端口"><span class="nav-number">1.</span> <span class="nav-text">Linux放行8080端口</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#firewall-cmd用法"><span class="nav-number">2.</span> <span class="nav-text">firewall-cmd用法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux卸载java-1-8"><span class="nav-number">3.</span> <span class="nav-text">Linux卸载java-1.8</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#yum和rpm区别"><span class="nav-number">4.</span> <span class="nav-text">yum和rpm区别</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux放行8080端口"><span class="nav-number">1.</span> <span class="nav-text">Linux放行8080端口</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#firewall-cmd用法"><span class="nav-number">2.</span> <span class="nav-text">firewall-cmd用法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux卸载java-1-8"><span class="nav-number">3.</span> <span class="nav-text">Linux卸载java-1.8</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#yum和rpm区别"><span class="nav-number">4.</span> <span class="nav-text">yum和rpm区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#centos7开放、关闭及查看端口"><span class="nav-number">5.</span> <span class="nav-text">centos7开放、关闭及查看端口</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#查看防火墙所有开放的端口"><span class="nav-number">5.1.</span> <span class="nav-text">查看防火墙所有开放的端口</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看防火墙状态"><span class="nav-number">5.2.</span> <span class="nav-text">查看防火墙状态</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查询端口号8080-是否开启"><span class="nav-number">5.3.</span> <span class="nav-text">查询端口号8080 是否开启</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#开放端口的方法"><span class="nav-number">5.4.</span> <span class="nav-text">开放端口的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关闭端口方法"><span class="nav-number">5.5.</span> <span class="nav-text">关闭端口方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#重启防火墙"><span class="nav-number">5.6.</span> <span class="nav-text">重启防火墙</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关闭防火墙"><span class="nav-number">5.7.</span> <span class="nav-text">关闭防火墙</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看监听-Listen-的端口"><span class="nav-number">5.8.</span> <span class="nav-text">查看监听(Listen)的端口</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#检查端口被哪个进程占用"><span class="nav-number">5.9.</span> <span class="nav-text">检查端口被哪个进程占用</span></a></li></ol></li></ol></div>
             
 
           </div>
