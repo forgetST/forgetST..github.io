@@ -18,20 +18,15 @@
   
   <entry>
     <title>nginx 操作</title>
-    <link href="https://forgetst.github.io/nginx/ck7q9lkml000080v7m9lyg9vx.html"/>
-    <id>https://forgetst.github.io/nginx/ck7q9lkml000080v7m9lyg9vx.html</id>
+    <link href="https://forgetst.github.io/nginx/ck7t6anl4004wxsv75eqoee6j.html"/>
+    <id>https://forgetst.github.io/nginx/ck7t6anl4004wxsv75eqoee6j.html</id>
     <published>2020-03-12T16:00:00.000Z</published>
     <updated>2020-03-12T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
+      &lt;h2 id=&quot;第-1-章-Nginx-简介&quot;&gt;&lt;a href=&quot;#第-1-章-Nginx-简介&quot; class=&quot;headerlink&quot; title=&quot;第 1 章 Nginx 简介&quot;&gt;&lt;/a&gt;第 1 章 Nginx 简介&lt;/h2&gt;&lt;h3 id=&quot;1-1-Nginx-概述&quot;&gt;&lt;a href=&quot;#1-1-Nginx-概述&quot; class=&quot;headerlink&quot; title=&quot;1.1 Nginx 概述&quot;&gt;&lt;/a&gt;1.1 Nginx 概述&lt;/h3&gt;&lt;p&gt;Nginx (“engine x”) 是一个高性能的 HTTP 和反向代理服务器，特点是占有内存少，并发能力强，事实上 nginx 的并发能力确实在同类型的网页服务器中表现较好，中国大陆使用 nginx网站用户有：百度、京东、新浪、网易、腾讯、淘宝等。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://lnmp.org/nginx.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://lnmp.org/nginx.html&lt;/a&gt; &lt;/p&gt;
     
     </summary>
     
@@ -44,8 +39,8 @@
   
   <entry>
     <title>python functools module</title>
-    <link href="https://forgetst.github.io/python/module/ck7oulxsh0000xwv7jerdyn0q.html"/>
-    <id>https://forgetst.github.io/python/module/ck7oulxsh0000xwv7jerdyn0q.html</id>
+    <link href="https://forgetst.github.io/python/module/ck7t6ao3t00ekxsv7h91f1lrv.html"/>
+    <id>https://forgetst.github.io/python/module/ck7t6ao3t00ekxsv7h91f1lrv.html</id>
     <published>2020-03-11T16:00:00.000Z</published>
     <updated>2020-03-11T16:00:00.000Z</updated>
     
@@ -69,8 +64,8 @@
   
   <entry>
     <title>pyspark 学习笔记</title>
-    <link href="https://forgetst.github.io/python/ck7hi2g2l005vfsv7q8v4so00.html"/>
-    <id>https://forgetst.github.io/python/ck7hi2g2l005vfsv7q8v4so00.html</id>
+    <link href="https://forgetst.github.io/python/ck7t6anla0050xsv7297qykqw.html"/>
+    <id>https://forgetst.github.io/python/ck7t6anla0050xsv7297qykqw.html</id>
     <published>2020-03-03T16:00:00.000Z</published>
     <updated>2020-03-03T16:00:00.000Z</updated>
     
@@ -89,8 +84,8 @@
   
   <entry>
     <title>python argparse module</title>
-    <link href="https://forgetst.github.io/python/module/ck7hi2gif00d4fsv75ws86bpt.html"/>
-    <id>https://forgetst.github.io/python/module/ck7hi2gif00d4fsv75ws86bpt.html</id>
+    <link href="https://forgetst.github.io/python/module/ck7t6ao2p00ddxsv746cu372w.html"/>
+    <id>https://forgetst.github.io/python/module/ck7t6ao2p00ddxsv746cu372w.html</id>
     <published>2020-02-22T16:00:00.000Z</published>
     <updated>2020-02-22T16:00:00.000Z</updated>
     
@@ -113,8 +108,8 @@
   
   <entry>
     <title>python collections module</title>
-    <link href="https://forgetst.github.io/python/module/ck7hi2gq100frfsv7fu9v1xib.html"/>
-    <id>https://forgetst.github.io/python/module/ck7hi2gq100frfsv7fu9v1xib.html</id>
+    <link href="https://forgetst.github.io/python/module/ck7t6ao5f00g4xsv7vktdqjo5.html"/>
+    <id>https://forgetst.github.io/python/module/ck7t6ao5f00g4xsv7vktdqjo5.html</id>
     <published>2020-02-21T16:00:00.000Z</published>
     <updated>2020-02-21T16:00:00.000Z</updated>
     
@@ -138,8 +133,8 @@
   
   <entry>
     <title>python pickle module</title>
-    <link href="https://forgetst.github.io/python/module/ck7hi2gii00d5fsv7thcdonwz.html"/>
-    <id>https://forgetst.github.io/python/module/ck7hi2gii00d5fsv7thcdonwz.html</id>
+    <link href="https://forgetst.github.io/python/module/ck7t6ao2x00dkxsv7syr0tf0e.html"/>
+    <id>https://forgetst.github.io/python/module/ck7t6ao2x00dkxsv7syr0tf0e.html</id>
     <published>2020-02-19T16:00:00.000Z</published>
     <updated>2020-02-19T16:00:00.000Z</updated>
     
@@ -164,9 +159,29 @@
   </entry>
   
   <entry>
+    <title>window使用随记</title>
+    <link href="https://forgetst.github.io/window/ck7t6an9c000gxsv7b1snd5p3.html"/>
+    <id>https://forgetst.github.io/window/ck7t6an9c000gxsv7b1snd5p3.html</id>
+    <published>2020-02-05T16:00:00.000Z</published>
+    <updated>2020-02-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
+    
+    
+      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
+    
+  </entry>
+  
+  <entry>
     <title>window搭建spark及hadoop开发环境.md</title>
-    <link href="https://forgetst.github.io/bigdata/ck7hi2fwx002pfsv764xbjx24.html"/>
-    <id>https://forgetst.github.io/bigdata/ck7hi2fwx002pfsv764xbjx24.html</id>
+    <link href="https://forgetst.github.io/bigdata/ck7t6anih002uxsv78nuqhlqw.html"/>
+    <id>https://forgetst.github.io/bigdata/ck7t6anih002uxsv78nuqhlqw.html</id>
     <published>2020-02-05T16:00:00.000Z</published>
     <updated>2020-02-05T16:00:00.000Z</updated>
     
@@ -188,29 +203,9 @@
   </entry>
   
   <entry>
-    <title>window使用随记</title>
-    <link href="https://forgetst.github.io/window/ck7hi2fqc000ffsv79a72nlyi.html"/>
-    <id>https://forgetst.github.io/window/ck7hi2fqc000ffsv79a72nlyi.html</id>
-    <published>2020-02-05T16:00:00.000Z</published>
-    <updated>2020-02-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
-    
-    
-      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
-    
-  </entry>
-  
-  <entry>
     <title>vscode 编辑java程序插件</title>
-    <link href="https://forgetst.github.io/java/ck7hi2fy6003lfsv7fjr3zh8w.html"/>
-    <id>https://forgetst.github.io/java/ck7hi2fy6003lfsv7fjr3zh8w.html</id>
+    <link href="https://forgetst.github.io/java/ck7t6anki004ixsv7t5sdua52.html"/>
+    <id>https://forgetst.github.io/java/ck7t6anki004ixsv7t5sdua52.html</id>
     <published>2020-02-04T16:00:00.000Z</published>
     <updated>2020-02-04T16:00:00.000Z</updated>
     
@@ -229,8 +224,8 @@
   
   <entry>
     <title>java学习笔记</title>
-    <link href="https://forgetst.github.io/java/ck7hi2gfs00bffsv7rwpawv8p.html"/>
-    <id>https://forgetst.github.io/java/ck7hi2gfs00bffsv7rwpawv8p.html</id>
+    <link href="https://forgetst.github.io/java/ck7t6ao1i00d0xsv7djvlenc8.html"/>
+    <id>https://forgetst.github.io/java/ck7t6ao1i00d0xsv7djvlenc8.html</id>
     <published>2020-02-02T16:00:00.000Z</published>
     <updated>2020-02-02T16:00:00.000Z</updated>
     
@@ -249,8 +244,8 @@
   
   <entry>
     <title>Linux 杂记</title>
-    <link href="https://forgetst.github.io/Linux/ck7q9llfd000580v79w1sktt4.html"/>
-    <id>https://forgetst.github.io/Linux/ck7q9llfd000580v79w1sktt4.html</id>
+    <link href="https://forgetst.github.io/Linux/ck7t6anog007xxsv7c9g76fnx.html"/>
+    <id>https://forgetst.github.io/Linux/ck7t6anog007xxsv7c9g76fnx.html</id>
     <published>2020-01-30T16:00:00.000Z</published>
     <updated>2020-01-30T16:00:00.000Z</updated>
     
@@ -269,8 +264,8 @@
   
   <entry>
     <title>python 杂记</title>
-    <link href="https://forgetst.github.io/python/ck7hi2g86007yfsv7hdnbqvw0.html"/>
-    <id>https://forgetst.github.io/python/ck7hi2g86007yfsv7hdnbqvw0.html</id>
+    <link href="https://forgetst.github.io/python/ck7t6anox008axsv76jlc44zk.html"/>
+    <id>https://forgetst.github.io/python/ck7t6anox008axsv76jlc44zk.html</id>
     <published>2020-01-30T16:00:00.000Z</published>
     <updated>2020-01-30T16:00:00.000Z</updated>
     
@@ -289,8 +284,8 @@
   
   <entry>
     <title>python numpy module</title>
-    <link href="https://forgetst.github.io/python/module/ck7hi2gls00f4fsv7c1w38jcm.html"/>
-    <id>https://forgetst.github.io/python/module/ck7hi2gls00f4fsv7c1w38jcm.html</id>
+    <link href="https://forgetst.github.io/python/module/ck7t6ao5i00g6xsv7wgiuo6sm.html"/>
+    <id>https://forgetst.github.io/python/module/ck7t6ao5i00g6xsv7wgiuo6sm.html</id>
     <published>2020-01-29T16:00:00.000Z</published>
     <updated>2020-01-29T16:00:00.000Z</updated>
     
@@ -314,8 +309,8 @@
   
   <entry>
     <title>python random module</title>
-    <link href="https://forgetst.github.io/python/module/ck7hi2ge300a1fsv7j5he1ugr.html"/>
-    <id>https://forgetst.github.io/python/module/ck7hi2ge300a1fsv7j5he1ugr.html</id>
+    <link href="https://forgetst.github.io/python/module/ck7t6anya00a6xsv7eir20uwe.html"/>
+    <id>https://forgetst.github.io/python/module/ck7t6anya00a6xsv7eir20uwe.html</id>
     <published>2020-01-27T16:00:00.000Z</published>
     <updated>2020-01-27T16:00:00.000Z</updated>
     
@@ -340,8 +335,8 @@
   
   <entry>
     <title>python numpy 快速入门</title>
-    <link href="https://forgetst.github.io/python/module/ck7hi2gj400difsv7lv0v5uk4.html"/>
-    <id>https://forgetst.github.io/python/module/ck7hi2gj400difsv7lv0v5uk4.html</id>
+    <link href="https://forgetst.github.io/python/module/ck7t6ao1l00d2xsv7qra8tjhj.html"/>
+    <id>https://forgetst.github.io/python/module/ck7t6ao1l00d2xsv7qra8tjhj.html</id>
     <published>2020-01-26T16:00:00.000Z</published>
     <updated>2020-01-26T16:00:00.000Z</updated>
     
@@ -364,8 +359,8 @@
   
   <entry>
     <title>shell 杂记</title>
-    <link href="https://forgetst.github.io/shell/ck7hi2g890080fsv7k0ogy5dz.html"/>
-    <id>https://forgetst.github.io/shell/ck7hi2g890080fsv7k0ogy5dz.html</id>
+    <link href="https://forgetst.github.io/shell/ck7t6anp0008dxsv715anm09h.html"/>
+    <id>https://forgetst.github.io/shell/ck7t6anp0008dxsv715anm09h.html</id>
     <published>2020-01-11T16:00:00.000Z</published>
     <updated>2020-01-11T16:00:00.000Z</updated>
     
@@ -384,8 +379,8 @@
   
   <entry>
     <title>shell 脚本</title>
-    <link href="https://forgetst.github.io/shell/ck7hi2gk000e6fsv73pccr5kg.html"/>
-    <id>https://forgetst.github.io/shell/ck7hi2gk000e6fsv73pccr5kg.html</id>
+    <link href="https://forgetst.github.io/shell/ck7t6ao3r00eixsv77epfrgyn.html"/>
+    <id>https://forgetst.github.io/shell/ck7t6ao3r00eixsv77epfrgyn.html</id>
     <published>2020-01-04T16:00:00.000Z</published>
     <updated>2020-01-04T16:00:00.000Z</updated>
     
@@ -404,8 +399,8 @@
   
   <entry>
     <title>python zipfile module</title>
-    <link href="https://forgetst.github.io/python/module/ck7hi2gim00d7fsv7391cvue5.html"/>
-    <id>https://forgetst.github.io/python/module/ck7hi2gim00d7fsv7391cvue5.html</id>
+    <link href="https://forgetst.github.io/python/module/ck7t6ao3100doxsv7roah1uai.html"/>
+    <id>https://forgetst.github.io/python/module/ck7t6ao3100doxsv7roah1uai.html</id>
     <published>2019-12-31T16:00:00.000Z</published>
     <updated>2019-12-31T16:00:00.000Z</updated>
     
@@ -432,9 +427,37 @@
   </entry>
   
   <entry>
+    <title>python起一个固定端口</title>
+    <link href="https://forgetst.github.io/python/ck7t6anlm0059xsv7v9n885en.html"/>
+    <id>https://forgetst.github.io/python/ck7t6anlm0059xsv7v9n885en.html</id>
+    <published>2019-12-20T16:00:00.000Z</published>
+    <updated>2019-12-20T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
+    
+  </entry>
+  
+  <entry>
     <title>YAML基本语法</title>
-    <link href="https://forgetst.github.io/yaml/ck7hi2g3n006ofsv780416x69.html"/>
-    <id>https://forgetst.github.io/yaml/ck7hi2g3n006ofsv780416x69.html</id>
+    <link href="https://forgetst.github.io/yaml/ck7t6anm5005uxsv70u3hcrno.html"/>
+    <id>https://forgetst.github.io/yaml/ck7t6anm5005uxsv70u3hcrno.html</id>
     <published>2019-12-20T16:00:00.000Z</published>
     <updated>2019-12-20T16:00:00.000Z</updated>
     
@@ -459,34 +482,6 @@
     
     
       <category term="yaml" scheme="https://forgetst.github.io/tags/yaml/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python起一个固定端口</title>
-    <link href="https://forgetst.github.io/python/ck7hi2g320067fsv7mj68fs7w.html"/>
-    <id>https://forgetst.github.io/python/ck7hi2g320067fsv7mj68fs7w.html</id>
-    <published>2019-12-20T16:00:00.000Z</published>
-    <updated>2019-12-20T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
     
   </entry>
   
