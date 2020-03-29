@@ -159,26 +159,6 @@
   </entry>
   
   <entry>
-    <title>window使用随记</title>
-    <link href="https://forgetst.github.io/window/ck88w23a8000g3wv7di33qazk.html"/>
-    <id>https://forgetst.github.io/window/ck88w23a8000g3wv7di33qazk.html</id>
-    <published>2020-02-05T16:00:00.000Z</published>
-    <updated>2020-02-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
-    
-    
-      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
-    
-  </entry>
-  
-  <entry>
     <title>window搭建spark及hadoop开发环境.md</title>
     <link href="https://forgetst.github.io/bigdata/ck88w23mm002x3wv76fsk2hjb.html"/>
     <id>https://forgetst.github.io/bigdata/ck88w23mm002x3wv76fsk2hjb.html</id>
@@ -199,6 +179,26 @@
       <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
     
       <category term="hadoop" scheme="https://forgetst.github.io/tags/hadoop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>window使用随记</title>
+    <link href="https://forgetst.github.io/window/ck88w23a8000g3wv7di33qazk.html"/>
+    <id>https://forgetst.github.io/window/ck88w23a8000g3wv7di33qazk.html</id>
+    <published>2020-02-05T16:00:00.000Z</published>
+    <updated>2020-02-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
+    
+    
+      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
     
   </entry>
   
@@ -243,26 +243,6 @@
   </entry>
   
   <entry>
-    <title>python 杂记</title>
-    <link href="https://forgetst.github.io/python/ck88w23sq007s3wv7g45y9o2v.html"/>
-    <id>https://forgetst.github.io/python/ck88w23sq007s3wv7g45y9o2v.html</id>
-    <published>2020-01-30T16:00:00.000Z</published>
-    <updated>2020-01-30T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;记录python相关的知识或使用技巧。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux 杂记</title>
     <link href="https://forgetst.github.io/Linux/ck88w23rq007f3wv7my73agmj.html"/>
     <id>https://forgetst.github.io/Linux/ck88w23rq007f3wv7my73agmj.html</id>
@@ -279,6 +259,26 @@
     
     
       <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python 杂记</title>
+    <link href="https://forgetst.github.io/python/ck88w23sq007s3wv7g45y9o2v.html"/>
+    <id>https://forgetst.github.io/python/ck88w23sq007s3wv7g45y9o2v.html</id>
+    <published>2020-01-30T16:00:00.000Z</published>
+    <updated>2020-01-30T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;记录python相关的知识或使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
