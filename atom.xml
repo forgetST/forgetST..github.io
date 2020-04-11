@@ -63,6 +63,28 @@
   </entry>
   
   <entry>
+    <title>pycharm 配置pylint</title>
+    <link href="https://forgetst.github.io/python/ck8vonbsc0000y8v7s2tmouio.html"/>
+    <id>https://forgetst.github.io/python/ck8vonbsc0000y8v7s2tmouio.html</id>
+    <published>2020-03-03T16:00:00.000Z</published>
+    <updated>2020-03-03T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;pylint是一个用于检查python代码中的错误，尝试强制执行编码标准的工具。它还可以查找某些类型错误，可以建议如何重构特定块的建议，并可以向您提供有关代码复杂性的详细信息。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>pyspark 学习笔记</title>
     <link href="https://forgetst.github.io/python/ck88w23s2007m3wv7029650su.html"/>
     <id>https://forgetst.github.io/python/ck88w23s2007m3wv7029650su.html</id>
@@ -454,34 +476,6 @@
     
     
       <category term="yaml" scheme="https://forgetst.github.io/tags/yaml/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python起一个固定端口</title>
-    <link href="https://forgetst.github.io/python/ck88w23p500523wv7hjit4nym.html"/>
-    <id>https://forgetst.github.io/python/ck88w23p500523wv7hjit4nym.html</id>
-    <published>2019-12-20T16:00:00.000Z</published>
-    <updated>2019-12-20T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
     
   </entry>
   
