@@ -18,8 +18,8 @@
   
   <entry>
     <title>nginx 操作</title>
-    <link href="https://forgetst.github.io/nginx/ck88w23z9008f3wv7a3gdkdzd.html"/>
-    <id>https://forgetst.github.io/nginx/ck88w23z9008f3wv7a3gdkdzd.html</id>
+    <link href="https://forgetst.github.io/nginx/ck9bgz7wx008mqov79klvl03c.html"/>
+    <id>https://forgetst.github.io/nginx/ck9bgz7wx008mqov79klvl03c.html</id>
     <published>2020-03-12T16:00:00.000Z</published>
     <updated>2020-03-12T16:00:00.000Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>python functools module</title>
-    <link href="https://forgetst.github.io/python/module/ck88w247d00en3wv7tii36z3e.html"/>
-    <id>https://forgetst.github.io/python/module/ck88w247d00en3wv7tii36z3e.html</id>
+    <link href="https://forgetst.github.io/python/module/ck9bgz84r00euqov7urj6rcq4.html"/>
+    <id>https://forgetst.github.io/python/module/ck9bgz84r00euqov7urj6rcq4.html</id>
     <published>2020-03-11T16:00:00.000Z</published>
     <updated>2020-03-11T16:00:00.000Z</updated>
     
@@ -63,29 +63,9 @@
   </entry>
   
   <entry>
-    <title>pyspark 学习笔记</title>
-    <link href="https://forgetst.github.io/python/ck88w23s2007m3wv7029650su.html"/>
-    <id>https://forgetst.github.io/python/ck88w23s2007m3wv7029650su.html</id>
-    <published>2020-03-03T16:00:00.000Z</published>
-    <updated>2020-03-03T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;pypark用法记录。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>pycharm 配置pylint</title>
-    <link href="https://forgetst.github.io/python/ck8vonbsc0000y8v7s2tmouio.html"/>
-    <id>https://forgetst.github.io/python/ck8vonbsc0000y8v7s2tmouio.html</id>
+    <link href="https://forgetst.github.io/python/ck9bgz7nr004xqov7ncboc8t5.html"/>
+    <id>https://forgetst.github.io/python/ck9bgz7nr004xqov7ncboc8t5.html</id>
     <published>2020-03-03T16:00:00.000Z</published>
     <updated>2020-03-03T16:00:00.000Z</updated>
     
@@ -105,9 +85,29 @@
   </entry>
   
   <entry>
+    <title>pyspark 学习笔记</title>
+    <link href="https://forgetst.github.io/python/ck9bgz7r3007uqov7a6lab2ac.html"/>
+    <id>https://forgetst.github.io/python/ck9bgz7r3007uqov7a6lab2ac.html</id>
+    <published>2020-03-03T16:00:00.000Z</published>
+    <updated>2020-03-03T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;pypark用法记录。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python argparse module</title>
-    <link href="https://forgetst.github.io/python/module/ck88w246300dh3wv7m4e60y0p.html"/>
-    <id>https://forgetst.github.io/python/module/ck88w246300dh3wv7m4e60y0p.html</id>
+    <link href="https://forgetst.github.io/python/module/ck9bgz83k00doqov77s5mt1zj.html"/>
+    <id>https://forgetst.github.io/python/module/ck9bgz83k00doqov77s5mt1zj.html</id>
     <published>2020-02-22T16:00:00.000Z</published>
     <updated>2020-02-22T16:00:00.000Z</updated>
     
@@ -130,8 +130,8 @@
   
   <entry>
     <title>python collections module</title>
-    <link href="https://forgetst.github.io/python/module/ck88w249400g73wv7yf0gejzu.html"/>
-    <id>https://forgetst.github.io/python/module/ck88w249400g73wv7yf0gejzu.html</id>
+    <link href="https://forgetst.github.io/python/module/ck9bgz86f00geqov7mbxqsh46.html"/>
+    <id>https://forgetst.github.io/python/module/ck9bgz86f00geqov7mbxqsh46.html</id>
     <published>2020-02-21T16:00:00.000Z</published>
     <updated>2020-02-21T16:00:00.000Z</updated>
     
@@ -155,8 +155,8 @@
   
   <entry>
     <title>python pickle module</title>
-    <link href="https://forgetst.github.io/python/module/ck88w246900do3wv730fqc4nt.html"/>
-    <id>https://forgetst.github.io/python/module/ck88w246900do3wv730fqc4nt.html</id>
+    <link href="https://forgetst.github.io/python/module/ck9bgz83r00dvqov7ow19kcy8.html"/>
+    <id>https://forgetst.github.io/python/module/ck9bgz83r00dvqov7ow19kcy8.html</id>
     <published>2020-02-19T16:00:00.000Z</published>
     <updated>2020-02-19T16:00:00.000Z</updated>
     
@@ -181,29 +181,9 @@
   </entry>
   
   <entry>
-    <title>window使用随记</title>
-    <link href="https://forgetst.github.io/window/ck88w23a8000g3wv7di33qazk.html"/>
-    <id>https://forgetst.github.io/window/ck88w23a8000g3wv7di33qazk.html</id>
-    <published>2020-02-05T16:00:00.000Z</published>
-    <updated>2020-02-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
-    
-    
-      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
-    
-  </entry>
-  
-  <entry>
     <title>window搭建spark及hadoop开发环境.md</title>
-    <link href="https://forgetst.github.io/bigdata/ck88w23mm002x3wv76fsk2hjb.html"/>
-    <id>https://forgetst.github.io/bigdata/ck88w23mm002x3wv76fsk2hjb.html</id>
+    <link href="https://forgetst.github.io/bigdata/ck9bgz7lh002yqov7rxljr53v.html"/>
+    <id>https://forgetst.github.io/bigdata/ck9bgz7lh002yqov7rxljr53v.html</id>
     <published>2020-02-05T16:00:00.000Z</published>
     <updated>2020-02-05T16:00:00.000Z</updated>
     
@@ -225,9 +205,29 @@
   </entry>
   
   <entry>
+    <title>window使用随记</title>
+    <link href="https://forgetst.github.io/window/ck9bgz7b1000gqov7c3a04gwg.html"/>
+    <id>https://forgetst.github.io/window/ck9bgz7b1000gqov7c3a04gwg.html</id>
+    <published>2020-02-05T16:00:00.000Z</published>
+    <updated>2020-02-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
+    
+    
+      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
+    
+  </entry>
+  
+  <entry>
     <title>vscode 编辑java程序插件</title>
-    <link href="https://forgetst.github.io/java/ck88w23o8004i3wv7kkvo2zec.html"/>
-    <id>https://forgetst.github.io/java/ck88w23o8004i3wv7kkvo2zec.html</id>
+    <link href="https://forgetst.github.io/java/ck9bgz7nc004kqov7axgiqapu.html"/>
+    <id>https://forgetst.github.io/java/ck9bgz7nc004kqov7axgiqapu.html</id>
     <published>2020-02-04T16:00:00.000Z</published>
     <updated>2020-02-04T16:00:00.000Z</updated>
     
@@ -246,8 +246,8 @@
   
   <entry>
     <title>java学习笔记</title>
-    <link href="https://forgetst.github.io/java/ck88w245l00d03wv7xn3syxqu.html"/>
-    <id>https://forgetst.github.io/java/ck88w245l00d03wv7xn3syxqu.html</id>
+    <link href="https://forgetst.github.io/java/ck9bgz82z00d7qov7m2kfila5.html"/>
+    <id>https://forgetst.github.io/java/ck9bgz82z00d7qov7m2kfila5.html</id>
     <published>2020-02-02T16:00:00.000Z</published>
     <updated>2020-02-02T16:00:00.000Z</updated>
     
@@ -266,8 +266,8 @@
   
   <entry>
     <title>Linux 杂记</title>
-    <link href="https://forgetst.github.io/Linux/ck88w23rq007f3wv7my73agmj.html"/>
-    <id>https://forgetst.github.io/Linux/ck88w23rq007f3wv7my73agmj.html</id>
+    <link href="https://forgetst.github.io/Linux/ck9bgz7qq007jqov72ld4rcp6.html"/>
+    <id>https://forgetst.github.io/Linux/ck9bgz7qq007jqov72ld4rcp6.html</id>
     <published>2020-01-30T16:00:00.000Z</published>
     <updated>2020-01-30T16:00:00.000Z</updated>
     
@@ -286,8 +286,8 @@
   
   <entry>
     <title>python 杂记</title>
-    <link href="https://forgetst.github.io/python/ck88w23sq007s3wv7g45y9o2v.html"/>
-    <id>https://forgetst.github.io/python/ck88w23sq007s3wv7g45y9o2v.html</id>
+    <link href="https://forgetst.github.io/python/ck9bgz7rj007wqov7bphyrrf5.html"/>
+    <id>https://forgetst.github.io/python/ck9bgz7rj007wqov7bphyrrf5.html</id>
     <published>2020-01-30T16:00:00.000Z</published>
     <updated>2020-01-30T16:00:00.000Z</updated>
     
@@ -306,8 +306,8 @@
   
   <entry>
     <title>python numpy module</title>
-    <link href="https://forgetst.github.io/python/module/ck88w249c00gb3wv7n8c98vnq.html"/>
-    <id>https://forgetst.github.io/python/module/ck88w249c00gb3wv7n8c98vnq.html</id>
+    <link href="https://forgetst.github.io/python/module/ck9bgz86m00giqov7whrjzbvc.html"/>
+    <id>https://forgetst.github.io/python/module/ck9bgz86m00giqov7whrjzbvc.html</id>
     <published>2020-01-29T16:00:00.000Z</published>
     <updated>2020-01-29T16:00:00.000Z</updated>
     
@@ -331,8 +331,8 @@
   
   <entry>
     <title>python random module</title>
-    <link href="https://forgetst.github.io/python/module/ck88w241v00a23wv7b0knv7bu.html"/>
-    <id>https://forgetst.github.io/python/module/ck88w241v00a23wv7b0knv7bu.html</id>
+    <link href="https://forgetst.github.io/python/module/ck9bgz7zw00a9qov7nqd3ic1r.html"/>
+    <id>https://forgetst.github.io/python/module/ck9bgz7zw00a9qov7nqd3ic1r.html</id>
     <published>2020-01-27T16:00:00.000Z</published>
     <updated>2020-01-27T16:00:00.000Z</updated>
     
@@ -357,8 +357,8 @@
   
   <entry>
     <title>python numpy 快速入门</title>
-    <link href="https://forgetst.github.io/python/module/ck88w245o00d23wv76o7ko54n.html"/>
-    <id>https://forgetst.github.io/python/module/ck88w245o00d23wv76o7ko54n.html</id>
+    <link href="https://forgetst.github.io/python/module/ck9bgz83200d9qov7vlwrwg8h.html"/>
+    <id>https://forgetst.github.io/python/module/ck9bgz83200d9qov7vlwrwg8h.html</id>
     <published>2020-01-26T16:00:00.000Z</published>
     <updated>2020-01-26T16:00:00.000Z</updated>
     
@@ -381,8 +381,8 @@
   
   <entry>
     <title>shell 杂记</title>
-    <link href="https://forgetst.github.io/shell/ck88w23tk007y3wv7h6iif6un.html"/>
-    <id>https://forgetst.github.io/shell/ck88w23tk007y3wv7h6iif6un.html</id>
+    <link href="https://forgetst.github.io/shell/ck9bgz7s80082qov7toaasnpi.html"/>
+    <id>https://forgetst.github.io/shell/ck9bgz7s80082qov7toaasnpi.html</id>
     <published>2020-01-11T16:00:00.000Z</published>
     <updated>2020-01-11T16:00:00.000Z</updated>
     
@@ -401,8 +401,8 @@
   
   <entry>
     <title>shell 脚本</title>
-    <link href="https://forgetst.github.io/shell/ck88w247b00el3wv71czf8sss.html"/>
-    <id>https://forgetst.github.io/shell/ck88w247b00el3wv71czf8sss.html</id>
+    <link href="https://forgetst.github.io/shell/ck9bgz84p00esqov763ixnzom.html"/>
+    <id>https://forgetst.github.io/shell/ck9bgz84p00esqov763ixnzom.html</id>
     <published>2020-01-04T16:00:00.000Z</published>
     <updated>2020-01-04T16:00:00.000Z</updated>
     
@@ -421,8 +421,8 @@
   
   <entry>
     <title>python zipfile module</title>
-    <link href="https://forgetst.github.io/python/module/ck88w246d00dr3wv7nyx1b5hx.html"/>
-    <id>https://forgetst.github.io/python/module/ck88w246d00dr3wv7nyx1b5hx.html</id>
+    <link href="https://forgetst.github.io/python/module/ck9bgz83u00dyqov79knnw4zs.html"/>
+    <id>https://forgetst.github.io/python/module/ck9bgz83u00dyqov79knnw4zs.html</id>
     <published>2019-12-31T16:00:00.000Z</published>
     <updated>2019-12-31T16:00:00.000Z</updated>
     
@@ -449,33 +449,30 @@
   </entry>
   
   <entry>
-    <title>YAML基本语法</title>
-    <link href="https://forgetst.github.io/yaml/ck88w23pi005f3wv7fodloupg.html"/>
-    <id>https://forgetst.github.io/yaml/ck88w23pi005f3wv7fodloupg.html</id>
+    <title>python起一个固定端口</title>
+    <link href="https://forgetst.github.io/python/ck9bgz7o60058qov7wrv1xups.html"/>
+    <id>https://forgetst.github.io/python/ck9bgz7o60058qov7wrv1xups.html</id>
     <published>2019-12-20T16:00:00.000Z</published>
     <updated>2019-12-20T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;YAML:以数据为中心，比json、xml等更适合做配置文件,yaml必须遵守的三个规则&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;缩进&lt;/p&gt;
-&lt;p&gt;yaml使用一个固定的缩进风格表示数据层结构关系，Saltstack需要每个缩进级别由两个空格组成。一定不能使用tab键&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;冒号&lt;/p&gt;
-&lt;p&gt;每个冒号后面一定要有一个空格（以冒号结尾不需要空格，表示文件路径的模版可以不需要空格）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;短横线&lt;/p&gt;
-&lt;p&gt;想要表示列表项，使用一个短横杠加一个空格。多个项使用同样的缩进级别作为同一个列表的一部分&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
     
     </summary>
     
-      <category term="yaml" scheme="https://forgetst.github.io/categories/yaml/"/>
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
     
     
-      <category term="yaml" scheme="https://forgetst.github.io/tags/yaml/"/>
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="bigdata" scheme="https://forgetst.github.io/tags/bigdata/"/>
     
   </entry>
   
