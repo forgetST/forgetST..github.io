@@ -89,7 +89,7 @@
   <entry>
     <title><![CDATA[window使用随记]]></title>
     <url>%2Fwindow%2Fck9bgz7b1000gqov7c3a04gwg.html</url>
-    <content type="text"><![CDATA[主要记录window使用的一些命令和使用技巧。 WIN7下查看CPU核心数方法一: WIN+R输入cmd 输入wmic ,输入cpu get * 找到numberofcores和numberoflogicalprocessors 12NumberOfCores NumberOfEnabledCore NumberOfLogicalProcessors2 2 4 方法二： 桌面计算机图标 &gt; 计算机右键 &gt; 管理 &gt; 设备管理器 &gt; 处理器 方法三： 任务管理器 &gt; 性能]]></content>
+    <content type="text"><![CDATA[主要记录window使用的一些命令和使用技巧。 WIN7下查看CPU核心数方法一: WIN+R输入cmd 输入wmic ,输入cpu get * 找到numberofcores和numberoflogicalprocessors 12NumberOfCores NumberOfEnabledCore NumberOfLogicalProcessors2 2 4 方法二： 桌面计算机图标 &gt; 计算机右键 &gt; 管理 &gt; 设备管理器 &gt; 处理器 方法三： 任务管理器 &gt; 性能 windows 命令行切换目录切换到盘根目录，输入相应盘符加冒号回车，例：d: 12345C:\Users\Mr wang&gt;d:D:\&gt;D:\&gt;cd PracticeD:\Practice&gt;c:C:\Users\Mr wang&gt;]]></content>
       <categories>
         <category>window</category>
       </categories>
