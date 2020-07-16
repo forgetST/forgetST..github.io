@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-03-12T16:00:00.000Z</updated>
+  <updated>2020-07-14T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python操作mysql</title>
+    <link href="https://forgetst.github.io/python/ckcorbnb40000hkv7bma8izsx.html"/>
+    <id>https://forgetst.github.io/python/ckcorbnb40000hkv7bma8izsx.html</id>
+    <published>2020-07-14T16:00:00.000Z</published>
+    <updated>2020-07-14T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="mysql" scheme="https://forgetst.github.io/tags/mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>nginx 操作</title>
@@ -181,6 +209,26 @@
   </entry>
   
   <entry>
+    <title>window使用随记</title>
+    <link href="https://forgetst.github.io/window/ckckh3zrs000g20v799x1x93p.html"/>
+    <id>https://forgetst.github.io/window/ckckh3zrs000g20v799x1x93p.html</id>
+    <published>2020-02-05T16:00:00.000Z</published>
+    <updated>2020-02-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
+    
+    
+      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
+    
+  </entry>
+  
+  <entry>
     <title>window搭建spark及hadoop开发环境.md</title>
     <link href="https://forgetst.github.io/bigdata/ckckh40j8002x20v7i11oswck.html"/>
     <id>https://forgetst.github.io/bigdata/ckckh40j8002x20v7i11oswck.html</id>
@@ -201,26 +249,6 @@
       <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
     
       <category term="hadoop" scheme="https://forgetst.github.io/tags/hadoop/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>window使用随记</title>
-    <link href="https://forgetst.github.io/window/ckckh3zrs000g20v799x1x93p.html"/>
-    <id>https://forgetst.github.io/window/ckckh3zrs000g20v799x1x93p.html</id>
-    <published>2020-02-05T16:00:00.000Z</published>
-    <updated>2020-02-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
-    
-    
-      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
     
   </entry>
   
@@ -442,35 +470,6 @@
     
     
       <category term="shell" scheme="https://forgetst.github.io/tags/shell/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python zipfile module</title>
-    <link href="https://forgetst.github.io/python/module/ckckh420t00e820v732ibjnfs.html"/>
-    <id>https://forgetst.github.io/python/module/ckckh420t00e820v732ibjnfs.html</id>
-    <published>2019-12-31T16:00:00.000Z</published>
-    <updated>2019-12-31T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;zipfile&lt;/strong&gt;是python里用来做zip格式编码的压缩和解压缩的&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;zipfile&lt;/strong&gt;里有两个非常重要的class, 分别是&lt;strong&gt;ZipFile&lt;/strong&gt;和&lt;strong&gt;ZipInfo&lt;/strong&gt;, 在绝大多数的情况下，我们只需要使用这两个class就ok了&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ZipFile&lt;/strong&gt;是主要的类，用来创建和读取zip文件&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ZipInfo&lt;/strong&gt;是存储的zip文件的每个文件的信息的&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
     
   </entry>
   
