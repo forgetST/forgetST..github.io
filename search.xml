@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[python操作mysql]]></title>
     <url>%2Fpython%2Fckcq2n6wz0055awv7ea7irc8b.html</url>
-    <content type="text"><![CDATA[django orm对数据库的操作原理]]></content>
+    <content type="text"><![CDATA[django orm对数据库的操作原理 django命令-makemigrations 第一次执行该操作，会在app下面创建migrations目录，并创建0001_inital.py文件，文件中记录了当前的建表、依赖等信息。 下一次执行该操作，如果 model.py 有改动，会在migrations下生成以修改内容为名，类似0002_alter_permission_name_max_length.py的文件，文件中记录了你修改字段等信息，如果没有改动则提示：No changes detected。 注：这些改动在此时都没有迁移到数据库。 django命令-migrate migrate命令执行时Django会做4件事： 迁移判定，将你的项目中所有未迁移的变动文件进行迁移（django会去查询django_migrations表判断你是否有新的迁移变动），在完成接下来的迁移后，便会在该表中生成一条迁移记录。 迁移映射关系 django_contenttype表新增映射关系（app与模型关系） 迁移权限 auth_permission表新增权限 执行迁移，生成数据表，或变动 migrate –fake 只执行第一步，并生成迁移记录。migrate –fake-initial 执行前三步，不实际变动数据库migrate 全部依次执行所有步骤。注：当django 环境变了时，原其他环境下的项目不能正常运行，需要进行修改。 django命令-sqlmigrate 可以查看下migrations 0001会对应于什么样子的SQL命令 django命令-showmigrations 查看当前项目所有的app及对应的已经生效的migration文件，[x]表示migrte通过，[]表示未通过]]></content>
       <categories>
         <category>python</category>
       </categories>
