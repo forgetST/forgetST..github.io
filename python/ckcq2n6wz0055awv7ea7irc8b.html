@@ -834,6 +834,8 @@
 
 <p>update()未调用save()方法，若重写了save()方法，慎用之。</p>
 <h5 id="delete"><a href="#delete" class="headerlink" title="delete()"></a>delete()</h5><h5 id="as-manager"><a href="#as-manager" class="headerlink" title="as_manager()"></a>as_manager()</h5><h5 id="explain-format-None-options"><a href="#explain-format-None-options" class="headerlink" title="explain(format=None, **options)"></a>explain(format=None, **options)</h5><p>返回查询集执行计划的字符串，其中详细说明数据库将如何执行查询，包括将使用的任何索引或连接。了解这些细节可以帮助您提高慢速查询的性能。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; print(Blog.objects.filter(title=&apos;My Blog&apos;).explain())</span><br><span class="line">Seq Scan on blog  (cost=0.00..35.50 rows=10 width=12)</span><br><span class="line">  Filter: (title = &apos;My Blog&apos;::bpchar)</span><br></pre></td></tr></table></figure>
+
 <h4 id="F表达式"><a href="#F表达式" class="headerlink" title="F表达式"></a>F表达式</h4><ul>
 <li>更新字段的值</li>
 </ul>
@@ -1042,6 +1044,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/mysql/ckd5svcia00002wv73bne5ynd.html" rel="prev" title="mysql命令简述">
+                mysql命令简述 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -1112,7 +1118,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">113</span>
+          <span class="site-state-item-count">114</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>

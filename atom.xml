@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-07-14T16:00:00.000Z</updated>
+  <updated>2020-07-27T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mysql命令简述</title>
+    <link href="https://forgetst.github.io/mysql/ckd5svcia00002wv73bne5ynd.html"/>
+    <id>https://forgetst.github.io/mysql/ckd5svcia00002wv73bne5ynd.html</id>
+    <published>2020-07-27T16:00:00.000Z</published>
+    <updated>2020-07-27T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="mysql" scheme="https://forgetst.github.io/categories/mysql/"/>
+    
+    
+      <category term="mysql" scheme="https://forgetst.github.io/tags/mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>python操作mysql</title>
@@ -85,26 +111,6 @@
   </entry>
   
   <entry>
-    <title>pyspark 学习笔记</title>
-    <link href="https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html"/>
-    <id>https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html</id>
-    <published>2020-03-03T16:00:00.000Z</published>
-    <updated>2020-03-03T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;pypark用法记录。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>pycharm 配置pylint</title>
     <link href="https://forgetst.github.io/python/ckcq2n6wj004zawv7bqwj0rop.html"/>
     <id>https://forgetst.github.io/python/ckcq2n6wj004zawv7bqwj0rop.html</id>
@@ -121,6 +127,26 @@
     
     
       <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pyspark 学习笔记</title>
+    <link href="https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html"/>
+    <id>https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html</id>
+    <published>2020-03-03T16:00:00.000Z</published>
+    <updated>2020-03-03T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;pypark用法记录。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
@@ -437,26 +463,6 @@
     <summary type="html">
     
       &lt;p&gt;shell 杂记主要记录shell使用的以下小技巧，及命令。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="shell" scheme="https://forgetst.github.io/categories/shell/"/>
-    
-    
-      <category term="shell" scheme="https://forgetst.github.io/tags/shell/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shell 脚本</title>
-    <link href="https://forgetst.github.io/shell/ckcq2n7qe00f2awv77rbpjrd9.html"/>
-    <id>https://forgetst.github.io/shell/ckcq2n7qe00f2awv77rbpjrd9.html</id>
-    <published>2020-01-04T16:00:00.000Z</published>
-    <updated>2020-01-04T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;第一个shell脚本&quot;&gt;&lt;a href=&quot;#第一个shell脚本&quot; class=&quot;headerlink&quot; title=&quot;第一个shell脚本&quot;&gt;&lt;/a&gt;第一个shell脚本&lt;/h2&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt;!/bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;echo &quot;Hello World !&quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;注：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    #! 是一个约定的标记，它告诉系统这个脚本需要什么解释器来执行，即使用哪一种 Shell。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    echo 命令用于向窗口输出文本。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
