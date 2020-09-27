@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-07-27T16:00:00.000Z</updated>
+  <updated>2020-09-26T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python3.8.3安装</title>
+    <link href="https://forgetst.github.io/python/ckfkt3e6p0000lsv7dnoxk4y0.html"/>
+    <id>https://forgetst.github.io/python/ckfkt3e6p0000lsv7dnoxk4y0.html</id>
+    <published>2020-09-26T16:00:00.000Z</published>
+    <updated>2020-09-26T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>mysql命令简述</title>
@@ -105,6 +131,26 @@
   </entry>
   
   <entry>
+    <title>pyspark 学习笔记</title>
+    <link href="https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html"/>
+    <id>https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html</id>
+    <published>2020-03-03T16:00:00.000Z</published>
+    <updated>2020-03-03T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;pypark用法记录。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>pycharm 配置pylint</title>
     <link href="https://forgetst.github.io/python/ckcq2n6wj004zawv7bqwj0rop.html"/>
     <id>https://forgetst.github.io/python/ckcq2n6wj004zawv7bqwj0rop.html</id>
@@ -121,26 +167,6 @@
     
     
       <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pyspark 学习笔记</title>
-    <link href="https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html"/>
-    <id>https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html</id>
-    <published>2020-03-03T16:00:00.000Z</published>
-    <updated>2020-03-03T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;pypark用法记录。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
@@ -444,26 +470,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shell 杂记</title>
-    <link href="https://forgetst.github.io/shell/ckcq2n74u008hawv78c3qwqs3.html"/>
-    <id>https://forgetst.github.io/shell/ckcq2n74u008hawv78c3qwqs3.html</id>
-    <published>2020-01-11T16:00:00.000Z</published>
-    <updated>2020-01-11T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;shell 杂记主要记录shell使用的以下小技巧，及命令。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="shell" scheme="https://forgetst.github.io/categories/shell/"/>
-    
-    
-      <category term="shell" scheme="https://forgetst.github.io/tags/shell/"/>
     
   </entry>
   
