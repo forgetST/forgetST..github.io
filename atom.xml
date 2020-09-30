@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-09-27T16:00:00.000Z</updated>
+  <updated>2020-09-29T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python 内建函数</title>
+    <link href="https://forgetst.github.io/python/ckfp3aasc0000m0v7zl4mngox.html"/>
+    <id>https://forgetst.github.io/python/ckfp3aasc0000m0v7zl4mngox.html</id>
+    <published>2020-09-29T16:00:00.000Z</published>
+    <updated>2020-09-29T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>jupyter notebook 杂记</title>
@@ -157,26 +183,6 @@
   </entry>
   
   <entry>
-    <title>pyspark 学习笔记</title>
-    <link href="https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html"/>
-    <id>https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html</id>
-    <published>2020-03-03T16:00:00.000Z</published>
-    <updated>2020-03-03T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;pypark用法记录。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>pycharm 配置pylint</title>
     <link href="https://forgetst.github.io/python/ckcq2n6wj004zawv7bqwj0rop.html"/>
     <id>https://forgetst.github.io/python/ckcq2n6wj004zawv7bqwj0rop.html</id>
@@ -193,6 +199,26 @@
     
     
       <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pyspark 学习笔记</title>
+    <link href="https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html"/>
+    <id>https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html</id>
+    <published>2020-03-03T16:00:00.000Z</published>
+    <updated>2020-03-03T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;pypark用法记录。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
@@ -385,26 +411,6 @@
   </entry>
   
   <entry>
-    <title>Linux 杂记</title>
-    <link href="https://forgetst.github.io/Linux/ckcq2n73x007yawv7p1fyq677.html"/>
-    <id>https://forgetst.github.io/Linux/ckcq2n73x007yawv7p1fyq677.html</id>
-    <published>2020-01-30T16:00:00.000Z</published>
-    <updated>2020-01-30T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;记录Linux相关的知识或使用技巧。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>python 杂记</title>
     <link href="https://forgetst.github.io/python/ckcq2n74q008eawv7312qxjw8.html"/>
     <id>https://forgetst.github.io/python/ckcq2n74q008eawv7312qxjw8.html</id>
@@ -425,6 +431,26 @@
   </entry>
   
   <entry>
+    <title>Linux 杂记</title>
+    <link href="https://forgetst.github.io/Linux/ckcq2n73x007yawv7p1fyq677.html"/>
+    <id>https://forgetst.github.io/Linux/ckcq2n73x007yawv7p1fyq677.html</id>
+    <published>2020-01-30T16:00:00.000Z</published>
+    <updated>2020-01-30T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;记录Linux相关的知识或使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python numpy module</title>
     <link href="https://forgetst.github.io/python/module/ckcq2n7t600guawv7h4q8qldj.html"/>
     <id>https://forgetst.github.io/python/module/ckcq2n7t600guawv7h4q8qldj.html</id>
@@ -435,32 +461,6 @@
     
       &lt;p&gt;NumPy 是一个 Python 包。 它代表 “Numeric Python”。 它是一个由多维数组对象和用于处理数组的例程集合组成的库。&lt;/p&gt;
 &lt;p&gt;Numeric，即 NumPy 的前身，是由 Jim Hugunin 开发的。 也开发了另一个包 Numarray ，它拥有一些额外的功能。 2005年，Travis Oliphant 通过将 Numarray 的功能集成到 Numeric 包中来创建 NumPy 包。 这个开源项目有很多贡献者。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/categories/python/module/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python random module</title>
-    <link href="https://forgetst.github.io/python/module/ckcq2n7gt00asawv79z6p934v.html"/>
-    <id>https://forgetst.github.io/python/module/ckcq2n7gt00asawv79z6p934v.html</id>
-    <published>2020-01-27T16:00:00.000Z</published>
-    <updated>2020-01-27T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;该模块实现了各种分布的伪随机数生成器。&lt;/p&gt;
-&lt;p&gt;不应将此模块的伪随机生成器用于安全目的。 有关安全性或加密用途，请参阅 &lt;a href=&quot;https://docs.python.org/zh-cn/3.7/library/secrets.html#module-secrets&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;code&gt;secrets&lt;/code&gt;&lt;/a&gt; 模块。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;源码：&lt;/strong&gt; &lt;a href=&quot;https://github.com/python/cpython/tree/3.7/Lib/random.py&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lib/random.py&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
