@@ -387,7 +387,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/database/ckcq2n6ri0026awv7sgl1zvuk.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/minio/ckhvc5qwm003asguujhyzz5mr.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -407,171 +407,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/database/ckcq2n6ri0026awv7sgl1zvuk.html" class="post-title-link" itemprop="url">cassandra相关操作</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-12-15 00:00" itemprop="dateCreated datePublished" datetime="2019-12-15T00:00:00+08:00">2019-12-15</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/database/" itemprop="url" rel="index"><span itemprop="name">database</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="用法示例"><a href="#用法示例" class="headerlink" title="用法示例"></a>用法示例</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br></pre></td><td class="code"><pre><span class="line"># -*- coding: utf-8 -*-</span><br><span class="line"></span><br><span class="line">from cassandra.auth import PlainTextProvider</span><br><span class="line">from cassandra.cluster import Cluster</span><br><span class="line">from cassandra.cqlengine import columns, connection</span><br><span class="line">from  cassandra.cqlengine.models import Model</span><br><span class="line">from  cassandra.query import dict_factory</span><br><span class="line"></span><br><span class="line">hosts = [&quot;192.168.10.10&quot;, &quot;192.168.10.11&quot;]</span><br><span class="line">username = &quot;username&quot;</span><br><span class="line">password = &quot;password&quot;</span><br><span class="line">port = 9042</span><br><span class="line">keyspace = &quot;mykeyspace&quot;</span><br><span class="line"></span><br><span class="line">auth_provider = PlainTextProvider(username=username, password=password)</span><br><span class="line">cluser_conf_dict = dict(port=port, auth_provider=auth_provider)</span><br><span class="line">connection.setup(hosts, keyspace, **cluser_conf_dict)</span><br><span class="line">cluster = connection.get_cluster()</span><br><span class="line">session = connection.get_session()</span><br><span class="line"></span><br><span class="line">session.set_keyspace(keyspace)</span><br><span class="line">session.default_fetch_size = 10000</span><br><span class="line">session.default_timeout = 120</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">class ExapleModel(Models):</span><br><span class="line">    partition_1 = columns.Text(partition_key=True, primary_key=True)</span><br><span class="line">    partition_2 = columns.Text(partition_key=True, primary_key=True)</span><br><span class="line">    primary_1 = columns.Text(primary_key=True)</span><br><span class="line">    primary_2 = columns.Text(primary_key=True)</span><br><span class="line">    str_type = columns.Text()</span><br><span class="line">    boolean_type = columns.Boolean()</span><br><span class="line">    int_type = columns.Integer()</span><br><span class="line">    bigint_type = columns.BigInt()</span><br><span class="line">    float_type = columns.Float()</span><br><span class="line">    datatime_type = columns.DataTime()</span><br><span class="line">    list_str_type = columns.List(columns.Text)</span><br><span class="line">    set_str_type = columns.Set(columns.Text)</span><br><span class="line">    set_int_type = columns.Set(columns.Integer)</span><br><span class="line">    set_bigint_type = columns.Set(columns.Bigint)</span><br><span class="line">    map_type = columns.Map(columns.Text, columns.Float)</span><br><span class="line"></span><br><span class="line"># create db statement</span><br><span class="line">CREATE TABLE mykeyspace.examplemodel (</span><br><span class="line">    partition_1 text,</span><br><span class="line">    partition_2 text,</span><br><span class="line">    primary_1 text,</span><br><span class="line">    primary_2 text,</span><br><span class="line">    str_type text,</span><br><span class="line">    boolean_type boolea,</span><br><span class="line">    int_type int,</span><br><span class="line">    bigint_type bigint,</span><br><span class="line">    float_type float,</span><br><span class="line">    datatime_type timestamp,</span><br><span class="line">    list_str_type list&lt;text&gt;,</span><br><span class="line">    set_str_type set&lt;text&gt;,</span><br><span class="line">    set_int_type set&lt;int&gt;,</span><br><span class="line">    set_bigint_type set&lt;bigint&gt;,</span><br><span class="line">    map_type map&lt;text, float&gt;,</span><br><span class="line">    PRIMARY KEY((partition_1, partition_2), primary_1, primary_2)</span><br><span class="line">) WITH CLUSTERING ORDER BY (primary_1 ASC, primary_2 ASC)</span><br><span class="line">    AND gc_grace_seconds = 0;</span><br><span class="line"></span><br><span class="line">def connect_db(hosts, username, password, port, keyspace, timeout=120, default_size=10000):</span><br><span class="line">    auth_provider = PlainTextProvider(username=username, password=password)</span><br><span class="line">    cluster = Cluster(contact_points=hosts, port=port, auth_provider=auth_provider)</span><br><span class="line">    session = cluster.connect(keyspace)</span><br><span class="line"></span><br><span class="line">    # set session</span><br><span class="line">    session.default_fetch_size = default_size</span><br><span class="line">    session.default_timeout = timeout</span><br><span class="line">    session.row_factory = dict_factory</span><br><span class="line">    return cluster, session</span><br><span class="line"></span><br><span class="line">def close_db(cluster, session):</span><br><span class="line">    session.shutdown()</span><br><span class="line">    cluster.shutdown()</span><br><span class="line"></span><br><span class="line">def exec_sql(sql, **kwargs):</span><br><span class="line">    try:</span><br><span class="line">        cluster, session =connect_db(hosts, username, password, port, keyspace)</span><br><span class="line">        future = session.execute(sql, kwargs)</span><br><span class="line">        close_db(cluster, session)</span><br><span class="line">    except Execption as e:</span><br><span class="line">        close_db(cluster, session)</span><br><span class="line">        future = []</span><br><span class="line">    return future</span><br></pre></td></tr></table></figure>
-          
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/minio/ckcq2n6s0002fawv74esxy4jv.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/minio/ckcq2n6s0002fawv74esxy4jv.html" class="post-title-link" itemprop="url">minio mc使用</a>
+                <a href="/minio/ckhvc5qwm003asguujhyzz5mr.html" class="post-title-link" itemprop="url">minio mc使用</a>
               
             
           </h1>
@@ -656,7 +492,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/minio/ckcq2n6s0002fawv74esxy4jv.html#more" rel="contents">
+              <a class="btn" href="/minio/ckhvc5qwm003asguujhyzz5mr.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -722,7 +558,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/bigdata/ckcq2n6ss002vawv7civufrh8.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ckhvc5qwt003esguuy2bzd7hp.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -742,7 +578,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/bigdata/ckcq2n6ss002vawv7civufrh8.html" class="post-title-link" itemprop="url">spark web信息获取</a>
+                <a href="/python/module/ckhvc5qwt003esguuy2bzd7hp.html" class="post-title-link" itemprop="url">python操作minio</a>
               
             
           </h1>
@@ -767,7 +603,7 @@
                 
               
 
-              <time title="创建时间：2019-12-08 00:00" itemprop="dateCreated datePublished" datetime="2019-12-08T00:00:00+08:00">2019-12-08</time>
+              <time title="创建时间：2019-12-15 00:00" itemprop="dateCreated datePublished" datetime="2019-12-15T00:00:00+08:00">2019-12-15</time>
             </span>
           
 
@@ -782,7 +618,14 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/bigdata/" itemprop="url" rel="index"><span itemprop="name">bigdata</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/" itemprop="url" rel="index"><span itemprop="name">module</span></a></span>
 
                 
                 
@@ -823,9 +666,23 @@
 
       
         
+          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>python版本：3.7</p>
+<p>minio版本：5.0.5</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 使用pip安装</span><br><span class="line">pip install minio</span><br><span class="line"></span><br><span class="line"># 使用源码安装</span><br><span class="line">git clone https://github.com/minio/minio-py</span><br><span class="line">cd minio-py</span><br><span class="line">python setup.py install</span><br></pre></td></tr></table></figure>
+
+<p>参考文档：</p>
+<p>快速入门：<a href="https://docs.min.io/cn/python-client-quickstart-guide.html" target="_blank" rel="noopener">https://docs.min.io/cn/python-client-quickstart-guide.html</a></p>
+<p>完整文档：<a href="https://docs.min.io/cn/python-client-api-reference.html" target="_blank" rel="noopener">https://docs.min.io/cn/python-client-api-reference.html</a></p>
+<p>API示例：<a href="https://github.com/minio/minio-py/tree/master/examples" target="_blank" rel="noopener">https://github.com/minio/minio-py/tree/master/examples</a></p>
+          <!--noindex-->
           
-            <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br></pre></td><td class="code"><pre><span class="line"># -*- coding: utf-8 -*-</span><br><span class="line"></span><br><span class="line">import re</span><br><span class="line">import requests</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def _get_requests(url):</span><br><span class="line">    response = requests.get(url)</span><br><span class="line">    content = &quot;&quot;</span><br><span class="line">    if response.status_code == 200:</span><br><span class="line">        content = response.content.decode()</span><br><span class="line">    return content</span><br><span class="line"></span><br><span class="line">def _get_spark_common(st):</span><br><span class="line">    s = re.findall(r&apos;&lt;ul class=&quot;unstyled&quot;.*&lt;/ul&gt;&apos;, body, re.S)[0]</span><br><span class="line">    s = re.sub(r&apos;\s&#123;2,&#125;|&lt;a.*?&gt;|&lt;/a&gt;&apos;, &apos; &apos;, s)</span><br><span class="line">    print_format = &quot;&#123;:15&#125;&#123;&#125;&quot;.format</span><br><span class="line">    print(&quot;********************************&quot;)</span><br><span class="line">    info = re.findall(r&apos;&lt;strong&gt;(.*?)&lt;/strong&gt;\s*(.*?)\s*&lt;/li&gt;&apos;, s)</span><br><span class="line">    for k, v in info:</span><br><span class="line">        print(print_format(k, v))</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;\n&quot;)</span><br><span class="line">    </span><br><span class="line">def _get_spark_works(st):</span><br><span class="line">    s = re.findall(r&apos;&lt;div class=&quot;aggregated-workers collapsible-table&quot;.*?&lt;/div&gt;&apos;, body, re.S)[0]</span><br><span class="line">    s = re.sub(r&apos;&lt;a.*&gt;|&lt;/a&gt;&apos;, &quot;&quot;, s)</span><br><span class="line">    s = re.sub(r&apos;\s+&apos;, &quot; &quot;, s)</span><br><span class="line">    head = re.findall(r&apos;&lt;th .*?&gt;(.*?)&lt;/th&gt;&apos;, s)</span><br><span class="line">    work_info = [re.findall(r&apos;&lt;td.*?&gt;\s*(.*?)\s*&lt;/td&gt;&apos;, x) for x in re.findall(r&apos;&lt;tr&gt;.*?&lt;/tr&gt;&apos;, s)]</span><br><span class="line">    work_info.insert(0, head)</span><br><span class="line">    print_format = &quot;&#123;:&lt;46&#125;&#123;:25&#125;&#123;:10&#125;&#123;:15&#125;&#123;&#125;&quot;.format</span><br><span class="line">    print(&quot;****************Workers (%s)****************&quot; % (len(work_info) - 1))</span><br><span class="line">    for row in work_info:</span><br><span class="line">        print(print_format(*row))</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;\n&quot;)</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">def _get_spark_running_applications(st):</span><br><span class="line">    s = re.findall(r&apos;&lt;div class=&quot;aggregated-activeApps.*?&lt;/div&gt;&apos;, body, re.S)[0]</span><br><span class="line">    s = re.sub(r&apos;\s+&apos;, &quot; &quot;, s)</span><br><span class="line">    s = re.sub(r&apos;&lt;a.*?&gt;|&lt;/a&gt;|&lt;form.*?&gt;.*&lt;/form&gt;&apos;, &quot;&quot;, s, re.S)</span><br><span class="line">    head = re.findall(r&apos;&lt;th .*?&gt;(.*?)&lt;/th&gt;&apos;, s)</span><br><span class="line">    run_work_info = [re.findall(r&apos;&lt;td.*?&gt;\s*(.*?)\s*&lt;/td&gt;&apos;, x) for x in re.findall(r&apos;&lt;tr&gt;.*?&lt;/tr&gt;&apos;, s)]</span><br><span class="line">    run_work_info.insert(0, head)</span><br><span class="line">    print_format = &quot;&#123;:&lt;28&#125;&#123;:20&#125;&#123;:10&#125;&#123;:25&#125;&#123;:25&#125;&#123;:10&#125;&#123;:13&#125;&#123;&#125;&quot;.format</span><br><span class="line">    print(&quot;****************Running Applications (%s)***************&quot; % (len(run_work_info) - 1))</span><br><span class="line">    for row in run_work_info:</span><br><span class="line">        print(print_format(*row))</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;\n&quot;)</span><br><span class="line"></span><br><span class="line">def _get_spark_completed_applications(st):</span><br><span class="line">    s = re.findall(r&apos;&lt;div class=&quot;aggregated-completedApps.*?&lt;/div&gt;&apos;, body, re.S)[0]</span><br><span class="line">    s = re.sub(r&apos;\s+&apos;, &quot; &quot;, s)</span><br><span class="line">    s = re.sub(r&apos;&lt;a.*?&gt;|&lt;/a&gt;|&lt;form.*?&gt;.*&lt;/form&gt;&apos;, &quot;&quot;, s, re.S)</span><br><span class="line">    head = re.findall(r&apos;&lt;th .*?&gt;(.*?)&lt;/th&gt;&apos;, s)</span><br><span class="line">    run_work_info = [re.findall(r&apos;&lt;td.*?&gt;\s*(.*?)\s*&lt;/td&gt;&apos;, x) for x in re.findall(r&apos;&lt;tr&gt;.*?&lt;/tr&gt;&apos;, s)]</span><br><span class="line">    run_work_info.insert(0, head)</span><br><span class="line">    print_format = &quot;&#123;:&lt;28&#125;&#123;:20&#125;&#123;:10&#125;&#123;:25&#125;&#123;:25&#125;&#123;:10&#125;&#123;:13&#125;&#123;&#125;&quot;.format</span><br><span class="line">    print(&quot;****************Completed Applications (%s)****************&quot; % (len(run_work_info) - 1))</span><br><span class="line">    for row in run_work_info:</span><br><span class="line">        print(print_format(*row))</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;\n&quot;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &quot;__main__&quot;:</span><br><span class="line">    url = &quot;http://192.168.100.10:8080/&quot;</span><br><span class="line"></span><br><span class="line">    body = _get_requests(url)</span><br><span class="line">    spark_common_info = _get_spark_common(body)</span><br><span class="line">    _get_spark_works(body)</span><br><span class="line">    _get_spark_running_applications(body)</span><br><span class="line">    _get_spark_completed_applications(body)</span><br></pre></td></tr></table></figure>
+            <div class="post-button text-center">
+              <a class="btn" href="/python/module/ckhvc5qwt003esguuy2bzd7hp.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
           
+          <!--/noindex-->
         
       
     </div>
@@ -886,7 +743,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/ckcq2n6bc000fawv7gmpwr1gn.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/ckhvc5q5q000wsguuvvxawrav.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -906,7 +763,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/ckcq2n6bc000fawv7gmpwr1gn.html" class="post-title-link" itemprop="url">pycharm2018.1激活教程</a>
+                <a href="/python/ckhvc5q5q000wsguuvvxawrav.html" class="post-title-link" itemprop="url">pycharm2018.1激活教程</a>
               
             
           </h1>
@@ -1069,7 +926,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/bigdata/ckcq2n6s8002jawv7xhlj3xun.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/bigdata/ckhvc5qw4002vsguuvo6ion3u.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1089,7 +946,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/bigdata/ckcq2n6s8002jawv7xhlj3xun.html" class="post-title-link" itemprop="url">spark常见错误处理</a>
+                <a href="/bigdata/ckhvc5qw4002vsguuvo6ion3u.html" class="post-title-link" itemprop="url">spark常见错误处理</a>
               
             
           </h1>
@@ -1174,7 +1031,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/bigdata/ckcq2n6s8002jawv7xhlj3xun.html#more" rel="contents">
+              <a class="btn" href="/bigdata/ckhvc5qw4002vsguuvo6ion3u.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1240,7 +1097,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/bigdata/ckcq2n6sn002rawv7cgo5kbnu.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/bigdata/ckhvc5qxa003msguu9uez4zvv.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1260,7 +1117,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/bigdata/ckcq2n6sn002rawv7cgo5kbnu.html" class="post-title-link" itemprop="url">spark standalone集群搭建</a>
+                <a href="/bigdata/ckhvc5qxa003msguu9uez4zvv.html" class="post-title-link" itemprop="url">spark standalone集群搭建</a>
               
             
           </h1>
@@ -1346,7 +1203,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/bigdata/ckcq2n6sn002rawv7cgo5kbnu.html#more" rel="contents">
+              <a class="btn" href="/bigdata/ckhvc5qxa003msguu9uez4zvv.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1412,7 +1269,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/dataStructure/ckcq2n7bo008wawv7f0kbih03.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/bigdata/ckhvc5qxk003usguuwl93g973.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1432,7 +1289,344 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/dataStructure/ckcq2n7bo008wawv7f0kbih03.html" class="post-title-link" itemprop="url">力扣题库（python解法）</a>
+                <a href="/bigdata/ckhvc5qxk003usguuwl93g973.html" class="post-title-link" itemprop="url">spark web信息获取</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-12-08 00:00" itemprop="dateCreated datePublished" datetime="2019-12-08T00:00:00+08:00">2019-12-08</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/bigdata/" itemprop="url" rel="index"><span itemprop="name">bigdata</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br></pre></td><td class="code"><pre><span class="line"># -*- coding: utf-8 -*-</span><br><span class="line"></span><br><span class="line">import re</span><br><span class="line">import requests</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def _get_requests(url):</span><br><span class="line">    response = requests.get(url)</span><br><span class="line">    content = &quot;&quot;</span><br><span class="line">    if response.status_code == 200:</span><br><span class="line">        content = response.content.decode()</span><br><span class="line">    return content</span><br><span class="line"></span><br><span class="line">def _get_spark_common(st):</span><br><span class="line">    s = re.findall(r&apos;&lt;ul class=&quot;unstyled&quot;.*&lt;/ul&gt;&apos;, body, re.S)[0]</span><br><span class="line">    s = re.sub(r&apos;\s&#123;2,&#125;|&lt;a.*?&gt;|&lt;/a&gt;&apos;, &apos; &apos;, s)</span><br><span class="line">    print_format = &quot;&#123;:15&#125;&#123;&#125;&quot;.format</span><br><span class="line">    print(&quot;********************************&quot;)</span><br><span class="line">    info = re.findall(r&apos;&lt;strong&gt;(.*?)&lt;/strong&gt;\s*(.*?)\s*&lt;/li&gt;&apos;, s)</span><br><span class="line">    for k, v in info:</span><br><span class="line">        print(print_format(k, v))</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;\n&quot;)</span><br><span class="line">    </span><br><span class="line">def _get_spark_works(st):</span><br><span class="line">    s = re.findall(r&apos;&lt;div class=&quot;aggregated-workers collapsible-table&quot;.*?&lt;/div&gt;&apos;, body, re.S)[0]</span><br><span class="line">    s = re.sub(r&apos;&lt;a.*&gt;|&lt;/a&gt;&apos;, &quot;&quot;, s)</span><br><span class="line">    s = re.sub(r&apos;\s+&apos;, &quot; &quot;, s)</span><br><span class="line">    head = re.findall(r&apos;&lt;th .*?&gt;(.*?)&lt;/th&gt;&apos;, s)</span><br><span class="line">    work_info = [re.findall(r&apos;&lt;td.*?&gt;\s*(.*?)\s*&lt;/td&gt;&apos;, x) for x in re.findall(r&apos;&lt;tr&gt;.*?&lt;/tr&gt;&apos;, s)]</span><br><span class="line">    work_info.insert(0, head)</span><br><span class="line">    print_format = &quot;&#123;:&lt;46&#125;&#123;:25&#125;&#123;:10&#125;&#123;:15&#125;&#123;&#125;&quot;.format</span><br><span class="line">    print(&quot;****************Workers (%s)****************&quot; % (len(work_info) - 1))</span><br><span class="line">    for row in work_info:</span><br><span class="line">        print(print_format(*row))</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;\n&quot;)</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">def _get_spark_running_applications(st):</span><br><span class="line">    s = re.findall(r&apos;&lt;div class=&quot;aggregated-activeApps.*?&lt;/div&gt;&apos;, body, re.S)[0]</span><br><span class="line">    s = re.sub(r&apos;\s+&apos;, &quot; &quot;, s)</span><br><span class="line">    s = re.sub(r&apos;&lt;a.*?&gt;|&lt;/a&gt;|&lt;form.*?&gt;.*&lt;/form&gt;&apos;, &quot;&quot;, s, re.S)</span><br><span class="line">    head = re.findall(r&apos;&lt;th .*?&gt;(.*?)&lt;/th&gt;&apos;, s)</span><br><span class="line">    run_work_info = [re.findall(r&apos;&lt;td.*?&gt;\s*(.*?)\s*&lt;/td&gt;&apos;, x) for x in re.findall(r&apos;&lt;tr&gt;.*?&lt;/tr&gt;&apos;, s)]</span><br><span class="line">    run_work_info.insert(0, head)</span><br><span class="line">    print_format = &quot;&#123;:&lt;28&#125;&#123;:20&#125;&#123;:10&#125;&#123;:25&#125;&#123;:25&#125;&#123;:10&#125;&#123;:13&#125;&#123;&#125;&quot;.format</span><br><span class="line">    print(&quot;****************Running Applications (%s)***************&quot; % (len(run_work_info) - 1))</span><br><span class="line">    for row in run_work_info:</span><br><span class="line">        print(print_format(*row))</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;\n&quot;)</span><br><span class="line"></span><br><span class="line">def _get_spark_completed_applications(st):</span><br><span class="line">    s = re.findall(r&apos;&lt;div class=&quot;aggregated-completedApps.*?&lt;/div&gt;&apos;, body, re.S)[0]</span><br><span class="line">    s = re.sub(r&apos;\s+&apos;, &quot; &quot;, s)</span><br><span class="line">    s = re.sub(r&apos;&lt;a.*?&gt;|&lt;/a&gt;|&lt;form.*?&gt;.*&lt;/form&gt;&apos;, &quot;&quot;, s, re.S)</span><br><span class="line">    head = re.findall(r&apos;&lt;th .*?&gt;(.*?)&lt;/th&gt;&apos;, s)</span><br><span class="line">    run_work_info = [re.findall(r&apos;&lt;td.*?&gt;\s*(.*?)\s*&lt;/td&gt;&apos;, x) for x in re.findall(r&apos;&lt;tr&gt;.*?&lt;/tr&gt;&apos;, s)]</span><br><span class="line">    run_work_info.insert(0, head)</span><br><span class="line">    print_format = &quot;&#123;:&lt;28&#125;&#123;:20&#125;&#123;:10&#125;&#123;:25&#125;&#123;:25&#125;&#123;:10&#125;&#123;:13&#125;&#123;&#125;&quot;.format</span><br><span class="line">    print(&quot;****************Completed Applications (%s)****************&quot; % (len(run_work_info) - 1))</span><br><span class="line">    for row in run_work_info:</span><br><span class="line">        print(print_format(*row))</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;\n&quot;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &quot;__main__&quot;:</span><br><span class="line">    url = &quot;http://192.168.100.10:8080/&quot;</span><br><span class="line"></span><br><span class="line">    body = _get_requests(url)</span><br><span class="line">    spark_common_info = _get_spark_common(body)</span><br><span class="line">    _get_spark_works(body)</span><br><span class="line">    _get_spark_running_applications(body)</span><br><span class="line">    _get_spark_completed_applications(body)</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/dataStructure/ckhvc5qw8002zsguu1nsj6tc1.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/dataStructure/ckhvc5qw8002zsguu1nsj6tc1.html" class="post-title-link" itemprop="url">二叉树</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-11-06 00:00" itemprop="dateCreated datePublished" datetime="2019-11-06T00:00:00+08:00">2019-11-06</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/dataStructure/" itemprop="url" rel="index"><span itemprop="name">dataStructure</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p><code>树</code> 是一种经常用到的数据结构，用来模拟具有树状结构性质的数据集合。</p>
+<p>树里的每一个节点有一个根植和一个包含所有子节点的列表。从图的观点来看，树也可视为一个拥有<code>N 个节点</code>和<code>N-1 条边</code>的一个有向无环图。</p>
+<p><code>二叉树</code>是一种更为典型的树树状结构。如它名字所描述的那样，二叉树是每个节点最多有<code>两个子树</code>的树结构，通常子树被称作“左子树”和“右子树”。</p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/dataStructure/ckhvc5qw8002zsguu1nsj6tc1.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/dataStructure/ckhvc5qwc0033sguuym297b3r.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/dataStructure/ckhvc5qwc0033sguuym297b3r.html" class="post-title-link" itemprop="url">力扣题库（python解法）</a>
               
             
           </h1>
@@ -1718,7 +1912,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/dataStructure/ckcq2n6t60033awv7obgt1jje.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/web/JavaScript/ckhvc5r2r0081sguuxybfzulk.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1738,180 +1932,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/dataStructure/ckcq2n6t60033awv7obgt1jje.html" class="post-title-link" itemprop="url">二叉树</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-11-06 00:00" itemprop="dateCreated datePublished" datetime="2019-11-06T00:00:00+08:00">2019-11-06</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/dataStructure/" itemprop="url" rel="index"><span itemprop="name">dataStructure</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p><code>树</code> 是一种经常用到的数据结构，用来模拟具有树状结构性质的数据集合。</p>
-<p>树里的每一个节点有一个根植和一个包含所有子节点的列表。从图的观点来看，树也可视为一个拥有<code>N 个节点</code>和<code>N-1 条边</code>的一个有向无环图。</p>
-<p><code>二叉树</code>是一种更为典型的树树状结构。如它名字所描述的那样，二叉树是每个节点最多有<code>两个子树</code>的树结构，通常子树被称作“左子树”和“右子树”。</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/dataStructure/ckcq2n6t60033awv7obgt1jje.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/web/JavaScript/ckcq2n6xf005fawv7ce00p1a3.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/web/JavaScript/ckcq2n6xf005fawv7ce00p1a3.html" class="post-title-link" itemprop="url">JavaScript Array</a>
+                <a href="/web/JavaScript/ckhvc5r2r0081sguuxybfzulk.html" class="post-title-link" itemprop="url">JavaScript Array</a>
               
             
           </h1>
@@ -2003,7 +2024,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/web/JavaScript/ckcq2n6xf005fawv7ce00p1a3.html#more" rel="contents">
+              <a class="btn" href="/web/JavaScript/ckhvc5r2r0081sguuxybfzulk.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -2069,7 +2090,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/web/vue/ckcq2n7jh00buawv7bac31895.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ckhvc5rjx00crsguuccyv9f76.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -2089,7 +2110,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/web/vue/ckcq2n7jh00buawv7bac31895.html" class="post-title-link" itemprop="url">vue 安装</a>
+                <a href="/python/module/ckhvc5rjx00crsguuccyv9f76.html" class="post-title-link" itemprop="url">python subprocess module</a>
               
             
           </h1>
@@ -2129,14 +2150,14 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
 
                 
                 
                   ，
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/web/vue/" itemprop="url" rel="index"><span itemprop="name">vue</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/" itemprop="url" rel="index"><span itemprop="name">module</span></a></span>
 
                 
                 
@@ -2177,17 +2198,13 @@
 
       
         
-          <h3 id="独立版本"><a href="#独立版本" class="headerlink" title="独立版本"></a>独立版本</h3><p>我们可以在 Vue.js 的官网上直接下载 vue.min.js 并用 &lt;script&gt; 标签引入。<br><a href="https://vuejs.org/js/vue.min.js" target="_blank" rel="noopener">Vue.js下载地址</a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;path/to/vue.min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
           
-            <div class="post-button text-center">
-              <a class="btn" href="/web/vue/ckcq2n7jh00buawv7bac31895.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
+            <p><strong>源代码:</strong> <a href="https://github.com/python/cpython/tree/3.7/Lib/subprocess.py" target="_blank" rel="noopener">Lib/subprocess.py</a></p>
+<p>参考：</p>
+<p><a href="https://docs.python.org/zh-cn/3.7/library/subprocess.html" target="_blank" rel="noopener">官方文档</a></p>
+<p><a href="https://www.jb51.net/article/133941.htm" target="_blank" rel="noopener">Python subprocess模块详细解读</a></p>
+
           
-          <!--/noindex-->
         
       
     </div>

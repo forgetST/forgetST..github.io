@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-11-08T16:00:00.000Z</updated>
+  <updated>2020-10-12T09:58:42.398Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -17,30 +17,10 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>supervisor 安装使用</title>
-    <link href="https://forgetst.github.io/supervisor/ckh9yh9k20000kgv7oifprpyb.html"/>
-    <id>https://forgetst.github.io/supervisor/ckh9yh9k20000kgv7oifprpyb.html</id>
-    <published>2020-11-08T16:00:00.000Z</published>
-    <updated>2020-11-08T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://supervisord.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Supervisor&lt;/a&gt;是用Python开发的一个client/server服务，是Linux/Unix系统下的一个进程管理工具，不支持Windows系统。它可以很方便的监听、启动、停止、重启一个或多个进程。用Supervisor管理的进程，当一个进程意外被杀死，supervisort监听到进程死后，会自动将它重新拉起，很方便的做到进程自动恢复的功能，不再需要自己写shell脚本来控制。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="supervisor" scheme="https://forgetst.github.io/categories/supervisor/"/>
-    
-    
-      <category term="supervisor" scheme="https://forgetst.github.io/tags/supervisor/"/>
-    
-  </entry>
-  
-  <entry>
     <title></title>
-    <link href="https://forgetst.github.io/uncategorized/ckh9yha2g0005kgv7xcxhrjji.html"/>
-    <id>https://forgetst.github.io/uncategorized/ckh9yha2g0005kgv7xcxhrjji.html</id>
-    <published>2020-10-12T06:45:37.283Z</published>
+    <link href="https://forgetst.github.io/uncategorized/ckhvc5r11006ksguu9oz9kag8.html"/>
+    <id>https://forgetst.github.io/uncategorized/ckhvc5r11006ksguu9oz9kag8.html</id>
+    <published>2020-11-16T13:53:16.065Z</published>
     <updated>2020-10-12T09:58:42.398Z</updated>
     
     <summary type="html">
@@ -59,9 +39,29 @@
   </entry>
   
   <entry>
+    <title>supervisor 安装使用</title>
+    <link href="https://forgetst.github.io/supervisor/ckhvc5q4z000gsguuerynq9bn.html"/>
+    <id>https://forgetst.github.io/supervisor/ckhvc5q4z000gsguuerynq9bn.html</id>
+    <published>2020-11-08T16:00:00.000Z</published>
+    <updated>2020-11-08T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://supervisord.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Supervisor&lt;/a&gt;是用Python开发的一个client/server服务，是Linux/Unix系统下的一个进程管理工具，不支持Windows系统。它可以很方便的监听、启动、停止、重启一个或多个进程。用Supervisor管理的进程，当一个进程意外被杀死，supervisort监听到进程死后，会自动将它重新拉起，很方便的做到进程自动恢复的功能，不再需要自己写shell脚本来控制。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="supervisor" scheme="https://forgetst.github.io/categories/supervisor/"/>
+    
+    
+      <category term="supervisor" scheme="https://forgetst.github.io/tags/supervisor/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python 内建函数</title>
-    <link href="https://forgetst.github.io/python/ckfp3aasc0000m0v7zl4mngox.html"/>
-    <id>https://forgetst.github.io/python/ckfp3aasc0000m0v7zl4mngox.html</id>
+    <link href="https://forgetst.github.io/python/ckhvc5r1r0071sguu8jht6iht.html"/>
+    <id>https://forgetst.github.io/python/ckhvc5r1r0071sguu8jht6iht.html</id>
     <published>2020-09-29T16:00:00.000Z</published>
     <updated>2020-09-29T16:00:00.000Z</updated>
     
@@ -86,8 +86,8 @@
   
   <entry>
     <title>jupyter notebook 杂记</title>
-    <link href="https://forgetst.github.io/jupyter/ckfnp2s8a0000okv7j77f10qd.html"/>
-    <id>https://forgetst.github.io/jupyter/ckfnp2s8a0000okv7j77f10qd.html</id>
+    <link href="https://forgetst.github.io/jupyter/ckhvc5qze005asguuqwc4miuu.html"/>
+    <id>https://forgetst.github.io/jupyter/ckhvc5qze005asguuqwc4miuu.html</id>
     <published>2020-09-27T16:00:00.000Z</published>
     <updated>2020-09-27T16:00:00.000Z</updated>
     
@@ -112,8 +112,8 @@
   
   <entry>
     <title>python3.8.3安装</title>
-    <link href="https://forgetst.github.io/python/ckfkt3e6p0000lsv7dnoxk4y0.html"/>
-    <id>https://forgetst.github.io/python/ckfkt3e6p0000lsv7dnoxk4y0.html</id>
+    <link href="https://forgetst.github.io/python/ckhvc5r28007hsguundxlolrb.html"/>
+    <id>https://forgetst.github.io/python/ckhvc5r28007hsguundxlolrb.html</id>
     <published>2020-09-26T16:00:00.000Z</published>
     <updated>2020-09-26T16:00:00.000Z</updated>
     
@@ -138,8 +138,8 @@
   
   <entry>
     <title>mysql命令简述</title>
-    <link href="https://forgetst.github.io/mysql/ckd5svcia00002wv73bne5ynd.html"/>
-    <id>https://forgetst.github.io/mysql/ckd5svcia00002wv73bne5ynd.html</id>
+    <link href="https://forgetst.github.io/mysql/ckhvc5r0i0065sguu8zeywuj3.html"/>
+    <id>https://forgetst.github.io/mysql/ckhvc5r0i0065sguu8zeywuj3.html</id>
     <published>2020-07-27T16:00:00.000Z</published>
     <updated>2020-07-27T16:00:00.000Z</updated>
     
@@ -158,8 +158,8 @@
   
   <entry>
     <title>python操作mysql</title>
-    <link href="https://forgetst.github.io/python/ckcq2n6wz0055awv7ea7irc8b.html"/>
-    <id>https://forgetst.github.io/python/ckcq2n6wz0055awv7ea7irc8b.html</id>
+    <link href="https://forgetst.github.io/python/ckhvc5r2k007tsguuhgymomrp.html"/>
+    <id>https://forgetst.github.io/python/ckhvc5r2k007tsguuhgymomrp.html</id>
     <published>2020-07-14T16:00:00.000Z</published>
     <updated>2020-07-14T16:00:00.000Z</updated>
     
@@ -180,8 +180,8 @@
   
   <entry>
     <title>nginx 操作</title>
-    <link href="https://forgetst.github.io/nginx/ckcq2n7bx0091awv7nicpe1my.html"/>
-    <id>https://forgetst.github.io/nginx/ckcq2n7bx0091awv7nicpe1my.html</id>
+    <link href="https://forgetst.github.io/nginx/ckhvc5r0a005xsguupy6h8l6k.html"/>
+    <id>https://forgetst.github.io/nginx/ckhvc5r0a005xsguupy6h8l6k.html</id>
     <published>2020-03-12T16:00:00.000Z</published>
     <updated>2020-03-12T16:00:00.000Z</updated>
     
@@ -201,8 +201,8 @@
   
   <entry>
     <title>python functools module</title>
-    <link href="https://forgetst.github.io/python/module/ckcq2n7ql00f6awv7fu6l6ng3.html"/>
-    <id>https://forgetst.github.io/python/module/ckcq2n7ql00f6awv7fu6l6ng3.html</id>
+    <link href="https://forgetst.github.io/python/module/ckhvc5riv00bwsguu243dccj0.html"/>
+    <id>https://forgetst.github.io/python/module/ckhvc5riv00bwsguu243dccj0.html</id>
     <published>2020-03-11T16:00:00.000Z</published>
     <updated>2020-03-11T16:00:00.000Z</updated>
     
@@ -225,9 +225,31 @@
   </entry>
   
   <entry>
+    <title>pycharm 配置pylint</title>
+    <link href="https://forgetst.github.io/python/ckhvc5r15006msguu8hlr9yhv.html"/>
+    <id>https://forgetst.github.io/python/ckhvc5r15006msguu8hlr9yhv.html</id>
+    <published>2020-03-03T16:00:00.000Z</published>
+    <updated>2020-03-03T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;pylint是一个用于检查python代码中的错误，尝试强制执行编码标准的工具。它还可以查找某些类型错误，可以建议如何重构特定块的建议，并可以向您提供有关代码复杂性的详细信息。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+      <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
+    
+  </entry>
+  
+  <entry>
     <title>pyspark 学习笔记</title>
-    <link href="https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html"/>
-    <id>https://forgetst.github.io/python/ckcq2n74c0085awv7iz2ox8v1.html</id>
+    <link href="https://forgetst.github.io/python/ckhvc5r1i006usguufgz5iz4d.html"/>
+    <id>https://forgetst.github.io/python/ckhvc5r1i006usguufgz5iz4d.html</id>
     <published>2020-03-03T16:00:00.000Z</published>
     <updated>2020-03-03T16:00:00.000Z</updated>
     
@@ -245,31 +267,9 @@
   </entry>
   
   <entry>
-    <title>pycharm 配置pylint</title>
-    <link href="https://forgetst.github.io/python/ckcq2n6wj004zawv7bqwj0rop.html"/>
-    <id>https://forgetst.github.io/python/ckcq2n6wj004zawv7bqwj0rop.html</id>
-    <published>2020-03-03T16:00:00.000Z</published>
-    <updated>2020-03-03T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;pylint是一个用于检查python代码中的错误，尝试强制执行编码标准的工具。它还可以查找某些类型错误，可以建议如何重构特定块的建议，并可以向您提供有关代码复杂性的详细信息。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>python argparse module</title>
-    <link href="https://forgetst.github.io/python/module/ckcq2n7oo00e4awv7j0h858ik.html"/>
-    <id>https://forgetst.github.io/python/module/ckcq2n7oo00e4awv7j0h858ik.html</id>
+    <link href="https://forgetst.github.io/python/module/ckhvc5riz00c0sguuahe8t6xm.html"/>
+    <id>https://forgetst.github.io/python/module/ckhvc5riz00c0sguuahe8t6xm.html</id>
     <published>2020-02-22T16:00:00.000Z</published>
     <updated>2020-02-22T16:00:00.000Z</updated>
     
@@ -292,8 +292,8 @@
   
   <entry>
     <title>python collections module</title>
-    <link href="https://forgetst.github.io/python/module/ckcq2n7st00gqawv7no5qht7v.html"/>
-    <id>https://forgetst.github.io/python/module/ckcq2n7st00gqawv7no5qht7v.html</id>
+    <link href="https://forgetst.github.io/python/module/ckhvc5rir00btsguujbugr6bf.html"/>
+    <id>https://forgetst.github.io/python/module/ckhvc5rir00btsguujbugr6bf.html</id>
     <published>2020-02-21T16:00:00.000Z</published>
     <updated>2020-02-21T16:00:00.000Z</updated>
     
@@ -317,8 +317,8 @@
   
   <entry>
     <title>python pickle module</title>
-    <link href="https://forgetst.github.io/python/module/ckcq2n7p000ebawv7p6x04sj2.html"/>
-    <id>https://forgetst.github.io/python/module/ckcq2n7p000ebawv7p6x04sj2.html</id>
+    <link href="https://forgetst.github.io/python/module/ckhvc5rk400cysguudvj0912i.html"/>
+    <id>https://forgetst.github.io/python/module/ckhvc5rk400cysguudvj0912i.html</id>
     <published>2020-02-19T16:00:00.000Z</published>
     <updated>2020-02-19T16:00:00.000Z</updated>
     
@@ -343,9 +343,29 @@
   </entry>
   
   <entry>
+    <title>window使用随记</title>
+    <link href="https://forgetst.github.io/window/ckhvc5q59000lsguuvi0prwkk.html"/>
+    <id>https://forgetst.github.io/window/ckhvc5q59000lsguuvi0prwkk.html</id>
+    <published>2020-02-05T16:00:00.000Z</published>
+    <updated>2020-02-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
+    
+    
+      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
+    
+  </entry>
+  
+  <entry>
     <title>window搭建spark及hadoop开发环境.md</title>
-    <link href="https://forgetst.github.io/bigdata/ckcq2n6sb002lawv7v3muxm6y.html"/>
-    <id>https://forgetst.github.io/bigdata/ckcq2n6sb002lawv7v3muxm6y.html</id>
+    <link href="https://forgetst.github.io/bigdata/ckhvc5qx4003isguudxkv33yz.html"/>
+    <id>https://forgetst.github.io/bigdata/ckhvc5qx4003isguudxkv33yz.html</id>
     <published>2020-02-05T16:00:00.000Z</published>
     <updated>2020-02-05T16:00:00.000Z</updated>
     
@@ -367,29 +387,9 @@
   </entry>
   
   <entry>
-    <title>window使用随记</title>
-    <link href="https://forgetst.github.io/window/ckcq2n6bf000gawv7db1esroc.html"/>
-    <id>https://forgetst.github.io/window/ckcq2n6bf000gawv7db1esroc.html</id>
-    <published>2020-02-05T16:00:00.000Z</published>
-    <updated>2020-02-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;主要记录window使用的一些命令和使用技巧。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="window" scheme="https://forgetst.github.io/categories/window/"/>
-    
-    
-      <category term="window" scheme="https://forgetst.github.io/tags/window/"/>
-    
-  </entry>
-  
-  <entry>
     <title>vscode 编辑java程序插件</title>
-    <link href="https://forgetst.github.io/java/ckcq2n6vr004kawv7giv24okq.html"/>
-    <id>https://forgetst.github.io/java/ckcq2n6vr004kawv7giv24okq.html</id>
+    <link href="https://forgetst.github.io/java/ckhvc5qyh004psguu4savnged.html"/>
+    <id>https://forgetst.github.io/java/ckhvc5qyh004psguu4savnged.html</id>
     <published>2020-02-04T16:00:00.000Z</published>
     <updated>2020-02-04T16:00:00.000Z</updated>
     
@@ -407,9 +407,29 @@
   </entry>
   
   <entry>
+    <title>java学习笔记</title>
+    <link href="https://forgetst.github.io/java/ckhvc5qxw0046sguumuuadqs5.html"/>
+    <id>https://forgetst.github.io/java/ckhvc5qxw0046sguumuuadqs5.html</id>
+    <published>2020-02-02T16:00:00.000Z</published>
+    <updated>2020-02-02T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;java学习随记&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="java" scheme="https://forgetst.github.io/categories/java/"/>
+    
+    
+      <category term="java" scheme="https://forgetst.github.io/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>java 杂记</title>
-    <link href="https://forgetst.github.io/java/ckcq2n6w9004vawv7o0w7cj63.html"/>
-    <id>https://forgetst.github.io/java/ckcq2n6w9004vawv7o0w7cj63.html</id>
+    <link href="https://forgetst.github.io/java/ckhvc5qy8004hsguubaol9p3r.html"/>
+    <id>https://forgetst.github.io/java/ckhvc5qy8004hsguubaol9p3r.html</id>
     <published>2020-02-02T16:00:00.000Z</published>
     <updated>2020-02-02T16:00:00.000Z</updated>
     
@@ -433,29 +453,9 @@
   </entry>
   
   <entry>
-    <title>java学习笔记</title>
-    <link href="https://forgetst.github.io/java/ckcq2n7mv00duawv7mqz7poqv.html"/>
-    <id>https://forgetst.github.io/java/ckcq2n7mv00duawv7mqz7poqv.html</id>
-    <published>2020-02-02T16:00:00.000Z</published>
-    <updated>2020-02-02T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;java学习随记&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="java" scheme="https://forgetst.github.io/categories/java/"/>
-    
-    
-      <category term="java" scheme="https://forgetst.github.io/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux 杂记</title>
-    <link href="https://forgetst.github.io/Linux/ckcq2n73x007yawv7p1fyq677.html"/>
-    <id>https://forgetst.github.io/Linux/ckcq2n73x007yawv7p1fyq677.html</id>
+    <link href="https://forgetst.github.io/Linux/ckhvc5qxo003ysguuno60ad2r.html"/>
+    <id>https://forgetst.github.io/Linux/ckhvc5qxo003ysguuno60ad2r.html</id>
     <published>2020-01-30T16:00:00.000Z</published>
     <updated>2020-01-30T16:00:00.000Z</updated>
     
