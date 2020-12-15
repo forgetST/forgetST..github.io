@@ -888,6 +888,8 @@
 
 <h3 id="使用一张表的一列更新另一张表的一列"><a href="#使用一张表的一列更新另一张表的一列" class="headerlink" title="使用一张表的一列更新另一张表的一列"></a>使用一张表的一列更新另一张表的一列</h3><p>使用MySQL中，在一张表etl_table_field_info上新增了一个字段tgt_table_en_name，该字段的值想从表etl_table_property_info的tgt_table_en_name获取。更新时的关联关系是字段src_table_en_name值相等。</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">UPDATE</span> etl_table_field_info f, etl_table_property_info p</span><br><span class="line"><span class="keyword">set</span> f.tgt_table_en_name=p.tgt_table_en_name</span><br><span class="line"><span class="keyword">where</span> f.src_table_en_name=p.src_table_en_name</span><br></pre></td></tr></table></figure>
+
+
       
     </div>
 
