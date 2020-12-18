@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-12-18T09:31:16.972Z</updated>
+  <updated>2020-12-16T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -17,24 +17,23 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://forgetst.github.io/uncategorized/ckiu2q3l900005guu0mtq0hu8.html"/>
-    <id>https://forgetst.github.io/uncategorized/ckiu2q3l900005guu0mtq0hu8.html</id>
-    <published>2020-12-18T01:41:23.189Z</published>
-    <updated>2020-12-18T09:31:16.972Z</updated>
+    <title>k8s安装记录</title>
+    <link href="https://forgetst.github.io/k8s/ckiu2q3l900005guu0mtq0hu8.html"/>
+    <id>https://forgetst.github.io/k8s/ckiu2q3l900005guu0mtq0hu8.html</id>
+    <published>2020-12-16T16:00:00.000Z</published>
+    <updated>2020-12-16T16:00:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;title: k8s安装记录&lt;br&gt;date: 2020-12-17&lt;br&gt;updated: 2020-12-17&lt;br&gt;categories:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;k8s&lt;br&gt;tags:&lt;/li&gt;
-&lt;li&gt;k8s&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;k8s是一个docker集群的管理工具&lt;/p&gt;
+      &lt;p&gt;k8s是一个docker集群的管理工具&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000021672013&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;K8S介绍&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
+      <category term="k8s" scheme="https://forgetst.github.io/categories/k8s/"/>
+    
+    
+      <category term="k8s" scheme="https://forgetst.github.io/tags/k8s/"/>
     
   </entry>
   
