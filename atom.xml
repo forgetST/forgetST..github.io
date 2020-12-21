@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2020-12-16T16:00:00.000Z</updated>
+  <updated>2020-12-20T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker 学习笔记</title>
+    <link href="https://forgetst.github.io/docker/ckixwtu5u00005cuulq9sl4rd.html"/>
+    <id>https://forgetst.github.io/docker/ckixwtu5u00005cuulq9sl4rd.html</id>
+    <published>2020-12-20T16:00:00.000Z</published>
+    <updated>2020-12-20T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Docker简介&quot;&gt;&lt;a href=&quot;#Docker简介&quot; class=&quot;headerlink&quot; title=&quot;Docker简介&quot;&gt;&lt;/a&gt;Docker简介&lt;/h2&gt;&lt;p&gt;Docker 是一个开源的应用容器引擎，基于 Go 语言 并遵从 Apache2.0 协议开源。&lt;/p&gt;
+&lt;p&gt;Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。&lt;/p&gt;
+&lt;p&gt;容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="docker" scheme="https://forgetst.github.io/categories/docker/"/>
+    
+    
+      <category term="docker" scheme="https://forgetst.github.io/tags/docker/"/>
+    
+  </entry>
   
   <entry>
     <title>k8s安装记录</title>
@@ -449,26 +471,6 @@
     <summary type="html">
     
       &lt;p&gt;VS Code is a fast editor and ships with great editing features. Add Java language support to VS Code by installing the popular Java extensions. To help set up Java on VS Code, there is a &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Java Extension Pack&lt;/a&gt;, which contains the most popular extensions for most Java developers:&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="java" scheme="https://forgetst.github.io/categories/java/"/>
-    
-    
-      <category term="java" scheme="https://forgetst.github.io/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java学习笔记</title>
-    <link href="https://forgetst.github.io/java/ckhyinrve00507ouus2z54snv.html"/>
-    <id>https://forgetst.github.io/java/ckhyinrve00507ouus2z54snv.html</id>
-    <published>2020-02-02T16:00:00.000Z</published>
-    <updated>2020-02-02T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;java学习随记&lt;/p&gt;
     
     </summary>
     
