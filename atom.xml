@@ -39,6 +39,36 @@
   </entry>
   
   <entry>
+    <title>npm install 安装依赖无反应</title>
+    <link href="https://forgetst.github.io/web/npm/ckizu2f900000s8uu51ubp32l.html"/>
+    <id>https://forgetst.github.io/web/npm/ckizu2f900000s8uu51ubp32l.html</id>
+    <published>2020-12-20T16:00:00.000Z</published>
+    <updated>2020-12-20T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="web" scheme="https://forgetst.github.io/categories/web/"/>
+    
+      <category term="npm" scheme="https://forgetst.github.io/categories/web/npm/"/>
+    
+    
+      <category term="web" scheme="https://forgetst.github.io/tags/web/"/>
+    
+      <category term="npm" scheme="https://forgetst.github.io/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
     <title>k8s安装记录</title>
     <link href="https://forgetst.github.io/k8s/ckiydgdke00681ouu58nai2qy.html"/>
     <id>https://forgetst.github.io/k8s/ckiydgdke00681ouu58nai2qy.html</id>
@@ -458,26 +488,6 @@
       <category term="spark" scheme="https://forgetst.github.io/tags/spark/"/>
     
       <category term="hadoop" scheme="https://forgetst.github.io/tags/hadoop/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vscode 编辑java程序插件</title>
-    <link href="https://forgetst.github.io/java/ckiydgdk700601ouuwmrbo9a8.html"/>
-    <id>https://forgetst.github.io/java/ckiydgdk700601ouuwmrbo9a8.html</id>
-    <published>2020-02-04T16:00:00.000Z</published>
-    <updated>2020-02-04T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;VS Code is a fast editor and ships with great editing features. Add Java language support to VS Code by installing the popular Java extensions. To help set up Java on VS Code, there is a &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Java Extension Pack&lt;/a&gt;, which contains the most popular extensions for most Java developers:&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="java" scheme="https://forgetst.github.io/categories/java/"/>
-    
-    
-      <category term="java" scheme="https://forgetst.github.io/tags/java/"/>
     
   </entry>
   
