@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2021-01-14T16:00:00.000Z</updated>
+  <updated>2021-01-18T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Django 序列化问题</title>
+    <link href="https://forgetst.github.io/python/ckk3urqnk000038uut3porqek.html"/>
+    <id>https://forgetst.github.io/python/ckk3urqnk000038uut3porqek.html</id>
+    <published>2021-01-18T16:00:00.000Z</published>
+    <updated>2021-01-18T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="django" scheme="https://forgetst.github.io/tags/django/"/>
+    
+      <category term="pythoon" scheme="https://forgetst.github.io/tags/pythoon/"/>
+    
+  </entry>
   
   <entry>
     <title>python 连接远程服务器</title>
@@ -207,7 +235,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;strong&gt;Django给我们提供了三种缓存方式&lt;/strong&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Django给我们提供了三种缓存方式&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;站点级缓存————缓存整个网站&lt;/li&gt;
 &lt;li&gt;单个view缓存————对单个有效的视图的输出进行缓存&lt;/li&gt;
@@ -457,26 +485,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="pycharm" scheme="https://forgetst.github.io/tags/pycharm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pyspark 学习笔记</title>
-    <link href="https://forgetst.github.io/python/ckiydgdlb00741ouumnvpokw0.html"/>
-    <id>https://forgetst.github.io/python/ckiydgdlb00741ouumnvpokw0.html</id>
-    <published>2020-03-03T16:00:00.000Z</published>
-    <updated>2020-03-03T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;pypark用法记录。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
