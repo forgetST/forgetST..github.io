@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[python描述器使用指南]]></title>
+    <url>%2Fpython%2Fckk5632xl0000bwuuf499w6g6.html</url>
+    <content type="text"><![CDATA[定义和简介一般地，一个描述器是一个包含 “绑定行为” 的对象，对其属性的访问被描述器协议中定义的方法覆盖。这些方法有：__get__()，__set__() 和 __delete__()。如果某个对象中定义了这些方法中的任意一个，那么这个对象就可以被称为一个描述器。 属性访问的默认行为是从一个对象的字典中获取、设置或删除属性。例如，a.x 的查找顺序会从 a.__dict__[&#39;x&#39;] 开始，然后是 type(a).__dict__[&#39;x&#39;]，接下来依次查找 type(a) 的基类，不包括元类。 如果找到的值是定义了某个描述器方法的对象，则 Python 可能会重载默认行为并转而发起调用描述器方法。这具体发生在优先级链的哪个环节则要根据所定义的描述器方法及其被调用的方式来决定。 描述器是一个强大而通用的协议。 它们是特征属性、方法静态方法、类方法和 super() 背后的实现机制。 它们在 Python 内部被广泛使用来实现自 2.2 版中引入的新式类。 描述器简化了底层的 C 代码并为 Python 的日常程序提供了一组灵活的新工具。 描述器协议descr.__get__(self, obj, type=None) -&gt; valuedescr.__set__(self, obj, value) -&gt; Nonedescr.__delete__(self, obj) -&gt; None 以上就是全部。定义这些方法中的任何一个的对象被视为描述器，并在被作为属性时覆盖其默认行为。 如果一个对象定义了 __set__() 或 __delete__()，则它会被视为数据描述器。 仅定义了 __get__() 的描述器称为非数据描述器（它们通常被用于方法，但也可以有其他用途）。 数据和非数据描述器的不同之处在于，如何计算实例字典中条目的替代值。如果实例的字典具有与数据描述器同名的条目，则数据描述器优先。如果实例的字典具有与非数据描述器同名的条目，则该字典条目优先。 为了使数据描述器成为只读的，应该同时定义 __get__() 和 __set__() ，并在 __set__() 中引发 AttributeError 。用引发异常的占位符定义 __set__() 方法使其成为数据描述器。 调用描述器描述器可以通过其方法名称直接调用。例如， d.__get__(obj) 。 更常见的是在属性访问时自动调用描述器。例如，在中 obj.d 会在 d 的字典中查找 obj 。如果 d 定义了方法 __get__() ，则 d.__get__(obj) 根据下面列出的优先级规则进行调用。 调用的细节取决于 obj 是对象还是类。 对于对象来说，机制是 object.__getattribute__() 中将 b.x 转换为 type(b).__dict__[&#39;x&#39;].__get__(b, type(b)) 。这个实现通过一个优先级链完成，该优先级链赋予数据描述器优先于实例变量的优先级，实例变量优先于非数据描述器的优先级，并如果 __getattr__() 方法存在，为其分配最低的优先级。 对于类来说，机制是 type.__getattribute__() 中将 B.x 转换为 B.__dict__[&#39;x&#39;].__get__(None, B) 。在纯 Python中 ，它是这样的: 123456def __getattribute__(self, key): "Emulate type_getattro() in Objects/typeobject.c" v = object.__getattribute__(self, key) if hasattr(v, '__get__'): return v.__get__(None, self) return v 要记住的重要点是：描述器由 __getattribute__() 方法调用 重写 __getattribute__() 会阻止描述器的自动调用object.__getattribute__() 和 type.__getattribute__() 会用不同的方式调用 __get__(). 数据描述器始终会覆盖实例字典。非数据描述器会被实例字典覆盖。 参考面向对象（深入）|python描述器详解描述器使用指南]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Django 序列化问题]]></title>
     <url>%2Fpython%2Fckk3urqnk000038uut3porqek.html</url>
     <content type="text"><![CDATA[django 序列化类中，若涉及到默认值时，在项目启动后，其值不会再修改，如示例中的date_expired字段，即为项目启动时的时间 12345678910111213141516171819202122232425class RegistionSerializer(serializers.ModelSerializer): """注册""" phone = serializers.CharField(required=True, allow_blank=False, allow_null=False) smscode = serializers.CharField( required=True, write_only=True, help_text='验证码', max_length=6 ) password = serializers.CharField(write_only=True) created_by = serializers.CharField(default="Registion") source = serializers.CharField(default=User.SOURCE_REGISTION) date_expired = serializers.DateTimeField( default=timezone.now() + timezone.timedelta(days=3)) class Meta: model = User fields = [ 'id', 'name', 'username', 'phone', 'smscode', 'password', 'created_by', 'source', 'date_expired' ] read_only_fields = ['id'] # 通过再次赋值进行修改 def validate(self, attrs): attrs["date_expired"] = timezone.now() + timezone.timedelta(days=3) return attrs]]></content>
