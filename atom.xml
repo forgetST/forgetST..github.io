@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2021-01-25T16:00:00.000Z</updated>
+  <updated>2021-01-31T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -17,9 +17,75 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Golang在package main包下的中函数互相调用</title>
+    <link href="https://forgetst.github.io/go/golang%E5%9C%A8package-main%E5%8C%85%E4%B8%8B%E7%9A%84%E4%B8%AD%E5%87%BD%E6%95%B0%E4%BA%92%E7%9B%B8%E8%B0%83%E7%94%A8.html"/>
+    <id>https://forgetst.github.io/go/golang在package-main包下的中函数互相调用.html</id>
+    <published>2021-01-31T16:00:00.000Z</published>
+    <updated>2021-01-31T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;code&gt;Golang&lt;/code&gt; Main包下多个文件的相互调用，引发 &lt;code&gt;.\main.go:82:2: undefined: tsPra01&lt;/code&gt;异常，处理如下。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="go" scheme="https://forgetst.github.io/categories/go/"/>
+    
+    
+      <category term="go" scheme="https://forgetst.github.io/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python pip 用法</title>
+    <link href="https://forgetst.github.io/python/python-pip-%E7%94%A8%E6%B3%95.html"/>
+    <id>https://forgetst.github.io/python/python-pip-用法.html</id>
+    <published>2021-01-26T16:00:00.000Z</published>
+    <updated>2021-01-26T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;pip 是 Python 包管理工具，该工具提供了对Python 包的查找、下载、安装、卸载的功能。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python 异常记录</title>
+    <link href="https://forgetst.github.io/python/python-%E5%BC%82%E5%B8%B8%E8%AE%B0%E5%BD%95.html"/>
+    <id>https://forgetst.github.io/python/python-异常记录.html</id>
+    <published>2021-01-26T16:00:00.000Z</published>
+    <updated>2021-01-26T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>python 安装虚拟环境</title>
-    <link href="https://forgetst.github.io/python/ckkdsm6o500006ouuxmxodumo.html"/>
-    <id>https://forgetst.github.io/python/ckkdsm6o500006ouuxmxodumo.html</id>
+    <link href="https://forgetst.github.io/python/python-%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83.html"/>
+    <id>https://forgetst.github.io/python/python-安装虚拟环境.html</id>
     <published>2021-01-25T16:00:00.000Z</published>
     <updated>2021-01-25T16:00:00.000Z</updated>
     
@@ -38,8 +104,8 @@
   
   <entry>
     <title>python描述器使用指南</title>
-    <link href="https://forgetst.github.io/python/ckk5632xl0000bwuuf499w6g6.html"/>
-    <id>https://forgetst.github.io/python/ckk5632xl0000bwuuf499w6g6.html</id>
+    <link href="https://forgetst.github.io/python/python%E6%8F%8F%E8%BF%B0%E5%99%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html"/>
+    <id>https://forgetst.github.io/python/python描述器使用指南.html</id>
     <published>2021-01-19T16:00:00.000Z</published>
     <updated>2021-01-19T16:00:00.000Z</updated>
     
@@ -59,8 +125,8 @@
   
   <entry>
     <title>Django 序列化问题</title>
-    <link href="https://forgetst.github.io/python/ckk3urqnk000038uut3porqek.html"/>
-    <id>https://forgetst.github.io/python/ckk3urqnk000038uut3porqek.html</id>
+    <link href="https://forgetst.github.io/python/django-%E5%BA%8F%E5%88%97%E5%8C%96%E9%97%AE%E9%A2%98.html"/>
+    <id>https://forgetst.github.io/python/django-序列化问题.html</id>
     <published>2021-01-18T16:00:00.000Z</published>
     <updated>2021-01-18T16:00:00.000Z</updated>
     
@@ -87,8 +153,8 @@
   
   <entry>
     <title>python 连接远程服务器</title>
-    <link href="https://forgetst.github.io/python/ckjy3jz1m0000l0uudy2qwx1y.html"/>
-    <id>https://forgetst.github.io/python/ckjy3jz1m0000l0uudy2qwx1y.html</id>
+    <link href="https://forgetst.github.io/python/python-%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8B%E6%9C%8D%E5%8A%A1%E5%99%A8.html"/>
+    <id>https://forgetst.github.io/python/python-连接远程服务器.html</id>
     <published>2021-01-14T16:00:00.000Z</published>
     <updated>2021-01-14T16:00:00.000Z</updated>
     
@@ -107,8 +173,8 @@
   
   <entry>
     <title>Linux 密码修改</title>
-    <link href="https://forgetst.github.io/Linux/ckjwo7c8x000060uu254qdw9q.html"/>
-    <id>https://forgetst.github.io/Linux/ckjwo7c8x000060uu254qdw9q.html</id>
+    <link href="https://forgetst.github.io/Linux/linux-%E5%AF%86%E7%A0%81%E4%BF%AE%E6%94%B9.html"/>
+    <id>https://forgetst.github.io/Linux/linux-密码修改.html</id>
     <published>2021-01-13T16:00:00.000Z</published>
     <updated>2021-01-13T16:00:00.000Z</updated>
     
@@ -127,8 +193,8 @@
   
   <entry>
     <title>pymysql 使用</title>
-    <link href="https://forgetst.github.io/pymysql/ckjwo7c9b000160uu8553pzzs.html"/>
-    <id>https://forgetst.github.io/pymysql/ckjwo7c9b000160uu8553pzzs.html</id>
+    <link href="https://forgetst.github.io/pymysql/pymysql-%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://forgetst.github.io/pymysql/pymysql-使用.html</id>
     <published>2021-01-12T16:00:00.000Z</published>
     <updated>2021-01-12T16:00:00.000Z</updated>
     
@@ -155,8 +221,8 @@
   
   <entry>
     <title>mysql 锁机制</title>
-    <link href="https://forgetst.github.io/mysql/ckjarzn020000h4uu1lu0sa3z.html"/>
-    <id>https://forgetst.github.io/mysql/ckjarzn020000h4uu1lu0sa3z.html</id>
+    <link href="https://forgetst.github.io/mysql/mysql-%E9%94%81%E6%9C%BA%E5%88%B6.html"/>
+    <id>https://forgetst.github.io/mysql/mysql-锁机制.html</id>
     <published>2020-12-28T16:00:00.000Z</published>
     <updated>2020-12-28T16:00:00.000Z</updated>
     
@@ -175,8 +241,8 @@
   
   <entry>
     <title>mysql 多表连接查询</title>
-    <link href="https://forgetst.github.io/mysql/ckjarzn470001h4uuckiahy1t.html"/>
-    <id>https://forgetst.github.io/mysql/ckjarzn470001h4uuckiahy1t.html</id>
+    <link href="https://forgetst.github.io/mysql/mysql-%E5%A4%9A%E8%A1%A8%E8%BF%9E%E6%8E%A5%E6%9F%A5%E8%AF%A2.html"/>
+    <id>https://forgetst.github.io/mysql/mysql-多表连接查询.html</id>
     <published>2020-12-25T16:00:00.000Z</published>
     <updated>2020-12-25T16:00:00.000Z</updated>
     
@@ -196,8 +262,8 @@
   
   <entry>
     <title>docker 学习笔记</title>
-    <link href="https://forgetst.github.io/docker/ckiydgdis004h1ouu343xl5ra.html"/>
-    <id>https://forgetst.github.io/docker/ckiydgdis004h1ouu343xl5ra.html</id>
+    <link href="https://forgetst.github.io/docker/docker-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://forgetst.github.io/docker/docker-学习笔记.html</id>
     <published>2020-12-20T16:00:00.000Z</published>
     <updated>2020-12-20T16:00:00.000Z</updated>
     
@@ -218,8 +284,8 @@
   
   <entry>
     <title>npm install 安装依赖无反应</title>
-    <link href="https://forgetst.github.io/web/npm/ckizu2f900000s8uu51ubp32l.html"/>
-    <id>https://forgetst.github.io/web/npm/ckizu2f900000s8uu51ubp32l.html</id>
+    <link href="https://forgetst.github.io/web/npm/npm-install-%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96%E6%97%A0%E5%8F%8D%E5%BA%94.html"/>
+    <id>https://forgetst.github.io/web/npm/npm-install-安装依赖无反应.html</id>
     <published>2020-12-20T16:00:00.000Z</published>
     <updated>2020-12-20T16:00:00.000Z</updated>
     
@@ -248,8 +314,8 @@
   
   <entry>
     <title>k8s安装记录</title>
-    <link href="https://forgetst.github.io/k8s/ckiydgdke00681ouu58nai2qy.html"/>
-    <id>https://forgetst.github.io/k8s/ckiydgdke00681ouu58nai2qy.html</id>
+    <link href="https://forgetst.github.io/k8s/k8s%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95.html"/>
+    <id>https://forgetst.github.io/k8s/k8s安装记录.html</id>
     <published>2020-12-16T16:00:00.000Z</published>
     <updated>2020-12-16T16:00:00.000Z</updated>
     
@@ -269,8 +335,8 @@
   
   <entry>
     <title>Django的缓存</title>
-    <link href="https://forgetst.github.io/python/ckiydgdl1006u1ouuhzgwyt21.html"/>
-    <id>https://forgetst.github.io/python/ckiydgdl1006u1ouuhzgwyt21.html</id>
+    <link href="https://forgetst.github.io/python/django%E7%9A%84%E7%BC%93%E5%AD%98.html"/>
+    <id>https://forgetst.github.io/python/django的缓存.html</id>
     <published>2020-11-23T16:00:00.000Z</published>
     <updated>2020-11-23T16:00:00.000Z</updated>
     
@@ -296,8 +362,8 @@
   
   <entry>
     <title>python lxml module</title>
-    <link href="https://forgetst.github.io/python/module/ckiydgdwh00cz1ouuwb56hrjq.html"/>
-    <id>https://forgetst.github.io/python/module/ckiydgdwh00cz1ouuwb56hrjq.html</id>
+    <link href="https://forgetst.github.io/python/module/python-lxml-module.html"/>
+    <id>https://forgetst.github.io/python/module/python-lxml-module.html</id>
     <published>2020-11-23T16:00:00.000Z</published>
     <updated>2020-11-23T16:00:00.000Z</updated>
     
@@ -323,8 +389,8 @@
   
   <entry>
     <title>supervisor 安装使用</title>
-    <link href="https://forgetst.github.io/supervisor/ckiydgd06000x1ouusp6v4unw.html"/>
-    <id>https://forgetst.github.io/supervisor/ckiydgd06000x1ouusp6v4unw.html</id>
+    <link href="https://forgetst.github.io/supervisor/supervisor-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://forgetst.github.io/supervisor/supervisor-安装使用.html</id>
     <published>2020-11-08T16:00:00.000Z</published>
     <updated>2020-11-08T16:00:00.000Z</updated>
     
@@ -343,8 +409,8 @@
   
   <entry>
     <title>python 内建函数</title>
-    <link href="https://forgetst.github.io/python/ckiydgdmp008r1ouu2bdeq2nx.html"/>
-    <id>https://forgetst.github.io/python/ckiydgdmp008r1ouu2bdeq2nx.html</id>
+    <link href="https://forgetst.github.io/python/python-%E5%86%85%E5%BB%BA%E5%87%BD%E6%95%B0.html"/>
+    <id>https://forgetst.github.io/python/python-内建函数.html</id>
     <published>2020-09-29T16:00:00.000Z</published>
     <updated>2020-09-29T16:00:00.000Z</updated>
     
@@ -369,8 +435,8 @@
   
   <entry>
     <title>jupyter notebook 杂记</title>
-    <link href="https://forgetst.github.io/jupyter/ckiydgdka00631ouudtc75of3.html"/>
-    <id>https://forgetst.github.io/jupyter/ckiydgdka00631ouudtc75of3.html</id>
+    <link href="https://forgetst.github.io/jupyter/jupyter-notebook-%E6%9D%82%E8%AE%B0.html"/>
+    <id>https://forgetst.github.io/jupyter/jupyter-notebook-杂记.html</id>
     <published>2020-09-27T16:00:00.000Z</published>
     <updated>2020-09-27T16:00:00.000Z</updated>
     
@@ -395,8 +461,8 @@
   
   <entry>
     <title>python3.8.3安装</title>
-    <link href="https://forgetst.github.io/python/ckiydgdm300801ouuppduk6ux.html"/>
-    <id>https://forgetst.github.io/python/ckiydgdm300801ouuppduk6ux.html</id>
+    <link href="https://forgetst.github.io/python/python3-8-3%E5%AE%89%E8%A3%85.html"/>
+    <id>https://forgetst.github.io/python/python3-8-3安装.html</id>
     <published>2020-09-26T16:00:00.000Z</published>
     <updated>2020-09-26T16:00:00.000Z</updated>
     
@@ -416,69 +482,6 @@
     
     
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mysql命令简述</title>
-    <link href="https://forgetst.github.io/mysql/ckiydgdkx006p1ouuhng9jp6z.html"/>
-    <id>https://forgetst.github.io/mysql/ckiydgdkx006p1ouuhng9jp6z.html</id>
-    <published>2020-07-27T16:00:00.000Z</published>
-    <updated>2020-07-27T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;记录mysql常用命令。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="mysql" scheme="https://forgetst.github.io/categories/mysql/"/>
-    
-    
-      <category term="mysql" scheme="https://forgetst.github.io/tags/mysql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python操作mysql</title>
-    <link href="https://forgetst.github.io/python/ckiydgdm900881ouucmuk1ggd.html"/>
-    <id>https://forgetst.github.io/python/ckiydgdm900881ouucmuk1ggd.html</id>
-    <published>2020-07-14T16:00:00.000Z</published>
-    <updated>2020-07-14T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;python 与 mysql 相关的记录。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="mysql" scheme="https://forgetst.github.io/tags/mysql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>nginx 操作</title>
-    <link href="https://forgetst.github.io/nginx/ckiydgdku006n1ouun04rt3xm.html"/>
-    <id>https://forgetst.github.io/nginx/ckiydgdku006n1ouun04rt3xm.html</id>
-    <published>2020-03-12T16:00:00.000Z</published>
-    <updated>2020-03-12T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;第-1-章-Nginx-简介&quot;&gt;&lt;a href=&quot;#第-1-章-Nginx-简介&quot; class=&quot;headerlink&quot; title=&quot;第 1 章 Nginx 简介&quot;&gt;&lt;/a&gt;第 1 章 Nginx 简介&lt;/h2&gt;&lt;h3 id=&quot;1-1-Nginx-概述&quot;&gt;&lt;a href=&quot;#1-1-Nginx-概述&quot; class=&quot;headerlink&quot; title=&quot;1.1 Nginx 概述&quot;&gt;&lt;/a&gt;1.1 Nginx 概述&lt;/h3&gt;&lt;p&gt;Nginx (“engine x”) 是一个高性能的 HTTP 和反向代理服务器，特点是占有内存少，并发能力强，事实上 nginx 的并发能力确实在同类型的网页服务器中表现较好，中国大陆使用 nginx网站用户有：百度、京东、新浪、网易、腾讯、淘宝等。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://lnmp.org/nginx.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://lnmp.org/nginx.html&lt;/a&gt; &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="nginx" scheme="https://forgetst.github.io/categories/nginx/"/>
-    
-    
-      <category term="nginx" scheme="https://forgetst.github.io/tags/nginx/"/>
     
   </entry>
   

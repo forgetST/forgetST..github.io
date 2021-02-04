@@ -387,7 +387,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ckiydgdxw00e61ouuyt5mqq1e.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/python-遍历目录获得所有文件.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -407,7 +407,359 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ckiydgdxw00e61ouuyt5mqq1e.html" class="post-title-link" itemprop="url">python 计算当前月份的日期范围</a>
+                <a href="/python/tips/python-遍历目录获得所有文件.html" class="post-title-link" itemprop="url">python 遍历目录获得所有文件</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-10-08 00:00" itemprop="dateCreated datePublished" datetime="2019-10-08T00:00:00+08:00">2019-10-08</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/tips/" itemprop="url" rel="index"><span itemprop="name">tips</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>给定一个本地路径，获得当前路径及其子路径下的所有文件。</p>
+<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><p>通过 <code>os.walk</code> 方法实现。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">def traverse_directory(loc_path):</span><br><span class="line">    file_list = []</span><br><span class="line">    for dirpath, dirnames, filenames in os.walk(loc_path):</span><br><span class="line">        file_list += [os.path.join(dirpath, filename) for filename in filenames]</span><br><span class="line">    return file_list</span><br><span class="line"></span><br><span class="line">if __name__ == &quot;__main__&quot;:</span><br><span class="line">    local_path = &apos;/home/path&apos;</span><br><span class="line">    traverse_directory(local_path)</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/python-factions-module.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/python/module/python-factions-module.html" class="post-title-link" itemprop="url">python factions module</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-10-06 00:00" itemprop="dateCreated datePublished" datetime="2019-10-06T00:00:00+08:00">2019-10-06</time>
+            </span>
+          
+
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/" itemprop="url" rel="index"><span itemprop="name">module</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>python 中处理分数的模块。</p>
+<p><strong>源代码</strong> <a href="https://github.com/python/cpython/tree/3.7/Lib/fractions.py" target="_blank" rel="noopener">Lib/fractions.py</a></p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/python/module/python-factions-module.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/python-计算当前月份的日期范围.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mr Wang">
+      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
+      <meta itemprop="image" content="/images/profile.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="勿忘，须舍">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/python/tips/python-计算当前月份的日期范围.html" class="post-title-link" itemprop="url">python 计算当前月份的日期范围</a>
               
             
           </h1>
@@ -499,7 +851,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/tips/ckiydgdxw00e61ouuyt5mqq1e.html#more" rel="contents">
+              <a class="btn" href="/python/tips/python-计算当前月份的日期范围.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -565,7 +917,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ckiydgdxz00e91ouuqi2hftn9.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/python-在字符串中处理html和xml.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -585,7 +937,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ckiydgdxz00e91ouuqi2hftn9.html" class="post-title-link" itemprop="url">python 在字符串中处理html和xml</a>
+                <a href="/python/tips/python-在字符串中处理html和xml.html" class="post-title-link" itemprop="url">python 在字符串中处理html和xml</a>
               
             
           </h1>
@@ -677,7 +1029,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/tips/ckiydgdxz00e91ouuqi2hftn9.html#more" rel="contents">
+              <a class="btn" href="/python/tips/python-在字符串中处理html和xml.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -743,7 +1095,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ckiydgdy400eg1ouu6mhxsvig.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/python-字符串令牌解析.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -763,7 +1115,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ckiydgdy400eg1ouu6mhxsvig.html" class="post-title-link" itemprop="url">python 字符串令牌解析</a>
+                <a href="/python/tips/python-字符串令牌解析.html" class="post-title-link" itemprop="url">python 字符串令牌解析</a>
               
             
           </h1>
@@ -855,7 +1207,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/tips/ckiydgdy400eg1ouu6mhxsvig.html#more" rel="contents">
+              <a class="btn" href="/python/tips/python-字符串令牌解析.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -921,7 +1273,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ckiydgdxk00du1ouu2d53j58q.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/python-textwrap-module.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -941,7 +1293,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/module/ckiydgdxk00du1ouu2d53j58q.html" class="post-title-link" itemprop="url">python textwrap module</a>
+                <a href="/python/module/python-textwrap-module.html" class="post-title-link" itemprop="url">python textwrap module</a>
               
             
           </h1>
@@ -1034,7 +1386,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/module/ckiydgdxk00du1ouu2d53j58q.html#more" rel="contents">
+              <a class="btn" href="/python/module/python-textwrap-module.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1100,7 +1452,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ckiydgdy800ek1ouuvp2t93d8.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/python-format用法.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1120,7 +1472,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ckiydgdy800ek1ouuvp2t93d8.html" class="post-title-link" itemprop="url">python format用法</a>
+                <a href="/python/tips/python-format用法.html" class="post-title-link" itemprop="url">python format用法</a>
               
             
           </h1>
@@ -1212,7 +1564,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/tips/ckiydgdy800ek1ouuvp2t93d8.html#more" rel="contents">
+              <a class="btn" href="/python/tips/python-format用法.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1278,7 +1630,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ckiydgdyb00en1ouu0i5e3iu7.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/python-审查清理文本字符串.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1298,7 +1650,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ckiydgdyb00en1ouu0i5e3iu7.html" class="post-title-link" itemprop="url">python 审查清理文本字符串</a>
+                <a href="/python/tips/python-审查清理文本字符串.html" class="post-title-link" itemprop="url">python 审查清理文本字符串</a>
               
             
           </h1>
@@ -1390,7 +1742,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/tips/ckiydgdyb00en1ouu0i5e3iu7.html#more" rel="contents">
+              <a class="btn" href="/python/tips/python-审查清理文本字符串.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1456,7 +1808,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ckiydgdxn00dx1ouua847p8j5.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/python-unicodedata-module.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1476,7 +1828,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/module/ckiydgdxn00dx1ouua847p8j5.html" class="post-title-link" itemprop="url">python unicodedata module</a>
+                <a href="/python/module/python-unicodedata-module.html" class="post-title-link" itemprop="url">python unicodedata module</a>
               
             
           </h1>
@@ -1571,7 +1923,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/module/ckiydgdxn00dx1ouua847p8j5.html#more" rel="contents">
+              <a class="btn" href="/python/module/python-unicodedata-module.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1637,7 +1989,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/ckiydgdxt00e31ouuu3ptcu6f.html">
+    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/tips/python-将unicode文本标准化.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Mr Wang">
@@ -1657,7 +2009,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/python/tips/ckiydgdxt00e31ouuu3ptcu6f.html" class="post-title-link" itemprop="url">python 将Unicode文本标准化</a>
+                <a href="/python/tips/python-将unicode文本标准化.html" class="post-title-link" itemprop="url">python 将Unicode文本标准化</a>
               
             
           </h1>
@@ -1749,382 +2101,7 @@
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/python/tips/ckiydgdxt00e31ouuu3ptcu6f.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/python/module/ckiydgdvv00ce1ouuri6xz1yw.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/python/module/ckiydgdvv00ce1ouuri6xz1yw.html" class="post-title-link" itemprop="url">python fnmatch module</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-09-10 00:00" itemprop="dateCreated datePublished" datetime="2019-09-10T00:00:00+08:00">2019-09-10</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/python/module/" itemprop="url" rel="index"><span itemprop="name">module</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>在python中，fnmatch模块是用来做字符串匹配文件名的标准库。</p>
-<p>源码: <a href> <a href="https://github.com/python/cpython/tree/3.7/Lib/fnmatch.py" target="_blank" rel="noopener">Lib/fnmatch.py</a></a></p>
-<p>fnmatch支持的通配符：</p>
-<table>
-<thead>
-<tr>
-<th>通配符</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>*</td>
-<td>匹配任何数量的字符</td>
-</tr>
-<tr>
-<td>？</td>
-<td>匹配单个字符</td>
-</tr>
-<tr>
-<td>[seq]</td>
-<td>匹配seq中的字符</td>
-</tr>
-<tr>
-<td>[!seq]</td>
-<td>匹配除seq以外的任何字符</td>
-</tr>
-</tbody></table>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/python/module/ckiydgdvv00ce1ouuri6xz1yw.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://forgetst.github.io/math/ckiydgdkm006g1ouu3am6b09e.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mr Wang">
-      <meta itemprop="description" content="行动了才会有故事，说出来才会有结果。">
-      <meta itemprop="image" content="/images/profile.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="勿忘，须舍">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/math/ckiydgdkm006g1ouu3am6b09e.html" class="post-title-link" itemprop="url">猴子爬山问题</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-
-          
-          
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-09-09 00:00" itemprop="dateCreated datePublished" datetime="2019-09-09T00:00:00+08:00">2019-09-09</time>
-            </span>
-          
-
-          
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/math/" itemprop="url" rel="index"><span itemprop="name">math</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          <br>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>一只顽猴儿在一座有 <strong>n</strong> 级台阶的山上爬山，假设猴子上山一步可跳1级台阶或3级台阶。试求猴子上山有多少种不同爬法。</p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/math/ckiydgdkm006g1ouu3am6b09e.html#more" rel="contents">
+              <a class="btn" href="/python/tips/python-将unicode文本标准化.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -2224,7 +2201,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">131</span>
+          <span class="site-state-item-count">133</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -2341,7 +2318,9 @@
         
           
         
-        <span class="site-state-item-count">46</span>
+          
+        
+        <span class="site-state-item-count">47</span>
         <span class="site-state-item-name">分类</span>
         </a>
       </div>
@@ -2436,7 +2415,9 @@
         
           
         
-        <span class="site-state-item-count">37</span>
+          
+        
+        <span class="site-state-item-count">38</span>
         <span class="site-state-item-name">标签</span>
         </a>
       </div>
