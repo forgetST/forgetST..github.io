@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[redis缓存雪崩、穿透、击穿概念及解决办法]]></title>
+    <url>%2Fredis%2Fredis%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%E3%80%81%E7%A9%BF%E9%80%8F%E3%80%81%E5%87%BB%E7%A9%BF%E6%A6%82%E5%BF%B5%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.html</url>
+    <content type="text"><![CDATA[redis缓存示意图： 缓存雪崩 描述 对于系统A，假设每天高峰期每秒5000个请求，本来缓存在高峰期可以扛住每秒4000个请求，但是当缓存服务器重启或者大量缓存集中在某一个时间段失效，此时1秒5000个请求全部落数据库，数据库必然扛不住，它会报一下警，然后就挂了。此时，如果没有采用什么特别的方案来处理这个故障，DBA很着急，重启数据库，但是数据库立马又被新的流量给打死了，这就是缓存雪崩。 解决方案 事前：redis 高可用，主从+哨兵，redis cluster，避免全盘崩溃。事中：本地 ehcache 缓存 + hystrix 限流&amp;降级，避免 MySQL 被打死。事后：redis 持久化，一旦重启，自动从磁盘上加载数据，快速恢复缓存数据。 缓存穿透 描述 对于系统A，假设一秒5000个请求，结果其中4000个请求是黑客发出的恶意攻击。黑客发出的那4000个攻击，缓存中查不到，每次你去数据库里查，也查不到。例如，数据库id是从1开始的，结果黑客发过来的请求id全部都是负数。这样的话，缓存中不会有，请求每次都“视缓存于无物”，直接查询数据库。这种恶意攻击场景的缓存穿透就会直接把数据库给打死。 解决方案 每次系统 A 从数据库中只要没查到，就写一个空值到缓存里去，比如 set -999 UNKNOWN。然后设置一个过期时间，这样的话，下次有相同的 key 来访问的时候，在缓存失效之前，都可以直接从缓存中取数据。 缓存击穿 描述 某个key非常热点，访问非常频繁，处于集中式高并发访问的情况，当这个key在失效的瞬间，大量的请求就击穿了缓存，直接请求数据库，就像是在一道屏障上凿开了一个洞。 解决方案 可以将热点数据设置为永远不过期，或者基于 redis or zookeeper 实现互斥锁，等待第一个请求构建完缓存之后，再释放锁，进而其它请求才能通过该 key 访问数据。]]></content>
+      <categories>
+        <category>redis</category>
+      </categories>
+      <tags>
+        <tag>redis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[使用Celery Once来防止Celery重复执行同一个任务]]></title>
     <url>%2Fcelery%2F%E4%BD%BF%E7%94%A8celery-once%E6%9D%A5%E9%98%B2%E6%AD%A2celery%E9%87%8D%E5%A4%8D%E6%89%A7%E8%A1%8C%E5%90%8C%E4%B8%80%E4%B8%AA%E4%BB%BB%E5%8A%A1.html</url>
     <content type="text"><![CDATA[在使用Celery的时候发现有的时候Celery会将同一个任务执行两遍。比如相同的任务在不同的worker中被分别执行，并且时间只相差几毫秒，使用Celery Once可以处理这一情况。Celery Once是利用 Redis 加锁来实现, Celery Once在 Task类基础上实现了QueueOnce类，该类提供了任务去重的功能，所以在使用时，我们自己实现的方法需要将QueueOnce设置为base。 123@task(base=QueueOnce, once=&#123;'graceful': True&#125;)def handel(*args, **kwargs): pass 说明：once参数表示，在遇到重复方法时的处理方式，默认 graceful 为 False，那样 Celery 会抛出 AlreadyQueued 异常，手动设置为 True，则静默处理。 另外如果要手动设置任务的key，可以指定keys参数, 例： 1234@celery.task(base=QueueOnce, once=&#123;'keys': ['a']&#125;)def slow_add(a, b): sleep(30) return a + b 参考：https://blog.csdn.net/qq_41333582/article/details/83899884]]></content>
