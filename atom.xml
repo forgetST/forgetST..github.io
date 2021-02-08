@@ -38,6 +38,26 @@
   </entry>
   
   <entry>
+    <title>rclone 教程</title>
+    <link href="https://forgetst.github.io/redis/rclone-%E6%95%99%E7%A8%8B.html"/>
+    <id>https://forgetst.github.io/redis/rclone-教程.html</id>
+    <published>2021-02-06T16:00:00.000Z</published>
+    <updated>2021-02-06T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Rclone是一个命令行程序，支持不同网盘的同步上传，下载等功能。&lt;br&gt;官方地址：&lt;a href=&quot;https://rclone.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://rclone.org/&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="redis" scheme="https://forgetst.github.io/categories/redis/"/>
+    
+    
+      <category term="redis" scheme="https://forgetst.github.io/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
     <title>使用Celery Once来防止Celery重复执行同一个任务</title>
     <link href="https://forgetst.github.io/celery/%E4%BD%BF%E7%94%A8celery-once%E6%9D%A5%E9%98%B2%E6%AD%A2celery%E9%87%8D%E5%A4%8D%E6%89%A7%E8%A1%8C%E5%90%8C%E4%B8%80%E4%B8%AA%E4%BB%BB%E5%8A%A1.html"/>
     <id>https://forgetst.github.io/celery/使用celery-once来防止celery重复执行同一个任务.html</id>
@@ -356,6 +376,26 @@
   </entry>
   
   <entry>
+    <title>docker 异常记录</title>
+    <link href="https://forgetst.github.io/docker/docker-%E5%BC%82%E5%B8%B8%E8%AE%B0%E5%BD%95.html"/>
+    <id>https://forgetst.github.io/docker/docker-异常记录.html</id>
+    <published>2020-12-20T16:00:00.000Z</published>
+    <updated>2020-12-20T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用于记录docker常见错误即其处理方法。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="docker" scheme="https://forgetst.github.io/categories/docker/"/>
+    
+    
+      <category term="docker" scheme="https://forgetst.github.io/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
     <title>k8s安装记录</title>
     <link href="https://forgetst.github.io/k8s/k8s%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95.html"/>
     <id>https://forgetst.github.io/k8s/k8s安装记录.html</id>
@@ -427,52 +467,6 @@
       <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
       <category term="module" scheme="https://forgetst.github.io/tags/module/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>supervisor 安装使用</title>
-    <link href="https://forgetst.github.io/supervisor/supervisor-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8.html"/>
-    <id>https://forgetst.github.io/supervisor/supervisor-安装使用.html</id>
-    <published>2020-11-08T16:00:00.000Z</published>
-    <updated>2020-11-08T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://supervisord.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Supervisor&lt;/a&gt;是用Python开发的一个client/server服务，是Linux/Unix系统下的一个进程管理工具，不支持Windows系统。它可以很方便的监听、启动、停止、重启一个或多个进程。用Supervisor管理的进程，当一个进程意外被杀死，supervisort监听到进程死后，会自动将它重新拉起，很方便的做到进程自动恢复的功能，不再需要自己写shell脚本来控制。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="supervisor" scheme="https://forgetst.github.io/categories/supervisor/"/>
-    
-    
-      <category term="supervisor" scheme="https://forgetst.github.io/tags/supervisor/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python 内建函数</title>
-    <link href="https://forgetst.github.io/python/python-%E5%86%85%E5%BB%BA%E5%87%BD%E6%95%B0.html"/>
-    <id>https://forgetst.github.io/python/python-内建函数.html</id>
-    <published>2020-09-29T16:00:00.000Z</published>
-    <updated>2020-09-29T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
     
   </entry>
   
