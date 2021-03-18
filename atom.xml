@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://forgetst.github.io/"/>
-  <updated>2021-02-18T16:00:00.000Z</updated>
+  <updated>2021-03-05T16:00:00.000Z</updated>
   <id>https://forgetst.github.io/</id>
   
   <author>
@@ -15,6 +15,253 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>golang常用库：字段参数验证库-validator使用</title>
+    <link href="https://forgetst.github.io/go/golang%E5%B8%B8%E7%94%A8%E5%BA%93%EF%BC%9A%E5%AD%97%E6%AE%B5%E5%8F%82%E6%95%B0%E9%AA%8C%E8%AF%81%E5%BA%93-validator%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://forgetst.github.io/go/golang常用库：字段参数验证库-validator使用.html</id>
+    <published>2021-03-05T16:00:00.000Z</published>
+    <updated>2021-03-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;在平常开发中，特别是在web应用开发中，为了验证输入字段的合法性，都会做一些验证操作。比如对用户提交的表单字段进行验证，或者对请求的API接口字段进行验证，验证字段的合法性，保证输入字段值的安全，防止用户的恶意请求。&lt;/p&gt;
+&lt;p&gt;一般的做法是用正则表达式，一个字段一个字段的进行验证。一个一个字段验证的话，写起来比较繁琐。那有没更好的方法，进行字段的合法性验证？有， 这就是下面要介绍的 validator 这个验证组件。&lt;/p&gt;
+&lt;p&gt;代码地址：&lt;br&gt;&lt;a href=&quot;https://github.com/go-playground/validator&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/go-playground/validator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;文档地址：&lt;br&gt;&lt;a href=&quot;https://github.com/go-playground/validator/blob/master/README.md&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/go-playground/validator/blob/master/README.md&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="go" scheme="https://forgetst.github.io/categories/go/"/>
+    
+    
+      <category term="go" scheme="https://forgetst.github.io/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang beego使用记录</title>
+    <link href="https://forgetst.github.io/go/beego/golang-beego%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95.html"/>
+    <id>https://forgetst.github.io/go/beego/golang-beego使用记录.html</id>
+    <published>2021-03-04T16:00:00.000Z</published>
+    <updated>2021-03-04T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;beego-简介&quot;&gt;&lt;a href=&quot;#beego-简介&quot; class=&quot;headerlink&quot; title=&quot;beego 简介&quot;&gt;&lt;/a&gt;beego 简介&lt;/h2&gt;&lt;p&gt;beego 是一个快速开发 Go 应用的 HTTP 框架，他可以用来快速开发 API、Web 及后端服务等各种应用，是一个 RESTful 的框架，主要设计灵感来源于 tornado、sinatra 和 flask 这三个框架，但是结合了 Go 本身的一些特性（interface、struct 嵌入等）而设计的一个框架。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="go" scheme="https://forgetst.github.io/categories/go/"/>
+    
+      <category term="beego" scheme="https://forgetst.github.io/categories/go/beego/"/>
+    
+    
+      <category term="go" scheme="https://forgetst.github.io/tags/go/"/>
+    
+      <category term="beego" scheme="https://forgetst.github.io/tags/beego/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang uuid使用</title>
+    <link href="https://forgetst.github.io/go/package/uuid/golang-uuid%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://forgetst.github.io/go/package/uuid/golang-uuid使用.html</id>
+    <published>2021-02-27T16:00:00.000Z</published>
+    <updated>2021-02-27T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;uuid是Universally Unique Identifier的缩写，即通用唯一识别码。&lt;/p&gt;
+&lt;p&gt;uuid的目的是让分布式系统中的所有元素，都能有唯一的辨识资讯，而不需要透过中央控制端来做辨识资讯的指定。如此一来，每个人都可以建立不与其它人冲突的 uuid。&lt;br&gt;A universally unique identifier (UUID) is a 128-bit number used to identify information in computer systems。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="go" scheme="https://forgetst.github.io/categories/go/"/>
+    
+      <category term="package" scheme="https://forgetst.github.io/categories/go/package/"/>
+    
+      <category term="uuid" scheme="https://forgetst.github.io/categories/go/package/uuid/"/>
+    
+    
+      <category term="go" scheme="https://forgetst.github.io/tags/go/"/>
+    
+      <category term="package" scheme="https://forgetst.github.io/tags/package/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang logrus日志处理</title>
+    <link href="https://forgetst.github.io/go/logrus/golang-logrus%E6%97%A5%E5%BF%97%E5%A4%84%E7%90%86.html"/>
+    <id>https://forgetst.github.io/go/logrus/golang-logrus日志处理.html</id>
+    <published>2021-02-25T16:00:00.000Z</published>
+    <updated>2021-02-25T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;logrus介绍&quot;&gt;&lt;a href=&quot;#logrus介绍&quot; class=&quot;headerlink&quot; title=&quot;logrus介绍&quot;&gt;&lt;/a&gt;logrus介绍&lt;/h2&gt;&lt;p&gt;Logrus是Go（golang）的结构化logger，与标准库logger完全API兼容。它有以下特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;完全兼容标准日志库，拥有七种日志级别：&lt;code&gt;Trace&lt;/code&gt;, &lt;code&gt;Debug&lt;/code&gt;, &lt;code&gt;Info&lt;/code&gt;, &lt;code&gt;Warning&lt;/code&gt;, &lt;code&gt;Error&lt;/code&gt;, &lt;code&gt;Fatal&lt;/code&gt; 和 &lt;code&gt;Panic&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;可扩展的Hook机制，允许使用者通过Hook的方式将日志分发到任意地方，如本地文件系统，logstash，elasticsearch或者mq等，或者通过Hook定义日志内容和格式等&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;可选的日志输出格式，内置了两种日志格式JSONFormater和TextFormatter，还可以自定义日志格式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Field机制，通过Filed机制进行结构化的日志记录&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;线程安全&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="go" scheme="https://forgetst.github.io/categories/go/"/>
+    
+      <category term="logrus" scheme="https://forgetst.github.io/categories/go/logrus/"/>
+    
+    
+      <category term="go" scheme="https://forgetst.github.io/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang 杂记</title>
+    <link href="https://forgetst.github.io/go/golang-%E6%9D%82%E8%AE%B0.html"/>
+    <id>https://forgetst.github.io/go/golang-杂记.html</id>
+    <published>2021-02-25T16:00:00.000Z</published>
+    <updated>2021-02-25T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用于记录golang开发中的常见示例。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="go" scheme="https://forgetst.github.io/categories/go/"/>
+    
+    
+      <category term="go" scheme="https://forgetst.github.io/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang gin使用记录</title>
+    <link href="https://forgetst.github.io/go/gin/golang-gin%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95.html"/>
+    <id>https://forgetst.github.io/go/gin/golang-gin使用记录.html</id>
+    <published>2021-02-24T16:00:00.000Z</published>
+    <updated>2021-02-24T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="go" scheme="https://forgetst.github.io/categories/go/"/>
+    
+      <category term="gin" scheme="https://forgetst.github.io/categories/go/gin/"/>
+    
+    
+      <category term="go" scheme="https://forgetst.github.io/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang 常见panic处理</title>
+    <link href="https://forgetst.github.io/go/panic/golang-%E5%B8%B8%E8%A7%81panic%E5%A4%84%E7%90%86.html"/>
+    <id>https://forgetst.github.io/go/panic/golang-常见panic处理.html</id>
+    <published>2021-02-22T16:00:00.000Z</published>
+    <updated>2021-02-22T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;记录golang常见panic及处理。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="go" scheme="https://forgetst.github.io/categories/go/"/>
+    
+      <category term="panic" scheme="https://forgetst.github.io/categories/go/panic/"/>
+    
+    
+      <category term="go" scheme="https://forgetst.github.io/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang 将数据库转换为gormt结构</title>
+    <link href="https://forgetst.github.io/go/command/golang-%E5%B0%86%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BD%AC%E6%8D%A2%E4%B8%BAgormt%E7%BB%93%E6%9E%84.html"/>
+    <id>https://forgetst.github.io/go/command/golang-将数据库转换为gormt结构.html</id>
+    <published>2021-02-22T16:00:00.000Z</published>
+    <updated>2021-02-22T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://github.com/xxjwxc/gormt&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;code&gt;gorm-tools&lt;/code&gt;&lt;/a&gt;是将&lt;code&gt;gorm mysql&lt;/code&gt;数据库转 &lt;code&gt;struct&lt;/code&gt; 工具,可以将mysql数据库自动生成golang sturct结构，带大驼峰命名规则,带json标签。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="go" scheme="https://forgetst.github.io/categories/go/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/categories/go/command/"/>
+    
+    
+      <category term="go" scheme="https://forgetst.github.io/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>golang gorm使用记录</title>
+    <link href="https://forgetst.github.io/go/gorm/golang-gorm%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95.html"/>
+    <id>https://forgetst.github.io/go/gorm/golang-gorm使用记录.html</id>
+    <published>2021-02-22T16:00:00.000Z</published>
+    <updated>2021-02-22T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用于Golang的出色的ORM库旨在对开发人员友好。&lt;br&gt;GORM 官方支持的数据库类型有： MySQL, PostgreSQL, SQlite, SQL Server&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="go" scheme="https://forgetst.github.io/categories/go/"/>
+    
+      <category term="gorm" scheme="https://forgetst.github.io/categories/go/gorm/"/>
+    
+    
+      <category term="go" scheme="https://forgetst.github.io/tags/go/"/>
+    
+      <category term="gorm" scheme="https://forgetst.github.io/tags/gorm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>go get命令及下载异常处理</title>
+    <link href="https://forgetst.github.io/go/command/go-get%E5%91%BD%E4%BB%A4%E5%8F%8A%E4%B8%8B%E8%BD%BD%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.html"/>
+    <id>https://forgetst.github.io/go/command/go-get命令及下载异常处理.html</id>
+    <published>2021-02-19T16:00:00.000Z</published>
+    <updated>2021-02-19T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;go get 命令可以借助代码管理工具通过远程拉取或更新代码包及其依赖包，并自动完成编译和安装。整个过程就像安装一个 App 一样简单。&lt;/p&gt;
+&lt;p&gt;这个命令可以动态获取远程代码包，目前支持的有 BitBucket、GitHub、Google Code 和 Launchpad。在使用 go get 命令前，需要安装与远程包匹配的代码管理工具，如 Git、SVN、HG 等，参数中需要提供一个包名。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="go" scheme="https://forgetst.github.io/categories/go/"/>
+    
+      <category term="command" scheme="https://forgetst.github.io/categories/go/command/"/>
+    
+    
+      <category term="go" scheme="https://forgetst.github.io/tags/go/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux flock command</title>
@@ -243,235 +490,6 @@
       <category term="django" scheme="https://forgetst.github.io/tags/django/"/>
     
       <category term="pythoon" scheme="https://forgetst.github.io/tags/pythoon/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python 连接远程服务器</title>
-    <link href="https://forgetst.github.io/python/python-%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8B%E6%9C%8D%E5%8A%A1%E5%99%A8.html"/>
-    <id>https://forgetst.github.io/python/python-连接远程服务器.html</id>
-    <published>2021-01-14T16:00:00.000Z</published>
-    <updated>2021-01-14T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;paramiko是Python的一个库，实现了SSHv2协议(底层使用cryptography)&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux 密码修改</title>
-    <link href="https://forgetst.github.io/Linux/linux-%E5%AF%86%E7%A0%81%E4%BF%AE%E6%94%B9.html"/>
-    <id>https://forgetst.github.io/Linux/linux-密码修改.html</id>
-    <published>2021-01-13T16:00:00.000Z</published>
-    <updated>2021-01-13T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;Linux &lt;code&gt;passwd&lt;/code&gt;命令用来更改使用者的密码&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="https://forgetst.github.io/categories/Linux/"/>
-    
-    
-      <category term="Linux" scheme="https://forgetst.github.io/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pymysql 使用</title>
-    <link href="https://forgetst.github.io/pymysql/pymysql-%E4%BD%BF%E7%94%A8.html"/>
-    <id>https://forgetst.github.io/pymysql/pymysql-使用.html</id>
-    <published>2021-01-12T16:00:00.000Z</published>
-    <updated>2021-01-12T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="pymysql" scheme="https://forgetst.github.io/categories/pymysql/"/>
-    
-    
-      <category term="mysql" scheme="https://forgetst.github.io/tags/mysql/"/>
-    
-      <category term="pymysql" scheme="https://forgetst.github.io/tags/pymysql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mysql 锁机制</title>
-    <link href="https://forgetst.github.io/mysql/mysql-%E9%94%81%E6%9C%BA%E5%88%B6.html"/>
-    <id>https://forgetst.github.io/mysql/mysql-锁机制.html</id>
-    <published>2020-12-28T16:00:00.000Z</published>
-    <updated>2020-12-28T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;MySQL锁概述&quot;&gt;&lt;a href=&quot;#MySQL锁概述&quot; class=&quot;headerlink&quot; title=&quot;MySQL锁概述&quot;&gt;&lt;/a&gt;MySQL锁概述&lt;/h2&gt;&lt;p&gt;相对其他数据库而言，MySQL的锁机制比较简单，其最显著的特点是不同的存储引擎支持不同的锁机制。比如，MyISAM和MEMORY存储引擎采用的是表级锁（table-level locking）；BDB存储引擎采用的是页面锁（page-level locking），但也支持表级锁；InnoDB存储引擎既支持行级锁（row-level locking），也支持表级锁，但默认情况下是采用行级锁。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="mysql" scheme="https://forgetst.github.io/categories/mysql/"/>
-    
-    
-      <category term="mysql" scheme="https://forgetst.github.io/tags/mysql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mysql 多表连接查询</title>
-    <link href="https://forgetst.github.io/mysql/mysql-%E5%A4%9A%E8%A1%A8%E8%BF%9E%E6%8E%A5%E6%9F%A5%E8%AF%A2.html"/>
-    <id>https://forgetst.github.io/mysql/mysql-多表连接查询.html</id>
-    <published>2020-12-25T16:00:00.000Z</published>
-    <updated>2020-12-25T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;示例图片：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg2018.cnblogs.com%2Fcommon%2F842724%2F202002%2F842724-20200228155137649-1462263734.png&amp;refer=http%3A%2F%2Fimg2018.cnblogs.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg?sec=1611585170&amp;t=cf9537e538554164e7bad0a122b496e0&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="mysql" scheme="https://forgetst.github.io/categories/mysql/"/>
-    
-    
-      <category term="mysql" scheme="https://forgetst.github.io/tags/mysql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker 学习笔记</title>
-    <link href="https://forgetst.github.io/docker/docker-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
-    <id>https://forgetst.github.io/docker/docker-学习笔记.html</id>
-    <published>2020-12-20T16:00:00.000Z</published>
-    <updated>2020-12-20T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Docker简介&quot;&gt;&lt;a href=&quot;#Docker简介&quot; class=&quot;headerlink&quot; title=&quot;Docker简介&quot;&gt;&lt;/a&gt;Docker简介&lt;/h2&gt;&lt;p&gt;Docker 是一个开源的应用容器引擎，基于 Go 语言 并遵从 Apache2.0 协议开源。&lt;/p&gt;
-&lt;p&gt;Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。&lt;/p&gt;
-&lt;p&gt;容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="docker" scheme="https://forgetst.github.io/categories/docker/"/>
-    
-    
-      <category term="docker" scheme="https://forgetst.github.io/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>npm install 安装依赖无反应</title>
-    <link href="https://forgetst.github.io/web/npm/npm-install-%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96%E6%97%A0%E5%8F%8D%E5%BA%94.html"/>
-    <id>https://forgetst.github.io/web/npm/npm-install-安装依赖无反应.html</id>
-    <published>2020-12-20T16:00:00.000Z</published>
-    <updated>2020-12-20T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="web" scheme="https://forgetst.github.io/categories/web/"/>
-    
-      <category term="npm" scheme="https://forgetst.github.io/categories/web/npm/"/>
-    
-    
-      <category term="web" scheme="https://forgetst.github.io/tags/web/"/>
-    
-      <category term="npm" scheme="https://forgetst.github.io/tags/npm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker 异常记录</title>
-    <link href="https://forgetst.github.io/docker/docker-%E5%BC%82%E5%B8%B8%E8%AE%B0%E5%BD%95.html"/>
-    <id>https://forgetst.github.io/docker/docker-异常记录.html</id>
-    <published>2020-12-20T16:00:00.000Z</published>
-    <updated>2020-12-20T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;用于记录docker常见错误即其处理方法。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="docker" scheme="https://forgetst.github.io/categories/docker/"/>
-    
-    
-      <category term="docker" scheme="https://forgetst.github.io/tags/docker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>k8s安装记录</title>
-    <link href="https://forgetst.github.io/k8s/k8s%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95.html"/>
-    <id>https://forgetst.github.io/k8s/k8s安装记录.html</id>
-    <published>2020-12-16T16:00:00.000Z</published>
-    <updated>2020-12-16T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;k8s是一个docker集群的管理工具&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000021672013&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;K8S介绍&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="k8s" scheme="https://forgetst.github.io/categories/k8s/"/>
-    
-    
-      <category term="k8s" scheme="https://forgetst.github.io/tags/k8s/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Django的缓存</title>
-    <link href="https://forgetst.github.io/python/django%E7%9A%84%E7%BC%93%E5%AD%98.html"/>
-    <id>https://forgetst.github.io/python/django的缓存.html</id>
-    <published>2020-11-23T16:00:00.000Z</published>
-    <updated>2020-11-23T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;Django给我们提供了三种缓存方式&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;站点级缓存————缓存整个网站&lt;/li&gt;
-&lt;li&gt;单个view缓存————对单个有效的视图的输出进行缓存&lt;/li&gt;
-&lt;li&gt;模板片段缓存————缓存模板里面的某一部分内容&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="python" scheme="https://forgetst.github.io/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://forgetst.github.io/tags/python/"/>
-    
-      <category term="django" scheme="https://forgetst.github.io/tags/django/"/>
     
   </entry>
   
