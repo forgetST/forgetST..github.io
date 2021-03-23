@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[解决broker挂掉时celery卡死的问题]]></title>
+    <url>%2Fcelery%2F%E8%A7%A3%E5%86%B3broker%E6%8C%82%E6%8E%89%E6%97%B6celery%E5%8D%A1%E6%AD%BB%E7%9A%84%E9%97%AE%E9%A2%98.html</url>
+    <content type="text"><![CDATA[在一个项目中用到了celery，我们用rabbitmq来作为broker，但是发现当rabbitmq挂掉时，celery却无法发送任务，设计到apply_async和delay的代码会一直处在卡住的状态。 也尝试使用celery文档中的BROKER_CONNECTION_TIMEOUT参数，但不起效果，其实官方也说了： 1The broker connection timeout only applies to a worker attempting to connect to the broker. It does not apply to producer sending a task, see broker_transport_options for how to provide a timeout for that situation. 这个参数仅对worker有用，对任务发送是无用的。很傲娇的是broker_transport_options这个链接中也未提供足够的帮助信息。 继续查找相关信息，在几个项目的issue页面看到些讨论，还是需要对broker_transport_options这个配置传入参数才行，例如： 1BROKER_TRANSPORT_OPTIONS = &#123;&quot;max_retries&quot;: 3, &quot;interval_start&quot;: 0, &quot;interval_step&quot;: 0.2, &quot;interval_max&quot;: 0.5&#125; 这段配置意思为： 最多重试3次从0秒开始重试每次失败后等待0.2秒后再次进行尝试总尝试时间不超过0.5秒 在项目中使用这个配置后发现确实解决了问题，代码在遇到rabbitmq挂掉的情况下不会再卡住了(因为都是用了kombu，估计对redis作为broker也有效果吧)。 github上的讨论的issue可见：https://github.com/celery/celery/issues/4627#issuecomment-396907957 使用示例： 123456789101112131415161718192021# settings.pyCELERY_BROKER_TRANSPORT_OPTIONS = &#123; "max_retries": 5, "interval_start": 0, "interval_step": 1, "interval_max": 5&#125;# celery filefrom celery import Celeryfrom celery import platformsfrom django.conf import settingsos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'smartant_backend.settings')app = Celery('smartant_backend')platforms.C_FORCE_ROOT = Trueapp.config_from_object('django.conf:settings', namespace='CELERY')]]></content>
+      <categories>
+        <category>celery</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>celery</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[TCP三次握手、四次挥手过程及原理]]></title>
+    <url>%2Ftcp%2Ftcp%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E3%80%81%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B%E8%BF%87%E7%A8%8B%E5%8F%8A%E5%8E%9F%E7%90%86.html</url>
+    <content type="text"><![CDATA[TCP 协议简述TCP 提供面向有连接的通信传输，面向有连接是指在传送数据之前必须先建立连接，数据传送完成后要释放连接。无论哪一方向另一方发送数据之前，都必须先在双方之间建立一条连接。在TCP/IP协议中，TCP协议提供可靠的连接服务，连接是通过三次握手进行初始化的。同时由于TCP协议是一种面向连接的、可靠的、基于字节流的运输层通信协议，TCP是全双工模式，所以需要四次挥手关闭连接。 TCP是属于网络分层中的传输层，因为OSI分为7层，感觉太麻烦了，所以分为四层就好了，简单。 分层以及每层的协议，TCP是属于传输层，如下两张图： 参考一文彻底搞懂 TCP三次握手、四次挥手过程及原理]]></content>
+      <categories>
+        <category>tcp</category>
+      </categories>
+      <tags>
+        <tag>tcp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[mysql explain使用]]></title>
+    <url>%2Fmysql%2Fmysql-explain%E4%BD%BF%E7%94%A8.html</url>
+    <content type="text"><![CDATA[explain模拟优化器执行SQL语句，在5.6以及以后的版本中，除过select，其他比如insert，update和delete均可以使用explain查看执行计划，从而知道mysql是如何处理sql语句，分析查询语句或者表结构的性能瓶颈。作用: 表的读取顺序 数据读取操作的操作类型 哪些索引可以使用 哪些索引被实际使用 表之间的引用 每张表有多少行被优化器查询 explain用法explain+SQL语句即可; 例： 1234567mysql&gt; explain select count(id) from ts_bigdata;+----+-------------+------------+------------+-------+---------------+------+---------+------+---------+----------+-------------+| id | select_type | table | partitions | type | possible_keys | key | key_len | ref | rows | filtered | Extra |+----+-------------+------------+------------+-------+---------------+------+---------+------+---------+----------+-------------+| 1 | SIMPLE | ts_bigdata | NULL | index | NULL | age | 3 | NULL | 4858346 | 100.00 | Using index |+----+-------------+------------+------------+-------+---------------+------+---------+------+---------+----------+-------------+1 row in set, 1 warning (0.00 sec) 字段描述 信息 描述 id 查询的序号，包含一组数字，表示查询中执行select子句或操作表的顺序两种情况id相同，执行顺序从上往下id不同，id值越大，优先级越高，越先执行 select_type 查询类型，主要用于区别普通查询，联合查询，子查询等的复杂查询1、simple ——简单的select查询，查询中不包含子查询或者UNION2、primary ——查询中若包含任何复杂的子部分，最外层查询被标记3、subquery——在select或where列表中包含了子查询4、derived——在from列表中包含的子查询被标记为derived（衍生），MySQL会递归执行这些子查询，把结果放到临时表中5、union——如果第二个select出现在UNION之后，则被标记为UNION，如果union包含在from子句的子查询中，外层select被标记为derived6、union result:UNION 的结果 table 输出的行所引用的表 type 显示联结类型，显示查询使用了何种类型，按照从最佳到最坏类型排序1、system：表中仅有一行（=系统表）这是const联结类型的一个特例。2、const：表示通过索引一次就找到，const用于比较primary key或者unique索引。因为只匹配一行数据，所以如果将主键置于where列表中，mysql能将该查询转换为一个常量3、eq_ref:唯一性索引扫描，对于每个索引键，表中只有一条记录与之匹配。常见于唯一索引或者主键扫描4、ref:非唯一性索引扫描，返回匹配某个单独值的所有行，本质上也是一种索引访问，它返回所有匹配某个单独值的行，可能会找多个符合条件的行，属于查找和扫描的混合体5、range:只检索给定范围的行，使用一个索引来选择行。key列显示使用了哪个索引，一般就是where语句中出现了between,in等范围的查询。这种范围扫描索引扫描比全表扫描要好，因为它开始于索引的某一个点，而结束另一个点，不用全表扫描6、index:index 与all区别为index类型只遍历索引树。通常比all快，因为索引文件比数据文件小很多。7、all：遍历全表以找到匹配的行注意:一般保证查询至少达到range级别，最好能达到ref。 possible_keys 指出MySQL能使用哪个索引在该表中找到行 key 显示MySQL实际决定使用的键(索引)。如果没有选择索引,键是NULL。查询中如果使用覆盖索引，则该索引和查询的select字段重叠。 key_len 表示索引中使用的字节数，该列计算查询中使用的索引的长度在不损失精度的情况下，长度越短越好。如果键是NULL,则长度为NULL。该字段显示为索引字段的最大可能长度，并非实际使用长度。 ref 显示索引的哪一列被使用了，如果有可能是一个常数，哪些列或常量被用于查询索引列上的值 rows 根据表统计信息以及索引选用情况，大致估算出找到所需的记录所需要读取的行数 Extra 包含不适合在其他列中显示，但是十分重要的额外信息1、Using filesort：说明mysql会对数据适用一个外部的索引排序。而不是按照表内的索引顺序进行读取。MySQL中无法利用索引完成排序操作称为“文件排序”2、Using temporary:使用了临时表保存中间结果，mysql在查询结果排序时使用临时表。常见于排序order by和分组查询group by。3、Using index:表示相应的select操作用使用覆盖索引，避免访问了表的数据行。如果同时出现using where，表名索引被用来执行索引键值的查找；如果没有同时出现using where，表名索引用来读取数据而非执行查询动作。4、Using where :表明使用where过滤5、using join buffer:使用了连接缓存6、impossible where:where子句的值总是false，不能用来获取任何元组7、select tables optimized away：在没有group by子句的情况下，基于索引优化Min、max操作或者对于MyISAM存储引擎优化count（*），不必等到执行阶段再进行计算，查询执行计划生成的阶段即完成优化。8、distinct：优化distinct操作，在找到第一匹配的元组后即停止找同样值的动作。 SQL执行顺序想要优化SQL，必须清楚知道SQL的执行顺序，这样再配合explain才能事半功倍！ 完整SQL语句 1234567891011121314select distinct &lt;select_list&gt;from &lt;left_table&gt;&lt;join_type&gt;join &lt;right_table&gt; on &lt;join_condition&gt;where &lt;where_condition&gt;group by &lt;group_by_list&gt;having &lt;having_condition&gt;order by &lt;order_by_condition&gt;limit &lt;limit number&gt; SQL执行顺序 123456789101、from &lt;left_table&gt;&lt;join_type&gt;2、on &lt;join_condition&gt;3、&lt;join_type&gt; join &lt;right_table&gt;4、where &lt;where_condition&gt;5、group by &lt;group_by_list&gt;6、having &lt;having_condition&gt;7、select8、distinct &lt;select_list&gt;9、order by &lt;order_by_condition&gt;10、limit &lt;limit_number&gt; extend extended关键字：仅对select语句有效，在explain后使用extended关键字，可以显示filtered列显示了通过条件过滤出的行数的百分比估计值。 也可以通过show warnings显示扩展信息，输出中的 Message值SHOW WARNINGS显示优化程序如何限定SELECT语句 中的表名和列名， SELECT应用重写和优化规则后的外观，以及可能有关优化过程的其他说明。 总结 本文主要是讲解如何看懂explain的分析结果，想要真正提升MySQL优化技能，还需要不断的练习！ 参考https://blog.csdn.net/jiadajing267/article/details/81269067]]></content>
+      <categories>
+        <category>mysql</category>
+      </categories>
+      <tags>
+        <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[golang常用库：字段参数验证库-validator使用]]></title>
     <url>%2Fgo%2Fgolang%E5%B8%B8%E7%94%A8%E5%BA%93%EF%BC%9A%E5%AD%97%E6%AE%B5%E5%8F%82%E6%95%B0%E9%AA%8C%E8%AF%81%E5%BA%93-validator%E4%BD%BF%E7%94%A8.html</url>
     <content type="text"><![CDATA[背景在平常开发中，特别是在web应用开发中，为了验证输入字段的合法性，都会做一些验证操作。比如对用户提交的表单字段进行验证，或者对请求的API接口字段进行验证，验证字段的合法性，保证输入字段值的安全，防止用户的恶意请求。 一般的做法是用正则表达式，一个字段一个字段的进行验证。一个一个字段验证的话，写起来比较繁琐。那有没更好的方法，进行字段的合法性验证？有， 这就是下面要介绍的 validator 这个验证组件。 代码地址：https://github.com/go-playground/validator 文档地址：https://github.com/go-playground/validator/blob/master/README.md 参考https://www.cnblogs.com/jiujuan/p/13823864.html]]></content>
